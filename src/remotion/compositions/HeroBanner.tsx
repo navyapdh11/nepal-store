@@ -1,9 +1,9 @@
 import { AbsoluteFill, interpolate, useCurrentFrame } from "remotion";
 
-export const HeroBanner: React.FC<{ title: string; subtitle: string }> = ({
+export const HeroBanner = ({
 	title,
 	subtitle,
-}) => {
+}: { title: string; subtitle: string }) => {
 	const frame = useCurrentFrame();
 
 	const opacity = interpolate(frame, [0, 30], [0, 1], {

@@ -24,9 +24,17 @@ function App() {
 	useEffect(() => {
 		if (category !== "ACCOUNT") {
 			fetch(`/api/products?category=${category}`)
-				.then((res) => res.json())
-				.then(setProducts)
-				.catch(console.error);
+				.then((res) => {
+					if (!res.ok) throw new Error("Network response was not ok");
+					return res.json();
+				})
+				.then((data) => {
+					setProducts(Array.isArray(data) ? data : []);
+				})
+				.catch((err) => {
+					console.error("Fetch error:", err);
+					setProducts([]);
+				});
 		}
 	}, [category]);
 
