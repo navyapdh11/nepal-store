@@ -1,5 +1,5 @@
 import { Player } from "@remotion/player";
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import { AuthView } from "./components/AuthView";
 import { Dashboard } from "./components/Dashboard";
 import { Header } from "./components/Header";
@@ -50,27 +50,35 @@ function App() {
 		return (
 			<>
 				<section className="hero-section">
-					<Player
-						component={HeroBanner}
-						durationInFrames={300}
-						compositionWidth={1920}
-						compositionHeight={1080}
-						fps={30}
-						style={{
-							width: "100%",
-							aspectRatio: "16/9",
-						}}
-						inputProps={{
-							title: "NEPAL STORE",
-							subtitle: `${category} LifeWear Collection`,
-						}}
-						autoPlay
-						loop
-					/>
+					<Suspense fallback={<div className="hero-placeholder" />}>
+						<Player
+							component={HeroBanner}
+							durationInFrames={300}
+							compositionWidth={1920}
+							compositionHeight={1080}
+							fps={30}
+							style={{
+								width: "100%",
+								aspectRatio: "16/9",
+							}}
+							inputProps={{
+								title: "NEPAL STORE",
+								subtitle: `${category} LifeWear Collection`,
+							}}
+							autoPlay
+							loop
+							errorFallback={(error) => {
+								console.error("Remotion Player Error:", error);
+								return <div className="hero-placeholder" />;
+							}}
+						/>
+					</Suspense>
 				</section>
 
 				<section className="featured-collections">
-					<h2>Featured for {category}</h2>
+					<div className="section-title">
+						<h2>Featured for {category}</h2>
+					</div>
 					<div className="grid product-grid">
 						{products.length > 0
 							? products.map((product) => (
@@ -108,7 +116,9 @@ function App() {
 			<main className="home-main">{renderContent()}</main>
 
 			<footer className="main-footer">
-				<p>&copy; 2026 NEPAL STORE. Inspired by LifeWear.</p>
+				<div className="footer-content">
+					<p>&copy; 2026 NEPAL STORE. Inspired by LifeWear.</p>
+				</div>
 			</footer>
 		</div>
 	);

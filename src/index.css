@@ -2,9 +2,10 @@
 	--uniqlo-red: #ff0000;
 	--nepal-red: #c41e3a;
 	--nepal-earth: #4a3728;
-	--off-white: #f9f9f9;
-	--dark-text: #1a1a1a;
-	--dhaka-accent: #ffd700; /* Gold accent often found in Dhaka */
+	--pure-white: #ffffff;
+	--dark-text: #000000;
+	--gray-border: #eeeeee;
+	--gray-text: #888888;
 }
 
 * {
@@ -14,17 +15,20 @@
 }
 
 body {
-	font-family:
-		-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
-		sans-serif;
-	background-color: var(--off-white);
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: var(--pure-white);
 	color: var(--dark-text);
 	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	letter-spacing: 0.05em;
+	font-weight: 700;
+}
+
+button {
+	font-family: inherit;
+	cursor: pointer;
 }

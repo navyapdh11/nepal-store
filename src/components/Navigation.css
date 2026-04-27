@@ -1,19 +1,22 @@
 .gender-nav {
 	display: flex;
 	background: white;
-	border-bottom: 1px solid #eee;
+	border-bottom: 1px solid var(--gray-border);
+	max-width: 1400px;
+	margin: 0 auto;
 }
 
 .nav-tab {
 	flex: 1;
-	padding: 0.75rem 0;
+	padding: 1rem 0;
 	border: none;
 	background: none;
 	font-weight: 700;
-	font-size: 0.8rem;
-	color: #666;
+	font-size: 0.85rem;
+	color: var(--gray-text);
 	cursor: pointer;
 	position: relative;
+	text-transform: uppercase;
 }
 
 .nav-tab.active {
@@ -23,9 +26,16 @@
 .nav-tab.active::after {
 	content: "";
 	position: absolute;
-	bottom: 0;
+	bottom: -1px;
 	left: 0;
 	right: 0;
-	height: 2px;
-	background: var(--uniqlo-red);
+	height: 4px;
+	background: var(--dark-text);
+}
+
+@media (min-width: 768px) {
+	.nav-tab {
+		flex: none;
+		padding: 1rem 2rem;
+	}
 }

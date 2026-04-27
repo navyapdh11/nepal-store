@@ -6,31 +6,42 @@
 
 .home-main {
 	flex: 1;
-	display: block; /* Override previous flex-center */
+	display: block;
 	padding: 0;
 }
 
 .hero-section {
 	width: 100%;
-	background: #000;
+	background: #f4f4f4;
+}
+
+.hero-placeholder {
+	width: 100%;
+	aspect-ratio: 16 / 9;
+	background: #f4f4f4;
 }
 
 .featured-collections {
-	padding: 2rem 1rem;
-	max-width: 1200px;
+	padding: 3rem 1rem;
+	max-width: 1400px;
 	margin: 0 auto;
 }
 
-.featured-collections h2 {
-	font-size: 1.25rem;
-	margin-bottom: 1.5rem;
+.section-title {
+	border-bottom: 2px solid var(--dark-text);
+	margin-bottom: 2rem;
+	padding-bottom: 0.5rem;
+}
+
+.section-title h2 {
+	font-size: 1.5rem;
 	color: var(--dark-text);
 }
 
 .grid {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	gap: 1rem;
+	gap: 1.5rem;
 }
 
 @media (min-width: 768px) {
@@ -43,54 +54,64 @@
 .product-card-placeholder {
 	display: flex;
 	flex-direction: column;
-	gap: 0.5rem;
+	gap: 0.75rem;
 }
 
 .product-card h3 {
-	font-size: 0.9rem;
+	font-size: 0.85rem;
 	text-transform: none;
 	letter-spacing: normal;
+	font-weight: 500;
 	margin: 0;
 }
 
 .price {
-	font-weight: bold;
-	color: var(--nepal-red);
+	font-weight: 700;
+	font-size: 1rem;
+	color: var(--dark-text);
 }
 
 .placeholder-img {
 	width: 100%;
 	height: 100%;
-	background: linear-gradient(135deg, #eee 25%, #f5f5f5 50%, #eee 75%);
+	background: #f4f4f4;
 }
 
 .image-box {
 	aspect-ratio: 3 / 4;
-	background: #eee;
+	background: #f4f4f4;
 	width: 100%;
+	overflow: hidden;
 }
 
 .info-box {
 	display: flex;
 	flex-direction: column;
-	gap: 0.25rem;
+	gap: 0.5rem;
 }
 
 .line {
-	height: 10px;
-	background: #eee;
+	height: 12px;
+	background: #f4f4f4;
 	width: 100%;
 }
 
 .line.short {
-	width: 60%;
+	width: 40%;
 }
 
 .main-footer {
-	padding: 2rem;
+	padding: 4rem 1rem;
 	background: white;
-	border-top: 1px solid #eee;
+	border-top: 1px solid var(--gray-border);
+}
+
+.footer-content {
+	max-width: 1400px;
+	margin: 0 auto;
 	text-align: center;
-	font-size: 0.8rem;
-	color: #999;
+	font-size: 0.75rem;
+	color: var(--gray-text);
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
 }
