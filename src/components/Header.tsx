@@ -1,7 +1,6 @@
-import React from 'react';
 import './Header.css';
 
-export const Header: React.FC = () => {
+export const Header = () => {
   return (
     <header className="main-header">
       <div className="header-top">

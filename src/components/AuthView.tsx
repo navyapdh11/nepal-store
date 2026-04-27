@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './AuthView.css';
 
-export const AuthView: React.FC<{ onLoginSuccess: (user: any, token: string) => void }> = ({ onLoginSuccess }) => {
+export const AuthView = ({ onLoginSuccess }: { onLoginSuccess: (user: any, token: string) => void }) => {
   const [isLogin, setIsLogin] = useState(true);
   const [formData, setFormData] = useState({ email: '', password: '', name: '' });
   const [error, setError] = useState('');

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Player } from '@remotion/player';
 import { HeroBanner } from './remotion/compositions/HeroBanner';
 import { Header } from './components/Header';

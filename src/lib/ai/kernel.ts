@@ -9,10 +9,8 @@ export const NudgeSchema = z.object({
 export type Nudge = z.infer<typeof NudgeSchema>;
 
 export class AICompanionKernel {
-  private userId: string;
-
-  constructor(userId: string) {
-    this.userId = userId;
+  constructor(private _userId: string) {
+    console.log('Kernel initialized for', this._userId);
   }
 
   async getNudges(category: string): Promise<Nudge[]> {

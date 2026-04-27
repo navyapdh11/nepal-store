@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { AICompanionKernel, Nudge } from '../lib/ai/kernel';
 import './NudgeBar.css';
 
-export const NudgeBar: React.FC<{ category: string }> = ({ category }) => {
+export const NudgeBar = ({ category }: { category: string }) => {
   const [nudges, setNudges] = useState<Nudge[]>([]);
   const kernel = new AICompanionKernel('user-1');
 

@@ -1,8 +1,7 @@
-import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from 'remotion';
+import { AbsoluteFill, interpolate, useCurrentFrame } from 'remotion';
 
 export const HeroBanner: React.FC<{ title: string; subtitle: string }> = ({ title, subtitle }) => {
 	const frame = useCurrentFrame();
-	const { fps } = useVideoConfig();
 
 	const opacity = interpolate(frame, [0, 30], [0, 1], {
 		extrapolateRight: 'clamp',

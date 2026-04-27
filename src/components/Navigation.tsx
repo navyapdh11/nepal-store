@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './Navigation.css';
 
 const categories = ['WOMEN', 'MEN', 'KIDS', 'BABY', 'ACCOUNT'];
 
-export const Navigation: React.FC<{ onCategoryChange: (cat: string) => void }> = ({ onCategoryChange }) => {
+export const Navigation = ({ onCategoryChange }: { onCategoryChange: (cat: string) => void }) => {
   const [active, setActive] = useState('WOMEN');
 
   const handleSelect = (cat: string) => {

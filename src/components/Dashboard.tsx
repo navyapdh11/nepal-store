@@ -1,9 +1,8 @@
-import React from 'react';
 import { User } from '../lib/auth';
 import { NEPAL_REGIONS, findNodeDFS } from '../lib/utils/dfs';
 import './Dashboard.css';
 
-export const Dashboard: React.FC<{ user: User; onLogout: () => void }> = ({ user, onLogout }) => {
+export const Dashboard = ({ user, onLogout }: { user: User; onLogout: () => void }) => {
   // Example of using DFS to find user's regional hub
   const regionalHub = findNodeDFS(NEPAL_REGIONS, 'p3-ktm');
 
