@@ -14,6 +14,7 @@ interface Product {
 	name: string;
 	price: number;
 	category: string;
+	image: string;
 }
 
 const BentoCard = ({ product, index }: { product: Product; index: number }) => {
@@ -43,11 +44,16 @@ const BentoCard = ({ product, index }: { product: Product; index: number }) => {
 			onMouseMove={handleMouseMove}
 		>
 			<div className="image-box glass">
-				<div className="placeholder-img micro-float" />
+				<img 
+					src={product.image} 
+					alt={product.name} 
+					className="product-image micro-float" 
+					loading="lazy"
+				/>
 			</div>
 			<div className="info-box">
 				<h3>{product.name}</h3>
-				<p className="price">${product.price.toFixed(2)}</p>
+				<p className="price">रू {(product.price).toLocaleString()}</p>
 			</div>
 		</div>
 	);

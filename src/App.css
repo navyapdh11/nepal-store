@@ -47,6 +47,21 @@
 	aspect-ratio: 1/1;
 	border-radius: 16px;
 	margin-bottom: 1.5rem;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.product-image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.bento-item:hover .product-image {
+	transform: scale(1.1);
 }
 
 .placeholder-img {
