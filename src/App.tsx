@@ -1,5 +1,5 @@
 import { Player } from "@remotion/player";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { AuthView } from "./components/AuthView";
 import { Dashboard } from "./components/Dashboard";
 import { Header } from "./components/Header";
@@ -9,9 +9,26 @@ import { useAuth } from "./lib/auth";
 import { HeroBanner } from "./remotion/compositions/HeroBanner";
 import "./App.css";
 
+interface Product {
+	id: string;
+	name: string;
+	price: number;
+	category: string;
+}
+
 function App() {
 	const [category, setCategory] = useState("WOMEN");
+	const [products, setProducts] = useState<Product[]>([]);
 	const { user, login, logout, isAuthenticated } = useAuth();
+
+	useEffect(() => {
+		if (category !== "ACCOUNT") {
+			fetch(`/api/products?category=${category}`)
+				.then((res) => res.json())
+				.then(setProducts)
+				.catch(console.error);
+		}
+	}, [category]);
 
 	const renderContent = () => {
 		if (category === "ACCOUNT") {
@@ -46,16 +63,28 @@ function App() {
 
 				<section className="featured-collections">
 					<h2>Featured for {category}</h2>
-					<div className="grid placeholder-grid">
-						{[1, 2, 3, 4].map((i) => (
-							<div key={i} className="product-card-placeholder">
-								<div className="image-box"></div>
-								<div className="info-box">
-									<div className="line"></div>
-									<div className="line short"></div>
-								</div>
-							</div>
-						))}
+					<div className="grid product-grid">
+						{products.length > 0
+							? products.map((product) => (
+									<div key={product.id} className="product-card">
+										<div className="image-box">
+											<div className="placeholder-img" />
+										</div>
+										<div className="info-box">
+											<h3>{product.name}</h3>
+											<p className="price">${product.price.toFixed(2)}</p>
+										</div>
+									</div>
+								))
+							: [1, 2, 3, 4].map((i) => (
+									<div key={i} className="product-card-placeholder">
+										<div className="image-box" />
+										<div className="info-box">
+											<div className="line" />
+											<div className="line short" />
+										</div>
+									</div>
+								))}
 					</div>
 				</section>
 			</>

@@ -2,13 +2,14 @@ import { useEffect, useState } from "react";
 import { AICompanionKernel, type Nudge } from "../lib/ai/kernel";
 import "./NudgeBar.css";
 
+const kernel = new AICompanionKernel("user-1");
+
 export const NudgeBar = ({ category }: { category: string }) => {
 	const [nudges, setNudges] = useState<Nudge[]>([]);
-	const kernel = new AICompanionKernel("user-1");
 
 	useEffect(() => {
 		kernel.getNudges(category).then(setNudges);
-	}, [category, kernel.getNudges]);
+	}, [category]);
 
 	if (nudges.length === 0) return null;
 

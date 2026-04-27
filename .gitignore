@@ -26,3 +26,5 @@ dist-ssr
 # Remotion
 out
 *.mp4
+.vercel
+.env*.local
