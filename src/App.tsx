@@ -9,15 +9,97 @@ import { useAuth } from "./lib/auth";
 import { HeroBanner } from "./remotion/compositions/HeroBanner";
 import "./App.css";
 
+interface Color {
+	name: string;
+	hex: string;
+}
+
 interface Product {
 	id: string;
 	name: string;
+	description: string;
 	price: number;
 	category: string;
 	image: string;
+	sizes: string[];
+	colors: Color[];
+	isNew: boolean;
+	rating: string;
+	reviews: number;
 }
 
-const BentoCard = ({ product, index }: { product: Product; index: number }) => {
+const ProductModal = ({ product, onClose }: { product: Product; onClose: () => void }) => {
+	const [selectedSize, setSelectedSize] = useState(product.sizes[0]);
+	const [selectedColor, setSelectedColor] = useState(product.colors[0]);
+
+	return (
+		<div className="modal-overlay glass-deep" onClick={onClose}>
+			<div className="modal-content bento-card-3d hd-lighting" onClick={e => e.stopPropagation()}>
+				<button className="close-btn" onClick={onClose}>✕</button>
+				<div className="modal-grid">
+					<div className="modal-image-container">
+						<img src={product.image} alt={product.name} className="modal-image" />
+						{product.isNew && <div className="badge-new">NEW</div>}
+					</div>
+					<div className="modal-details">
+						<div className="modal-header">
+							<h2>{product.name}</h2>
+							<p className="modal-price">रू {product.price.toLocaleString()}</p>
+						</div>
+						
+						<div className="modal-rating">
+							<span className="stars">★★★★☆ {product.rating}</span>
+							<span className="reviews">({product.reviews} Reviews)</span>
+						</div>
+
+						<p className="modal-description">{product.description}</p>
+
+						{product.colors && product.colors.length > 0 && (
+							<div className="selector-group">
+								<h4>COLOR: <span className="selected-value">{selectedColor?.name}</span></h4>
+								<div className="color-swatches">
+									{product.colors.map(c => (
+										<button 
+											key={c.hex} 
+											className={`color-swatch ${selectedColor?.hex === c.hex ? 'active' : ''}`}
+											style={{ backgroundColor: c.hex }}
+											onClick={() => setSelectedColor(c)}
+											title={c.name}
+										/>
+									))}
+								</div>
+							</div>
+						)}
+
+						{product.sizes && product.sizes.length > 0 && (
+							<div className="selector-group">
+								<h4>SIZE: <span className="selected-value">{selectedSize}</span></h4>
+								<div className="size-buttons">
+									{product.sizes.map(s => (
+										<button 
+											key={s} 
+											className={`size-btn ${selectedSize === s ? 'active' : ''}`}
+											onClick={() => setSelectedSize(s)}
+										>
+											{s}
+										</button>
+									))}
+								</div>
+							</div>
+						)}
+
+						<div className="modal-actions">
+							<button className="add-to-cart-btn">ADD TO BAG</button>
+							<button className="wishlist-btn">♡</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	);
+};
+
+const BentoCard = ({ product, index, onClick }: { product: Product; index: number; onClick: (p: Product) => void }) => {
 	const cardRef = useRef<HTMLDivElement>(null);
 
 	const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
@@ -42,6 +124,7 @@ const BentoCard = ({ product, index }: { product: Product; index: number }) => {
 			className="bento-item bento-card-3d hd-lighting glass-card" 
 			style={{ gridArea: getSpan(index) } as any}
 			onMouseMove={handleMouseMove}
+			onClick={() => onClick(product)}
 		>
 			<div className="image-container">
 				<img 
@@ -51,11 +134,19 @@ const BentoCard = ({ product, index }: { product: Product; index: number }) => {
 					loading="lazy"
 				/>
 				<div className="image-overlay" />
+				{product.isNew && <div className="badge-new-small">NEW</div>}
 			</div>
 			<div className="product-info-glass">
 				<h3>{product.name}</h3>
-				<p className="price">रू {product.price.toLocaleString()}</p>
-				<button className="add-to-cart-minimal">ADD TO BAG</button>
+				<div className="info-bottom">
+					<p className="price">रू {product.price.toLocaleString()}</p>
+					<div className="colors-preview">
+						{product.colors && product.colors.slice(0, 3).map(c => (
+							<span key={c.hex} className="color-dot" style={{ backgroundColor: c.hex }} />
+						))}
+						{product.colors && product.colors.length > 3 && <span className="color-plus">+</span>}
+					</div>
+				</div>
 			</div>
 		</div>
 	);
@@ -65,6 +156,7 @@ function App() {
 	const [category, setCategory] = useState("WOMEN");
 	const [products, setProducts] = useState<Product[]>([]);
 	const [displayCount, setDisplayCount] = useState(12);
+	const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
 	const { user, login, logout, isAuthenticated } = useAuth();
 
 	useEffect(() => {
@@ -137,7 +229,7 @@ function App() {
 					<div className="bento-grid-v2">
 						{visibleProducts.length > 0
 							? visibleProducts.map((product, i) => (
-									<BentoCard key={product.id} product={product} index={i} />
+									<BentoCard key={product.id} product={product} index={i} onClick={setSelectedProduct} />
 							  ))
 							: Array.from({ length: 8 }).map((_, i) => (
 									<div key={i} className="bento-skeleton glass-card" />
@@ -152,6 +244,8 @@ function App() {
 						</div>
 					)}
 				</section>
+				
+				{selectedProduct && <ProductModal product={selectedProduct} onClose={() => setSelectedProduct(null)} />}
 			</>
 		);
 	};
@@ -176,6 +270,12 @@ function App() {
 						<span>Men</span>
 						<span>Kids</span>
 						<span>Baby</span>
+					</div>
+					<div className="footer-col">
+						<h4>MORE</h4>
+						<span>Accessories</span>
+						<span>Home</span>
+						<span>Sale</span>
 					</div>
 				</div>
 				<div className="footer-bottom">
