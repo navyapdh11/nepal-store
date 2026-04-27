@@ -1,10 +1,31 @@
 import express from 'express';
 import { z } from 'zod';
+import { AuthService } from './auth.service.js';
 
 const app = express();
 const port = 3001;
 
 app.use(express.json());
+
+// Auth Routes
+app.post('/api/auth/register', (req, res) => {
+  try {
+    const result = AuthService.register(req.body);
+    res.json(result);
+  } catch (err: any) {
+    res.status(400).json({ error: err.message });
+  }
+});
+
+app.post('/api/auth/login', (req, res) => {
+  try {
+    const { email, password } = req.body;
+    const result = AuthService.login(email, password);
+    res.json(result);
+  } catch (err: any) {
+    res.status(401).json({ error: err.message });
+  }
+});
 
 const ProductSchema = z.object({
   id: z.string(),

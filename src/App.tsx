@@ -4,18 +4,26 @@ import { HeroBanner } from './remotion/compositions/HeroBanner';
 import { Header } from './components/Header';
 import { Navigation } from './components/Navigation';
 import { NudgeBar } from './components/NudgeBar';
+import { AuthView } from './components/AuthView';
+import { Dashboard } from './components/Dashboard';
+import { useAuth } from './lib/auth';
 import './App.css';
 
 function App() {
   const [category, setCategory] = useState('WOMEN');
+  const { user, login, logout, isAuthenticated } = useAuth();
 
-  return (
-    <div className="app">
-      <Header />
-      <Navigation onCategoryChange={setCategory} />
-      <NudgeBar category={category} />
-      
-      <main className="home-main">
+  const renderContent = () => {
+    if (category === 'ACCOUNT') {
+      return isAuthenticated ? (
+        <Dashboard user={user!} onLogout={logout} />
+      ) : (
+        <AuthView onLoginSuccess={login} />
+      );
+    }
+
+    return (
+      <>
         <section className="hero-section">
           <Player
             component={HeroBanner}
@@ -50,6 +58,18 @@ function App() {
             ))}
           </div>
         </section>
+      </>
+    );
+  };
+
+  return (
+    <div className="app">
+      <Header />
+      <Navigation onCategoryChange={setCategory} />
+      <NudgeBar category={category} />
+      
+      <main className="home-main">
+        {renderContent()}
       </main>
 
       <footer className="main-footer">

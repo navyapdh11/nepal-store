@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Navigation.css';
 
-const categories = ['WOMEN', 'MEN', 'KIDS', 'BABY'];
+const categories = ['WOMEN', 'MEN', 'KIDS', 'BABY', 'ACCOUNT'];
 
 export const Navigation: React.FC<{ onCategoryChange: (cat: string) => void }> = ({ onCategoryChange }) => {
   const [active, setActive] = useState('WOMEN');
