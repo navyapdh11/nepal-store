@@ -35,113 +35,73 @@ const _ProductSchema = z.object({
 	image: z.string(),
 });
 
-const products = [
-	// WOMEN
-	{ 
-		id: "w1", 
-		name: "Hand-Woven Pashmina Shawl", 
-		price: 15000, 
-		category: "WOMEN", 
-		image: "https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?q=80&w=800&auto=format&fit=crop" 
-	},
-	{ 
-		id: "w2", 
-		name: "Modern Dhaka Kurta Set", 
-		price: 8500, 
-		category: "WOMEN", 
-		image: "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?q=80&w=800&auto=format&fit=crop" 
-	},
-	{ 
-		id: "w3", 
-		name: "Himalayan Yak Wool Cardigan", 
-		price: 12000, 
-		category: "WOMEN", 
-		image: "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=800&auto=format&fit=crop" 
-	},
-	{ 
-		id: "w4", 
-		name: "Silk Sari with Zari Work", 
-		price: 25000, 
-		category: "WOMEN", 
-		image: "https://images.unsplash.com/photo-1610030469983-98e550d6193c?q=80&w=800&auto=format&fit=crop" 
-	},
+// Curated Photorealistic HD IDs from Unsplash (Fashion & Nepal)
+const assetLibrary: Record<string, { id: string, name: string }[]> = {
+	WOMEN: [
+		{ id: "1606760227091-3dd870d97f1d", name: "Hand-Woven Pashmina Shawl" },
+		{ id: "1583391733956-3750e0ff4e8b", name: "Modern Dhaka Kurta Set" },
+		{ id: "1620799140408-edc6dcb6d633", name: "Himalayan Yak Wool Cardigan" },
+		{ id: "1610030469983-98e550d6193c", name: "Silk Sari with Zari Work" },
+		{ id: "1483985988355-763728e1935b", name: "Luxury Cashmere Wrap" },
+		{ id: "1490481651871-ab68ff25d43d", name: "Embroidered Velvet Lehenga" },
+		{ id: "1551163945-3f831309f481", name: "Artisan Cotton Tunic" },
+		{ id: "1564485377539-4af72d1f6a2f", name: "Traditional Nepali Jewelry Set" }
+	],
+	MEN: [
+		{ id: "1552374196-1ab2a1c593e8", name: "Classic Daura Suruwal Set" },
+		{ id: "1551488831-00ddcb6c6bd3", name: "Himalayan Trekking Shell" },
+		{ id: "1594938298603-c8148c4dae35", name: "Yak Wool Blend Blazer" },
+		{ id: "1617137984095-74e4e5e3613f", name: "Dhaka Pattern Waistcoat" },
+		{ id: "1507679799987-c7377f323bdc", name: "Bespoke Pashmina Suit" },
+		{ id: "1534030347011-8815806bb8ce", name: "Outdoor Adventure Parka" },
+		{ id: "1611625618313-68b8a05d6211", name: "Modern Fit Chinos" },
+		{ id: "1516257984-b1b4d7574382", name: "Handcrafted Leather Boots" }
+	],
+	KIDS: [
+		{ id: "1519457431-75514b7230ed", name: "Mini Pashmina Poncho" },
+		{ id: "1518831959646-742c3a14ebf7", name: "Cotton Dhaka Print T-Shirt" },
+		{ id: "1544605530-01f8ee6193e6", name: "Hand-Knitted Woolen Mittens" },
+		{ id: "1515629560377-511400d418be", name: "Active Play Set" },
+		{ id: "1602161274116-f28822005c2a", name: "Warm Fleece Hoodie" },
+		{ id: "1514090501247-58209e242971", name: "Soft Cotton Sleepwear" }
+	],
+	BABY: [
+		{ id: "1522771739844-6a9f6d5f14af", name: "Organic Cotton Onesie" },
+		{ id: "1515488764276-beab7607c1e6", name: "Soft Woolen Baby Booties" },
+		{ id: "1519689689343-c6466b1f8ac1", name: "Knit Cotton Blanket" },
+		{ id: "1543157143431-275141e10fb1", name: "Teether & Toy Set" },
+		{ id: "1511270339315-973072832184", name: "Gentle Skin Care Kit" }
+	]
+};
 
-	// MEN
-	{ 
-		id: "m1", 
-		name: "Classic Daura Suruwal Set", 
-		price: 9500, 
-		category: "MEN", 
-		image: "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?q=80&w=800&auto=format&fit=crop" 
-	},
-	{ 
-		id: "m2", 
-		name: "Himalayan Trekking Shell", 
-		price: 14500, 
-		category: "MEN", 
-		image: "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?q=80&w=800&auto=format&fit=crop" 
-	},
-	{ 
-		id: "m3", 
-		name: "Yak Wool Blend Blazer", 
-		price: 18000, 
-		category: "MEN", 
-		image: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?q=80&w=800&auto=format&fit=crop" 
-	},
-	{ 
-		id: "m4", 
-		name: "Dhaka Pattern Waistcoat", 
-		price: 5500, 
-		category: "MEN", 
-		image: "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?q=80&w=800&auto=format&fit=crop" 
-	},
+const generateCatalog = () => {
+	const allProducts: any[] = [];
+	Object.keys(assetLibrary).forEach(cat => {
+		const templates = assetLibrary[cat];
+		for (let i = 0; i < 100; i++) {
+			const template = templates[i % templates.length];
+			allProducts.push({
+				id: `${cat.toLowerCase()}-${i}`,
+				name: `${template.name} #${i + 1}`,
+				price: Math.floor(Math.random() * 25000) + 1200,
+				category: cat,
+				image: `https://images.unsplash.com/photo-${template.id}?q=80&w=800&auto=format&fit=crop`
+			});
+		}
+	});
+	return allProducts;
+};
 
-	// KIDS
-	{ 
-		id: "k1", 
-		name: "Mini Pashmina Poncho", 
-		price: 4500, 
-		category: "KIDS", 
-		image: "https://images.unsplash.com/photo-1519457431-75514b7230ed?q=80&w=800&auto=format&fit=crop" 
-	},
-	{ 
-		id: "k2", 
-		name: "Cotton Dhaka Print T-Shirt", 
-		price: 1500, 
-		category: "KIDS", 
-		image: "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?q=80&w=800&auto=format&fit=crop" 
-	},
-	{ 
-		id: "k3", 
-		name: "Hand-Knitted Woolen Mittens", 
-		price: 800, 
-		category: "KIDS", 
-		image: "https://images.unsplash.com/photo-1544605530-01f8ee6193e6?q=80&w=800&auto=format&fit=crop" 
-	},
-
-	// BABY
-	{ 
-		id: "b1", 
-		name: "Organic Cotton Onesie", 
-		price: 1200, 
-		category: "BABY", 
-		image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=800&auto=format&fit=crop" 
-	},
-	{ 
-		id: "b2", 
-		name: "Soft Woolen Baby Booties", 
-		price: 950, 
-		category: "BABY", 
-		image: "https://images.unsplash.com/photo-1515488764276-beab7607c1e6?q=80&w=800&auto=format&fit=crop" 
-	}
-];
+const products = generateCatalog();
 
 app.get("/api/products", (req, res) => {
-	const { category } = req.query;
+	const { category, limit = 100, offset = 0 } = req.query;
+	let filtered = products;
 	if (category) {
-		return res.json(products.filter((p) => p.category === category));
+		filtered = products.filter((p) => p.category === category);
 	}
-	res.json(products);
+	const paginated = filtered.slice(Number(offset), Number(offset) + Number(limit));
+	res.json(paginated);
 });
 
 app.listen(port, () => {

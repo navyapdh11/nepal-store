@@ -1,5 +1,5 @@
 import { Player } from "@remotion/player";
-import { Suspense, useEffect, useState, useRef } from "react";
+import { Suspense, useEffect, useState, useRef, useMemo } from "react";
 import { AuthView } from "./components/AuthView";
 import { Dashboard } from "./components/Dashboard";
 import { Header } from "./components/Header";
@@ -29,31 +29,33 @@ const BentoCard = ({ product, index }: { product: Product; index: number }) => {
 		cardRef.current.style.setProperty("--mouse-y", `${y}%`);
 	};
 
-	// Deterministic grid spanning for bento effect
 	const getSpan = (i: number) => {
-		if (i === 0) return "grid-column: span 2; grid-row: span 2;";
-		if (i === 1) return "grid-column: span 2;";
+		const mod = i % 10;
+		if (mod === 0) return "grid-column: span 2; grid-row: span 2;";
+		if (mod === 3 || mod === 7) return "grid-column: span 2;";
 		return "";
 	};
 
 	return (
 		<div 
 			ref={cardRef}
-			className="bento-item bento-card-3d hd-lighting" 
+			className="bento-item bento-card-3d hd-lighting glass-card" 
 			style={{ gridArea: getSpan(index) } as any}
 			onMouseMove={handleMouseMove}
 		>
-			<div className="image-box glass">
+			<div className="image-container">
 				<img 
 					src={product.image} 
 					alt={product.name} 
-					className="product-image micro-float" 
+					className="product-image-hd" 
 					loading="lazy"
 				/>
+				<div className="image-overlay" />
 			</div>
-			<div className="info-box">
+			<div className="product-info-glass">
 				<h3>{product.name}</h3>
-				<p className="price">रू {(product.price).toLocaleString()}</p>
+				<p className="price">रू {product.price.toLocaleString()}</p>
+				<button className="add-to-cart-minimal">ADD TO BAG</button>
 			</div>
 		</div>
 	);
@@ -62,16 +64,42 @@ const BentoCard = ({ product, index }: { product: Product; index: number }) => {
 function App() {
 	const [category, setCategory] = useState("WOMEN");
 	const [products, setProducts] = useState<Product[]>([]);
+	const [displayCount, setDisplayCount] = useState(12);
 	const { user, login, logout, isAuthenticated } = useAuth();
 
 	useEffect(() => {
 		if (category !== "ACCOUNT") {
-			fetch(`/api/products?category=${category}`)
-				.then((res) => res.json())
-				.then((data) => setProducts(Array.isArray(data) ? data : []))
-				.catch(() => setProducts([]));
+			const fetchProducts = async () => {
+				try {
+					const res = await fetch(`/api/products?category=${category}&limit=100`);
+					const data = await res.json();
+					if (Array.isArray(data)) {
+						setProducts(data);
+					} else {
+						throw new Error("Invalid API response");
+					}
+				} catch (err) {
+					console.log("API not available, using static fallback...");
+					try {
+						const fallbackRes = await fetch("/products.json");
+						const fallbackData = await fallbackRes.json();
+						if (Array.isArray(fallbackData)) {
+							setProducts(fallbackData.filter(p => p.category === category));
+						}
+					} catch (fallbackErr) {
+						console.error("Critical: Could not load products", fallbackErr);
+						setProducts([]);
+					}
+				}
+				setDisplayCount(12);
+			};
+			fetchProducts();
 		}
 	}, [category]);
+
+	const visibleProducts = useMemo(() => products.slice(0, displayCount), [products, displayCount]);
+
+	const loadMore = () => setDisplayCount(prev => prev + 12);
 
 	const renderContent = () => {
 		if (category === "ACCOUNT") {
@@ -84,8 +112,8 @@ function App() {
 
 		return (
 			<>
-				<section className="hero-section glass">
-					<Suspense fallback={<div className="hero-placeholder" />}>
+				<section className="hero-section main-hero">
+					<Suspense fallback={<div className="hero-skeleton" />}>
 						<Player
 							component={HeroBanner}
 							durationInFrames={300}
@@ -93,44 +121,65 @@ function App() {
 							compositionHeight={1080}
 							fps={30}
 							style={{ width: "100%", aspectRatio: "21/9" }}
-							inputProps={{ title: "NEPAL STORE", subtitle: `${category} 2026` }}
+							inputProps={{ title: "NEPAL STORE", subtitle: `PREMIUM ${category} COLLECTION 2026` }}
 							autoPlay
 							loop
 						/>
 					</Suspense>
 				</section>
 
-				<section className="featured-collections">
-					<div className="section-header">
-						<h2 className="micro-float">LifeWear {category}</h2>
-						<div className="bento-badge glass">2026 Collection</div>
+				<section className="featured-collections-v2">
+					<div className="section-intro">
+						<h2 className="reveal-text">Explore {category}</h2>
+						<p className="subtitle">100+ Hand-curated photorealistic items for your lifestyle.</p>
 					</div>
 					
-					<div className="bento-container">
-						{products.length > 0
-							? products.map((product, i) => (
+					<div className="bento-grid-v2">
+						{visibleProducts.length > 0
+							? visibleProducts.map((product, i) => (
 									<BentoCard key={product.id} product={product} index={i} />
 							  ))
-							: [1, 2, 3, 4, 5].map((i) => (
-									<div key={i} className="bento-item skeleton glass" />
+							: Array.from({ length: 8 }).map((_, i) => (
+									<div key={i} className="bento-skeleton glass-card" />
 							  ))}
 					</div>
+
+					{displayCount < products.length && (
+						<div className="load-more-container">
+							<button className="load-more-btn glass" onClick={loadMore}>
+								EXPLORE MORE ARTIFACTS
+							</button>
+						</div>
+					)}
 				</section>
 			</>
 		);
 	};
 
 	return (
-		<div className="app">
+		<div className="app-v2">
 			<Header />
-			<div className="nav-sticky-wrapper glass">
+			<div className="sticky-nav-v2 glass">
 				<Navigation onCategoryChange={setCategory} />
 			</div>
 			<NudgeBar category={category} />
-			<main className="home-main">{renderContent()}</main>
-			<footer className="main-footer glass">
-				<div className="footer-content">
-					<p>&copy; 2026 NEPAL STORE. HIGH FIDELITY RENDER.</p>
+			<main className="content-area">{renderContent()}</main>
+			<footer className="footer-v2 glass">
+				<div className="footer-grid">
+					<div className="footer-col">
+						<h4>NEPAL STORE</h4>
+						<p>Redefining Nepalese retail through AI and Spatial Design.</p>
+					</div>
+					<div className="footer-col">
+						<h4>COLLECTIONS</h4>
+						<span>Women</span>
+						<span>Men</span>
+						<span>Kids</span>
+						<span>Baby</span>
+					</div>
+				</div>
+				<div className="footer-bottom">
+					<p>&copy; 2026 NEPAL STORE. ALL ASSETS PHOTOREALISTIC HD.</p>
 				</div>
 			</footer>
 		</div>
