@@ -1,23 +1,23 @@
-import { useEffect, useState } from 'react';
-import { AICompanionKernel, Nudge } from '../lib/ai/kernel';
-import './NudgeBar.css';
+import { useEffect, useState } from "react";
+import { AICompanionKernel, type Nudge } from "../lib/ai/kernel";
+import "./NudgeBar.css";
 
 export const NudgeBar = ({ category }: { category: string }) => {
-  const [nudges, setNudges] = useState<Nudge[]>([]);
-  const kernel = new AICompanionKernel('user-1');
+	const [nudges, setNudges] = useState<Nudge[]>([]);
+	const kernel = new AICompanionKernel("user-1");
 
-  useEffect(() => {
-    kernel.getNudges(category).then(setNudges);
-  }, [category]);
+	useEffect(() => {
+		kernel.getNudges(category).then(setNudges);
+	}, [category, kernel.getNudges]);
 
-  if (nudges.length === 0) return null;
+	if (nudges.length === 0) return null;
 
-  return (
-    <div className="nudge-bar">
-      <div className="nudge-content">
-        <span className="nudge-icon">✨</span>
-        <span className="nudge-message">{nudges[0].message}</span>
-      </div>
-    </div>
-  );
+	return (
+		<div className="nudge-bar">
+			<div className="nudge-content">
+				<span className="nudge-icon">✨</span>
+				<span className="nudge-message">{nudges[0].message}</span>
+			</div>
+		</div>
+	);
 };

@@ -1,77 +1,77 @@
 .app {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 .home-main {
-  flex: 1;
-  display: block; /* Override previous flex-center */
-  padding: 0;
+	flex: 1;
+	display: block; /* Override previous flex-center */
+	padding: 0;
 }
 
 .hero-section {
-  width: 100%;
-  background: #000;
+	width: 100%;
+	background: #000;
 }
 
 .featured-collections {
-  padding: 2rem 1rem;
-  max-width: 1200px;
-  margin: 0 auto;
+	padding: 2rem 1rem;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 .featured-collections h2 {
-  font-size: 1.25rem;
-  margin-bottom: 1.5rem;
-  color: var(--dark-text);
+	font-size: 1.25rem;
+	margin-bottom: 1.5rem;
+	color: var(--dark-text);
 }
 
 .grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1rem;
 }
 
 @media (min-width: 768px) {
-  .grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
+	.grid {
+		grid-template-columns: repeat(4, 1fr);
+	}
 }
 
 .product-card-placeholder {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
 }
 
 .image-box {
-  aspect-ratio: 3/4;
-  background: #eee;
-  width: 100%;
+	aspect-ratio: 3 / 4;
+	background: #eee;
+	width: 100%;
 }
 
 .info-box {
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
+	display: flex;
+	flex-direction: column;
+	gap: 0.25rem;
 }
 
 .line {
-  height: 10px;
-  background: #eee;
-  width: 100%;
+	height: 10px;
+	background: #eee;
+	width: 100%;
 }
 
 .line.short {
-  width: 60%;
+	width: 60%;
 }
 
 .main-footer {
-  padding: 2rem;
-  background: white;
-  border-top: 1px solid #eee;
-  text-align: center;
-  font-size: 0.8rem;
-  color: #999;
+	padding: 2rem;
+	background: white;
+	border-top: 1px solid #eee;
+	text-align: center;
+	font-size: 0.8rem;
+	color: #999;
 }
