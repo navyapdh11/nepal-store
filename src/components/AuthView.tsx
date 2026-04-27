@@ -1,11 +1,12 @@
 import type React from "react";
 import { useState } from "react";
+import type { User } from "../lib/auth";
 import "./AuthView.css";
 
 export const AuthView = ({
 	onLoginSuccess,
 }: {
-	onLoginSuccess: (user: object, token: string) => void;
+	onLoginSuccess: (user: User, token: string) => void;
 }) => {
 	const [isLogin, setIsLogin] = useState(true);
 	const [formData, setFormData] = useState({
@@ -31,7 +32,7 @@ export const AuthView = ({
 			const data = await res.json();
 			if (!res.ok) throw new Error(data.error || "Something went wrong");
 
-			onLoginSuccess(data.user as object, data.token as string);
+			onLoginSuccess(data.user as User, data.token as string);
 		} catch (err: unknown) {
 			setError((err as Error).message);
 		}
