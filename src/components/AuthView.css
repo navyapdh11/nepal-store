@@ -1,30 +1,41 @@
 .auth-container {
-	padding: 2rem 1rem;
+	padding: 4rem 1rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 60vh;
+	min-height: 80vh;
 }
 
 .auth-card {
-	background: white;
-	padding: 2rem;
+	background: rgba(255, 255, 255, 0.7);
+	backdrop-filter: blur(25px);
+	-webkit-backdrop-filter: blur(25px);
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	padding: 3rem;
 	width: 100%;
-	max-width: 400px;
-	border: 1px solid #eee;
+	max-width: 480px;
+	border-radius: 40px;
+	box-shadow: 0 30px 60px rgba(0,0,0,0.05);
+	animation: slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .auth-card h2 {
-	font-size: 1.25rem;
+	font-size: 2rem;
 	margin-bottom: 2rem;
 	text-align: center;
+	font-weight: 800;
+	letter-spacing: -1px;
 }
 
 .error-message {
-	color: var(--nepal-red);
-	font-size: 0.8rem;
-	margin-bottom: 1rem;
+	color: #fff;
+	background: var(--nepal-red);
+	padding: 10px;
+	border-radius: 12px;
+	font-size: 0.85rem;
+	margin-bottom: 1.5rem;
 	text-align: center;
+	font-weight: 600;
 }
 
 .input-group {
@@ -33,42 +44,63 @@
 
 .input-group label {
 	display: block;
-	font-size: 0.7rem;
-	font-weight: 700;
+	font-size: 0.75rem;
+	font-weight: 800;
 	margin-bottom: 0.5rem;
-	color: #666;
+	color: #333;
+	letter-spacing: 0.05em;
 }
 
 .input-group input {
 	width: 100%;
-	padding: 0.75rem;
-	border: 1px solid #ddd;
-	background: #f9f9f9;
+	padding: 1rem;
+	border: 1px solid rgba(0,0,0,0.1);
+	background: rgba(255,255,255,0.9);
+	border-radius: 16px;
+	font-size: 1rem;
+	transition: all 0.3s;
+}
+
+.input-group input:focus {
+	outline: none;
+	border-color: #000;
+	box-shadow: 0 0 0 4px rgba(0,0,0,0.05);
 }
 
 .submit-btn {
 	width: 100%;
-	padding: 1rem;
-	background: var(--dark-text);
+	padding: 1.25rem;
+	background: #000;
 	color: white;
 	border: none;
-	font-weight: 700;
+	border-radius: 16px;
+	font-weight: 800;
 	cursor: pointer;
 	margin-top: 1rem;
+	font-size: 1rem;
+	letter-spacing: 0.1em;
+	transition: transform 0.3s, background 0.3s;
+}
+
+.submit-btn:hover {
+	background: var(--nepal-red);
+	transform: translateY(-2px);
 }
 
 .toggle-auth {
-	margin-top: 1.5rem;
+	margin-top: 2rem;
 	text-align: center;
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 	color: #666;
 }
 
 .toggle-auth button {
 	background: none;
 	border: none;
-	color: var(--nepal-red);
-	text-decoration: underline;
+	color: #000;
+	text-decoration: none;
 	cursor: pointer;
-	font-weight: 700;
+	font-weight: 800;
+	margin-left: 0.5rem;
+	border-bottom: 2px solid #000;
 }

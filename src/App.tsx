@@ -28,9 +28,16 @@ interface Product {
 	reviews: number;
 }
 
-const ProductModal = ({ product, onClose }: { product: Product; onClose: () => void }) => {
+const ProductModal = ({ product, onClose, onAdd }: { product: Product; onClose: () => void, onAdd: () => void }) => {
 	const [selectedSize, setSelectedSize] = useState(product.sizes[0]);
 	const [selectedColor, setSelectedColor] = useState(product.colors[0]);
+	const [added, setAdded] = useState(false);
+
+	const handleAdd = () => {
+		setAdded(true);
+		onAdd();
+		setTimeout(() => setAdded(false), 2000);
+	};
 
 	return (
 		<div className="modal-overlay glass-deep" onClick={onClose}>
@@ -89,7 +96,9 @@ const ProductModal = ({ product, onClose }: { product: Product; onClose: () => v
 						)}
 
 						<div className="modal-actions">
-							<button className="add-to-cart-btn">ADD TO BAG</button>
+							<button className={`add-to-cart-btn ${added ? 'added' : ''}`} onClick={handleAdd}>
+								{added ? 'ADDED ✓' : 'ADD TO BAG'}
+							</button>
 							<button className="wishlist-btn">♡</button>
 						</div>
 					</div>
@@ -159,6 +168,7 @@ function App() {
 	const [products, setProducts] = useState<Product[]>([]);
 	const [displayCount, setDisplayCount] = useState(12);
 	const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
+	const [cartCount, setCartCount] = useState(0);
 	const { user, login, logout, isAuthenticated } = useAuth();
 
 	useEffect(() => {
@@ -250,14 +260,14 @@ function App() {
 					)}
 				</section>
 				
-				{selectedProduct && <ProductModal product={selectedProduct} onClose={() => setSelectedProduct(null)} />}
+				{selectedProduct && <ProductModal product={selectedProduct} onClose={() => setSelectedProduct(null)} onAdd={() => setCartCount(c => c + 1)} />}
 			</>
 		);
 	};
 
 	return (
 		<div className="app-v2">
-			<Header />
+			<Header cartCount={cartCount} />
 			<div className="sticky-nav-v2 glass">
 				<Navigation onCategoryChange={setCategory} />
 			</div>
