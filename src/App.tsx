@@ -1,5 +1,5 @@
 import { Player } from "@remotion/player";
-import { Suspense, useEffect, useState } from "react";
+import { Suspense, useEffect, useState, useRef } from "react";
 import { AuthView } from "./components/AuthView";
 import { Dashboard } from "./components/Dashboard";
 import { Header } from "./components/Header";
@@ -16,6 +16,43 @@ interface Product {
 	category: string;
 }
 
+const BentoCard = ({ product, index }: { product: Product; index: number }) => {
+	const cardRef = useRef<HTMLDivElement>(null);
+
+	const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+		if (!cardRef.current) return;
+		const rect = cardRef.current.getBoundingClientRect();
+		const x = ((e.clientX - rect.left) / rect.width) * 100;
+		const y = ((e.clientY - rect.top) / rect.height) * 100;
+		cardRef.current.style.setProperty("--mouse-x", `${x}%`);
+		cardRef.current.style.setProperty("--mouse-y", `${y}%`);
+	};
+
+	// Deterministic grid spanning for bento effect
+	const getSpan = (i: number) => {
+		if (i === 0) return "grid-column: span 2; grid-row: span 2;";
+		if (i === 1) return "grid-column: span 2;";
+		return "";
+	};
+
+	return (
+		<div 
+			ref={cardRef}
+			className="bento-item bento-card-3d hd-lighting" 
+			style={{ gridArea: getSpan(index) } as any}
+			onMouseMove={handleMouseMove}
+		>
+			<div className="image-box glass">
+				<div className="placeholder-img micro-float" />
+			</div>
+			<div className="info-box">
+				<h3>{product.name}</h3>
+				<p className="price">${product.price.toFixed(2)}</p>
+			</div>
+		</div>
+	);
+};
+
 function App() {
 	const [category, setCategory] = useState("WOMEN");
 	const [products, setProducts] = useState<Product[]>([]);
@@ -24,17 +61,9 @@ function App() {
 	useEffect(() => {
 		if (category !== "ACCOUNT") {
 			fetch(`/api/products?category=${category}`)
-				.then((res) => {
-					if (!res.ok) throw new Error("Network response was not ok");
-					return res.json();
-				})
-				.then((data) => {
-					setProducts(Array.isArray(data) ? data : []);
-				})
-				.catch((err) => {
-					console.error("Fetch error:", err);
-					setProducts([]);
-				});
+				.then((res) => res.json())
+				.then((data) => setProducts(Array.isArray(data) ? data : []))
+				.catch(() => setProducts([]));
 		}
 	}, [category]);
 
@@ -49,7 +78,7 @@ function App() {
 
 		return (
 			<>
-				<section className="hero-section">
+				<section className="hero-section glass">
 					<Suspense fallback={<div className="hero-placeholder" />}>
 						<Player
 							component={HeroBanner}
@@ -57,50 +86,28 @@ function App() {
 							compositionWidth={1920}
 							compositionHeight={1080}
 							fps={30}
-							style={{
-								width: "100%",
-								aspectRatio: "16/9",
-							}}
-							inputProps={{
-								title: "NEPAL STORE",
-								subtitle: `${category} LifeWear Collection`,
-							}}
+							style={{ width: "100%", aspectRatio: "21/9" }}
+							inputProps={{ title: "NEPAL STORE", subtitle: `${category} 2026` }}
 							autoPlay
 							loop
-							errorFallback={(error) => {
-								console.error("Remotion Player Error:", error);
-								return <div className="hero-placeholder" />;
-							}}
 						/>
 					</Suspense>
 				</section>
 
 				<section className="featured-collections">
-					<div className="section-title">
-						<h2>Featured for {category}</h2>
+					<div className="section-header">
+						<h2 className="micro-float">LifeWear {category}</h2>
+						<div className="bento-badge glass">2026 Collection</div>
 					</div>
-					<div className="grid product-grid">
+					
+					<div className="bento-container">
 						{products.length > 0
-							? products.map((product) => (
-									<div key={product.id} className="product-card">
-										<div className="image-box">
-											<div className="placeholder-img" />
-										</div>
-										<div className="info-box">
-											<h3>{product.name}</h3>
-											<p className="price">${product.price.toFixed(2)}</p>
-										</div>
-									</div>
-								))
-							: [1, 2, 3, 4].map((i) => (
-									<div key={i} className="product-card-placeholder">
-										<div className="image-box" />
-										<div className="info-box">
-											<div className="line" />
-											<div className="line short" />
-										</div>
-									</div>
-								))}
+							? products.map((product, i) => (
+									<BentoCard key={product.id} product={product} index={i} />
+							  ))
+							: [1, 2, 3, 4, 5].map((i) => (
+									<div key={i} className="bento-item skeleton glass" />
+							  ))}
 					</div>
 				</section>
 			</>
@@ -110,14 +117,14 @@ function App() {
 	return (
 		<div className="app">
 			<Header />
-			<Navigation onCategoryChange={setCategory} />
+			<div className="nav-sticky-wrapper glass">
+				<Navigation onCategoryChange={setCategory} />
+			</div>
 			<NudgeBar category={category} />
-
 			<main className="home-main">{renderContent()}</main>
-
-			<footer className="main-footer">
+			<footer className="main-footer glass">
 				<div className="footer-content">
-					<p>&copy; 2026 NEPAL STORE. Inspired by LifeWear.</p>
+					<p>&copy; 2026 NEPAL STORE. HIGH FIDELITY RENDER.</p>
 				</div>
 			</footer>
 		</div>
