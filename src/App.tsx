@@ -122,7 +122,7 @@ const BentoCard = ({ product, index, onClick }: { product: Product; index: numbe
 		<div 
 			ref={cardRef}
 			className="bento-item bento-card-3d hd-lighting glass-card" 
-			style={{ gridArea: getSpan(index) } as any}
+			style={{ gridArea: getSpan(index), animationDelay: `${index * 0.05}s` } as any}
 			onMouseMove={handleMouseMove}
 			onClick={() => onClick(product)}
 		>
@@ -132,6 +132,8 @@ const BentoCard = ({ product, index, onClick }: { product: Product; index: numbe
 					alt={product.name} 
 					className="product-image-hd" 
 					loading="lazy"
+					onLoad={(e) => (e.currentTarget.style.opacity = "1")}
+					style={{ opacity: 0, transition: "opacity 0.8s ease" }}
 				/>
 				<div className="image-overlay" />
 				{product.isNew && <div className="badge-new-small">NEW</div>}
@@ -162,21 +164,24 @@ function App() {
 	useEffect(() => {
 		if (category !== "ACCOUNT") {
 			const fetchProducts = async () => {
+				setProducts([]); // Clear existing for cleaner transition
 				try {
 					const res = await fetch(`/api/products?category=${category}&limit=100`);
+					if (!res.ok) throw new Error("API Offline");
 					const data = await res.json();
 					if (Array.isArray(data)) {
 						setProducts(data);
 					} else {
-						throw new Error("Invalid API response");
+						throw new Error("Invalid Format");
 					}
 				} catch (err) {
-					console.log("API not available, using static fallback...");
+					console.log("API not available, using high-fidelity static fallback...");
 					try {
 						const fallbackRes = await fetch("/products.json");
 						const fallbackData = await fallbackRes.json();
 						if (Array.isArray(fallbackData)) {
-							setProducts(fallbackData.filter(p => p.category === category));
+							const filtered = fallbackData.filter(p => p.category === category);
+							setProducts(filtered);
 						}
 					} catch (fallbackErr) {
 						console.error("Critical: Could not load products", fallbackErr);
@@ -204,7 +209,7 @@ function App() {
 
 		return (
 			<>
-				<section className="hero-section main-hero">
+				<section className="hero-section main-hero reveal-anim">
 					<Suspense fallback={<div className="hero-skeleton" />}>
 						<Player
 							component={HeroBanner}
@@ -213,7 +218,7 @@ function App() {
 							compositionHeight={1080}
 							fps={30}
 							style={{ width: "100%", aspectRatio: "21/9" }}
-							inputProps={{ title: "NEPAL STORE", subtitle: `PREMIUM ${category} COLLECTION 2026` }}
+							inputProps={{ title: "NEPAL STORE", subtitle: `PREMIUM ${category} 2026` }}
 							autoPlay
 							loop
 						/>
@@ -223,7 +228,7 @@ function App() {
 				<section className="featured-collections-v2">
 					<div className="section-intro">
 						<h2 className="reveal-text">Explore {category}</h2>
-						<p className="subtitle">100+ Hand-curated photorealistic items for your lifestyle.</p>
+						<p className="subtitle">50+ Photorealistic artifacts engineered for the modern Nepalese athlete.</p>
 					</div>
 					
 					<div className="bento-grid-v2">
@@ -231,15 +236,15 @@ function App() {
 							? visibleProducts.map((product, i) => (
 									<BentoCard key={product.id} product={product} index={i} onClick={setSelectedProduct} />
 							  ))
-							: Array.from({ length: 8 }).map((_, i) => (
-									<div key={i} className="bento-skeleton glass-card" />
+							: Array.from({ length: 12 }).map((_, i) => (
+									<div key={i} className="bento-skeleton glass-card pulse-anim" />
 							  ))}
 					</div>
 
 					{displayCount < products.length && (
 						<div className="load-more-container">
-							<button className="load-more-btn glass" onClick={loadMore}>
-								EXPLORE MORE ARTIFACTS
+							<button className="load-more-btn glass-card-dark" onClick={loadMore}>
+								DISCOVER MORE
 							</button>
 						</div>
 					)}
@@ -262,24 +267,24 @@ function App() {
 				<div className="footer-grid">
 					<div className="footer-col">
 						<h4>NEPAL STORE</h4>
-						<p>Redefining Nepalese retail through AI and Spatial Design.</p>
+						<p>Revolutionizing retail with 2026 Spatial UX and AI Orchestration.</p>
 					</div>
 					<div className="footer-col">
 						<h4>COLLECTIONS</h4>
 						<span>Women</span>
 						<span>Men</span>
+						<span>Sports</span>
 						<span>Kids</span>
-						<span>Baby</span>
 					</div>
 					<div className="footer-col">
-						<h4>MORE</h4>
-						<span>Accessories</span>
-						<span>Home</span>
-						<span>Sale</span>
+						<h4>LEGAL</h4>
+						<span>Privacy</span>
+						<span>Terms</span>
+						<span>Ethics</span>
 					</div>
 				</div>
 				<div className="footer-bottom">
-					<p>&copy; 2026 NEPAL STORE. ALL ASSETS PHOTOREALISTIC HD.</p>
+					<p>&copy; 2026 NEPAL STORE. HIGH FIDELITY PHOTOREALISM ENABLED.</p>
 				</div>
 			</footer>
 		</div>
