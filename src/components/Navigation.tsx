@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Navigation.css";
 
-const categories = ["WOMEN", "MEN", "KIDS", "BABY", "SPORTS", "ACCESSORIES", "HOME", "SALE"];
+const categories = ["WOMEN", "MEN", "SPORTS", "TRADITIONAL", "SEASONAL", "KIDS", "BABY", "HOME", "SALE"];
 
 export const Navigation = ({
 	onCategoryChange,
