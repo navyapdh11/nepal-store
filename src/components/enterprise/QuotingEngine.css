@@ -43,7 +43,7 @@
 	gap: 2.5rem;
 }
 
-.input-field label {
+.input-field label, .field-label {
 	display: block;
 	font-size: 0.75rem;
 	font-weight: 800;
@@ -111,7 +111,7 @@
 	box-shadow: 0 40px 80px rgba(0,0,0,0.2);
 }
 
-.display-glass label {
+.display-glass label, .display-label {
 	font-size: 0.8rem;
 	font-weight: 800;
 	letter-spacing: 0.2em;

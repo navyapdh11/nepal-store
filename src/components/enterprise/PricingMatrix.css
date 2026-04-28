@@ -36,7 +36,7 @@
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	border: 1px solid rgba(0,0,0,0.03);
+	border: 1px solid rgba(0, 0, 0, 0.03);
 }
 
 .pricing-card.featured {
@@ -116,7 +116,7 @@
 }
 
 .tier-btn.outline {
-	background: rgba(0,0,0,0.05);
+	background: rgba(0, 0, 0, 0.05);
 	color: #000;
 }
 

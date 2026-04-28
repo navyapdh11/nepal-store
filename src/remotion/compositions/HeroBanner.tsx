@@ -3,7 +3,10 @@ import { AbsoluteFill, interpolate, useCurrentFrame } from "remotion";
 export const HeroBanner = ({
 	title,
 	subtitle,
-}: { title: string; subtitle: string }) => {
+}: {
+	title: string;
+	subtitle: string;
+}) => {
 	const frame = useCurrentFrame();
 
 	const opacity = interpolate(frame, [0, 40], [0, 1], {
@@ -20,7 +23,7 @@ export const HeroBanner = ({
 				backgroundColor: "#000",
 				justifyContent: "center",
 				alignItems: "center",
-				overflow: "hidden"
+				overflow: "hidden",
 			}}
 		>
 			<div
@@ -35,40 +38,46 @@ export const HeroBanner = ({
 					backgroundPosition: "center",
 					opacity: 0.6,
 					transform: `scale(${scale})`,
-					filter: "contrast(1.1) brightness(0.8)"
+					filter: "contrast(1.1) brightness(0.8)",
 				}}
 			/>
-			<div 
-				style={{ 
-					opacity, 
-					textAlign: "center", 
+			<div
+				style={{
+					opacity,
+					textAlign: "center",
 					zIndex: 1,
-					padding: "0 100px"
+					padding: "0 100px",
 				}}
 			>
-				<h1 style={{ 
-					fontSize: 160, 
-					color: "#fff", 
-					marginBottom: 20,
-					fontWeight: 900,
-					letterSpacing: "-5px",
-					textShadow: "0 20px 40px rgba(0,0,0,0.5)"
-				}}>
+				<h1
+					style={{
+						fontSize: 160,
+						color: "#fff",
+						marginBottom: 20,
+						fontWeight: 900,
+						letterSpacing: "-5px",
+						textShadow: "0 20px 40px rgba(0,0,0,0.5)",
+					}}
+				>
 					{title}
 				</h1>
-				<div style={{
-					height: 4,
-					width: 120,
-					background: "#ff0000",
-					margin: "0 auto 30px"
-				}} />
-				<h2 style={{ 
-					fontSize: 40, 
-					color: "#eee",
-					fontWeight: 300,
-					letterSpacing: "15px",
-					textTransform: "uppercase"
-				}}>
+				<div
+					style={{
+						height: 4,
+						width: 120,
+						background: "#ff0000",
+						margin: "0 auto 30px",
+					}}
+				/>
+				<h2
+					style={{
+						fontSize: 40,
+						color: "#eee",
+						fontWeight: 300,
+						letterSpacing: "15px",
+						textTransform: "uppercase",
+					}}
+				>
 					{subtitle}
 				</h2>
 			</div>

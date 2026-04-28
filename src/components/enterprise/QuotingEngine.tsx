@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useId } from 'react';
 import { motion } from 'framer-motion';
 import { Calculator, Globe2, Building, Activity } from 'lucide-react';
 import './QuotingEngine.css';
@@ -13,6 +13,7 @@ export const QuotingEngine = () => {
 	const [sector, setSector] = useState(sectors[0]);
 	const [scale, setScale] = useState(500); // sq meters
 	const [urgency, setUrgency] = useState(1); // 1 = standard, 2 = express
+	const sliderId = useId();
 
 	const quote = useMemo(() => {
 		const total = (sector.base * scale * urgency) + 5000;
@@ -24,20 +25,22 @@ export const QuotingEngine = () => {
 			<div className="quote-container">
 				<div className="quote-inputs">
 					<div className="header-with-icon">
-						<Calculator className="header-icon" />
+						<Calculator className="header-icon" aria-hidden="true" />
 						<h2>Infrastructure Quoting Engine</h2>
 					</div>
 					<p className="description">Calculate national-scale sanitization and logistics costs in real-time.</p>
 
 					<div className="input-group-grid">
 						<div className="input-field">
-							<label>SELECT SECTOR</label>
-							<div className="sector-selector">
+							<span className="field-label">SELECT SECTOR</span>
+							<div className="sector-selector" role="group" aria-label="Sector Selection">
 								{sectors.map(s => (
 									<button 
 										key={s.id} 
+										type="button"
 										className={`sector-btn ${sector.id === s.id ? 'active' : ''}`}
 										onClick={() => setSector(s)}
+										aria-pressed={sector.id === s.id}
 									>
 										{s.icon}
 										<span>{s.name}</span>
@@ -47,8 +50,11 @@ export const QuotingEngine = () => {
 						</div>
 
 						<div className="input-field">
-							<label>INFRASTRUCTURE SCALE (SQM): <span className="highlight">{scale}</span></label>
+							<label htmlFor={sliderId}>
+								INFRASTRUCTURE SCALE (SQM): <span className="highlight">{scale}</span>
+							</label>
 							<input 
+								id={sliderId}
 								type="range" 
 								min="100" 
 								max="10000" 
@@ -60,17 +66,21 @@ export const QuotingEngine = () => {
 						</div>
 
 						<div className="input-field">
-							<label>SERVICE PRIORITY</label>
-							<div className="priority-selector">
+							<span className="field-label">SERVICE PRIORITY</span>
+							<div className="priority-selector" role="group" aria-label="Priority Selection">
 								<button 
+									type="button"
 									className={`prio-btn ${urgency === 1 ? 'active' : ''}`}
 									onClick={() => setUrgency(1)}
+									aria-pressed={urgency === 1}
 								>
 									Standard
 								</button>
 								<button 
+									type="button"
 									className={`prio-btn ${urgency === 2 ? 'active' : ''}`}
 									onClick={() => setUrgency(2)}
+									aria-pressed={urgency === 2}
 								>
 									Express Guard
 								</button>
@@ -81,7 +91,7 @@ export const QuotingEngine = () => {
 
 				<div className="quote-display">
 					<div className="display-glass">
-						<label>ESTIMATED NATIONAL QUOTE</label>
+						<span className="display-label">ESTIMATED NATIONAL QUOTE</span>
 						<div className="quote-amount">
 							<span className="unit">रू</span>
 							<motion.span 
@@ -96,7 +106,7 @@ export const QuotingEngine = () => {
 						<div className="estimate-detail">
 							<span>Incl. 2026 Audit Trail & Tech Guard</span>
 						</div>
-						<button className="pro-btn">GENERATE FORMAL AUDIT</button>
+						<button type="button" className="pro-btn">GENERATE FORMAL AUDIT</button>
 					</div>
 				</div>
 			</div>

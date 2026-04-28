@@ -58,13 +58,13 @@ export const PricingMatrix = () => {
 						<ul className="benefits-list">
 							{tier.benefits.map(benefit => (
 								<li key={benefit}>
-									<Check size={16} className="check-icon" />
+									<Check size={16} className="check-icon" aria-hidden="true" />
 									<span>{benefit}</span>
 								</li>
 							))}
 						</ul>
 
-						<button className={`tier-btn ${tier.featured ? 'primary' : 'outline'}`}>
+						<button type="button" className={`tier-btn ${tier.featured ? 'primary' : 'outline'}`}>
 							{tier.price === 'Custom' ? 'Contact Sales' : 'Select Tier'}
 						</button>
 

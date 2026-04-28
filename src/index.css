@@ -69,15 +69,22 @@ body {
 
 .bento-card-3d:hover {
 	transform: translateY(-10px) rotateX(2deg) rotateY(2deg);
-	box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 	border-color: var(--nepal-red);
 }
 
 .bento-card-3d::before {
-	content: '';
+	content: "";
 	position: absolute;
-	top: 0; left: 0; right: 0; bottom: 0;
-	background: radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(255,255,255,0.2) 0%, transparent 80%);
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: radial-gradient(
+		circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+		rgba(255, 255, 255, 0.2) 0%,
+		transparent 80%
+	);
 	pointer-events: none;
 	opacity: 0;
 	transition: opacity 0.3s;
@@ -89,9 +96,15 @@ body {
 
 /* Subtitle micro-animations */
 @keyframes float {
-	0% { transform: translateY(0px); }
-	50% { transform: translateY(-5px); }
-	100% { transform: translateY(0px); }
+	0% {
+		transform: translateY(0px);
+	}
+	50% {
+		transform: translateY(-5px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
 }
 
 .micro-float {
@@ -100,6 +113,15 @@ body {
 
 /* HD Lightning Effect */
 .hd-lighting {
-	background: radial-gradient(circle at top right, rgba(255, 255, 255, 0.8), transparent 70%),
-	            radial-gradient(circle at bottom left, rgba(196, 30, 58, 0.05), transparent 70%);
+	background:
+		radial-gradient(
+			circle at top right,
+			rgba(255, 255, 255, 0.8),
+			transparent 70%
+		),
+		radial-gradient(
+			circle at bottom left,
+			rgba(196, 30, 58, 0.05),
+			transparent 70%
+		);
 }

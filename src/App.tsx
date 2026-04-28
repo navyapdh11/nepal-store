@@ -6,6 +6,7 @@ import { Header } from "./components/Header";
 import { NudgeBar } from "./components/NudgeBar";
 import { PricingMatrix } from "./components/enterprise/PricingMatrix";
 import { QuotingEngine } from "./components/enterprise/QuotingEngine";
+import { SanitizationLogs, AuditTrails } from "./components/enterprise/EnterpriseViews";
 import { useAuth } from "./lib/auth";
 import { HeroBanner } from "./remotion/compositions/HeroBanner";
 import "./App.css";
@@ -41,9 +42,9 @@ const ProductModal = ({ product, onClose, onAdd }: { product: Product; onClose: 
 	};
 
 	return (
-		<div className="modal-overlay glass-deep" onClick={onClose}>
+		<div className="modal-overlay glass-deep" role="dialog" aria-modal="true" onClick={onClose}>
 			<div className="modal-content bento-card-3d hd-lighting" onClick={e => e.stopPropagation()}>
-				<button className="close-btn" onClick={onClose}>✕</button>
+				<button type="button" className="close-btn" onClick={onClose} aria-label="Close Modal">✕</button>
 				<div className="modal-grid">
 					<div className="modal-image-container">
 						<img src={product.image} alt={product.name} className="modal-image" />
@@ -69,6 +70,7 @@ const ProductModal = ({ product, onClose, onAdd }: { product: Product; onClose: 
 									{product.colors.map(c => (
 										<button 
 											key={c.hex} 
+											type="button"
 											className={`color-swatch ${selectedColor?.hex === c.hex ? 'active' : ''}`}
 											style={{ backgroundColor: c.hex }}
 											onClick={() => setSelectedColor(c)}
@@ -86,6 +88,7 @@ const ProductModal = ({ product, onClose, onAdd }: { product: Product; onClose: 
 									{product.sizes.map(s => (
 										<button 
 											key={s} 
+											type="button"
 											className={`size-btn ${selectedSize === s ? 'active' : ''}`}
 											onClick={() => setSelectedSize(s)}
 										>
@@ -97,10 +100,10 @@ const ProductModal = ({ product, onClose, onAdd }: { product: Product; onClose: 
 						)}
 
 						<div className="modal-actions">
-							<button className={`add-to-cart-btn ${added ? 'added' : ''}`} onClick={handleAdd}>
+							<button type="button" className={`add-to-cart-btn ${added ? 'added' : ''}`} onClick={handleAdd}>
 								{added ? 'ADDED ✓' : 'ADD TO BAG'}
 							</button>
-							<button className="wishlist-btn">♡</button>
+							<button type="button" className="wishlist-btn" aria-label="Add to Wishlist">♡</button>
 						</div>
 					</div>
 				</div>
@@ -131,10 +134,13 @@ const BentoCard = ({ product, index, onClick }: { product: Product; index: numbe
 	return (
 		<div 
 			ref={cardRef}
+			role="button"
+			tabIndex={0}
 			className="bento-item bento-card-3d hd-lighting glass-card" 
 			style={{ gridArea: getSpan(index), animationDelay: `${index * 0.05}s` } as any}
 			onMouseMove={handleMouseMove}
 			onClick={() => onClick(product)}
+			onKeyDown={(e) => e.key === 'Enter' && onClick(product)}
 		>
 			<div className="image-container">
 				<img 
@@ -209,8 +215,17 @@ function App() {
 		if (isEnterpriseView) {
 			return (
 				<div className="enterprise-container">
-					<PricingMatrix />
-					<QuotingEngine />
+					{view === "Corporate Matrix" && <PricingMatrix />}
+					{view === "Industrial Quoting" && <QuotingEngine />}
+					{view === "Sanitization Logs" && <SanitizationLogs />}
+					{view === "Audit Trails" && <AuditTrails />}
+					{/* Fallback for other enterprise labels */}
+					{!["Corporate Matrix", "Industrial Quoting", "Sanitization Logs", "Audit Trails"].includes(view) && (
+						<div style={{ padding: '8rem 2rem', textAlign: 'center' }}>
+							<h2>{view}</h2>
+							<p>Enterprise HD rendering in progress...</p>
+						</div>
+					)}
 				</div>
 			);
 		}
@@ -251,7 +266,7 @@ function App() {
 
 					{displayCount < products.length && (
 						<div className="load-more-container">
-							<button className="load-more-btn glass-card-dark" onClick={() => setDisplayCount(c => c + 12)}>
+							<button type="button" className="load-more-btn glass-card-dark" onClick={() => setDisplayCount(c => c + 12)}>
 								DISCOVER MORE
 							</button>
 						</div>
@@ -274,16 +289,16 @@ function App() {
 					</div>
 					<div className="footer-col">
 						<h4>COLLECTIONS</h4>
-						<span onClick={() => setView("WOMEN")}>Women</span>
-						<span onClick={() => setView("MEN")}>Men</span>
-						<span onClick={() => setView("SPORTS")}>Sports</span>
-						<span onClick={() => setView("TRADITIONAL")}>Traditional</span>
+						<span role="button" tabIndex={0} onClick={() => setView("WOMEN")}>Women</span>
+						<span role="button" tabIndex={0} onClick={() => setView("MEN")}>Men</span>
+						<span role="button" tabIndex={0} onClick={() => setView("SPORTS")}>Sports</span>
+						<span role="button" tabIndex={0} onClick={() => setView("TRADITIONAL")}>Traditional</span>
 					</div>
 					<div className="footer-col">
 						<h4>ENTERPRISE</h4>
-						<span onClick={() => setView("Corporate Matrix")}>Pricing Matrix</span>
-						<span onClick={() => setView("Industrial Quoting")}>Quoting Engine</span>
-						<span onClick={() => setView("Sanitization Logs")}>Sanitization Logs</span>
+						<span role="button" tabIndex={0} onClick={() => setView("Corporate Matrix")}>Pricing Matrix</span>
+						<span role="button" tabIndex={0} onClick={() => setView("Industrial Quoting")}>Quoting Engine</span>
+						<span role="button" tabIndex={0} onClick={() => setView("Sanitization Logs")}>Sanitization Logs</span>
 					</div>
 				</div>
 				<div className="footer-bottom">

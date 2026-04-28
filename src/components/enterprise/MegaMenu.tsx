@@ -33,8 +33,15 @@ export const MegaMenu = ({ onCategoryChange }: { onCategoryChange: (cat: string)
 						key={key} 
 						className="menu-item-wrapper"
 						onMouseEnter={() => setActiveTab(key)}
+						role="none"
 					>
-						<button className={`menu-trigger ${activeTab === key ? 'active' : ''}`}>
+						<button 
+							type="button"
+							className={`menu-trigger ${activeTab === key ? 'active' : ''}`}
+							onFocus={() => setActiveTab(key)}
+							aria-expanded={activeTab === key}
+							aria-haspopup="true"
+						>
 							{data.icon}
 							<span>{key}</span>
 							<ChevronDown size={14} className={activeTab === key ? 'rotate' : ''} />
@@ -48,6 +55,7 @@ export const MegaMenu = ({ onCategoryChange }: { onCategoryChange: (cat: string)
 									exit={{ opacity: 0, y: 10, scale: 0.98 }}
 									transition={{ duration: 0.3, ease: [0.23, 1, 0.32, 1] }}
 									className="mega-dropdown glass-deep"
+									role="menu"
 								>
 									<div className="dropdown-grid">
 										<div className="dropdown-info">
@@ -59,11 +67,13 @@ export const MegaMenu = ({ onCategoryChange }: { onCategoryChange: (cat: string)
 											{data.items.map(item => (
 												<button 
 													key={item} 
+													type="button"
 													onClick={() => {
 														onCategoryChange(item);
 														setActiveTab(null);
 													}}
 													className="dropdown-link"
+													role="menuitem"
 												>
 													{item}
 												</button>

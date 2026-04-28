@@ -1,8 +1,7 @@
+import fs from "node:fs";
+import path from "node:path";
 import express from "express";
-import { z } from "zod";
 import { AuthService } from "./auth.service.js";
-import fs from "fs";
-import path from "path";
 
 const app = express();
 const port = 3001;
@@ -31,13 +30,19 @@ app.post("/api/auth/login", (req, res) => {
 
 let products: any[] = [];
 try {
-	const data = fs.readFileSync(path.join(process.cwd(), "../public/products.json"), "utf-8");
+	const data = fs.readFileSync(
+		path.join(process.cwd(), "../public/products.json"),
+		"utf-8",
+	);
 	products = JSON.parse(data);
-} catch (e) {
+} catch (_e) {
 	try {
-		const data = fs.readFileSync(path.join(process.cwd(), "public/products.json"), "utf-8");
+		const data = fs.readFileSync(
+			path.join(process.cwd(), "public/products.json"),
+			"utf-8",
+		);
 		products = JSON.parse(data);
-	} catch (e2) {
+	} catch (_e2) {
 		console.log("Could not load products.json");
 	}
 }
@@ -48,10 +53,15 @@ app.get("/api/products", (req, res) => {
 	if (category) {
 		filtered = products.filter((p) => p.category === category);
 	}
-	const paginated = filtered.slice(Number(offset), Number(offset) + Number(limit));
+	const paginated = filtered.slice(
+		Number(offset),
+		Number(offset) + Number(limit),
+	);
 	res.json(paginated);
 });
 
 app.listen(port, () => {
-	console.log(`NEPAL STORE API running at http://localhost:${port} with ${products.length} products`);
+	console.log(
+		`NEPAL STORE API running at http://localhost:${port} with ${products.length} products`,
+	);
 });
