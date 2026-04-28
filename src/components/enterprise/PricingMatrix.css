@@ -1,0 +1,150 @@
+.pricing-section {
+	padding: 8rem 2rem;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.pricing-header {
+	text-align: center;
+	margin-bottom: 5rem;
+}
+
+.pricing-header h2 {
+	font-size: 3.5rem;
+	font-weight: 900;
+	letter-spacing: -2px;
+	margin-bottom: 1rem;
+	background: linear-gradient(135deg, #000 30%, #666 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.pricing-header p {
+	font-size: 1.25rem;
+	color: #888;
+}
+
+.pricing-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 2.5rem;
+}
+
+.pricing-card {
+	padding: 4rem 3rem;
+	border-radius: 48px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid rgba(0,0,0,0.03);
+}
+
+.pricing-card.featured {
+	background: rgba(255, 255, 255, 0.95);
+	border: 2px solid var(--nepal-red);
+	transform: scale(1.05);
+	z-index: 2;
+}
+
+.tier-icon {
+	margin-bottom: 2rem;
+}
+
+.pricing-card h3 {
+	font-size: 1.5rem;
+	font-weight: 800;
+	margin-bottom: 1.5rem;
+}
+
+.price-display {
+	margin-bottom: 3rem;
+	display: flex;
+	align-items: baseline;
+}
+
+.currency {
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-right: 4px;
+}
+
+.amount {
+	font-size: 4rem;
+	font-weight: 900;
+	letter-spacing: -2px;
+}
+
+.period {
+	font-size: 1.1rem;
+	color: #888;
+	font-weight: 600;
+}
+
+.benefits-list {
+	list-style: none;
+	margin-bottom: 4rem;
+	flex-grow: 1;
+}
+
+.benefits-list li {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	margin-bottom: 1.25rem;
+	font-weight: 600;
+	color: #444;
+}
+
+.check-icon {
+	color: var(--nepal-red);
+}
+
+.tier-btn {
+	width: 100%;
+	padding: 1.5rem;
+	border-radius: 20px;
+	font-size: 1rem;
+	font-weight: 800;
+	letter-spacing: 0.1em;
+	transition: all 0.3s;
+	border: none;
+}
+
+.tier-btn.primary {
+	background: #000;
+	color: #fff;
+}
+
+.tier-btn.outline {
+	background: rgba(0,0,0,0.05);
+	color: #000;
+}
+
+.tier-btn:hover {
+	transform: scale(1.02);
+	background: var(--nepal-red);
+	color: #fff;
+}
+
+.featured-badge {
+	position: absolute;
+	top: 1.5rem;
+	right: 1.5rem;
+	background: var(--nepal-red);
+	color: white;
+	padding: 6px 12px;
+	border-radius: 100px;
+	font-size: 0.7rem;
+	font-weight: 800;
+	letter-spacing: 0.1em;
+}
+
+@media (max-width: 1024px) {
+	.pricing-grid {
+		grid-template-columns: 1fr;
+		gap: 3rem;
+	}
+	.pricing-card.featured {
+		transform: none;
+	}
+}

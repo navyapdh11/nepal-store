@@ -1,0 +1,124 @@
+.mega-menu-nav {
+	background: rgba(255, 255, 255, 0.4);
+	backdrop-filter: blur(20px) saturate(180%);
+	-webkit-backdrop-filter: blur(20px) saturate(180%);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+}
+
+.menu-container {
+	display: flex;
+	justify-content: center;
+	max-width: 1400px;
+	margin: 0 auto;
+	height: 60px;
+}
+
+.menu-item-wrapper {
+	position: relative;
+	height: 100%;
+}
+
+.menu-trigger {
+	height: 100%;
+	padding: 0 1.5rem;
+	background: none;
+	border: none;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	font-weight: 700;
+	font-size: 0.8rem;
+	letter-spacing: 0.1em;
+	color: #666;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.menu-trigger:hover, .menu-trigger.active {
+	color: #000;
+}
+
+.menu-trigger .rotate {
+	transform: rotate(180deg);
+}
+
+.mega-dropdown {
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 600px;
+	background: rgba(255, 255, 255, 0.85);
+	backdrop-filter: blur(30px);
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-radius: 0 0 32px 32px;
+	box-shadow: 0 30px 60px rgba(0,0,0,0.1);
+	padding: 2.5rem;
+	overflow: hidden;
+}
+
+.dropdown-grid {
+	display: grid;
+	grid-template-columns: 1fr 1.5fr;
+	gap: 3rem;
+}
+
+.dropdown-info h3 {
+	font-size: 1.5rem;
+	font-weight: 900;
+	margin-bottom: 1rem;
+	letter-spacing: -1px;
+}
+
+.dropdown-info p {
+	font-size: 0.9rem;
+	color: #888;
+	line-height: 1.6;
+}
+
+.hd-accent-line {
+	margin-top: 1.5rem;
+	width: 40px;
+	height: 3px;
+	background: var(--nepal-red);
+	border-radius: 100px;
+}
+
+.dropdown-links {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 0.75rem;
+}
+
+.dropdown-link {
+	background: none;
+	border: none;
+	text-align: left;
+	font-size: 0.95rem;
+	font-weight: 600;
+	color: #444;
+	padding: 0.5rem 1rem;
+	border-radius: 12px;
+	transition: all 0.2s;
+	cursor: pointer;
+}
+
+.dropdown-link:hover {
+	background: rgba(0,0,0,0.04);
+	color: #000;
+	padding-left: 1.5rem;
+}
+
+@media (max-width: 768px) {
+	.mega-dropdown {
+		width: 95vw;
+		padding: 1.5rem;
+	}
+	.dropdown-grid {
+		grid-template-columns: 1fr;
+		gap: 1.5rem;
+	}
+}

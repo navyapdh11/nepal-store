@@ -28,3 +28,5 @@ out
 *.mp4
 .vercel
 .env*.local
+
+/generated/prisma

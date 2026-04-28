@@ -3,8 +3,9 @@ import { Suspense, useEffect, useState, useRef, useMemo } from "react";
 import { AuthView } from "./components/AuthView";
 import { Dashboard } from "./components/Dashboard";
 import { Header } from "./components/Header";
-import { Navigation } from "./components/Navigation";
 import { NudgeBar } from "./components/NudgeBar";
+import { PricingMatrix } from "./components/enterprise/PricingMatrix";
+import { QuotingEngine } from "./components/enterprise/QuotingEngine";
 import { useAuth } from "./lib/auth";
 import { HeroBanner } from "./remotion/compositions/HeroBanner";
 import "./App.css";
@@ -155,7 +156,6 @@ const BentoCard = ({ product, index, onClick }: { product: Product; index: numbe
 						{product.colors && product.colors.slice(0, 3).map(c => (
 							<span key={c.hex} className="color-dot" style={{ backgroundColor: c.hex }} />
 						))}
-						{product.colors && product.colors.length > 3 && <span className="color-plus">+</span>}
 					</div>
 				</div>
 			</div>
@@ -164,56 +164,54 @@ const BentoCard = ({ product, index, onClick }: { product: Product; index: numbe
 };
 
 function App() {
-	const [category, setCategory] = useState("WOMEN");
+	const [view, setView] = useState<string>("WOMEN");
 	const [products, setProducts] = useState<Product[]>([]);
 	const [displayCount, setDisplayCount] = useState(12);
 	const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
 	const [cartCount, setCartCount] = useState(0);
 	const { user, login, logout, isAuthenticated } = useAuth();
 
+	const isEnterpriseView = ["Corporate Matrix", "Government Tiers", "Industrial Quoting", "Sanitization Logs", "Audit Trails", "Infrastructure Guard", "High-Throughput Analytics"].includes(view);
+
 	useEffect(() => {
-		if (category !== "ACCOUNT") {
+		const shopCategories = ["WOMEN", "MEN", "SPORTS", "TRADITIONAL", "SEASONAL", "KIDS", "BABY", "ACCESSORIES", "HOME", "SALE"];
+		if (shopCategories.includes(view)) {
 			const fetchProducts = async () => {
-				setProducts([]); // Clear existing for cleaner transition
+				setProducts([]);
 				try {
-					const res = await fetch(`/api/products?category=${category}&limit=100`);
-					if (!res.ok) throw new Error("API Offline");
+					const res = await fetch(`/api/products?category=${view}&limit=100`);
 					const data = await res.json();
-					if (Array.isArray(data)) {
-						setProducts(data);
-					} else {
-						throw new Error("Invalid Format");
-					}
+					if (Array.isArray(data)) setProducts(data);
 				} catch (err) {
-					console.log("API not available, using high-fidelity static fallback...");
-					try {
-						const fallbackRes = await fetch("/products.json");
-						const fallbackData = await fallbackRes.json();
-						if (Array.isArray(fallbackData)) {
-							const filtered = fallbackData.filter(p => p.category === category);
-							setProducts(filtered);
-						}
-					} catch (fallbackErr) {
-						console.error("Critical: Could not load products", fallbackErr);
-						setProducts([]);
+					const fallbackRes = await fetch("/products.json");
+					const fallbackData = await fallbackRes.json();
+					if (Array.isArray(fallbackData)) {
+						setProducts(fallbackData.filter(p => p.category === view));
 					}
 				}
 				setDisplayCount(12);
 			};
 			fetchProducts();
 		}
-	}, [category]);
+	}, [view]);
 
 	const visibleProducts = useMemo(() => products.slice(0, displayCount), [products, displayCount]);
 
-	const loadMore = () => setDisplayCount(prev => prev + 12);
-
 	const renderContent = () => {
-		if (category === "ACCOUNT") {
+		if (view === "ACCOUNT") {
 			return isAuthenticated && user ? (
 				<Dashboard user={user} onLogout={logout} />
 			) : (
 				<AuthView onLoginSuccess={login} />
+			);
+		}
+
+		if (isEnterpriseView) {
+			return (
+				<div className="enterprise-container">
+					<PricingMatrix />
+					<QuotingEngine />
+				</div>
 			);
 		}
 
@@ -228,7 +226,7 @@ function App() {
 							compositionHeight={1080}
 							fps={30}
 							style={{ width: "100%", aspectRatio: "21/9" }}
-							inputProps={{ title: "NEPAL STORE", subtitle: `PREMIUM ${category} 2026` }}
+							inputProps={{ title: "NEPAL STORE", subtitle: `PREMIUM ${view} COLLECTION 2026` }}
 							autoPlay
 							loop
 						/>
@@ -237,8 +235,8 @@ function App() {
 
 				<section className="featured-collections-v2">
 					<div className="section-intro">
-						<h2 className="reveal-text">Explore {category}</h2>
-						<p className="subtitle">50+ Photorealistic artifacts engineered for the modern Nepalese athlete.</p>
+						<h2 className="reveal-text">Explore {view}</h2>
+						<p className="subtitle">Sophisticated artifacts engineered for high-fidelity living.</p>
 					</div>
 					
 					<div className="bento-grid-v2">
@@ -253,50 +251,46 @@ function App() {
 
 					{displayCount < products.length && (
 						<div className="load-more-container">
-							<button className="load-more-btn glass-card-dark" onClick={loadMore}>
+							<button className="load-more-btn glass-card-dark" onClick={() => setDisplayCount(c => c + 12)}>
 								DISCOVER MORE
 							</button>
 						</div>
 					)}
 				</section>
-				
-				{selectedProduct && <ProductModal product={selectedProduct} onClose={() => setSelectedProduct(null)} onAdd={() => setCartCount(c => c + 1)} />}
 			</>
 		);
 	};
 
 	return (
 		<div className="app-v2">
-			<Header cartCount={cartCount} />
-			<div className="sticky-nav-v2 glass">
-				<Navigation onCategoryChange={setCategory} />
-			</div>
-			<NudgeBar category={category} />
+			<Header cartCount={cartCount} onCategoryChange={setView} />
+			<NudgeBar category={view} />
 			<main className="content-area">{renderContent()}</main>
 			<footer className="footer-v2 glass">
 				<div className="footer-grid">
 					<div className="footer-col">
-						<h4>NEPAL STORE</h4>
-						<p>Revolutionizing retail with 2026 Spatial UX and AI Orchestration.</p>
+						<h4>NEPAL STORE ENTERPRISE</h4>
+						<p>Revolutionizing national infrastructure with 2026 Spatial UX.</p>
 					</div>
 					<div className="footer-col">
 						<h4>COLLECTIONS</h4>
-						<span>Women</span>
-						<span>Men</span>
-						<span>Sports</span>
-						<span>Kids</span>
+						<span onClick={() => setView("WOMEN")}>Women</span>
+						<span onClick={() => setView("MEN")}>Men</span>
+						<span onClick={() => setView("SPORTS")}>Sports</span>
+						<span onClick={() => setView("TRADITIONAL")}>Traditional</span>
 					</div>
 					<div className="footer-col">
-						<h4>LEGAL</h4>
-						<span>Privacy</span>
-						<span>Terms</span>
-						<span>Ethics</span>
+						<h4>ENTERPRISE</h4>
+						<span onClick={() => setView("Corporate Matrix")}>Pricing Matrix</span>
+						<span onClick={() => setView("Industrial Quoting")}>Quoting Engine</span>
+						<span onClick={() => setView("Sanitization Logs")}>Sanitization Logs</span>
 					</div>
 				</div>
 				<div className="footer-bottom">
-					<p>&copy; 2026 NEPAL STORE. HIGH FIDELITY PHOTOREALISM ENABLED.</p>
+					<p>&copy; 2026 NEPAL STORE. AUDIT TRAIL ENABLED.</p>
 				</div>
 			</footer>
+			{selectedProduct && <ProductModal product={selectedProduct} onClose={() => setSelectedProduct(null)} onAdd={() => setCartCount(c => c + 1)} />}
 		</div>
 	);
 }
