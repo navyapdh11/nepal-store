@@ -12,11 +12,11 @@
 	align-items: center;
 	padding: var(--space-8);
 	background: var(--glass-bg);
-	backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturation));
-	-webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturation));
+	backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturation)) brightness(var(--glass-brightness));
+	-webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturation)) brightness(var(--glass-brightness));
 	border-radius: var(--radius-3xl);
 	border: 1px solid var(--glass-border);
-	box-shadow: var(--glass-shadow);
+	box-shadow: var(--glass-shadow), var(--glass-inner-glow);
 	margin-bottom: var(--space-10);
 }
 
@@ -53,7 +53,7 @@
 	font-family: 'Space Grotesk', sans-serif;
 	font-size: var(--text-lg);
 	font-weight: 700;
-	letter-spacing: -0.02em;
+	letter-spacing: var(--tracking-tight);
 }
 
 .user-info p {
@@ -95,7 +95,7 @@
 	-webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturation));
 	border-radius: var(--radius-3xl);
 	border: 1px solid var(--glass-border);
-	box-shadow: var(--glass-shadow);
+	box-shadow: var(--glass-shadow), var(--glass-inner-glow);
 	padding: var(--space-8);
 	transition: all var(--duration-slow) var(--ease-out-expo);
 }
@@ -109,7 +109,7 @@
 	font-family: 'Space Grotesk', sans-serif;
 	font-size: var(--text-sm);
 	font-weight: 700;
-	letter-spacing: 0.08em;
+	letter-spacing: var(--tracking-wider);
 	text-transform: uppercase;
 	color: var(--color-text-tertiary);
 	margin-bottom: var(--space-5);
@@ -132,6 +132,7 @@
 	font-family: 'Space Grotesk', sans-serif;
 	font-size: var(--text-3xl);
 	font-weight: 800;
+	letter-spacing: var(--tracking-tight);
 	background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -151,7 +152,7 @@
 	font-family: 'Space Grotesk', sans-serif;
 	font-size: var(--text-xs);
 	font-weight: 800;
-	letter-spacing: 0.1em;
+	letter-spacing: var(--tracking-wider);
 	color: var(--color-text-secondary);
 	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
@@ -218,7 +219,7 @@
 /* AI Assistant */
 .ai-wenwen p {
 	font-size: var(--text-sm);
-	line-height: 1.6;
+	line-height: var(--leading-relaxed);
 	color: var(--color-text-secondary);
 	font-style: italic;
 }

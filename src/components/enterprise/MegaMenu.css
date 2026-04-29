@@ -11,9 +11,9 @@
 	padding: var(--space-3) var(--space-8);
 	max-width: var(--max-width-wide);
 	margin: 0 auto;
-	background: rgba(255, 255, 255, 0.7);
-	backdrop-filter: blur(16px) saturate(180%);
-	-webkit-backdrop-filter: blur(16px) saturate(180%);
+	background: rgba(255, 255, 255, 0.75);
+	backdrop-filter: blur(var(--glass-blur-sm)) saturate(var(--glass-saturation));
+	-webkit-backdrop-filter: blur(var(--glass-blur-sm)) saturate(var(--glass-saturation));
 	border-bottom: 1px solid var(--color-border);
 }
 
@@ -22,7 +22,7 @@
 	font-family: 'Space Grotesk', sans-serif;
 	font-size: var(--text-xs);
 	font-weight: 700;
-	letter-spacing: 0.1em;
+	letter-spacing: var(--tracking-wider);
 	text-transform: uppercase;
 	color: var(--color-text-tertiary);
 	cursor: pointer;
@@ -48,7 +48,9 @@
 	top: 100%;
 	left: 0;
 	right: 0;
-	background: var(--color-surface-elevated);
+	background: var(--glass-bg-ultra);
+	backdrop-filter: blur(var(--glass-blur-deep)) saturate(var(--glass-saturation));
+	-webkit-backdrop-filter: blur(var(--glass-blur-deep)) saturate(var(--glass-saturation));
 	border-bottom: 1px solid var(--color-border);
 	box-shadow: 0 10px 40px rgba(0, 0, 0, 0.06);
 	animation: fadeInDown var(--duration-normal) var(--ease-out-expo) both;
@@ -80,7 +82,7 @@
 	font-family: 'Space Grotesk', sans-serif;
 	font-size: var(--text-xs);
 	font-weight: 800;
-	letter-spacing: 0.12em;
+	letter-spacing: var(--tracking-wider);
 	text-transform: uppercase;
 	color: var(--color-text-tertiary);
 	margin-bottom: var(--space-4);

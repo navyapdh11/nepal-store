@@ -14,7 +14,17 @@
 	left: 0;
 	right: 0;
 	height: 1px;
-	background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+	background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.35), transparent);
+}
+
+.nudge-bar::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 1px;
+	background: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.1), transparent);
 }
 
 .nudge-content {
@@ -35,7 +45,7 @@
 }
 
 .nudge-message {
-	letter-spacing: 0.02em;
+	letter-spacing: var(--tracking-wide);
 }
 
 @media (max-width: 768px) {
