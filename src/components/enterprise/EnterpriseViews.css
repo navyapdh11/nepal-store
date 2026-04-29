@@ -1,181 +1,168 @@
-.enterprise-view {
-	padding: 4rem 2rem;
-	max-width: 1400px;
-	margin: 0 auto;
+/* ——— Enterprise Views ——— */
+.enterprise-views {
+	padding: var(--space-12) 0;
 }
 
-.view-header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin-bottom: 3rem;
-}
-
-.header-info {
-	display: flex;
-	align-items: center;
-	gap: 1.5rem;
-}
-
-.view-icon {
-	color: var(--nepal-red);
-	width: 32px;
-	height: 32px;
-}
-
-.view-header h2 {
-	font-size: 2rem;
+.enterprise-views h2 {
+	font-family: 'Space Grotesk', sans-serif;
+	font-size: var(--text-3xl);
 	font-weight: 800;
-	letter-spacing: -1px;
+	letter-spacing: -0.03em;
+	margin-bottom: var(--space-10);
 }
 
-.view-actions {
-	display: flex;
-	gap: 1rem;
-}
-
-.search-bar {
-	display: flex;
-	align-items: center;
-	gap: 0.75rem;
-	padding: 0.75rem 1.5rem;
-	border-radius: 100px;
-	background: rgba(0,0,0,0.03);
-}
-
-.search-bar input {
-	background: none;
-	border: none;
-	outline: none;
-	font-weight: 600;
-	color: #000;
-}
-
-.action-btn {
-	padding: 0.75rem 1.5rem;
-	border-radius: 100px;
-	border: none;
-	background: #000;
-	color: #fff;
-	font-weight: 800;
-	font-size: 0.8rem;
-	display: flex;
-	align-items: center;
-	gap: 0.5rem;
-	cursor: pointer;
-	transition: all 0.3s;
-}
-
-.action-btn:hover {
-	background: var(--nepal-red);
-	transform: translateY(-2px);
-}
-
+/* ——— Sanitization Logs Table ——— */
 .logs-table-container {
-	padding: 2rem;
-	border-radius: 32px;
+	overflow-x: auto;
+	border-radius: var(--radius-2xl);
+	border: 1px solid var(--color-border);
 }
 
-.enterprise-table {
+.logs-table {
 	width: 100%;
 	border-collapse: collapse;
+	font-size: var(--text-sm);
+}
+
+.logs-table thead {
+	background: var(--color-surface-lowered);
+}
+
+.logs-table th {
+	font-family: 'Space Grotesk', sans-serif;
+	font-size: var(--text-xs);
+	font-weight: 700;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--color-text-tertiary);
+	padding: var(--space-4) var(--space-6);
 	text-align: left;
 }
 
-.enterprise-table th {
-	padding: 1rem;
-	font-size: 0.7rem;
-	font-weight: 800;
-	color: #888;
-	letter-spacing: 0.1em;
-	border-bottom: 1px solid #f0f0f0;
+.logs-table td {
+	padding: var(--space-4) var(--space-6);
+	border-top: 1px solid var(--color-border);
+	color: var(--color-text-secondary);
 }
 
-.enterprise-table td {
-	padding: 1.5rem 1rem;
-	font-weight: 600;
-	font-size: 0.9rem;
-	color: #333;
-	border-bottom: 1px solid #f0f0f0;
+.logs-table tbody tr {
+	transition: background var(--duration-fast) var(--ease-smooth);
 }
 
-.enterprise-table td.bold {
-	font-weight: 800;
-	color: #000;
+.logs-table tbody tr:hover {
+	background: var(--color-surface-lowered);
 }
-
-.tag {
-	padding: 4px 10px;
-	border-radius: 6px;
-	font-size: 0.75rem;
-	font-weight: 800;
-}
-
-.tag.retail { background: rgba(196, 30, 58, 0.1); color: var(--nepal-red); }
-.tag.industrial { background: rgba(0,0,0,0.1); color: #000; }
-.tag.government { background: #000; color: #fff; }
 
 .status-dot {
 	display: inline-block;
 	width: 8px;
 	height: 8px;
 	border-radius: 50%;
-	margin-right: 8px;
+	margin-right: var(--space-2);
 }
 
-.status-dot.completed { background: #4caf50; box-shadow: 0 0 10px rgba(76,175,80,0.5); }
-.status-dot.in_progress { background: #ff9800; animation: pulse 1s infinite; }
-
-@keyframes pulse {
-	0% { opacity: 0.5; }
-	50% { opacity: 1; }
-	100% { opacity: 0.5; }
+.status-dot.completed {
+	background: #22c55e;
 }
 
+.status-dot.in-progress {
+	background: #f59e0b;
+	animation: pulse 2s ease-in-out infinite;
+}
+
+.status-dot.failed {
+	background: #ef4444;
+}
+
+.tag {
+	display: inline-block;
+	padding: var(--space-1) var(--space-3);
+	border-radius: var(--radius-full);
+	font-size: var(--text-xs);
+	font-weight: 600;
+}
+
+.tag-high {
+	background: rgba(239, 68, 68, 0.1);
+	color: #ef4444;
+}
+
+.tag-medium {
+	background: rgba(245, 158, 11, 0.1);
+	color: #f59e0b;
+}
+
+.tag-low {
+	background: rgba(34, 197, 94, 0.1);
+	color: #22c55e;
+}
+
+/* ——— Audit Trails ——— */
 .audit-list {
-	display: grid;
-	gap: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-5);
 }
 
 .audit-card {
-	display: flex;
-	padding: 2rem;
-	border-radius: 24px;
-	position: relative;
+	background: var(--glass-bg);
+	backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturation));
+	-webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturation));
+	border-radius: var(--radius-2xl);
+	border: 1px solid var(--glass-border);
+	box-shadow: var(--glass-shadow);
+	padding: var(--space-6);
+	transition: all var(--duration-normal) var(--ease-out-expo);
 }
 
-.audit-marker {
-	width: 4px;
-	background: var(--nepal-red);
-	border-radius: 10px;
-	margin-right: 2rem;
-}
-
-.audit-content {
-	flex-grow: 1;
+.audit-card:hover {
+	transform: translateX(4px);
+	box-shadow: var(--glass-shadow-lg);
 }
 
 .audit-header {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 0.5rem;
+	align-items: center;
+	margin-bottom: var(--space-3);
 }
 
-.audit-id { font-weight: 800; color: #888; font-size: 0.75rem; }
-.audit-time { font-weight: 600; color: #aaa; font-size: 0.75rem; }
-
-.audit-content h4 {
-	font-size: 1.1rem;
-	font-weight: 800;
-	margin-bottom: 1rem;
-	letter-spacing: -0.5px;
+.audit-header h4 {
+	font-family: 'Space Grotesk', sans-serif;
+	font-size: var(--text-base);
+	font-weight: 700;
 }
 
-.audit-footer {
+.audit-header time {
+	font-family: 'JetBrains Mono', monospace;
+	font-size: var(--text-xs);
+	color: var(--color-text-tertiary);
+}
+
+.audit-card p {
+	font-size: var(--text-sm);
+	color: var(--color-text-secondary);
+	line-height: 1.6;
+}
+
+.audit-user {
 	display: flex;
-	gap: 2rem;
-	font-size: 0.85rem;
-	color: #666;
+	align-items: center;
+	gap: var(--space-3);
+	margin-top: var(--space-4);
+	font-size: var(--text-xs);
+	color: var(--color-text-tertiary);
 }
 
-.audit-footer strong { color: #000; }
+.audit-avatar {
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-size: 0.6rem;
+	font-weight: 800;
+}

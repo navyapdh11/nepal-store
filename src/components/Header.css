@@ -1,30 +1,48 @@
+/* ——— Header ——— */
 .main-header {
-	background: #fff;
-	padding: 0;
-	border-bottom: 1px solid #f0f0f0;
+	background: rgba(255, 255, 255, 0.85);
+	backdrop-filter: blur(20px) saturate(180%);
+	-webkit-backdrop-filter: blur(20px) saturate(180%);
+	border-bottom: 1px solid var(--color-border);
+	position: sticky;
+	top: 0;
+	z-index: 100;
+	transition: box-shadow var(--duration-normal) var(--ease-smooth);
+}
+
+.main-header.scrolled {
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
 }
 
 .header-top {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 1.25rem 2rem;
-	max-width: 1600px;
+	padding: var(--space-4) var(--space-8);
+	max-width: var(--max-width-wide);
 	margin: 0 auto;
 }
 
+@media (max-width: 768px) {
+	.header-top {
+		padding: var(--space-3) var(--space-4);
+	}
+}
+
 .uniqlo-logo-box {
-	background-color: var(--uniqlo-red);
+	background-color: var(--color-primary);
 	color: white;
 	display: flex;
 	flex-direction: column;
-	padding: 6px 8px;
+	padding: 6px 10px;
 	font-weight: 900;
-	font-size: 0.9rem;
+	font-size: 0.85rem;
 	line-height: 0.9;
-	letter-spacing: -1px;
+	letter-spacing: -0.02em;
 	width: fit-content;
-	transition: transform 0.3s;
+	border-radius: var(--radius-sm);
+	transition: transform var(--duration-normal) var(--ease-spring);
+	box-shadow: 0 2px 8px rgba(196, 30, 58, 0.2);
 }
 
 .uniqlo-logo-box:hover {
@@ -33,7 +51,8 @@
 
 .header-actions {
 	display: flex;
-	gap: 2rem;
+	gap: var(--space-6);
+	align-items: center;
 }
 
 .icon-btn {
@@ -42,15 +61,18 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	color: #000;
-	transition: all 0.3s;
+	color: var(--color-text-primary);
+	transition: all var(--duration-normal) var(--ease-out-expo);
 	position: relative;
 	cursor: pointer;
+	padding: var(--space-2);
+	border-radius: var(--radius-full);
 }
 
 .icon-btn:hover {
-	color: var(--nepal-red);
-	transform: scale(1.1);
+	color: var(--color-primary);
+	background: rgba(196, 30, 58, 0.06);
+	transform: scale(1.08);
 }
 
 .cart-icon-wrapper {
@@ -60,17 +82,19 @@
 
 .cart-badge {
 	position: absolute;
-	top: -8px;
-	right: -10px;
-	background: var(--nepal-red);
+	top: -6px;
+	right: -8px;
+	background: var(--color-primary);
 	color: white;
-	font-size: 0.65rem;
+	font-size: 0.6rem;
 	font-weight: 800;
-	width: 18px;
+	min-width: 18px;
 	height: 18px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border-radius: 50%;
+	border-radius: var(--radius-full);
 	border: 2px solid white;
+	box-shadow: 0 2px 6px rgba(196, 30, 58, 0.3);
+	animation: scaleIn var(--duration-slow) var(--ease-spring) both;
 }

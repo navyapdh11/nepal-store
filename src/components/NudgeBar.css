@@ -1,37 +1,48 @@
+/* ——— Nudge Bar ——— */
 .nudge-bar {
-	margin: 1.5rem 1.5rem 0;
-	border-radius: 20px;
+	background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 50%, var(--color-accent) 100%);
+	padding: var(--space-3) var(--space-8);
 	overflow: hidden;
-	background: linear-gradient(90deg, #c41e3a, #ff0000);
-	color: white;
-	box-shadow: 0 10px 30px rgba(196, 30, 58, 0.15);
+	animation: fadeInDown var(--duration-slow) var(--ease-out-expo) both;
+	position: relative;
+}
+
+.nudge-bar::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 1px;
+	background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
 }
 
 .nudge-content {
-	padding: 1.25rem 2rem;
 	display: flex;
 	align-items: center;
-	gap: 1rem;
-	animation: slideIn 0.8s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-@keyframes slideIn {
-	from {
-		transform: translateX(-20px);
-		opacity: 0;
-	}
-	to {
-		transform: translateX(0);
-		opacity: 1;
-	}
+	justify-content: center;
+	gap: var(--space-3);
+	max-width: var(--max-width);
+	margin: 0 auto;
+	color: white;
+	font-size: var(--text-sm);
+	font-weight: 500;
 }
 
 .nudge-icon {
-	font-size: 1.25rem;
+	font-size: var(--text-base);
+	animation: float 3s ease-in-out infinite;
 }
 
 .nudge-message {
-	font-size: 0.9rem;
-	font-weight: 600;
 	letter-spacing: 0.02em;
+}
+
+@media (max-width: 768px) {
+	.nudge-bar {
+		padding: var(--space-2) var(--space-4);
+	}
+	.nudge-content {
+		font-size: var(--text-xs);
+	}
 }

@@ -1,115 +1,176 @@
+/* ============================================================
+   NEPAL STORE 2026 — Layout, Components & Page Styles
+   ============================================================ */
+
+/* ——— App Shell ——— */
 .app-v2 {
 	min-height: 100vh;
-	background: #ffffff;
-	color: #000;
+	background: var(--color-surface);
+	background-image:
+		radial-gradient(ellipse at 20% 0%, rgba(196, 30, 58, 0.03) 0%, transparent 50%),
+		radial-gradient(ellipse at 80% 100%, rgba(255, 107, 53, 0.02) 0%, transparent 50%);
+	color: var(--color-text-primary);
 	overflow-x: hidden;
 }
 
-/* Deeper Glassmorphism 2026 */
-.glass {
-	background: rgba(255, 255, 255, 0.4);
-	backdrop-filter: blur(20px) saturate(180%);
-	-webkit-backdrop-filter: blur(20px) saturate(180%);
-	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+.content-area {
+	min-height: calc(100vh - var(--header-height) - 200px);
 }
 
-.glass-card {
-	background: rgba(255, 255, 255, 0.6);
-	backdrop-filter: blur(15px) brightness(102%);
-	-webkit-backdrop-filter: blur(15px) brightness(102%);
-	border: 1px solid rgba(255, 255, 255, 0.5);
-	border-radius: 40px;
-	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.02);
-	transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.glass-card-dark {
-	background: rgba(0, 0, 0, 0.8);
-	backdrop-filter: blur(20px);
-	color: white;
-	border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
+/* ——— Hero Section ——— */
 .main-hero {
-	margin: 2rem;
-	border-radius: 48px;
+	margin: var(--space-8);
+	border-radius: var(--radius-4xl);
 	overflow: hidden;
 	height: 60vh;
-	background: #000;
-	box-shadow: 0 40px 100px rgba(0, 0, 0, 0.1);
+	min-height: 400px;
+	max-height: 700px;
+	background: var(--color-text-primary);
+	box-shadow: var(--glass-shadow-lg);
+	animation: fadeInUp var(--duration-slowest) var(--ease-out-expo) both;
 }
 
-.section-intro h2 {
-	font-size: 4rem;
-	font-weight: 900;
-	letter-spacing: -3px;
-	background: linear-gradient(135deg, #000 30%, #444 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+@media (max-width: 768px) {
+	.main-hero {
+		margin: var(--space-4);
+		height: 40vh;
+		min-height: 250px;
+		border-radius: var(--radius-2xl);
+	}
 }
 
-.bento-grid-v2 {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-auto-rows: 320px;
-	gap: 2rem;
-	padding: 0 2rem;
-	max-width: 1800px;
+/* ——— Section Headers ——— */
+.section-intro {
+	text-align: center;
+	padding: var(--space-24) var(--space-8) var(--space-16);
+	max-width: 800px;
 	margin: 0 auto;
 }
 
+.section-intro h2 {
+	font-family: 'Space Grotesk', 'Inter', sans-serif;
+	font-size: var(--text-4xl);
+	font-weight: 800;
+	letter-spacing: -0.04em;
+	line-height: 1.05;
+	color: var(--color-text-primary);
+	margin-bottom: var(--space-4);
+}
+
+.section-intro .subtitle {
+	font-size: var(--text-lg);
+	color: var(--color-text-secondary);
+	font-weight: 400;
+	line-height: 1.5;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+/* ——— Bento Grid V2 ——— */
+.bento-grid-v2 {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-auto-rows: 380px;
+	gap: var(--space-6);
+	padding: 0 var(--space-8);
+	max-width: var(--max-width-wide);
+	margin: 0 auto var(--space-24);
+}
+
+@media (max-width: 1400px) {
+	.bento-grid-v2 {
+		grid-template-columns: repeat(3, 1fr);
+		grid-auto-rows: 360px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.bento-grid-v2 {
+		grid-template-columns: repeat(2, 1fr);
+		grid-auto-rows: 340px;
+		gap: var(--space-4);
+	}
+}
+
+@media (max-width: 640px) {
+	.bento-grid-v2 {
+		grid-template-columns: 1fr;
+		grid-auto-rows: 320px;
+		padding: 0 var(--space-4);
+	}
+}
+
+/* ——— Bento Item (Product Card) ——— */
 .bento-item {
 	cursor: pointer;
 	position: relative;
 	overflow: hidden;
-	animation: revealUp 1s cubic-bezier(0.16, 1, 0.3, 1) both;
+	border-radius: var(--radius-3xl);
+	animation: fadeInUp var(--duration-slowest) var(--ease-out-expo) both;
+	transition: transform var(--duration-slow) var(--ease-out-expo),
+							box-shadow var(--duration-slow) var(--ease-out-expo);
+	will-change: transform;
 }
 
-@keyframes revealUp {
-	from {
-		transform: translateY(40px);
-		opacity: 0;
-	}
-	to {
-		transform: translateY(0);
-		opacity: 1;
-	}
+.bento-item:hover {
+	transform: translateY(-8px);
+	box-shadow: 0 30px 60px rgba(0, 0, 0, 0.08),
+							0 10px 20px rgba(0, 0, 0, 0.04);
 }
 
 .image-container {
 	width: 100%;
 	height: 100%;
-	background: #f8f8f8;
-	border-radius: 32px;
+	background: var(--color-surface-lowered);
+	border-radius: var(--radius-3xl);
+	overflow: hidden;
 	position: relative;
+}
+
+.image-container::after {
+	content: '';
+	position: absolute;
+	inset: 0;
+	background: linear-gradient(
+		180deg,
+		transparent 50%,
+		rgba(0, 0, 0, 0.04) 100%
+	);
+	pointer-events: none;
 }
 
 .product-image-hd {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	transform: scale(1.02);
-	transition: transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+	transform: scale(1);
+	transition: transform var(--duration-slowest) var(--ease-out-expo),
+							filter var(--duration-slow) var(--ease-smooth);
+	will-change: transform;
 }
 
 .bento-item:hover .product-image-hd {
-	transform: scale(1.1);
+	transform: scale(1.08);
+	filter: brightness(1.02) contrast(1.02);
 }
 
+/* ——— Product Info Glass (floating panel) ——— */
 .product-info-glass {
 	position: absolute;
-	bottom: 1.5rem;
-	left: 1.5rem;
-	right: 1.5rem;
-	padding: 1.5rem;
-	background: rgba(255, 255, 255, 0.3);
-	backdrop-filter: blur(25px) brightness(110%);
-	-webkit-backdrop-filter: blur(25px) brightness(110%);
-	border-radius: 28px;
-	border: 1px solid rgba(255, 255, 255, 0.4);
-	transform: translateY(15px);
+	bottom: var(--space-4);
+	left: var(--space-4);
+	right: var(--space-4);
+	padding: var(--space-5);
+	background: rgba(255, 255, 255, 0.7);
+	backdrop-filter: blur(var(--glass-blur)) saturate(200%) brightness(105%);
+	-webkit-backdrop-filter: blur(var(--glass-blur)) saturate(200%) brightness(105%);
+	border-radius: var(--radius-2xl);
+	border: 1px solid rgba(255, 255, 255, 0.6);
+	transform: translateY(12px);
 	opacity: 0;
-	transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+	transition: all var(--duration-slow) var(--ease-out-expo);
+	z-index: 4;
+	box-shadow: 0 8px 32px rgba(0, 0, 0, 0.06);
 }
 
 .bento-item:hover .product-info-glass {
@@ -117,106 +178,506 @@
 	opacity: 1;
 }
 
-/* HD Highlights */
-.hd-lighting::after {
-	content: "";
+.product-info-glass h3 {
+	font-family: 'Space Grotesk', 'Inter', sans-serif;
+	font-size: var(--text-base);
+	font-weight: 700;
+	letter-spacing: -0.02em;
+	color: var(--color-text-primary);
+	margin-bottom: var(--space-2);
+	line-height: 1.3;
+}
+
+.info-bottom {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: var(--space-3);
+}
+
+.price {
+	font-family: 'Space Grotesk', 'Inter', sans-serif;
+	font-size: var(--text-lg);
+	font-weight: 800;
+	color: var(--color-primary);
+	letter-spacing: -0.02em;
+}
+
+.colors-preview {
+	display: flex;
+	gap: var(--space-1);
+}
+
+.color-dot {
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	border: 2px solid rgba(255, 255, 255, 0.8);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+	transition: transform var(--duration-fast) var(--ease-spring);
+}
+
+.color-dot:hover {
+	transform: scale(1.3);
+}
+
+/* ——— NEW Badge ——— */
+.badge-new-small {
 	position: absolute;
-	inset: 0;
-	background: radial-gradient(
-		circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
-		rgba(255, 255, 255, 0.4) 0%,
-		transparent 60%
-	);
-	opacity: 0;
-	transition: opacity 0.4s;
-	pointer-events: none;
+	top: var(--space-4);
+	left: var(--space-4);
+	background: var(--color-primary);
+	color: white;
+	font-family: 'Space Grotesk', sans-serif;
+	font-size: var(--text-xs);
+	font-weight: 800;
+	letter-spacing: 0.08em;
+	padding: var(--space-1) var(--space-3);
+	border-radius: var(--radius-full);
+	z-index: 4;
+	animation: scaleIn var(--duration-slow) var(--ease-spring) both;
+	box-shadow: 0 4px 12px rgba(196, 30, 58, 0.3);
 }
 
-.bento-item:hover::after {
-	opacity: 1;
-}
-
-/* Skeletons to prevent blank cards */
+/* ——— Skeleton Cards ——— */
 .bento-skeleton {
-	background: linear-gradient(90deg, #f4f4f4 25%, #ededed 50%, #f4f4f4 75%);
-	background-size: 200% 100%;
-	border-radius: 40px;
+	border-radius: var(--radius-3xl);
+	overflow: hidden;
 }
 
 .pulse-anim {
-	animation: skeletonPulse 1.5s ease-in-out infinite;
+	animation: pulse 2s ease-in-out infinite;
 }
 
-@keyframes skeletonPulse {
-	0% {
-		opacity: 0.6;
-	}
-	50% {
-		opacity: 1;
-	}
-	100% {
-		opacity: 0.6;
-	}
+/* ——— Load More Button ——— */
+.load-more-container {
+	display: flex;
+	justify-content: center;
+	padding: var(--space-8) 0 var(--space-24);
 }
 
-.enterprise-container {
-	padding: 2rem 0;
-	background: radial-gradient(circle at top right, rgba(196, 30, 58, 0.03), transparent 70%);
+.load-more-btn {
+	padding: var(--space-4) var(--space-12);
+	font-family: 'Space Grotesk', sans-serif;
+	font-size: var(--text-sm);
+	font-weight: 700;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	color: var(--color-text-primary);
+	border-radius: var(--radius-full);
+	transition: all var(--duration-normal) var(--ease-out-expo);
+	position: relative;
+	overflow: hidden;
 }
 
-/* Modal v2 */
-.glass-deep {
-	background: rgba(0, 0, 0, 0.6);
-	backdrop-filter: blur(40px);
+.load-more-btn::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+	background: linear-gradient(
+		135deg,
+		rgba(255, 255, 255, 0.1) 0%,
+		transparent 50%
+	);
+	opacity: 0;
+	transition: opacity var(--duration-normal) var(--ease-smooth);
+}
+
+.load-more-btn:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.load-more-btn:hover::before {
+	opacity: 1;
+}
+
+.load-more-btn:active {
+	transform: translateY(0) scale(0.98);
+}
+
+/* ——— Product Modal ——— */
+.modal-overlay {
+	position: fixed;
+	inset: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1000;
+	padding: var(--space-8);
+	background: rgba(0, 0, 0, 0.5);
+	backdrop-filter: blur(var(--glass-blur-ultra)) saturate(180%);
+	-webkit-backdrop-filter: blur(var(--glass-blur-ultra)) saturate(180%);
+	animation: fadeInUp var(--duration-slow) var(--ease-out-expo) both;
 }
 
 .modal-content {
+	width: 100%;
 	max-width: 1100px;
-	border: 1px solid rgba(255, 255, 255, 0.2);
+	max-height: 90vh;
+	overflow-y: auto;
+	background: var(--color-surface-elevated);
+	border-radius: var(--radius-4xl);
+	box-shadow: 0 40px 100px rgba(0, 0, 0, 0.2),
+							0 10px 40px rgba(0, 0, 0, 0.1);
+	animation: modalIn var(--duration-slow) var(--ease-out-expo) both;
+	position: relative;
+}
+
+.close-btn {
+	position: absolute;
+	top: var(--space-6);
+	right: var(--space-6);
+	width: 44px;
+	height: 44px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: var(--color-surface);
+	border-radius: 50%;
+	font-size: var(--text-lg);
+	color: var(--color-text-primary);
+	z-index: 10;
+	transition: all var(--duration-fast) var(--ease-spring);
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.close-btn:hover {
+	background: var(--color-primary);
+	color: white;
+	transform: scale(1.1) rotate(90deg);
+}
+
+.modal-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 0;
+}
+
+@media (max-width: 768px) {
+	.modal-grid {
+		grid-template-columns: 1fr;
+	}
+	.modal-overlay {
+		padding: var(--space-4);
+	}
+	.modal-content {
+		border-radius: var(--radius-2xl);
+	}
+}
+
+.modal-image-container {
+	position: relative;
+	overflow: hidden;
+	border-radius: var(--radius-4xl) 0 0 var(--radius-4xl);
+	background: var(--color-surface-lowered);
+}
+
+@media (max-width: 768px) {
+	.modal-image-container {
+		border-radius: var(--radius-2xl) var(--radius-2xl) 0 0;
+		height: 300px;
+	}
+}
+
+.modal-image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.badge-new {
+	position: absolute;
+	top: var(--space-6);
+	left: var(--space-6);
+	background: var(--color-primary);
+	color: white;
+	font-family: 'Space Grotesk', sans-serif;
+	font-size: var(--text-xs);
+	font-weight: 800;
+	letter-spacing: 0.1em;
+	padding: var(--space-2) var(--space-4);
+	border-radius: var(--radius-full);
+	z-index: 10;
+	box-shadow: 0 4px 12px rgba(196, 30, 58, 0.3);
+}
+
+.modal-details {
+	padding: var(--space-10);
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-6);
+}
+
+.modal-header h2 {
+	font-family: 'Space Grotesk', sans-serif;
+	font-size: var(--text-2xl);
+	font-weight: 800;
+	letter-spacing: -0.03em;
+	line-height: 1.1;
+	color: var(--color-text-primary);
+}
+
+.modal-price {
+	font-family: 'Space Grotesk', sans-serif;
+	font-size: var(--text-xl);
+	font-weight: 700;
+	color: var(--color-primary);
+	margin-top: var(--space-2);
+}
+
+.modal-rating {
+	display: flex;
+	align-items: center;
+	gap: var(--space-3);
+	padding: var(--space-3) var(--space-4);
+	background: var(--color-surface-lowered);
+	border-radius: var(--radius-full);
+	width: fit-content;
+}
+
+.modal-rating .stars {
+	font-size: var(--text-sm);
+	font-weight: 700;
+	color: var(--color-text-primary);
+}
+
+.modal-rating .reviews {
+	font-size: var(--text-xs);
+	color: var(--color-text-tertiary);
+}
+
+.modal-description {
+	font-size: var(--text-base);
+	line-height: 1.7;
+	color: var(--color-text-secondary);
+}
+
+.selector-group {
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-3);
+}
+
+.selector-group h4 {
+	font-family: 'Space Grotesk', sans-serif;
+	font-size: var(--text-xs);
+	font-weight: 700;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	color: var(--color-text-tertiary);
+}
+
+.selected-value {
+	color: var(--color-text-primary);
+	letter-spacing: 0;
+	text-transform: none;
+}
+
+.color-swatches {
+	display: flex;
+	gap: var(--space-2);
+}
+
+.color-swatch {
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	border: 3px solid transparent;
+	cursor: pointer;
+	transition: all var(--duration-fast) var(--ease-spring);
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.color-swatch:hover {
+	transform: scale(1.15);
+}
+
+.color-swatch.active {
+	border-color: var(--color-text-primary);
+	transform: scale(1.1);
+}
+
+.size-buttons {
+	display: flex;
+	gap: var(--space-2);
+}
+
+.size-btn {
+	padding: var(--space-2) var(--space-4);
+	min-width: 52px;
+	text-align: center;
+	font-size: var(--text-sm);
+	font-weight: 600;
+	border: 2px solid var(--color-border-strong);
+	border-radius: var(--radius-md);
+	transition: all var(--duration-fast) var(--ease-spring);
+	color: var(--color-text-primary);
+}
+
+.size-btn:hover {
+	border-color: var(--color-text-primary);
+}
+
+.size-btn.active {
+	background: var(--color-text-primary);
+	color: white;
+	border-color: var(--color-text-primary);
+}
+
+.modal-actions {
+	display: flex;
+	gap: var(--space-3);
+	margin-top: var(--space-4);
 }
 
 .add-to-cart-btn {
-	background: #000;
-	height: 70px;
-	border-radius: 20px;
-	font-size: 1.1rem;
+	flex: 1;
+	background: var(--color-text-primary);
+	color: white;
+	height: 56px;
+	border-radius: var(--radius-xl);
+	font-size: var(--text-sm);
+	font-weight: 800;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	transition: all var(--duration-normal) var(--ease-out-expo);
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .add-to-cart-btn:hover {
-	background: var(--nepal-red);
+	background: var(--color-primary);
+	transform: translateY(-2px);
+	box-shadow: 0 8px 24px rgba(196, 30, 58, 0.3);
+}
+
+.add-to-cart-btn:active {
+	transform: translateY(0) scale(0.98);
 }
 
 .add-to-cart-btn.added {
-	background: #4caf50 !important;
+	background: #22c55e !important;
 	transform: scale(0.98);
 }
 
-/* Responsive */
-@media (max-width: 1400px) {
-	.bento-grid-v2 {
-		grid-template-columns: repeat(3, 1fr);
-	}
+.wishlist-btn {
+	width: 56px;
+	height: 56px;
+	background: var(--color-surface-lowered);
+	border-radius: var(--radius-xl);
+	font-size: var(--text-xl);
+	color: var(--color-text-secondary);
+	transition: all var(--duration-normal) var(--ease-out-expo);
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-@media (max-width: 900px) {
-	.bento-grid-v2 {
-		grid-template-columns: repeat(2, 1fr);
-	}
-	.main-hero {
-		height: 40vh;
-		margin: 1rem;
-	}
-	.section-intro h2 {
-		font-size: 3rem;
-	}
+.wishlist-btn:hover {
+	color: var(--color-primary);
+	background: rgba(196, 30, 58, 0.1);
+	transform: scale(1.05);
 }
 
-@media (max-width: 600px) {
-	.bento-grid-v2 {
+/* ——— Enterprise Views ——— */
+.enterprise-container {
+	padding: var(--space-12) var(--space-8);
+	max-width: var(--max-width);
+	margin: 0 auto;
+	background:
+		radial-gradient(ellipse at 80% 0%, rgba(196, 30, 58, 0.03) 0%, transparent 60%),
+		radial-gradient(ellipse at 20% 100%, rgba(255, 107, 53, 0.02) 0%, transparent 60%);
+	min-height: 70vh;
+}
+
+/* ——— Footer V2 ——— */
+.footer-v2 {
+	margin-top: var(--space-16);
+	padding: var(--space-20) var(--space-8) var(--space-10);
+	border-top: 1px solid var(--color-border);
+	background: var(--color-surface-elevated);
+}
+
+.footer-grid {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	gap: var(--space-16);
+	max-width: var(--max-width);
+	margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+	.footer-grid {
 		grid-template-columns: 1fr;
-		grid-auto-rows: 280px;
+		gap: var(--space-10);
 	}
-	.section-intro h2 {
-		font-size: 2.2rem;
+}
+
+.footer-col h4 {
+	font-family: 'Space Grotesk', sans-serif;
+	font-size: var(--text-xs);
+	font-weight: 800;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	color: var(--color-text-tertiary);
+	margin-bottom: var(--space-5);
+}
+
+.footer-col p {
+	font-size: var(--text-sm);
+	color: var(--color-text-secondary);
+	line-height: 1.6;
+}
+
+.footer-col span {
+	display: block;
+	font-size: var(--text-sm);
+	color: var(--color-text-primary);
+	padding: var(--space-1) 0;
+	cursor: pointer;
+	transition: color var(--duration-fast) var(--ease-smooth);
+}
+
+.footer-col span:hover {
+	color: var(--color-primary);
+}
+
+.footer-bottom {
+	max-width: var(--max-width);
+	margin: var(--space-16) auto 0;
+	padding-top: var(--space-8);
+	border-top: 1px solid var(--color-border);
+	text-align: center;
+}
+
+.footer-bottom p {
+	font-family: 'JetBrains Mono', monospace;
+	font-size: var(--text-xs);
+	color: var(--color-text-tertiary);
+	letter-spacing: 0.05em;
+}
+
+/* ——— Hero Skeleton ——— */
+.hero-skeleton {
+	width: 100%;
+	height: 100%;
+	background: var(--color-surface-lowered);
+	animation: pulse 2s ease-in-out infinite;
+}
+
+.hero-section {
+	animation: fadeInDown var(--duration-slowest) var(--ease-out-expo) both;
+}
+
+/* ——— Reduced Motion ——— */
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
 	}
 }

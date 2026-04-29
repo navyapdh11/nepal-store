@@ -1,108 +1,119 @@
+/* ——— Auth View ——— */
 .auth-container {
-	padding: 4rem 1rem;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	min-height: 80vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: var(--space-8);
+	animation: fadeInUp var(--duration-slowest) var(--ease-out-expo) both;
 }
 
 .auth-card {
-	background: rgba(255, 255, 255, 0.7);
-	backdrop-filter: blur(25px);
-	-webkit-backdrop-filter: blur(25px);
-	border: 1px solid rgba(255, 255, 255, 0.5);
-	padding: 3rem;
 	width: 100%;
-	max-width: 480px;
-	border-radius: 40px;
-	box-shadow: 0 30px 60px rgba(0, 0, 0, 0.05);
-	animation: slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+	max-width: 440px;
+	padding: var(--space-12);
+	background: var(--glass-bg);
+	backdrop-filter: blur(var(--glass-blur-deep)) saturate(var(--glass-saturation));
+	-webkit-backdrop-filter: blur(var(--glass-blur-deep)) saturate(var(--glass-saturation));
+	border-radius: var(--radius-4xl);
+	border: 1px solid var(--glass-border);
+	box-shadow: var(--glass-shadow-lg);
 }
 
 .auth-card h2 {
-	font-size: 2rem;
-	margin-bottom: 2rem;
-	text-align: center;
+	font-family: 'Space Grotesk', sans-serif;
+	font-size: var(--text-2xl);
 	font-weight: 800;
-	letter-spacing: -1px;
-}
-
-.error-message {
-	color: #fff;
-	background: var(--nepal-red);
-	padding: 10px;
-	border-radius: 12px;
-	font-size: 0.85rem;
-	margin-bottom: 1.5rem;
+	letter-spacing: -0.03em;
 	text-align: center;
-	font-weight: 600;
+	margin-bottom: var(--space-8);
 }
 
 .input-group {
-	margin-bottom: 1.5rem;
+	margin-bottom: var(--space-5);
 }
 
 .input-group label {
 	display: block;
-	font-size: 0.75rem;
-	font-weight: 800;
-	margin-bottom: 0.5rem;
-	color: #333;
-	letter-spacing: 0.05em;
+	font-size: var(--text-xs);
+	font-weight: 700;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--color-text-tertiary);
+	margin-bottom: var(--space-2);
 }
 
 .input-group input {
 	width: 100%;
-	padding: 1rem;
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	background: rgba(255, 255, 255, 0.9);
-	border-radius: 16px;
-	font-size: 1rem;
-	transition: all 0.3s;
+	padding: var(--space-4);
+	border: 2px solid var(--color-border-strong);
+	border-radius: var(--radius-xl);
+	font-size: var(--text-base);
+	font-family: inherit;
+	transition: all var(--duration-fast) var(--ease-smooth);
+	background: rgba(255, 255, 255, 0.5);
 }
 
 .input-group input:focus {
 	outline: none;
-	border-color: #000;
-	box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.05);
+	border-color: var(--color-primary);
+	box-shadow: 0 0 0 4px rgba(196, 30, 58, 0.1);
+}
+
+.input-group input::placeholder {
+	color: var(--color-text-tertiary);
 }
 
 .submit-btn {
 	width: 100%;
-	padding: 1.25rem;
-	background: #000;
+	padding: var(--space-4);
+	background: var(--color-text-primary);
 	color: white;
-	border: none;
-	border-radius: 16px;
+	border-radius: var(--radius-xl);
+	font-size: var(--text-sm);
 	font-weight: 800;
-	cursor: pointer;
-	margin-top: 1rem;
-	font-size: 1rem;
-	letter-spacing: 0.1em;
-	transition:
-		transform 0.3s,
-		background 0.3s;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	margin-top: var(--space-6);
+	transition: all var(--duration-normal) var(--ease-out-expo);
 }
 
 .submit-btn:hover {
-	background: var(--nepal-red);
+	background: var(--color-primary);
 	transform: translateY(-2px);
+	box-shadow: 0 8px 24px rgba(196, 30, 58, 0.3);
+}
+
+.submit-btn:active {
+	transform: translateY(0) scale(0.98);
 }
 
 .toggle-auth {
-	margin-top: 2rem;
 	text-align: center;
-	font-size: 0.9rem;
-	color: #666;
+	margin-top: var(--space-6);
+	font-size: var(--text-sm);
+	color: var(--color-text-tertiary);
 }
 
 .toggle-auth button {
-	background: none;
-	border: none;
-	color: #000;
-	text-decoration: none;
-	cursor: pointer;
-	font-weight: 800;
-	margin-left: 0.5rem;
-	border-bottom: 2px solid #000;
+	color: var(--color-primary);
+	font-weight: 700;
+	transition: color var(--duration-fast) var(--ease-smooth);
+}
+
+.toggle-auth button:hover {
+	color: var(--color-primary-dark);
+	text-decoration: underline;
+}
+
+.error-message {
+	padding: var(--space-3) var(--space-4);
+	background: rgba(196, 30, 58, 0.08);
+	border: 1px solid rgba(196, 30, 58, 0.2);
+	border-radius: var(--radius-xl);
+	color: var(--color-primary);
+	font-size: var(--text-sm);
+	text-align: center;
+	margin-bottom: var(--space-5);
+	animation: scaleIn var(--duration-slow) var(--ease-spring) both;
 }

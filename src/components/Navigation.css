@@ -1,46 +1,73 @@
+/* ——— Category Navigation ——— */
 .gender-nav {
 	display: flex;
 	justify-content: center;
-	max-width: 1600px;
+	gap: var(--space-1);
+	padding: var(--space-2) var(--space-8);
+	max-width: var(--max-width-wide);
 	margin: 0 auto;
+	background: rgba(255, 255, 255, 0.5);
+	backdrop-filter: blur(12px);
+	-webkit-backdrop-filter: blur(12px);
+	border-bottom: 1px solid var(--color-border);
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+	scrollbar-width: none;
+}
+
+.gender-nav::-webkit-scrollbar {
+	display: none;
+}
+
+@media (max-width: 768px) {
+	.gender-nav {
+		padding: var(--space-2) var(--space-4);
+		gap: 0;
+	}
 }
 
 .nav-tab {
-	padding: 1.5rem 2.5rem;
+	padding: var(--space-3) var(--space-5);
 	border: none;
 	background: none;
-	font-weight: 800;
-	font-size: 0.8rem;
-	color: #999;
+	font-family: 'Space Grotesk', 'Inter', sans-serif;
+	font-weight: 700;
+	font-size: var(--text-xs);
+	color: var(--color-text-tertiary);
 	cursor: pointer;
 	position: relative;
 	text-transform: uppercase;
-	letter-spacing: 0.15em;
-	transition: all 0.3s;
+	letter-spacing: 0.1em;
+	transition: all var(--duration-normal) var(--ease-smooth);
+	white-space: nowrap;
+	border-radius: var(--radius-full);
 }
 
 .nav-tab:hover {
-	color: #000;
+	color: var(--color-text-primary);
+	background: rgba(0, 0, 0, 0.03);
 }
 
 .nav-tab.active {
-	color: #000;
+	color: var(--color-text-primary);
+	background: rgba(0, 0, 0, 0.05);
 }
 
 .nav-tab.active::after {
-	content: "";
+	content: '';
 	position: absolute;
-	bottom: 0;
-	left: 20%;
-	right: 20%;
-	height: 3px;
-	background: #000;
-	border-radius: 100px;
+	bottom: 2px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 4px;
+	height: 4px;
+	background: var(--color-primary);
+	border-radius: 50%;
 }
 
 @media (max-width: 768px) {
 	.nav-tab {
-		padding: 1rem 1rem;
-		font-size: 0.7rem;
+		padding: var(--space-2) var(--space-3);
+		font-size: 0.65rem;
 	}
 }
