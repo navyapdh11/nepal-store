@@ -1,0 +1,45 @@
+services:
+  # Vite React Frontend - Static Site
+  - type: web
+    name: nepal-store
+    runtime: static
+    plan: free
+    buildCommand: npm ci && npm run build
+    staticPublishPath: ./dist
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: VITE_API_URL
+        fromService:
+          name: nepal-store-api
+          type: web
+          property: host
+          envVar: VITE_API_URL
+
+  # Express API Backend
+  - type: web
+    name: nepal-store-api
+    runtime: node
+    plan: free
+    buildCommand: npm ci && npx prisma generate && npx prisma db push && npm run build:api
+    startCommand: npm run start:api
+    healthCheckPath: /api/products
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL
+        fromDatabase:
+          name: nepal-store-db
+          property: connectionString
+      - key: JWT_SECRET
+        sync: false
+      - key: PORT
+        value: 10000
+
+databases:
+  - name: nepal-store-db
+    databaseName: nepal_store
+    plan: free
+    postgresqlMajor: "16"

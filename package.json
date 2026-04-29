@@ -10,7 +10,9 @@
 		"preview": "vite preview",
 		"remotion:preview": "remotion preview src/remotion/index.tsx",
 		"remotion:render": "remotion render src/remotion/index.tsx HeroBanner out.mp4",
-		"postinstall": "prisma generate"
+		"postinstall": "prisma generate",
+		"start:api": "node dist-server/index.js",
+		"build:api": "tsc --project tsconfig.server.json"
 	},
 	"dependencies": {
 		"@prisma/client": "5.10.2",
@@ -41,6 +43,7 @@
 		"eslint-plugin-react-refresh": "^0.4.5",
 		"prisma": "5.10.2",
 		"typescript": "^5.3.3",
+		"ts-node": "^10.9.2",
 		"vite": "^5.0.12",
 		"vitest": "^4.1.5",
 		"@vercel/node": "^3.0.24"
