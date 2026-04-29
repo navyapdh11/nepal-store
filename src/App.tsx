@@ -7,6 +7,10 @@ import { NudgeBar } from "./components/NudgeBar";
 import { PricingMatrix } from "./components/enterprise/PricingMatrix";
 import { QuotingEngine } from "./components/enterprise/QuotingEngine";
 import { SanitizationLogs, AuditTrails } from "./components/enterprise/EnterpriseViews";
+import { CartDrawer } from "./components/CartDrawer";
+import { SearchOverlay } from "./components/SearchOverlay";
+import { About } from "./components/About";
+import { Contact } from "./components/Contact";
 import { useAuth } from "./lib/auth";
 import { HeroBanner } from "./remotion/compositions/HeroBanner";
 import "./App.css";
@@ -30,15 +34,21 @@ interface Product {
 	reviews: number;
 }
 
+interface CartItem extends Product {
+	size: string;
+	color: Color;
+	quantity: number;
+}
+
 /* ——— Product Modal ——— */
-const ProductModal = ({ product, onClose, onAdd }: { product: Product; onClose: () => void; onAdd: () => void }) => {
+const ProductModal = ({ product, onClose, onAdd }: { product: Product; onClose: () => void; onAdd: (p: Product) => void }) => {
 	const [selectedSize, setSelectedSize] = useState(product.sizes[0] ?? "M");
 	const [selectedColor, setSelectedColor] = useState(product.colors[0] ?? { name: "", hex: "#000" });
 	const [added, setAdded] = useState(false);
 
 	const handleAdd = () => {
 		setAdded(true);
-		onAdd();
+		onAdd({ ...product, size: selectedSize, color: selectedColor, quantity: 1 } as unknown as Product);
 		setTimeout(() => setAdded(false), 2000);
 	};
 
@@ -181,37 +191,56 @@ const BentoCard = ({ product, index, onClick }: { product: Product; index: numbe
 };
 
 /* ——— Main App ——— */
+const SHOP_CATEGORIES = ["WOMEN", "MEN", "SPORTS", "TRADITIONAL", "SEASONAL", "KIDS", "BABY", "ACCESSORIES", "HOME", "SALE"];
+const STATIC_PAGES = ["ABOUT", "CONTACT"];
+
 function App() {
-	const [view, setView] = useState<string>("WOMEN");
+	const [page, setPage] = useState<string>("WOMEN");
 	const [products, setProducts] = useState<Product[]>([]);
 	const [displayCount, setDisplayCount] = useState(12);
 	const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
-	const [cartCount, setCartCount] = useState(0);
+	const [cartItems, setCartItems] = useState<CartItem[]>([]);
+	const [cartOpen, setCartOpen] = useState(false);
+	const [searchOpen, setSearchOpen] = useState(false);
 	const [loading, setLoading] = useState(false);
 	const { user, login, logout, isAuthenticated } = useAuth();
 
 	const isEnterpriseView = useMemo(
-		() => ["Corporate Matrix", "Government Tiers", "Industrial Quoting", "Sanitization Logs", "Audit Trails", "Infrastructure Guard", "High-Throughput Analytics"].includes(view),
-		[view]
+		() => ["Corporate Matrix", "Government Tiers", "Industrial Quoting", "Sanitization Logs", "Audit Trails", "Infrastructure Guard", "High-Throughput Analytics"].includes(page),
+		[page]
 	);
 
+	const isStaticPage = STATIC_PAGES.includes(page);
+	const isAccount = page === "ACCOUNT";
+
 	useEffect(() => {
-		const shopCategories = ["WOMEN", "MEN", "SPORTS", "TRADITIONAL", "SEASONAL", "KIDS", "BABY", "ACCESSORIES", "HOME", "SALE"];
-		if (shopCategories.includes(view)) {
+		if (SHOP_CATEGORIES.includes(page)) {
 			let cancelled = false;
 			const fetchProducts = async () => {
 				setLoading(true);
 				setProducts([]);
 				try {
-					const res = await fetch(`/api/products?category=${view}&limit=100`);
-					const data = await res.json();
-					if (!cancelled && Array.isArray(data)) setProducts(data);
+					if (page === "TRADITIONAL") {
+						const res = await fetch("/traditional.json");
+						const data = await res.json();
+						if (!cancelled && Array.isArray(data)) setProducts(data);
+					} else {
+						const res = await fetch(`/api/products?category=${page}&limit=100`);
+						const data = await res.json();
+						if (!cancelled && Array.isArray(data)) setProducts(data);
+					}
 				} catch {
 					try {
-						const fallbackRes = await fetch("/products.json");
-						const fallbackData = await fallbackRes.json();
-						if (!cancelled && Array.isArray(fallbackData)) {
-							setProducts(fallbackData.filter((p: Product) => p.category === view));
+						if (page === "TRADITIONAL") {
+							const res = await fetch("/traditional.json");
+							const data = await res.json();
+							if (!cancelled && Array.isArray(data)) setProducts(data);
+						} else {
+							const fallbackRes = await fetch("/products.json");
+							const fallbackData = await fallbackRes.json();
+							if (!cancelled && Array.isArray(fallbackData)) {
+								setProducts(fallbackData.filter((p: Product) => p.category === page));
+							}
 						}
 					} catch {
 						if (!cancelled) setProducts([]);
@@ -223,12 +252,46 @@ function App() {
 			fetchProducts();
 			return () => { cancelled = true; };
 		}
-	}, [view]);
+	}, [page]);
 
 	const visibleProducts = useMemo(() => products.slice(0, displayCount), [products, displayCount]);
+	const cartCount = useMemo(() => cartItems.reduce((sum, item) => sum + item.quantity, 0), [cartItems]);
+
+	const handleAddToCart = useCallback((product: unknown) => {
+		const p = product as CartItem;
+		setCartItems(prev => {
+			const existing = prev.find(item => item.id === p.id && item.size === p.size && item.color.name === p.color.name);
+			if (existing) {
+				return prev.map(item =>
+					item.id === p.id && item.size === p.size && item.color.name === p.color.name
+						? { ...item, quantity: item.quantity + 1 }
+						: item
+				);
+			}
+			return [...prev, p];
+		});
+		setCartOpen(true);
+	}, []);
+
+	const handleRemoveFromCart = useCallback((id: string) => {
+		setCartItems(prev => prev.filter(item => item.id !== id));
+	}, []);
+
+	const handleQuantityChange = useCallback((id: string, qty: number) => {
+		setCartItems(prev => prev.map(item => item.id === id ? { ...item, quantity: qty } : item));
+	}, []);
+
+	const handleSearchSelect = useCallback((product: unknown) => {
+		setSelectedProduct(product as Product);
+	}, []);
 
 	const renderContent = () => {
-		if (view === "ACCOUNT") {
+		if (isStaticPage) {
+			if (page === "ABOUT") return <About />;
+			if (page === "CONTACT") return <Contact />;
+		}
+
+		if (isAccount) {
 			return isAuthenticated && user ? (
 				<Dashboard user={user} onLogout={logout} />
 			) : (
@@ -239,19 +302,37 @@ function App() {
 		if (isEnterpriseView) {
 			return (
 				<div className="enterprise-container">
-					{view === "Corporate Matrix" && <PricingMatrix />}
-					{view === "Industrial Quoting" && <QuotingEngine />}
-					{view === "Sanitization Logs" && <SanitizationLogs />}
-					{view === "Audit Trails" && <AuditTrails />}
-					{!["Corporate Matrix", "Industrial Quoting", "Sanitization Logs", "Audit Trails"].includes(view) && (
+					{page === "Corporate Matrix" && <PricingMatrix />}
+					{page === "Industrial Quoting" && <QuotingEngine />}
+					{page === "Sanitization Logs" && <SanitizationLogs />}
+					{page === "Audit Trails" && <AuditTrails />}
+					{!["Corporate Matrix", "Industrial Quoting", "Sanitization Logs", "Audit Trails"].includes(page) && (
 						<div style={{ padding: "8rem 2rem", textAlign: "center" }}>
-							<h2 className="font-display" style={{ fontSize: "var(--text-3xl)" }}>{view}</h2>
+							<h2 className="font-display" style={{ fontSize: "var(--text-3xl)" }}>{page}</h2>
 							<p style={{ color: "var(--color-text-secondary)", marginTop: "1rem" }}>Enterprise HD rendering in progress...</p>
 						</div>
 					)}
 				</div>
 			);
 		}
+
+		const heroTitles: Record<string, string> = {
+			WOMEN: "Women's Collection",
+			MEN: "Men's Collection",
+			SPORTS: "Active & Sports",
+			TRADITIONAL: "Traditional Heritage",
+			SEASONAL: "Seasonal Picks",
+			KIDS: "Kids & Youth",
+			BABY: "Baby Essentials",
+			ACCESSORIES: "Accessories",
+			HOME: "Home & Living",
+			SALE: "Sale — Up to 50% Off",
+		};
+
+		const heroSubtitles: Record<string, string> = {
+			TRADITIONAL: "Handcrafted garments celebrating centuries of Nepali textile artistry.",
+			SALE: "Limited-time offers on premium collections. While stocks last.",
+		};
 
 		return (
 			<>
@@ -264,7 +345,7 @@ function App() {
 							compositionHeight={1080}
 							fps={30}
 							style={{ width: "100%", aspectRatio: "21/9" }}
-							inputProps={{ title: "NEPAL STORE", subtitle: `Premium ${view} Collection 2026` }}
+							inputProps={{ title: "NEPAL STORE", subtitle: heroTitles[page] || `${page} Collection 2026` }}
 							autoPlay
 							loop
 						/>
@@ -273,8 +354,8 @@ function App() {
 
 				<section className="featured-collections-v2">
 					<div className="section-intro">
-						<h2 className="font-display reveal-text">Explore {view}</h2>
-						<p className="subtitle">Sophisticated artifacts engineered for high-fidelity living.</p>
+						<h2 className="font-display reveal-text">{heroTitles[page] || page}</h2>
+						<p className="subtitle">{heroSubtitles[page] || "Sophisticated artifacts engineered for high-fidelity living."}</p>
 					</div>
 
 					<div className="bento-grid-v2">
@@ -309,42 +390,67 @@ function App() {
 
 	return (
 		<div className="app-v2">
-			<Header cartCount={cartCount} onCategoryChange={setView} />
-			<NudgeBar category={view} />
+			<Header
+				cartCount={cartCount}
+				onCategoryChange={setPage}
+				onCartClick={() => setCartOpen(true)}
+				onSearchClick={() => setSearchOpen(true)}
+			/>
+			<NudgeBar category={page} />
 			<main className="content-area">{renderContent()}</main>
 			<footer className="footer-v2">
 				<div className="footer-grid">
 					<div className="footer-col">
-						<h4>Nepal Store Enterprise</h4>
-						<p>Revolutionizing national commerce with spatial UX and 2026-grade design systems.</p>
+						<h4>Nepal Store</h4>
+						<p>Premium e-commerce for the Nepalese market. Enterprise-grade spatial UX with 2026 design systems.</p>
 					</div>
 					<div className="footer-col">
 						<h4>Collections</h4>
-						<span role="button" tabIndex={0} onClick={() => setView("WOMEN")}>Women</span>
-						<span role="button" tabIndex={0} onClick={() => setView("MEN")}>Men</span>
-						<span role="button" tabIndex={0} onClick={() => setView("SPORTS")}>Sports</span>
-						<span role="button" tabIndex={0} onClick={() => setView("TRADITIONAL")}>Traditional</span>
-						<span role="button" tabIndex={0} onClick={() => setView("SEASONAL")}>Seasonal</span>
+						<span role="button" tabIndex={0} onClick={() => setPage("WOMEN")}>Women</span>
+						<span role="button" tabIndex={0} onClick={() => setPage("MEN")}>Men</span>
+						<span role="button" tabIndex={0} onClick={() => setPage("TRADITIONAL")}>Traditional</span>
+						<span role="button" tabIndex={0} onClick={() => setPage("SPORTS")}>Sports</span>
+						<span role="button" tabIndex={0} onClick={() => setPage("SALE")}>Sale</span>
+					</div>
+					<div className="footer-col">
+						<h4>Company</h4>
+						<span role="button" tabIndex={0} onClick={() => setPage("ABOUT")}>About Us</span>
+						<span role="button" tabIndex={0} onClick={() => setPage("CONTACT")}>Contact</span>
+						<span role="button" tabIndex={0} onClick={() => setPage("ACCOUNT")}>My Account</span>
 					</div>
 					<div className="footer-col">
 						<h4>Enterprise</h4>
-						<span role="button" tabIndex={0} onClick={() => setView("Corporate Matrix")}>Pricing Matrix</span>
-						<span role="button" tabIndex={0} onClick={() => setView("Industrial Quoting")}>Quoting Engine</span>
-						<span role="button" tabIndex={0} onClick={() => setView("Sanitization Logs")}>Sanitization Logs</span>
-						<span role="button" tabIndex={0} onClick={() => setView("Audit Trails")}>Audit Trails</span>
+						<span role="button" tabIndex={0} onClick={() => setPage("Corporate Matrix")}>Pricing Matrix</span>
+						<span role="button" tabIndex={0} onClick={() => setPage("Industrial Quoting")}>Quoting Engine</span>
+						<span role="button" tabIndex={0} onClick={() => setPage("Sanitization Logs")}>Sanitization Logs</span>
 					</div>
 				</div>
 				<div className="footer-bottom">
 					<p>© 2026 Nepal Store. All rights reserved.</p>
 				</div>
 			</footer>
+
 			{selectedProduct && (
 				<ProductModal
 					product={selectedProduct}
 					onClose={() => setSelectedProduct(null)}
-					onAdd={() => setCartCount(c => c + 1)}
+					onAdd={handleAddToCart}
 				/>
 			)}
+
+			<CartDrawer
+				items={cartItems}
+				isOpen={cartOpen}
+				onClose={() => setCartOpen(false)}
+				onRemove={handleRemoveFromCart}
+				onQuantityChange={handleQuantityChange}
+			/>
+
+			<SearchOverlay
+				isOpen={searchOpen}
+				onClose={() => setSearchOpen(false)}
+				onProductSelect={handleSearchSelect}
+			/>
 		</div>
 	);
 }

@@ -29,6 +29,13 @@
 	}
 }
 
+.logo-btn {
+	background: none;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+}
+
 .uniqlo-logo-box {
 	background-color: var(--color-primary);
 	color: white;
@@ -97,4 +104,17 @@
 	border: 2px solid white;
 	box-shadow: 0 2px 6px rgba(196, 30, 58, 0.3);
 	animation: scaleIn var(--duration-slow) var(--ease-spring) both;
+}
+
+.account-btn {
+	display: flex;
+}
+
+@media (max-width: 768px) {
+	.search-btn svg,
+	.cart-btn svg,
+	.account-btn svg {
+		width: 20px;
+		height: 20px;
+	}
 }
