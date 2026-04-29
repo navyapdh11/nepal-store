@@ -3,7 +3,6 @@ services:
   - type: web
     name: nepal-store
     runtime: static
-    plan: free
     buildCommand: npm ci && npm run build
     staticPublishPath: ./dist
     envVars:
@@ -42,4 +41,4 @@ databases:
   - name: nepal-store-db
     databaseName: nepal_store
     plan: free
-    postgresqlMajor: "16"
+    ipAllowList: []
