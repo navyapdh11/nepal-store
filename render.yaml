@@ -42,4 +42,4 @@ databases:
   - name: nepal-store-db
     databaseName: nepal_store
     plan: free
-    postgresqlMajor: "16"
+    majorVersion: "16"
