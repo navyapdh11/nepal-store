@@ -1,5 +1,5 @@
 import { useCallback } from "react";
-import "./Cart.css";
+import "./CartDrawer.css";
 
 interface CartItem {
 	id: string;
