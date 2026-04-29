@@ -602,16 +602,22 @@
 
 .footer-grid {
 	display: grid;
-	grid-template-columns: 2fr 1fr 1fr;
-	gap: var(--space-16);
+	grid-template-columns: 2fr 1fr 1fr 1fr;
+	gap: var(--space-12);
 	max-width: var(--max-width);
 	margin: 0 auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+	.footer-grid {
+		grid-template-columns: 1fr 1fr;
+		gap: var(--space-10);
+	}
+}
+
+@media (max-width: 640px) {
 	.footer-grid {
 		grid-template-columns: 1fr;
-		gap: var(--space-10);
 	}
 }
 
