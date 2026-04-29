@@ -2,7 +2,7 @@ services:
   - type: web
     name: nepal-store
     runtime: static
-    buildCommand: npm ci && npm run build
+    buildCommand: npm install && npm run build
     staticPublishPath: ./dist
     envVars:
       - key: NODE_VERSION
@@ -17,7 +17,7 @@ services:
   - type: web
     name: nepal-store-api
     runtime: node
-    buildCommand: npm ci && npx prisma generate && npx prisma db push && npm run build:api
+    buildCommand: npm install && npx prisma generate && npx prisma db push && npm run build:api
     startCommand: npm run start:api
     healthCheckPath: /api/products
     envVars:
