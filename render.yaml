@@ -1,9 +1,7 @@
 services:
-  # Vite React Frontend - Static Site
   - type: web
     name: nepal-store
     runtime: static
-    plan: free
     buildCommand: npm ci && npm run build
     staticPublishPath: ./dist
     envVars:
@@ -16,11 +14,9 @@ services:
           property: host
           envVar: VITE_API_URL
 
-  # Express API Backend
   - type: web
     name: nepal-store-api
     runtime: node
-    plan: free
     buildCommand: npm ci && npx prisma generate && npx prisma db push && npm run build:api
     startCommand: npm run start:api
     healthCheckPath: /api/products
@@ -41,5 +37,4 @@ services:
 databases:
   - name: nepal-store-db
     databaseName: nepal_store
-    plan: free
-    majorVersion: "16"
+    ipAllowList: []
