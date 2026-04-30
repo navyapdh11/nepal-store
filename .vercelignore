@@ -1,0 +1,33 @@
+# Server-side code (not needed for static frontend)
+server/
+api/
+
+# Prisma
+prisma/
+*.db
+*.db-journal
+
+# Development
+node_modules/
+.env
+.env.*
+.vscode/
+.idea/
+*.log
+dist-server/
+
+# Build artifacts
+dist/
+
+# Remotion
+out/
+*.mp4
+
+# Misc
+.npmrc
+generate_catalog.cjs
+generate_traditional_products.cjs
+preinstall.sh
+tsconfig.server.json
+esbuild-*.tgz
+sbom.json
