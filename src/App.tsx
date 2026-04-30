@@ -449,33 +449,34 @@ function App() {
 			<main className="content-area">{renderContent()}</main>
 			<footer className="footer-v2">
 				<div className="footer-grid">
-					<div className="footer-col">
+					<div className="footer-col footer-col--brand">
 						<h4>Nepal Store</h4>
-						<p>Premium e-commerce for the Nepalese market. Enterprise-grade spatial UX with 2026 design systems.</p>
+						<p>Authentic Nepalese fashion — handcrafted cashmere, Dhaka textiles, and modern wear from Kathmandu artisans.</p>
 					</div>
 					<div className="footer-col">
 						<h4>Collections</h4>
-						<a href="#women" onClick={e => { e.preventDefault(); setPage("WOMEN"); }}>Women</a>
-						<a href="#men" onClick={e => { e.preventDefault(); setPage("MEN"); }}>Men</a>
-						<a href="#traditional" onClick={e => { e.preventDefault(); setPage("TRADITIONAL"); }}>Traditional</a>
-						<a href="#sports" onClick={e => { e.preventDefault(); setPage("SPORTS"); }}>Sports</a>
-						<a href="#sale" onClick={e => { e.preventDefault(); setPage("SALE"); }}>Sale</a>
+						<a href="#women" onClick={e => { e.preventDefault(); setPage("WOMEN"); window.scrollTo({ top: 0, behavior: "smooth" }); }}>Women</a>
+						<a href="#men" onClick={e => { e.preventDefault(); setPage("MEN"); window.scrollTo({ top: 0, behavior: "smooth" }); }}>Men</a>
+						<a href="#traditional" onClick={e => { e.preventDefault(); setPage("TRADITIONAL"); window.scrollTo({ top: 0, behavior: "smooth" }); }}>Traditional</a>
+						<a href="#sports" onClick={e => { e.preventDefault(); setPage("SPORTS"); window.scrollTo({ top: 0, behavior: "smooth" }); }}>Sports</a>
+						<a href="#sale" onClick={e => { e.preventDefault(); setPage("SALE"); window.scrollTo({ top: 0, behavior: "smooth" }); }}>Sale</a>
 					</div>
 					<div className="footer-col">
 						<h4>Company</h4>
-						<a href="#about" onClick={e => { e.preventDefault(); setPage("ABOUT"); }}>About Us</a>
-						<a href="#contact" onClick={e => { e.preventDefault(); setPage("CONTACT"); }}>Contact</a>
-						<a href="#account" onClick={e => { e.preventDefault(); setPage("ACCOUNT"); }}>My Account</a>
+						<a href="#about" onClick={e => { e.preventDefault(); setPage("ABOUT"); window.scrollTo({ top: 0, behavior: "smooth" }); }}>About Us</a>
+						<a href="#contact" onClick={e => { e.preventDefault(); setPage("CONTACT"); window.scrollTo({ top: 0, behavior: "smooth" }); }}>Contact</a>
+						<a href="#account" onClick={e => { e.preventDefault(); setPage("ACCOUNT"); window.scrollTo({ top: 0, behavior: "smooth" }); }}>My Account</a>
 					</div>
 					<div className="footer-col">
 						<h4>Enterprise</h4>
-						<a href="#pricing" onClick={e => { e.preventDefault(); setPage("Corporate Matrix"); }}>Pricing Matrix</a>
-						<a href="#quoting" onClick={e => { e.preventDefault(); setPage("Industrial Quoting"); }}>Quoting Engine</a>
-						<a href="#logs" onClick={e => { e.preventDefault(); setPage("Sanitization Logs"); }}>Sanitization Logs</a>
+						<a href="#pricing" onClick={e => { e.preventDefault(); setPage("Corporate Matrix"); window.scrollTo({ top: 0, behavior: "smooth" }); }}>Pricing Matrix</a>
+						<a href="#quoting" onClick={e => { e.preventDefault(); setPage("Industrial Quoting"); window.scrollTo({ top: 0, behavior: "smooth" }); }}>Quoting Engine</a>
+						<a href="#logs" onClick={e => { e.preventDefault(); setPage("Sanitization Logs"); window.scrollTo({ top: 0, behavior: "smooth" }); }}>Sanitization Logs</a>
 					</div>
 				</div>
 				<div className="footer-bottom">
 					<p>© 2026 Nepal Store. All rights reserved.</p>
+					<p>Handcrafted in Kathmandu 🇳🇵</p>
 				</div>
 			</footer>
 

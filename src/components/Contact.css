@@ -51,7 +51,7 @@
 .contact-form-card h2 {
 	font-family: 'Space Grotesk', sans-serif;
 	font-size: var(--text-2xl);
-	font-weight: 800;
+	font-weight: 700;
 	letter-spacing: var(--tracking-tight);
 	margin-bottom: var(--space-8);
 }
@@ -136,7 +136,7 @@
 
 .contact-success h2 {
 	font-size: var(--text-2xl);
-	font-weight: 800;
+	font-weight: 700;
 	letter-spacing: var(--tracking-tight);
 	margin-bottom: var(--space-3);
 }
@@ -165,7 +165,7 @@
 .info-card h3 {
 	font-family: 'Space Grotesk', sans-serif;
 	font-size: var(--text-sm);
-	font-weight: 800;
+	font-weight: 600;
 	letter-spacing: var(--tracking-wide);
 	margin-bottom: var(--space-3);
 }

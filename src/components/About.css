@@ -61,7 +61,7 @@
 .about-card h3 {
 	font-family: 'Space Grotesk', sans-serif;
 	font-size: var(--text-xl);
-	font-weight: 800;
+	font-weight: 600;
 	letter-spacing: var(--tracking-tight);
 	margin-bottom: var(--space-4);
 }
@@ -136,7 +136,7 @@
 
 .about-team h2 {
 	font-size: var(--text-3xl);
-	font-weight: 800;
+	font-weight: 700;
 	letter-spacing: var(--tracking-tight);
 	text-align: center;
 	margin-bottom: var(--space-12);
@@ -173,7 +173,7 @@
 .value-content h3 {
 	font-family: 'Space Grotesk', sans-serif;
 	font-size: var(--text-xl);
-	font-weight: 800;
+	font-weight: 600;
 	letter-spacing: var(--tracking-tight);
 	margin-bottom: var(--space-3);
 }
