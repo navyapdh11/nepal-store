@@ -27,6 +27,10 @@ dist-ssr
 .env
 .env*.local
 
+# Prisma
+prisma/dev.db
+prisma/dev.db-journal
+
 # Remotion
 out
 *.mp4
