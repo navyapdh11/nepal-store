@@ -42,7 +42,9 @@ export const SearchOverlay = ({ isOpen, onClose, onProductSelect }: SearchOverla
 					const tradRes = await fetch("/traditional.json");
 					const tradData = await tradRes.json();
 					if (Array.isArray(tradData)) allProducts.push(...tradData);
-				} catch {}
+				} catch {
+					// Traditional products may not exist
+				}
 				allProductsRef.current = allProducts;
 			} catch {
 				allProductsRef.current = [];

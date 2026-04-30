@@ -1,7 +1,7 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
 import jwt from "jsonwebtoken";
 
-const SECRET_KEY = "nepal-store-secret-2026";
+const SECRET_KEY = process.env.JWT_SECRET || "fallback-change-me";
 
 export default function handler(req: VercelRequest, res: VercelResponse) {
 	if (req.method !== "POST") {

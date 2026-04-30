@@ -1,5 +1,6 @@
 import { Player } from "@remotion/player";
 import { Suspense, useEffect, useState, useRef, useMemo, useCallback } from "react";
+import { Helmet } from "react-helmet-async";
 import { AuthView } from "./components/AuthView";
 import { Dashboard } from "./components/Dashboard";
 import { Header } from "./components/Header";
@@ -45,6 +46,40 @@ const ProductModal = ({ product, onClose, onAdd }: { product: Product; onClose: 
 	const [selectedSize, setSelectedSize] = useState(product.sizes[0] ?? "M");
 	const [selectedColor, setSelectedColor] = useState(product.colors[0] ?? { name: "", hex: "#000" });
 	const [added, setAdded] = useState(false);
+	const modalRef = useRef<HTMLDivElement>(null);
+
+	// Escape key handler
+	useEffect(() => {
+		const handleEscape = (e: KeyboardEvent) => {
+			if (e.key === "Escape") onClose();
+		};
+		document.addEventListener("keydown", handleEscape);
+		return () => document.removeEventListener("keydown", handleEscape);
+	}, [onClose]);
+
+	// Focus trap
+	useEffect(() => {
+		const handleTab = (e: KeyboardEvent) => {
+			if (e.key !== "Tab" || !modalRef.current) return;
+			const focusable = modalRef.current.querySelectorAll<HTMLElement>(
+				'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
+			);
+			const first = focusable[0];
+			const last = focusable[focusable.length - 1];
+			if (e.shiftKey && document.activeElement === first) {
+				e.preventDefault();
+				last?.focus();
+			} else if (!e.shiftKey && document.activeElement === last) {
+				e.preventDefault();
+				first?.focus();
+			}
+		};
+		document.addEventListener("keydown", handleTab);
+		// Auto-focus the close button
+		const closeBtn = modalRef.current?.querySelector(".close-btn") as HTMLElement;
+		closeBtn?.focus();
+		return () => document.removeEventListener("keydown", handleTab);
+	}, []);
 
 	const handleAdd = () => {
 		setAdded(true);
@@ -53,8 +88,8 @@ const ProductModal = ({ product, onClose, onAdd }: { product: Product; onClose: 
 	};
 
 	return (
-		<div className="modal-overlay" role="dialog" aria-modal="true" onClick={onClose}>
-			<div className="modal-content" onClick={e => e.stopPropagation()}>
+		<div className="modal-overlay" role="dialog" aria-modal="true" aria-label={`${product.name} — Product Details`} onClick={onClose}>
+			<div className="modal-content" ref={modalRef} onClick={e => e.stopPropagation()}>
 				<button type="button" className="close-btn" onClick={onClose} aria-label="Close Modal">✕</button>
 				<div className="modal-grid">
 					<div className="modal-image-container">
@@ -361,19 +396,19 @@ function App() {
 					<div className="bento-grid-v2">
 						{loading
 							? Array.from({ length: 8 }).map((_, i) => (
-									<div key={i} className="bento-skeleton skeleton pulse-anim" />
-							  ))
+								<div key={i} className="bento-skeleton skeleton pulse-anim" />
+							))
 							: visibleProducts.length > 0
-							? visibleProducts.map((product, i) => (
+								? visibleProducts.map((product, i) => (
 									<BentoCard key={product.id} product={product} index={i} onClick={setSelectedProduct} />
-							  ))
-							: !loading && (
+								))
+								: !loading && (
 									<div style={{ gridColumn: "1 / -1", textAlign: "center", padding: "4rem 0" }}>
 										<p style={{ fontSize: "var(--text-xl)", color: "var(--color-text-tertiary)" }}>
 											No products found for this category.
 										</p>
 									</div>
-							  )}
+								)}
 					</div>
 
 					{displayCount < products.length && (
@@ -390,6 +425,20 @@ function App() {
 
 	return (
 		<div className="app-v2">
+			<Helmet>
+				<title>{page === "WOMEN" ? "Women's Collection" : page === "MEN" ? "Men's Collection" : page === "TRADITIONAL" ? "Traditional Heritage" : `${page} — NEPAL STORE`} | Premium Nepalese Fashion</title>
+				<meta name="description" content={`Shop ${page.toLowerCase()} at NEPAL STORE — authentic Nepalese clothing, handcrafted cashmere, Dhaka textiles, and modern fashion from Kathmandu artisans.`} />
+				<script type="application/ld+json">
+					{JSON.stringify({
+						"@context": "https://schema.org",
+						"@type": "BreadcrumbList",
+						itemListElement: [
+							{ "@type": "ListItem", position: 1, name: "Home", item: "https://nepal-store.onrender.com/" },
+							{ "@type": "ListItem", position: 2, name: page, item: `https://nepal-store.onrender.com/${page.toLowerCase()}` },
+						],
+					})}
+				</script>
+			</Helmet>
 			<Header
 				cartCount={cartCount}
 				onCategoryChange={setPage}
@@ -406,23 +455,23 @@ function App() {
 					</div>
 					<div className="footer-col">
 						<h4>Collections</h4>
-						<span role="button" tabIndex={0} onClick={() => setPage("WOMEN")}>Women</span>
-						<span role="button" tabIndex={0} onClick={() => setPage("MEN")}>Men</span>
-						<span role="button" tabIndex={0} onClick={() => setPage("TRADITIONAL")}>Traditional</span>
-						<span role="button" tabIndex={0} onClick={() => setPage("SPORTS")}>Sports</span>
-						<span role="button" tabIndex={0} onClick={() => setPage("SALE")}>Sale</span>
+						<a href="#women" onClick={e => { e.preventDefault(); setPage("WOMEN"); }}>Women</a>
+						<a href="#men" onClick={e => { e.preventDefault(); setPage("MEN"); }}>Men</a>
+						<a href="#traditional" onClick={e => { e.preventDefault(); setPage("TRADITIONAL"); }}>Traditional</a>
+						<a href="#sports" onClick={e => { e.preventDefault(); setPage("SPORTS"); }}>Sports</a>
+						<a href="#sale" onClick={e => { e.preventDefault(); setPage("SALE"); }}>Sale</a>
 					</div>
 					<div className="footer-col">
 						<h4>Company</h4>
-						<span role="button" tabIndex={0} onClick={() => setPage("ABOUT")}>About Us</span>
-						<span role="button" tabIndex={0} onClick={() => setPage("CONTACT")}>Contact</span>
-						<span role="button" tabIndex={0} onClick={() => setPage("ACCOUNT")}>My Account</span>
+						<a href="#about" onClick={e => { e.preventDefault(); setPage("ABOUT"); }}>About Us</a>
+						<a href="#contact" onClick={e => { e.preventDefault(); setPage("CONTACT"); }}>Contact</a>
+						<a href="#account" onClick={e => { e.preventDefault(); setPage("ACCOUNT"); }}>My Account</a>
 					</div>
 					<div className="footer-col">
 						<h4>Enterprise</h4>
-						<span role="button" tabIndex={0} onClick={() => setPage("Corporate Matrix")}>Pricing Matrix</span>
-						<span role="button" tabIndex={0} onClick={() => setPage("Industrial Quoting")}>Quoting Engine</span>
-						<span role="button" tabIndex={0} onClick={() => setPage("Sanitization Logs")}>Sanitization Logs</span>
+						<a href="#pricing" onClick={e => { e.preventDefault(); setPage("Corporate Matrix"); }}>Pricing Matrix</a>
+						<a href="#quoting" onClick={e => { e.preventDefault(); setPage("Industrial Quoting"); }}>Quoting Engine</a>
+						<a href="#logs" onClick={e => { e.preventDefault(); setPage("Sanitization Logs"); }}>Sanitization Logs</a>
 					</div>
 				</div>
 				<div className="footer-bottom">

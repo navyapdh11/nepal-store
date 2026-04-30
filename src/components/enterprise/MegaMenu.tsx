@@ -65,10 +65,11 @@ export const MegaMenu = ({ onCategoryChange }: { onCategoryChange: (cat: string)
 										</div>
 										<div className="dropdown-links">
 											{data.items.map(item => (
-												<button 
-													key={item} 
-													type="button"
-													onClick={() => {
+												<a
+													key={item}
+													href={`#${item.toLowerCase().replace(/\s+/g, '-')}`}
+													onClick={(e) => {
+														e.preventDefault();
 														onCategoryChange(item);
 														setActiveTab(null);
 													}}
@@ -76,7 +77,7 @@ export const MegaMenu = ({ onCategoryChange }: { onCategoryChange: (cat: string)
 													role="menuitem"
 												>
 													{item}
-												</button>
+												</a>
 											))}
 										</div>
 									</div>

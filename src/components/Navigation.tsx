@@ -26,13 +26,17 @@ export const Navigation = ({
 	};
 
 	return (
-		<nav className="gender-nav">
+		<nav className="gender-nav" role="tablist" aria-label="Product Categories">
 			{categories.map((cat) => (
 				<button
 					type="button"
 					key={cat}
 					className={`nav-tab ${active === cat ? "active" : ""}`}
 					onClick={() => handleSelect(cat)}
+					role="tab"
+					aria-selected={active === cat}
+					aria-controls="category-panel"
+					id={`tab-${cat}`}
 				>
 					{cat}
 				</button>
