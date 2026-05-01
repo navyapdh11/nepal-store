@@ -5,42 +5,294 @@ generator client {
   provider = "prisma-client-js"
 }
 
-// Use SQLite for local development, PostgreSQL for production
+// Use PostgreSQL for production
 datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 
+// ─── Auth & Users ───
 model User {
-  id        String   @id @default(cuid())
-  email     String   @unique
-  name      String?
-  password  String?
-  role      String   @default("USER")
-  createdAt DateTime @default(now())
+  id            String    @id @default(cuid())
+  email         String    @unique
+  name          String?
+  password      String?
+  role          String    @default("USER") // USER, ADMIN, VENDOR
+  phone         String?
+  avatar        String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  vendor        Vendor?
+  orders        Order[]
+  reviews       Review[]
+  addresses     ShippingAddress[]
+  messages      Message[]
+  wishlist      Wishlist[]
+  notifications Notification[]
 }
 
-model Product {
-  id          String   @id @default(cuid())
+// ─── Marketplace: Vendors ───
+model Vendor {
+  id              String    @id @default(cuid())
+  userId          String    @unique
+  storeName       String    @unique
+  storeSlug       String    @unique
+  description     String?
+  banner          String?
+  logo            String?
+  phone           String?
+  address         String?
+  city            String?
+  province        String?
+  verified        Boolean   @default(false)
+  rating          Float     @default(0)
+  totalReviews    Int       @default(0)
+  totalSales      Int       @default(0)
+  responseTime    String?   // "Within 24 hours", etc.
+  followerCount   Int       @default(0)
+  productCount    Int       @default(0)
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  user            User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  products        Product[]
+  storeCoupons    StoreCoupon[]
+  orders          Order[]
+
+  @@index([verified])
+  @@index([rating])
+}
+
+// ─── Marketplace: Categories ───
+model Category {
+  id          String     @id @default(cuid())
   name        String
-  description String
-  price       Int
-  category    String
-  image       String
-  sizes       String   // JSON array stored as string
-  colors      String   // JSON array stored as string
-  isNew       Boolean  @default(false)
-  rating      String   @default("4.5")
-  reviews     Int      @default(0)
-  season      String?
-  isActive    Boolean  @default(true)
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
+  slug        String     @unique
+  icon        String?    // lucide icon name
+  parentId    String?
+  parent      Category?  @relation("CategoryHierarchy", fields: [parentId], references: [id], onDelete: SetNull)
+  children    Category[] @relation("CategoryHierarchy")
+  level       Int        @default(0) // 0 = top-level, 1 = subcategory
+  sortOrder   Int        @default(0)
+  isActive    Boolean    @default(true)
+  productCount Int       @default(0)
+  products    Product[]
+
+  @@index([slug])
+  @@index([parentId])
+  @@index([level])
+}
+
+// ─── Marketplace: Products ───
+model Product {
+  id              String    @id @default(cuid())
+  name            String
+  slug            String?   @unique
+  description     String
+  shortDesc       String?
+  price           Float
+  originalPrice   Float?    // For showing discounts
+  discount        Int       @default(0) // percentage
+  category        String    // Legacy: WOMEN, MEN, etc.
+  categoryId      String?
+  categoryRel     Category? @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+  vendorId        String?
+  vendor          Vendor?   @relation(fields: [vendorId], references: [id], onDelete: SetNull)
+  images          String    // JSON array of image URLs
+  mainImage       String
+  sizes           String    // JSON array
+  colors          String    // JSON array of {name, hex}
+  brand           String?
+  sku             String?
+  stock           Int       @default(0)
+  sold            Int       @default(0)
+  rating          Float     @default(0)
+  reviewCount     Int       @default(0)
+  isNew           Boolean   @default(false)
+  isFeatured      Boolean   @default(false)
+  isFlashSale     Boolean   @default(false)
+  flashSaleEnd    DateTime?
+  freeShipping    Boolean   @default(false)
+  shippingFrom    String?   // "Nepal", "China", "India", etc.
+  shippingDays    String?   // "7-15 days"
+  tags            String?   // JSON array of tags
+  isActive        Boolean   @default(true)
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  reviews         Review[]
+  orderItems      OrderItem[]
+  wishlist        Wishlist[]
 
   @@index([category])
   @@index([isActive])
+  @@index([vendorId])
+  @@index([categoryId])
+  @@index([isFeatured])
+  @@index([isFlashSale])
+  @@index([rating])
+  @@index([sold])
 }
 
+// ─── Marketplace: Orders ───
+model Order {
+  id              String    @id @default(cuid())
+  userId          String
+  vendorId        String?
+  orderNumber     String    @unique // "NP-20260502-0001"
+  status          String    @default("PENDING") // PENDING, CONFIRMED, SHIPPED, DELIVERED, CANCELLED, REFUNDED
+  subtotal        Float
+  shippingCost    Float     @default(0)
+  tax             Float     @default(0)
+  discount        Float     @default(0)
+  total           Float
+  currency        String    @default("NPR")
+  paymentMethod   String?   // COD, eSewa, Khalti, Stripe
+  paymentStatus   String    @default("PENDING") // PENDING, PAID, REFUNDED
+  shippingAddress String    // JSON: {name, phone, address, city, province, zip}
+  trackingNumber  String?
+  trackingUrl     String?
+  notes           String?
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  user            User      @relation(fields: [userId], references: [id])
+  vendor          Vendor?   @relation(fields: [vendorId], references: [id])
+  items           OrderItem[]
+
+  @@index([userId])
+  @@index([vendorId])
+  @@index([status])
+  @@index([orderNumber])
+}
+
+model OrderItem {
+  id          String   @id @default(cuid())
+  orderId     String
+  productId   String
+  name        String
+  image       String
+  price       Float
+  quantity    Int
+  size        String?
+  color       String?  // JSON
+  subtotal    Float
+
+  order       Order    @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  product     Product  @relation(fields: [productId], references: [id])
+
+  @@index([orderId])
+  @@index([productId])
+}
+
+// ─── Marketplace: Reviews ───
+model Review {
+  id          String   @id @default(cuid())
+  userId      String
+  productId   String
+  vendorId    String?
+  rating      Int      // 1-5
+  title       String?
+  comment     String
+  images      String?  // JSON array of review images
+  isVerified  Boolean  @default(false)
+  helpful     Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  product     Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+}
+
+// ─── Marketplace: Wishlist ───
+model Wishlist {
+  id          String   @id @default(cuid())
+  userId      String
+  productId   String
+  createdAt   DateTime @default(now())
+
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  product     Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, productId])
+  @@index([userId])
+  @@index([productId])
+}
+
+// ─── Marketplace: Shipping Addresses ───
+model ShippingAddress {
+  id          String   @id @default(cuid())
+  userId      String
+  name        String
+  phone       String
+  address     String
+  city        String
+  province    String
+  zip         String?
+  isDefault   Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+// ─── Marketplace: Messaging ───
+model Message {
+  id          String   @id @default(cuid())
+  senderId    String
+  receiverId  String
+  content     String
+  isRead      Boolean  @default(false)
+  createdAt   DateTime @default(now())
+
+  sender      User     @relation("MessageSender", fields: [senderId], references: [id], onDelete: Cascade)
+}
+
+// ─── Marketplace: Coupons ───
+model StoreCoupon {
+  id          String   @id @default(cuid())
+  vendorId    String
+  code        String   @unique
+  description String
+  discountType String  // PERCENTAGE, FIXED
+  discountValue Float
+  minOrder    Float    @default(0)
+  maxDiscount Float?
+  usageLimit  Int?
+  usedCount   Int      @default(0)
+  validFrom   DateTime
+  validUntil  DateTime
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+
+  vendor      Vendor   @relation(fields: [vendorId], references: [id], onDelete: Cascade)
+
+  @@index([vendorId])
+  @@index([code])
+  @@index([isActive])
+}
+
+// ─── Marketplace: Notifications ───
+model Notification {
+  id          String   @id @default(cuid())
+  userId      String
+  title       String
+  message     String
+  type        String   // ORDER, PROMO, MESSAGE, SYSTEM
+  isRead      Boolean  @default(false)
+  link        String?
+  createdAt   DateTime @default(now())
+
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([isRead])
+}
+
+// ─── Legacy Models (retained for backward compat) ───
 model SanitizationLog {
   id                    String   @id @default(cuid())
   createdAt             DateTime @default(now())
@@ -48,7 +300,7 @@ model SanitizationLog {
   location              String
   technicianId          String
   status                String   @default("COMPLETED")
-  throughputMetrics     String   // High-throughput 2026 data
+  throughputMetrics     String
 }
 
 model AuditTrail {
