@@ -6,6 +6,7 @@ import { ProductPage } from "./components/ProductPage";
 import { FAQ } from "./components/FAQ";
 import { About } from "./components/About";
 import { Contact } from "./components/Contact";
+import { AdminDashboard } from "./components/AdminDashboard";
 import App from "./App";
 
 export const router = createBrowserRouter([
@@ -56,6 +57,10 @@ export const router = createBrowserRouter([
 				<Contact />
 			</Layout>
 		),
+	},
+	{
+		path: "/admin",
+		element: <AdminDashboard />,
 	},
 	// Legacy: App at /app for enterprise views + legacy SPA
 	{

@@ -19,6 +19,27 @@ model User {
   createdAt DateTime @default(now())
 }
 
+model Product {
+  id          String   @id @default(cuid())
+  name        String
+  description String
+  price       Int
+  category    String
+  image       String
+  sizes       String   // JSON array stored as string
+  colors      String   // JSON array stored as string
+  isNew       Boolean  @default(false)
+  rating      String   @default("4.5")
+  reviews     Int      @default(0)
+  season      String?
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([category])
+  @@index([isActive])
+}
+
 model SanitizationLog {
   id                    String   @id @default(cuid())
   createdAt             DateTime @default(now())

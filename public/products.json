@@ -6400,1606 +6400,6 @@
 		"reviews": 356
 	},
 	{
-		"id": "seasonal-0",
-		"name": "Monsoon Shell Vol. 1",
-		"description": "A masterclass in 2026 spatial design and materials. This Monsoon Shell embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 8976,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=800&auto=format&fit=crop&sig=seasonal-0",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": true,
-		"rating": "4.7",
-		"reviews": 284
-	},
-	{
-		"id": "seasonal-1",
-		"name": "Solstice Coat Vol. 2",
-		"description": "A masterclass in 2026 spatial design and materials. This Solstice Coat embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 4575,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-1",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": true,
-		"rating": "4.7",
-		"reviews": 424
-	},
-	{
-		"id": "seasonal-2",
-		"name": "Spring Linen Vol. 3",
-		"description": "A masterclass in 2026 spatial design and materials. This Spring Linen embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 7694,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1490481651871-ab68ff25d43d?q=80&w=800&auto=format&fit=crop&sig=seasonal-2",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": true,
-		"rating": "4.7",
-		"reviews": 288
-	},
-	{
-		"id": "seasonal-3",
-		"name": "Winter Down Vol. 4",
-		"description": "A masterclass in 2026 spatial design and materials. This Winter Down embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 19930,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-3",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": true,
-		"rating": "4.8",
-		"reviews": 249
-	},
-	{
-		"id": "seasonal-4",
-		"name": "Monsoon Shell Vol. 5",
-		"description": "A masterclass in 2026 spatial design and materials. This Monsoon Shell embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 15741,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=800&auto=format&fit=crop&sig=seasonal-4",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": true,
-		"rating": "4.9",
-		"reviews": 430
-	},
-	{
-		"id": "seasonal-5",
-		"name": "Solstice Coat Vol. 6",
-		"description": "A masterclass in 2026 spatial design and materials. This Solstice Coat embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 5971,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-5",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": true,
-		"rating": "5.0",
-		"reviews": 190
-	},
-	{
-		"id": "seasonal-6",
-		"name": "Spring Linen Vol. 7",
-		"description": "A masterclass in 2026 spatial design and materials. This Spring Linen embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 15708,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1490481651871-ab68ff25d43d?q=80&w=800&auto=format&fit=crop&sig=seasonal-6",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": true,
-		"rating": "4.6",
-		"reviews": 147
-	},
-	{
-		"id": "seasonal-7",
-		"name": "Winter Down Vol. 8",
-		"description": "A masterclass in 2026 spatial design and materials. This Winter Down embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 10366,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-7",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": true,
-		"rating": "4.8",
-		"reviews": 249
-	},
-	{
-		"id": "seasonal-8",
-		"name": "Monsoon Shell Vol. 9",
-		"description": "A masterclass in 2026 spatial design and materials. This Monsoon Shell embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 9550,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=800&auto=format&fit=crop&sig=seasonal-8",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": true,
-		"rating": "4.8",
-		"reviews": 358
-	},
-	{
-		"id": "seasonal-9",
-		"name": "Solstice Coat Vol. 10",
-		"description": "A masterclass in 2026 spatial design and materials. This Solstice Coat embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 17474,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-9",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": true,
-		"rating": "4.6",
-		"reviews": 193
-	},
-	{
-		"id": "seasonal-10",
-		"name": "Spring Linen Vol. 11",
-		"description": "A masterclass in 2026 spatial design and materials. This Spring Linen embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 9822,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1490481651871-ab68ff25d43d?q=80&w=800&auto=format&fit=crop&sig=seasonal-10",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.6",
-		"reviews": 217
-	},
-	{
-		"id": "seasonal-11",
-		"name": "Winter Down Vol. 12",
-		"description": "A masterclass in 2026 spatial design and materials. This Winter Down embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 11875,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-11",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.9",
-		"reviews": 241
-	},
-	{
-		"id": "seasonal-12",
-		"name": "Monsoon Shell Vol. 13",
-		"description": "A masterclass in 2026 spatial design and materials. This Monsoon Shell embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 5113,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=800&auto=format&fit=crop&sig=seasonal-12",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.6",
-		"reviews": 176
-	},
-	{
-		"id": "seasonal-13",
-		"name": "Solstice Coat Vol. 14",
-		"description": "A masterclass in 2026 spatial design and materials. This Solstice Coat embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 4353,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-13",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.9",
-		"reviews": 258
-	},
-	{
-		"id": "seasonal-14",
-		"name": "Spring Linen Vol. 15",
-		"description": "A masterclass in 2026 spatial design and materials. This Spring Linen embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 17090,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1490481651871-ab68ff25d43d?q=80&w=800&auto=format&fit=crop&sig=seasonal-14",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.8",
-		"reviews": 216
-	},
-	{
-		"id": "seasonal-15",
-		"name": "Winter Down Vol. 16",
-		"description": "A masterclass in 2026 spatial design and materials. This Winter Down embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 2866,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-15",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "5.0",
-		"reviews": 233
-	},
-	{
-		"id": "seasonal-16",
-		"name": "Monsoon Shell Vol. 17",
-		"description": "A masterclass in 2026 spatial design and materials. This Monsoon Shell embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 7293,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=800&auto=format&fit=crop&sig=seasonal-16",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.8",
-		"reviews": 425
-	},
-	{
-		"id": "seasonal-17",
-		"name": "Solstice Coat Vol. 18",
-		"description": "A masterclass in 2026 spatial design and materials. This Solstice Coat embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 7983,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-17",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.9",
-		"reviews": 298
-	},
-	{
-		"id": "seasonal-18",
-		"name": "Spring Linen Vol. 19",
-		"description": "A masterclass in 2026 spatial design and materials. This Spring Linen embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 18516,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1490481651871-ab68ff25d43d?q=80&w=800&auto=format&fit=crop&sig=seasonal-18",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.8",
-		"reviews": 174
-	},
-	{
-		"id": "seasonal-19",
-		"name": "Winter Down Vol. 20",
-		"description": "A masterclass in 2026 spatial design and materials. This Winter Down embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 5193,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-19",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "5.0",
-		"reviews": 487
-	},
-	{
-		"id": "seasonal-20",
-		"name": "Monsoon Shell Vol. 21",
-		"description": "A masterclass in 2026 spatial design and materials. This Monsoon Shell embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 12573,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=800&auto=format&fit=crop&sig=seasonal-20",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.5",
-		"reviews": 297
-	},
-	{
-		"id": "seasonal-21",
-		"name": "Solstice Coat Vol. 22",
-		"description": "A masterclass in 2026 spatial design and materials. This Solstice Coat embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 3188,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-21",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.8",
-		"reviews": 277
-	},
-	{
-		"id": "seasonal-22",
-		"name": "Spring Linen Vol. 23",
-		"description": "A masterclass in 2026 spatial design and materials. This Spring Linen embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 19337,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1490481651871-ab68ff25d43d?q=80&w=800&auto=format&fit=crop&sig=seasonal-22",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.7",
-		"reviews": 233
-	},
-	{
-		"id": "seasonal-23",
-		"name": "Winter Down Vol. 24",
-		"description": "A masterclass in 2026 spatial design and materials. This Winter Down embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 7733,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-23",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.5",
-		"reviews": 423
-	},
-	{
-		"id": "seasonal-24",
-		"name": "Monsoon Shell Vol. 25",
-		"description": "A masterclass in 2026 spatial design and materials. This Monsoon Shell embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 14142,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=800&auto=format&fit=crop&sig=seasonal-24",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.7",
-		"reviews": 493
-	},
-	{
-		"id": "seasonal-25",
-		"name": "Solstice Coat Vol. 26",
-		"description": "A masterclass in 2026 spatial design and materials. This Solstice Coat embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 12542,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-25",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.7",
-		"reviews": 177
-	},
-	{
-		"id": "seasonal-26",
-		"name": "Spring Linen Vol. 27",
-		"description": "A masterclass in 2026 spatial design and materials. This Spring Linen embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 8929,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1490481651871-ab68ff25d43d?q=80&w=800&auto=format&fit=crop&sig=seasonal-26",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.9",
-		"reviews": 408
-	},
-	{
-		"id": "seasonal-27",
-		"name": "Winter Down Vol. 28",
-		"description": "A masterclass in 2026 spatial design and materials. This Winter Down embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 5849,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-27",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.8",
-		"reviews": 219
-	},
-	{
-		"id": "seasonal-28",
-		"name": "Monsoon Shell Vol. 29",
-		"description": "A masterclass in 2026 spatial design and materials. This Monsoon Shell embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 10196,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=800&auto=format&fit=crop&sig=seasonal-28",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.7",
-		"reviews": 488
-	},
-	{
-		"id": "seasonal-29",
-		"name": "Solstice Coat Vol. 30",
-		"description": "A masterclass in 2026 spatial design and materials. This Solstice Coat embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 12793,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-29",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.9",
-		"reviews": 206
-	},
-	{
-		"id": "seasonal-30",
-		"name": "Spring Linen Vol. 31",
-		"description": "A masterclass in 2026 spatial design and materials. This Spring Linen embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 6962,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1490481651871-ab68ff25d43d?q=80&w=800&auto=format&fit=crop&sig=seasonal-30",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.9",
-		"reviews": 352
-	},
-	{
-		"id": "seasonal-31",
-		"name": "Winter Down Vol. 32",
-		"description": "A masterclass in 2026 spatial design and materials. This Winter Down embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 7650,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-31",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.7",
-		"reviews": 407
-	},
-	{
-		"id": "seasonal-32",
-		"name": "Monsoon Shell Vol. 33",
-		"description": "A masterclass in 2026 spatial design and materials. This Monsoon Shell embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 5813,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=800&auto=format&fit=crop&sig=seasonal-32",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "5.0",
-		"reviews": 425
-	},
-	{
-		"id": "seasonal-33",
-		"name": "Solstice Coat Vol. 34",
-		"description": "A masterclass in 2026 spatial design and materials. This Solstice Coat embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 20471,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-33",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.9",
-		"reviews": 367
-	},
-	{
-		"id": "seasonal-34",
-		"name": "Spring Linen Vol. 35",
-		"description": "A masterclass in 2026 spatial design and materials. This Spring Linen embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 5198,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1490481651871-ab68ff25d43d?q=80&w=800&auto=format&fit=crop&sig=seasonal-34",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.7",
-		"reviews": 284
-	},
-	{
-		"id": "seasonal-35",
-		"name": "Winter Down Vol. 36",
-		"description": "A masterclass in 2026 spatial design and materials. This Winter Down embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 5172,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-35",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.7",
-		"reviews": 183
-	},
-	{
-		"id": "seasonal-36",
-		"name": "Monsoon Shell Vol. 37",
-		"description": "A masterclass in 2026 spatial design and materials. This Monsoon Shell embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 10429,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=800&auto=format&fit=crop&sig=seasonal-36",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.7",
-		"reviews": 385
-	},
-	{
-		"id": "seasonal-37",
-		"name": "Solstice Coat Vol. 38",
-		"description": "A masterclass in 2026 spatial design and materials. This Solstice Coat embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 8438,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-37",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.8",
-		"reviews": 169
-	},
-	{
-		"id": "seasonal-38",
-		"name": "Spring Linen Vol. 39",
-		"description": "A masterclass in 2026 spatial design and materials. This Spring Linen embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 13424,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1490481651871-ab68ff25d43d?q=80&w=800&auto=format&fit=crop&sig=seasonal-38",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "5.0",
-		"reviews": 409
-	},
-	{
-		"id": "seasonal-39",
-		"name": "Winter Down Vol. 40",
-		"description": "A masterclass in 2026 spatial design and materials. This Winter Down embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 11178,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-39",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.8",
-		"reviews": 356
-	},
-	{
-		"id": "seasonal-40",
-		"name": "Monsoon Shell Vol. 41",
-		"description": "A masterclass in 2026 spatial design and materials. This Monsoon Shell embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 17607,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=800&auto=format&fit=crop&sig=seasonal-40",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "5.0",
-		"reviews": 484
-	},
-	{
-		"id": "seasonal-41",
-		"name": "Solstice Coat Vol. 42",
-		"description": "A masterclass in 2026 spatial design and materials. This Solstice Coat embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 16024,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-41",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.6",
-		"reviews": 127
-	},
-	{
-		"id": "seasonal-42",
-		"name": "Spring Linen Vol. 43",
-		"description": "A masterclass in 2026 spatial design and materials. This Spring Linen embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 15641,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1490481651871-ab68ff25d43d?q=80&w=800&auto=format&fit=crop&sig=seasonal-42",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.8",
-		"reviews": 284
-	},
-	{
-		"id": "seasonal-43",
-		"name": "Winter Down Vol. 44",
-		"description": "A masterclass in 2026 spatial design and materials. This Winter Down embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 20400,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-43",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "5.0",
-		"reviews": 462
-	},
-	{
-		"id": "seasonal-44",
-		"name": "Monsoon Shell Vol. 45",
-		"description": "A masterclass in 2026 spatial design and materials. This Monsoon Shell embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 13006,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=800&auto=format&fit=crop&sig=seasonal-44",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.6",
-		"reviews": 112
-	},
-	{
-		"id": "seasonal-45",
-		"name": "Solstice Coat Vol. 46",
-		"description": "A masterclass in 2026 spatial design and materials. This Solstice Coat embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 15263,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-45",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.6",
-		"reviews": 463
-	},
-	{
-		"id": "seasonal-46",
-		"name": "Spring Linen Vol. 47",
-		"description": "A masterclass in 2026 spatial design and materials. This Spring Linen embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 6045,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1490481651871-ab68ff25d43d?q=80&w=800&auto=format&fit=crop&sig=seasonal-46",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.8",
-		"reviews": 270
-	},
-	{
-		"id": "seasonal-47",
-		"name": "Winter Down Vol. 48",
-		"description": "A masterclass in 2026 spatial design and materials. This Winter Down embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 19846,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-47",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.7",
-		"reviews": 203
-	},
-	{
-		"id": "seasonal-48",
-		"name": "Monsoon Shell Vol. 49",
-		"description": "A masterclass in 2026 spatial design and materials. This Monsoon Shell embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 15878,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=800&auto=format&fit=crop&sig=seasonal-48",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.7",
-		"reviews": 227
-	},
-	{
-		"id": "seasonal-49",
-		"name": "Solstice Coat Vol. 50",
-		"description": "A masterclass in 2026 spatial design and materials. This Solstice Coat embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
-		"price": 15751,
-		"category": "SEASONAL",
-		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-49",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Obsidian",
-				"hex": "#0a0a0a"
-			},
-			{
-				"name": "Summit",
-				"hex": "#fff"
-			},
-			{
-				"name": "Earth",
-				"hex": "#4a3728"
-			}
-		],
-		"isNew": false,
-		"rating": "4.9",
-		"reviews": 495
-	},
-	{
 		"id": "kids-0",
 		"name": "Graphic Tee Vol. 1",
 		"description": "A masterclass in 2026 spatial design and materials. This Graphic Tee embodies the spirit of Nepal with hyper-realistic textures and optimized comfort. Built for high-fidelity living.",
@@ -15798,5 +14198,6605 @@
 		"isNew": false,
 		"rating": "4.4",
 		"reviews": 228
+	},
+	{
+		"id": "seasonal-0",
+		"name": "Monsoon Rain Jacket",
+		"description": "Lightweight waterproof shell designed for Nepal's monsoon season. Breathable mesh lining, sealed seams, and packable design for trekking in heavy rain.",
+		"price": 2500,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=800&auto=format&fit=crop&sig=seasonal-0",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": true,
+		"rating": "4.0",
+		"reviews": 50,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-1",
+		"name": "Solstice Winter Coat",
+		"description": "Insulated parka built for Himalayan winters. Down-filled core, faux-fur hood trim, and windproof outer shell for temperatures below -10°C.",
+		"price": 2640,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?q=80&w=800&auto=format&fit=crop&sig=seasonal-1",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": true,
+		"rating": "4.7",
+		"reviews": 81,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-2",
+		"name": "Spring Linen Blazer",
+		"description": "Unstructured linen blazer perfect for Kathmandu's mild spring weather. Relaxed fit, natural cotton blend, and earth-tone dyes.",
+		"price": 2786,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1490481651871-ab68ff25d43d?q=80&w=800&auto=format&fit=crop&sig=seasonal-2",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": true,
+		"rating": "4.4",
+		"reviews": 112,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-3",
+		"name": "Winter Down Vest",
+		"description": "Ultra-light down vest layering piece. 650-fill goose down, compressible design, and quilted channels for even warmth distribution.",
+		"price": 2938,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-3",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": true,
+		"rating": "4.1",
+		"reviews": 143,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-4",
+		"name": "Autumn Windbreaker",
+		"description": "Crisp autumn windbreaker with adjustable hood. Water-resistant nylon, zippered pockets, and reflective trim for evening visibility.",
+		"price": 3096,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=800&auto=format&fit=crop&sig=seasonal-4",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": true,
+		"rating": "4.8",
+		"reviews": 174,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-5",
+		"name": "Summer Cotton Kaftan",
+		"description": "Flowing cotton kaftan for Nepal's hot summer months. Hand-block printed, loose fit, and breathable weave for maximum comfort.",
+		"price": 3260,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1562577309-4932fdd64cd1?q=80&w=800&auto=format&fit=crop&sig=seasonal-5",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": true,
+		"rating": "4.5",
+		"reviews": 205,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-6",
+		"name": "Monsoon Trek Poncho",
+		"description": "Full-coverage trekking poncho for monsoon expeditions. Ripstop nylon, extended length for backpack coverage, and stuff-sack included.",
+		"price": 3430,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1547234569-53fd724f2e1b?q=80&w=800&auto=format&fit=crop&sig=seasonal-6",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": true,
+		"rating": "4.2",
+		"reviews": 236,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-7",
+		"name": "Winter Cashmere Wrap",
+		"description": "Oversized cashmere wrap shawl for winter evenings. 100% Himalayan cashmere, hand-loomed in Kathmandu, naturally dyed.",
+		"price": 3606,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1520903442860-7f3cf0e852a5?q=80&w=800&auto=format&fit=crop&sig=seasonal-7",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": true,
+		"rating": "4.9",
+		"reviews": 267,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-8",
+		"name": "Spring Floral Dress",
+		"description": "Light floral print dress for spring festivals in Nepal. Cotton-silk blend, A-line silhouette, and hand-embroidered border detail.",
+		"price": 3788,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1595777457583-95e0e8a8f420?q=80&w=800&auto=format&fit=crop&sig=seasonal-8",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": true,
+		"rating": "4.6",
+		"reviews": 298,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-9",
+		"name": "Summer Hemp Shorts",
+		"description": "Eco-friendly hemp shorts for hot weather. Organic hemp-cotton blend, elastic waist, and deep side pockets for everyday wear.",
+		"price": 3976,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?q=80&w=800&auto=format&fit=crop&sig=seasonal-9",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": true,
+		"rating": "4.3",
+		"reviews": 329,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-10",
+		"name": "Autumn Wool Cardigan",
+		"description": "Chunky-knit wool cardigan for autumn chill. Nepalese wool blend, wooden toggle buttons, and patch pockets for a heritage look.",
+		"price": 4170,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1576566588028-414794448e77?q=80&w=800&auto=format&fit=crop&sig=seasonal-10",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": true,
+		"rating": "4.0",
+		"reviews": 360,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-11",
+		"name": "Winter Fleece-lined Trousers",
+		"description": "Warm fleece-lined trousers for winter commuting. Stretch fabric exterior, soft fleece interior, and tapered fit for layering.",
+		"price": 4370,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1594633312681-425c7b569a45?q=80&w=800&auto=format&fit=crop&sig=seasonal-11",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": true,
+		"rating": "4.7",
+		"reviews": 391,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-12",
+		"name": "Spring Rain Anorak",
+		"description": "Pullover rain anorak for spring showers. Water-repellent coating, kangaroo pocket, and adjustable hem for customizable coverage.",
+		"price": 4576,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=800&auto=format&fit=crop&sig=seasonal-12",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": true,
+		"rating": "4.4",
+		"reviews": 72,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-13",
+		"name": "Summer Bamboo Shirt",
+		"description": "Cool bamboo-fiber shirt for tropical heat. Moisture-wicking, UV-protective, and button-down collar for casual-to-smart styling.",
+		"price": 4788,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1596755094514-8691829b4e45?q=80&w=800&auto=format&fit=crop&sig=seasonal-13",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": true,
+		"rating": "4.1",
+		"reviews": 103,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-14",
+		"name": "Monsoon Quick-dry Pants",
+		"description": "Technical quick-dry trousers for monsoon travel. Hydrophobic fabric, articulated knees, and zip-off legs for convertible styling.",
+		"price": 5006,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1509631179647-017733169340?q=80&w=800&auto=format&fit=crop&sig=seasonal-14",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": true,
+		"rating": "4.8",
+		"reviews": 134,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-15",
+		"name": "Winter Yak Wool Beanie",
+		"description": "Hand-knit yak wool beanie for extreme cold. Soft inner lining, folded cuff design, and traditional Nepalese color patterns.",
+		"price": 5230,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?q=80&w=800&auto=format&fit=crop&sig=seasonal-15",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": true,
+		"rating": "4.5",
+		"reviews": 165,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-16",
+		"name": "Autumn Suede Jacket",
+		"description": "Classic suede jacket for autumn layering. Soft nubuck finish, zip-front closure, and warm polyester lining for transitional weather.",
+		"price": 5460,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=800&auto=format&fit=crop&sig=seasonal-16",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": true,
+		"rating": "4.2",
+		"reviews": 196,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-17",
+		"name": "Summer Linen Wrap Skirt",
+		"description": "Flowing linen wrap skirt for summer comfort. Adjustable tie waist, midi length, and natural linen texture with hand-finished edges.",
+		"price": 5696,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1583846783903-6a7a2039570d?q=80&w=800&auto=format&fit=crop&sig=seasonal-17",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": true,
+		"rating": "4.9",
+		"reviews": 227,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-18",
+		"name": "Spring Lightweight Parka",
+		"description": "Packable spring parka for variable mountain weather. Ultralight nylon, compressible stuff sack, and DWR coating for light rain.",
+		"price": 5938,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=800&auto=format&fit=crop&sig=seasonal-18",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": true,
+		"rating": "4.6",
+		"reviews": 258,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-19",
+		"name": "Winter Thermal Base Layer",
+		"description": "Merino wool thermal base layer for winter expeditions. 18.5-micron merino, flatlock seams, and odor-resistant natural fiber.",
+		"price": 6186,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=800&auto=format&fit=crop&sig=seasonal-19",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": true,
+		"rating": "4.3",
+		"reviews": 289,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-20",
+		"name": "Monsoon Rain Jacket Vol. 2",
+		"description": "Lightweight waterproof shell designed for Nepal's monsoon season. Breathable mesh lining, sealed seams, and packable design for trekking in heavy rain.",
+		"price": 6440,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=800&auto=format&fit=crop&sig=seasonal-20",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": false,
+		"rating": "4.0",
+		"reviews": 320,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-21",
+		"name": "Solstice Winter Coat Vol. 2",
+		"description": "Insulated parka built for Himalayan winters. Down-filled core, faux-fur hood trim, and windproof outer shell for temperatures below -10°C.",
+		"price": 6700,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?q=80&w=800&auto=format&fit=crop&sig=seasonal-21",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": false,
+		"rating": "4.7",
+		"reviews": 351,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-22",
+		"name": "Spring Linen Blazer Vol. 2",
+		"description": "Unstructured linen blazer perfect for Kathmandu's mild spring weather. Relaxed fit, natural cotton blend, and earth-tone dyes.",
+		"price": 6966,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1490481651871-ab68ff25d43d?q=80&w=800&auto=format&fit=crop&sig=seasonal-22",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": false,
+		"rating": "4.4",
+		"reviews": 382,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-23",
+		"name": "Winter Down Vest Vol. 2",
+		"description": "Ultra-light down vest layering piece. 650-fill goose down, compressible design, and quilted channels for even warmth distribution.",
+		"price": 7238,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-23",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": false,
+		"rating": "4.1",
+		"reviews": 63,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-24",
+		"name": "Autumn Windbreaker Vol. 2",
+		"description": "Crisp autumn windbreaker with adjustable hood. Water-resistant nylon, zippered pockets, and reflective trim for evening visibility.",
+		"price": 7516,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=800&auto=format&fit=crop&sig=seasonal-24",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": false,
+		"rating": "4.8",
+		"reviews": 94,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-25",
+		"name": "Summer Cotton Kaftan Vol. 2",
+		"description": "Flowing cotton kaftan for Nepal's hot summer months. Hand-block printed, loose fit, and breathable weave for maximum comfort.",
+		"price": 7800,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1562577309-4932fdd64cd1?q=80&w=800&auto=format&fit=crop&sig=seasonal-25",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": false,
+		"rating": "4.5",
+		"reviews": 125,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-26",
+		"name": "Monsoon Trek Poncho Vol. 2",
+		"description": "Full-coverage trekking poncho for monsoon expeditions. Ripstop nylon, extended length for backpack coverage, and stuff-sack included.",
+		"price": 8090,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1547234569-53fd724f2e1b?q=80&w=800&auto=format&fit=crop&sig=seasonal-26",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": false,
+		"rating": "4.2",
+		"reviews": 156,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-27",
+		"name": "Winter Cashmere Wrap Vol. 2",
+		"description": "Oversized cashmere wrap shawl for winter evenings. 100% Himalayan cashmere, hand-loomed in Kathmandu, naturally dyed.",
+		"price": 8386,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1520903442860-7f3cf0e852a5?q=80&w=800&auto=format&fit=crop&sig=seasonal-27",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": false,
+		"rating": "4.9",
+		"reviews": 187,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-28",
+		"name": "Spring Floral Dress Vol. 2",
+		"description": "Light floral print dress for spring festivals in Nepal. Cotton-silk blend, A-line silhouette, and hand-embroidered border detail.",
+		"price": 8688,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1595777457583-95e0e8a8f420?q=80&w=800&auto=format&fit=crop&sig=seasonal-28",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": false,
+		"rating": "4.6",
+		"reviews": 218,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-29",
+		"name": "Summer Hemp Shorts Vol. 2",
+		"description": "Eco-friendly hemp shorts for hot weather. Organic hemp-cotton blend, elastic waist, and deep side pockets for everyday wear.",
+		"price": 8996,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?q=80&w=800&auto=format&fit=crop&sig=seasonal-29",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": false,
+		"rating": "4.3",
+		"reviews": 249,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-30",
+		"name": "Autumn Wool Cardigan Vol. 2",
+		"description": "Chunky-knit wool cardigan for autumn chill. Nepalese wool blend, wooden toggle buttons, and patch pockets for a heritage look.",
+		"price": 9310,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1576566588028-414794448e77?q=80&w=800&auto=format&fit=crop&sig=seasonal-30",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": false,
+		"rating": "4.0",
+		"reviews": 280,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-31",
+		"name": "Winter Fleece-lined Trousers Vol. 2",
+		"description": "Warm fleece-lined trousers for winter commuting. Stretch fabric exterior, soft fleece interior, and tapered fit for layering.",
+		"price": 9630,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1594633312681-425c7b569a45?q=80&w=800&auto=format&fit=crop&sig=seasonal-31",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": false,
+		"rating": "4.7",
+		"reviews": 311,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-32",
+		"name": "Spring Rain Anorak Vol. 2",
+		"description": "Pullover rain anorak for spring showers. Water-repellent coating, kangaroo pocket, and adjustable hem for customizable coverage.",
+		"price": 9956,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=800&auto=format&fit=crop&sig=seasonal-32",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": false,
+		"rating": "4.4",
+		"reviews": 342,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-33",
+		"name": "Summer Bamboo Shirt Vol. 2",
+		"description": "Cool bamboo-fiber shirt for tropical heat. Moisture-wicking, UV-protective, and button-down collar for casual-to-smart styling.",
+		"price": 10288,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1596755094514-8691829b4e45?q=80&w=800&auto=format&fit=crop&sig=seasonal-33",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": false,
+		"rating": "4.1",
+		"reviews": 373,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-34",
+		"name": "Monsoon Quick-dry Pants Vol. 2",
+		"description": "Technical quick-dry trousers for monsoon travel. Hydrophobic fabric, articulated knees, and zip-off legs for convertible styling.",
+		"price": 10626,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1509631179647-017733169340?q=80&w=800&auto=format&fit=crop&sig=seasonal-34",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": false,
+		"rating": "4.8",
+		"reviews": 54,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-35",
+		"name": "Winter Yak Wool Beanie Vol. 2",
+		"description": "Hand-knit yak wool beanie for extreme cold. Soft inner lining, folded cuff design, and traditional Nepalese color patterns.",
+		"price": 10970,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?q=80&w=800&auto=format&fit=crop&sig=seasonal-35",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": false,
+		"rating": "4.5",
+		"reviews": 85,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-36",
+		"name": "Autumn Suede Jacket Vol. 2",
+		"description": "Classic suede jacket for autumn layering. Soft nubuck finish, zip-front closure, and warm polyester lining for transitional weather.",
+		"price": 11320,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=800&auto=format&fit=crop&sig=seasonal-36",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": false,
+		"rating": "4.2",
+		"reviews": 116,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-37",
+		"name": "Summer Linen Wrap Skirt Vol. 2",
+		"description": "Flowing linen wrap skirt for summer comfort. Adjustable tie waist, midi length, and natural linen texture with hand-finished edges.",
+		"price": 11676,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1583846783903-6a7a2039570d?q=80&w=800&auto=format&fit=crop&sig=seasonal-37",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": false,
+		"rating": "4.9",
+		"reviews": 147,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-38",
+		"name": "Spring Lightweight Parka Vol. 2",
+		"description": "Packable spring parka for variable mountain weather. Ultralight nylon, compressible stuff sack, and DWR coating for light rain.",
+		"price": 12038,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=800&auto=format&fit=crop&sig=seasonal-38",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": false,
+		"rating": "4.6",
+		"reviews": 178,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-39",
+		"name": "Winter Thermal Base Layer Vol. 2",
+		"description": "Merino wool thermal base layer for winter expeditions. 18.5-micron merino, flatlock seams, and odor-resistant natural fiber.",
+		"price": 12406,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=800&auto=format&fit=crop&sig=seasonal-39",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Storm Gray",
+				"hex": "#4a5568"
+			},
+			{
+				"name": "Rain Blue",
+				"hex": "#2b6cb0"
+			},
+			{
+				"name": "Moss",
+				"hex": "#386641"
+			}
+		],
+		"isNew": false,
+		"rating": "4.3",
+		"reviews": 209,
+		"season": "Monsoon"
+	},
+	{
+		"id": "seasonal-40",
+		"name": "Monsoon Rain Jacket Vol. 3",
+		"description": "Lightweight waterproof shell designed for Nepal's monsoon season. Breathable mesh lining, sealed seams, and packable design for trekking in heavy rain.",
+		"price": 12780,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=800&auto=format&fit=crop&sig=seasonal-40",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.0",
+		"reviews": 240,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-41",
+		"name": "Solstice Winter Coat Vol. 3",
+		"description": "Insulated parka built for Himalayan winters. Down-filled core, faux-fur hood trim, and windproof outer shell for temperatures below -10°C.",
+		"price": 13160,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?q=80&w=800&auto=format&fit=crop&sig=seasonal-41",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.7",
+		"reviews": 271,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-42",
+		"name": "Spring Linen Blazer Vol. 3",
+		"description": "Unstructured linen blazer perfect for Kathmandu's mild spring weather. Relaxed fit, natural cotton blend, and earth-tone dyes.",
+		"price": 13546,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1490481651871-ab68ff25d43d?q=80&w=800&auto=format&fit=crop&sig=seasonal-42",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.4",
+		"reviews": 302,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-43",
+		"name": "Winter Down Vest Vol. 3",
+		"description": "Ultra-light down vest layering piece. 650-fill goose down, compressible design, and quilted channels for even warmth distribution.",
+		"price": 13938,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-43",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.1",
+		"reviews": 333,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-44",
+		"name": "Autumn Windbreaker Vol. 3",
+		"description": "Crisp autumn windbreaker with adjustable hood. Water-resistant nylon, zippered pockets, and reflective trim for evening visibility.",
+		"price": 14336,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=800&auto=format&fit=crop&sig=seasonal-44",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.8",
+		"reviews": 364,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-45",
+		"name": "Summer Cotton Kaftan Vol. 3",
+		"description": "Flowing cotton kaftan for Nepal's hot summer months. Hand-block printed, loose fit, and breathable weave for maximum comfort.",
+		"price": 14740,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1562577309-4932fdd64cd1?q=80&w=800&auto=format&fit=crop&sig=seasonal-45",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.5",
+		"reviews": 395,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-46",
+		"name": "Monsoon Trek Poncho Vol. 3",
+		"description": "Full-coverage trekking poncho for monsoon expeditions. Ripstop nylon, extended length for backpack coverage, and stuff-sack included.",
+		"price": 15150,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1547234569-53fd724f2e1b?q=80&w=800&auto=format&fit=crop&sig=seasonal-46",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.2",
+		"reviews": 76,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-47",
+		"name": "Winter Cashmere Wrap Vol. 3",
+		"description": "Oversized cashmere wrap shawl for winter evenings. 100% Himalayan cashmere, hand-loomed in Kathmandu, naturally dyed.",
+		"price": 15566,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1520903442860-7f3cf0e852a5?q=80&w=800&auto=format&fit=crop&sig=seasonal-47",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.9",
+		"reviews": 107,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-48",
+		"name": "Spring Floral Dress Vol. 3",
+		"description": "Light floral print dress for spring festivals in Nepal. Cotton-silk blend, A-line silhouette, and hand-embroidered border detail.",
+		"price": 15988,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1595777457583-95e0e8a8f420?q=80&w=800&auto=format&fit=crop&sig=seasonal-48",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.6",
+		"reviews": 138,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-49",
+		"name": "Summer Hemp Shorts Vol. 3",
+		"description": "Eco-friendly hemp shorts for hot weather. Organic hemp-cotton blend, elastic waist, and deep side pockets for everyday wear.",
+		"price": 16416,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?q=80&w=800&auto=format&fit=crop&sig=seasonal-49",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.3",
+		"reviews": 169,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-50",
+		"name": "Autumn Wool Cardigan Vol. 3",
+		"description": "Chunky-knit wool cardigan for autumn chill. Nepalese wool blend, wooden toggle buttons, and patch pockets for a heritage look.",
+		"price": 16850,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1576566588028-414794448e77?q=80&w=800&auto=format&fit=crop&sig=seasonal-50",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.0",
+		"reviews": 200,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-51",
+		"name": "Winter Fleece-lined Trousers Vol. 3",
+		"description": "Warm fleece-lined trousers for winter commuting. Stretch fabric exterior, soft fleece interior, and tapered fit for layering.",
+		"price": 17290,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1594633312681-425c7b569a45?q=80&w=800&auto=format&fit=crop&sig=seasonal-51",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.7",
+		"reviews": 231,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-52",
+		"name": "Spring Rain Anorak Vol. 3",
+		"description": "Pullover rain anorak for spring showers. Water-repellent coating, kangaroo pocket, and adjustable hem for customizable coverage.",
+		"price": 17736,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=800&auto=format&fit=crop&sig=seasonal-52",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.4",
+		"reviews": 262,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-53",
+		"name": "Summer Bamboo Shirt Vol. 3",
+		"description": "Cool bamboo-fiber shirt for tropical heat. Moisture-wicking, UV-protective, and button-down collar for casual-to-smart styling.",
+		"price": 18188,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1596755094514-8691829b4e45?q=80&w=800&auto=format&fit=crop&sig=seasonal-53",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.1",
+		"reviews": 293,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-54",
+		"name": "Monsoon Quick-dry Pants Vol. 3",
+		"description": "Technical quick-dry trousers for monsoon travel. Hydrophobic fabric, articulated knees, and zip-off legs for convertible styling.",
+		"price": 18646,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1509631179647-017733169340?q=80&w=800&auto=format&fit=crop&sig=seasonal-54",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.8",
+		"reviews": 324,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-55",
+		"name": "Winter Yak Wool Beanie Vol. 3",
+		"description": "Hand-knit yak wool beanie for extreme cold. Soft inner lining, folded cuff design, and traditional Nepalese color patterns.",
+		"price": 19110,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?q=80&w=800&auto=format&fit=crop&sig=seasonal-55",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.5",
+		"reviews": 355,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-56",
+		"name": "Autumn Suede Jacket Vol. 3",
+		"description": "Classic suede jacket for autumn layering. Soft nubuck finish, zip-front closure, and warm polyester lining for transitional weather.",
+		"price": 19580,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=800&auto=format&fit=crop&sig=seasonal-56",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.2",
+		"reviews": 386,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-57",
+		"name": "Summer Linen Wrap Skirt Vol. 3",
+		"description": "Flowing linen wrap skirt for summer comfort. Adjustable tie waist, midi length, and natural linen texture with hand-finished edges.",
+		"price": 20056,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1583846783903-6a7a2039570d?q=80&w=800&auto=format&fit=crop&sig=seasonal-57",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.9",
+		"reviews": 67,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-58",
+		"name": "Spring Lightweight Parka Vol. 3",
+		"description": "Packable spring parka for variable mountain weather. Ultralight nylon, compressible stuff sack, and DWR coating for light rain.",
+		"price": 2538,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=800&auto=format&fit=crop&sig=seasonal-58",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.6",
+		"reviews": 98,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-59",
+		"name": "Winter Thermal Base Layer Vol. 3",
+		"description": "Merino wool thermal base layer for winter expeditions. 18.5-micron merino, flatlock seams, and odor-resistant natural fiber.",
+		"price": 3026,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=800&auto=format&fit=crop&sig=seasonal-59",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.3",
+		"reviews": 129,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-60",
+		"name": "Monsoon Rain Jacket Vol. 4",
+		"description": "Lightweight waterproof shell designed for Nepal's monsoon season. Breathable mesh lining, sealed seams, and packable design for trekking in heavy rain.",
+		"price": 3520,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=800&auto=format&fit=crop&sig=seasonal-60",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.0",
+		"reviews": 160,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-61",
+		"name": "Solstice Winter Coat Vol. 4",
+		"description": "Insulated parka built for Himalayan winters. Down-filled core, faux-fur hood trim, and windproof outer shell for temperatures below -10°C.",
+		"price": 4020,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?q=80&w=800&auto=format&fit=crop&sig=seasonal-61",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.7",
+		"reviews": 191,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-62",
+		"name": "Spring Linen Blazer Vol. 4",
+		"description": "Unstructured linen blazer perfect for Kathmandu's mild spring weather. Relaxed fit, natural cotton blend, and earth-tone dyes.",
+		"price": 4526,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1490481651871-ab68ff25d43d?q=80&w=800&auto=format&fit=crop&sig=seasonal-62",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.4",
+		"reviews": 222,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-63",
+		"name": "Winter Down Vest Vol. 4",
+		"description": "Ultra-light down vest layering piece. 650-fill goose down, compressible design, and quilted channels for even warmth distribution.",
+		"price": 5038,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-63",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.1",
+		"reviews": 253,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-64",
+		"name": "Autumn Windbreaker Vol. 4",
+		"description": "Crisp autumn windbreaker with adjustable hood. Water-resistant nylon, zippered pockets, and reflective trim for evening visibility.",
+		"price": 5556,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=800&auto=format&fit=crop&sig=seasonal-64",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.8",
+		"reviews": 284,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-65",
+		"name": "Summer Cotton Kaftan Vol. 4",
+		"description": "Flowing cotton kaftan for Nepal's hot summer months. Hand-block printed, loose fit, and breathable weave for maximum comfort.",
+		"price": 6080,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1562577309-4932fdd64cd1?q=80&w=800&auto=format&fit=crop&sig=seasonal-65",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.5",
+		"reviews": 315,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-66",
+		"name": "Monsoon Trek Poncho Vol. 4",
+		"description": "Full-coverage trekking poncho for monsoon expeditions. Ripstop nylon, extended length for backpack coverage, and stuff-sack included.",
+		"price": 6610,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1547234569-53fd724f2e1b?q=80&w=800&auto=format&fit=crop&sig=seasonal-66",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.2",
+		"reviews": 346,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-67",
+		"name": "Winter Cashmere Wrap Vol. 4",
+		"description": "Oversized cashmere wrap shawl for winter evenings. 100% Himalayan cashmere, hand-loomed in Kathmandu, naturally dyed.",
+		"price": 7146,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1520903442860-7f3cf0e852a5?q=80&w=800&auto=format&fit=crop&sig=seasonal-67",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.9",
+		"reviews": 377,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-68",
+		"name": "Spring Floral Dress Vol. 4",
+		"description": "Light floral print dress for spring festivals in Nepal. Cotton-silk blend, A-line silhouette, and hand-embroidered border detail.",
+		"price": 7688,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1595777457583-95e0e8a8f420?q=80&w=800&auto=format&fit=crop&sig=seasonal-68",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.6",
+		"reviews": 58,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-69",
+		"name": "Summer Hemp Shorts Vol. 4",
+		"description": "Eco-friendly hemp shorts for hot weather. Organic hemp-cotton blend, elastic waist, and deep side pockets for everyday wear.",
+		"price": 8236,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?q=80&w=800&auto=format&fit=crop&sig=seasonal-69",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.3",
+		"reviews": 89,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-70",
+		"name": "Autumn Wool Cardigan Vol. 4",
+		"description": "Chunky-knit wool cardigan for autumn chill. Nepalese wool blend, wooden toggle buttons, and patch pockets for a heritage look.",
+		"price": 8790,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1576566588028-414794448e77?q=80&w=800&auto=format&fit=crop&sig=seasonal-70",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.0",
+		"reviews": 120,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-71",
+		"name": "Winter Fleece-lined Trousers Vol. 4",
+		"description": "Warm fleece-lined trousers for winter commuting. Stretch fabric exterior, soft fleece interior, and tapered fit for layering.",
+		"price": 9350,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1594633312681-425c7b569a45?q=80&w=800&auto=format&fit=crop&sig=seasonal-71",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.7",
+		"reviews": 151,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-72",
+		"name": "Spring Rain Anorak Vol. 4",
+		"description": "Pullover rain anorak for spring showers. Water-repellent coating, kangaroo pocket, and adjustable hem for customizable coverage.",
+		"price": 9916,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=800&auto=format&fit=crop&sig=seasonal-72",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.4",
+		"reviews": 182,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-73",
+		"name": "Summer Bamboo Shirt Vol. 4",
+		"description": "Cool bamboo-fiber shirt for tropical heat. Moisture-wicking, UV-protective, and button-down collar for casual-to-smart styling.",
+		"price": 10488,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1596755094514-8691829b4e45?q=80&w=800&auto=format&fit=crop&sig=seasonal-73",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.1",
+		"reviews": 213,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-74",
+		"name": "Monsoon Quick-dry Pants Vol. 4",
+		"description": "Technical quick-dry trousers for monsoon travel. Hydrophobic fabric, articulated knees, and zip-off legs for convertible styling.",
+		"price": 11066,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1509631179647-017733169340?q=80&w=800&auto=format&fit=crop&sig=seasonal-74",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.8",
+		"reviews": 244,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-75",
+		"name": "Winter Yak Wool Beanie Vol. 4",
+		"description": "Hand-knit yak wool beanie for extreme cold. Soft inner lining, folded cuff design, and traditional Nepalese color patterns.",
+		"price": 11650,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?q=80&w=800&auto=format&fit=crop&sig=seasonal-75",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.5",
+		"reviews": 275,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-76",
+		"name": "Autumn Suede Jacket Vol. 4",
+		"description": "Classic suede jacket for autumn layering. Soft nubuck finish, zip-front closure, and warm polyester lining for transitional weather.",
+		"price": 12240,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=800&auto=format&fit=crop&sig=seasonal-76",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.2",
+		"reviews": 306,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-77",
+		"name": "Summer Linen Wrap Skirt Vol. 4",
+		"description": "Flowing linen wrap skirt for summer comfort. Adjustable tie waist, midi length, and natural linen texture with hand-finished edges.",
+		"price": 12836,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1583846783903-6a7a2039570d?q=80&w=800&auto=format&fit=crop&sig=seasonal-77",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.9",
+		"reviews": 337,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-78",
+		"name": "Spring Lightweight Parka Vol. 4",
+		"description": "Packable spring parka for variable mountain weather. Ultralight nylon, compressible stuff sack, and DWR coating for light rain.",
+		"price": 13438,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=800&auto=format&fit=crop&sig=seasonal-78",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.6",
+		"reviews": 368,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-79",
+		"name": "Winter Thermal Base Layer Vol. 4",
+		"description": "Merino wool thermal base layer for winter expeditions. 18.5-micron merino, flatlock seams, and odor-resistant natural fiber.",
+		"price": 14046,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=800&auto=format&fit=crop&sig=seasonal-79",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Charcoal",
+				"hex": "#2d3748"
+			},
+			{
+				"name": "Snow",
+				"hex": "#f7fafc"
+			},
+			{
+				"name": "Plum",
+				"hex": "#553c7b"
+			}
+		],
+		"isNew": false,
+		"rating": "4.3",
+		"reviews": 399,
+		"season": "Winter"
+	},
+	{
+		"id": "seasonal-80",
+		"name": "Monsoon Rain Jacket Vol. 5",
+		"description": "Lightweight waterproof shell designed for Nepal's monsoon season. Breathable mesh lining, sealed seams, and packable design for trekking in heavy rain.",
+		"price": 14660,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=800&auto=format&fit=crop&sig=seasonal-80",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.0",
+		"reviews": 80,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-81",
+		"name": "Solstice Winter Coat Vol. 5",
+		"description": "Insulated parka built for Himalayan winters. Down-filled core, faux-fur hood trim, and windproof outer shell for temperatures below -10°C.",
+		"price": 15280,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?q=80&w=800&auto=format&fit=crop&sig=seasonal-81",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.7",
+		"reviews": 111,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-82",
+		"name": "Spring Linen Blazer Vol. 5",
+		"description": "Unstructured linen blazer perfect for Kathmandu's mild spring weather. Relaxed fit, natural cotton blend, and earth-tone dyes.",
+		"price": 15906,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1490481651871-ab68ff25d43d?q=80&w=800&auto=format&fit=crop&sig=seasonal-82",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.4",
+		"reviews": 142,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-83",
+		"name": "Winter Down Vest Vol. 5",
+		"description": "Ultra-light down vest layering piece. 650-fill goose down, compressible design, and quilted channels for even warmth distribution.",
+		"price": 16538,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-83",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.1",
+		"reviews": 173,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-84",
+		"name": "Autumn Windbreaker Vol. 5",
+		"description": "Crisp autumn windbreaker with adjustable hood. Water-resistant nylon, zippered pockets, and reflective trim for evening visibility.",
+		"price": 17176,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=800&auto=format&fit=crop&sig=seasonal-84",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.8",
+		"reviews": 204,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-85",
+		"name": "Summer Cotton Kaftan Vol. 5",
+		"description": "Flowing cotton kaftan for Nepal's hot summer months. Hand-block printed, loose fit, and breathable weave for maximum comfort.",
+		"price": 17820,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1562577309-4932fdd64cd1?q=80&w=800&auto=format&fit=crop&sig=seasonal-85",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.5",
+		"reviews": 235,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-86",
+		"name": "Monsoon Trek Poncho Vol. 5",
+		"description": "Full-coverage trekking poncho for monsoon expeditions. Ripstop nylon, extended length for backpack coverage, and stuff-sack included.",
+		"price": 18470,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1547234569-53fd724f2e1b?q=80&w=800&auto=format&fit=crop&sig=seasonal-86",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.2",
+		"reviews": 266,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-87",
+		"name": "Winter Cashmere Wrap Vol. 5",
+		"description": "Oversized cashmere wrap shawl for winter evenings. 100% Himalayan cashmere, hand-loomed in Kathmandu, naturally dyed.",
+		"price": 19126,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1520903442860-7f3cf0e852a5?q=80&w=800&auto=format&fit=crop&sig=seasonal-87",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.9",
+		"reviews": 297,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-88",
+		"name": "Spring Floral Dress Vol. 5",
+		"description": "Light floral print dress for spring festivals in Nepal. Cotton-silk blend, A-line silhouette, and hand-embroidered border detail.",
+		"price": 19788,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1595777457583-95e0e8a8f420?q=80&w=800&auto=format&fit=crop&sig=seasonal-88",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.6",
+		"reviews": 328,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-89",
+		"name": "Summer Hemp Shorts Vol. 5",
+		"description": "Eco-friendly hemp shorts for hot weather. Organic hemp-cotton blend, elastic waist, and deep side pockets for everyday wear.",
+		"price": 20456,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?q=80&w=800&auto=format&fit=crop&sig=seasonal-89",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.3",
+		"reviews": 359,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-90",
+		"name": "Autumn Wool Cardigan Vol. 5",
+		"description": "Chunky-knit wool cardigan for autumn chill. Nepalese wool blend, wooden toggle buttons, and patch pockets for a heritage look.",
+		"price": 3130,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1576566588028-414794448e77?q=80&w=800&auto=format&fit=crop&sig=seasonal-90",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.0",
+		"reviews": 390,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-91",
+		"name": "Winter Fleece-lined Trousers Vol. 5",
+		"description": "Warm fleece-lined trousers for winter commuting. Stretch fabric exterior, soft fleece interior, and tapered fit for layering.",
+		"price": 3810,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1594633312681-425c7b569a45?q=80&w=800&auto=format&fit=crop&sig=seasonal-91",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.7",
+		"reviews": 71,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-92",
+		"name": "Spring Rain Anorak Vol. 5",
+		"description": "Pullover rain anorak for spring showers. Water-repellent coating, kangaroo pocket, and adjustable hem for customizable coverage.",
+		"price": 4496,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=800&auto=format&fit=crop&sig=seasonal-92",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.4",
+		"reviews": 102,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-93",
+		"name": "Summer Bamboo Shirt Vol. 5",
+		"description": "Cool bamboo-fiber shirt for tropical heat. Moisture-wicking, UV-protective, and button-down collar for casual-to-smart styling.",
+		"price": 5188,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1596755094514-8691829b4e45?q=80&w=800&auto=format&fit=crop&sig=seasonal-93",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.1",
+		"reviews": 133,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-94",
+		"name": "Monsoon Quick-dry Pants Vol. 5",
+		"description": "Technical quick-dry trousers for monsoon travel. Hydrophobic fabric, articulated knees, and zip-off legs for convertible styling.",
+		"price": 5886,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1509631179647-017733169340?q=80&w=800&auto=format&fit=crop&sig=seasonal-94",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.8",
+		"reviews": 164,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-95",
+		"name": "Winter Yak Wool Beanie Vol. 5",
+		"description": "Hand-knit yak wool beanie for extreme cold. Soft inner lining, folded cuff design, and traditional Nepalese color patterns.",
+		"price": 6590,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?q=80&w=800&auto=format&fit=crop&sig=seasonal-95",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.5",
+		"reviews": 195,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-96",
+		"name": "Autumn Suede Jacket Vol. 5",
+		"description": "Classic suede jacket for autumn layering. Soft nubuck finish, zip-front closure, and warm polyester lining for transitional weather.",
+		"price": 7300,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=800&auto=format&fit=crop&sig=seasonal-96",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.2",
+		"reviews": 226,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-97",
+		"name": "Summer Linen Wrap Skirt Vol. 5",
+		"description": "Flowing linen wrap skirt for summer comfort. Adjustable tie waist, midi length, and natural linen texture with hand-finished edges.",
+		"price": 8016,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1583846783903-6a7a2039570d?q=80&w=800&auto=format&fit=crop&sig=seasonal-97",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.9",
+		"reviews": 257,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-98",
+		"name": "Spring Lightweight Parka Vol. 5",
+		"description": "Packable spring parka for variable mountain weather. Ultralight nylon, compressible stuff sack, and DWR coating for light rain.",
+		"price": 8738,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=800&auto=format&fit=crop&sig=seasonal-98",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.6",
+		"reviews": 288,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-99",
+		"name": "Winter Thermal Base Layer Vol. 5",
+		"description": "Merino wool thermal base layer for winter expeditions. 18.5-micron merino, flatlock seams, and odor-resistant natural fiber.",
+		"price": 9466,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=800&auto=format&fit=crop&sig=seasonal-99",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.3",
+		"reviews": 319,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-100",
+		"name": "Monsoon Rain Jacket Vol. 6",
+		"description": "Lightweight waterproof shell designed for Nepal's monsoon season. Breathable mesh lining, sealed seams, and packable design for trekking in heavy rain.",
+		"price": 10200,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=800&auto=format&fit=crop&sig=seasonal-100",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.0",
+		"reviews": 350,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-101",
+		"name": "Solstice Winter Coat Vol. 6",
+		"description": "Insulated parka built for Himalayan winters. Down-filled core, faux-fur hood trim, and windproof outer shell for temperatures below -10°C.",
+		"price": 10940,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?q=80&w=800&auto=format&fit=crop&sig=seasonal-101",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.7",
+		"reviews": 381,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-102",
+		"name": "Spring Linen Blazer Vol. 6",
+		"description": "Unstructured linen blazer perfect for Kathmandu's mild spring weather. Relaxed fit, natural cotton blend, and earth-tone dyes.",
+		"price": 11686,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1490481651871-ab68ff25d43d?q=80&w=800&auto=format&fit=crop&sig=seasonal-102",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.4",
+		"reviews": 62,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-103",
+		"name": "Winter Down Vest Vol. 6",
+		"description": "Ultra-light down vest layering piece. 650-fill goose down, compressible design, and quilted channels for even warmth distribution.",
+		"price": 12438,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-103",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.1",
+		"reviews": 93,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-104",
+		"name": "Autumn Windbreaker Vol. 6",
+		"description": "Crisp autumn windbreaker with adjustable hood. Water-resistant nylon, zippered pockets, and reflective trim for evening visibility.",
+		"price": 13196,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=800&auto=format&fit=crop&sig=seasonal-104",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.8",
+		"reviews": 124,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-105",
+		"name": "Summer Cotton Kaftan Vol. 6",
+		"description": "Flowing cotton kaftan for Nepal's hot summer months. Hand-block printed, loose fit, and breathable weave for maximum comfort.",
+		"price": 13960,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1562577309-4932fdd64cd1?q=80&w=800&auto=format&fit=crop&sig=seasonal-105",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.5",
+		"reviews": 155,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-106",
+		"name": "Monsoon Trek Poncho Vol. 6",
+		"description": "Full-coverage trekking poncho for monsoon expeditions. Ripstop nylon, extended length for backpack coverage, and stuff-sack included.",
+		"price": 14730,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1547234569-53fd724f2e1b?q=80&w=800&auto=format&fit=crop&sig=seasonal-106",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.2",
+		"reviews": 186,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-107",
+		"name": "Winter Cashmere Wrap Vol. 6",
+		"description": "Oversized cashmere wrap shawl for winter evenings. 100% Himalayan cashmere, hand-loomed in Kathmandu, naturally dyed.",
+		"price": 15506,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1520903442860-7f3cf0e852a5?q=80&w=800&auto=format&fit=crop&sig=seasonal-107",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.9",
+		"reviews": 217,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-108",
+		"name": "Spring Floral Dress Vol. 6",
+		"description": "Light floral print dress for spring festivals in Nepal. Cotton-silk blend, A-line silhouette, and hand-embroidered border detail.",
+		"price": 16288,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1595777457583-95e0e8a8f420?q=80&w=800&auto=format&fit=crop&sig=seasonal-108",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.6",
+		"reviews": 248,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-109",
+		"name": "Summer Hemp Shorts Vol. 6",
+		"description": "Eco-friendly hemp shorts for hot weather. Organic hemp-cotton blend, elastic waist, and deep side pockets for everyday wear.",
+		"price": 17076,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?q=80&w=800&auto=format&fit=crop&sig=seasonal-109",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.3",
+		"reviews": 279,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-110",
+		"name": "Autumn Wool Cardigan Vol. 6",
+		"description": "Chunky-knit wool cardigan for autumn chill. Nepalese wool blend, wooden toggle buttons, and patch pockets for a heritage look.",
+		"price": 17870,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1576566588028-414794448e77?q=80&w=800&auto=format&fit=crop&sig=seasonal-110",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.0",
+		"reviews": 310,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-111",
+		"name": "Winter Fleece-lined Trousers Vol. 6",
+		"description": "Warm fleece-lined trousers for winter commuting. Stretch fabric exterior, soft fleece interior, and tapered fit for layering.",
+		"price": 18670,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1594633312681-425c7b569a45?q=80&w=800&auto=format&fit=crop&sig=seasonal-111",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.7",
+		"reviews": 341,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-112",
+		"name": "Spring Rain Anorak Vol. 6",
+		"description": "Pullover rain anorak for spring showers. Water-repellent coating, kangaroo pocket, and adjustable hem for customizable coverage.",
+		"price": 19476,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=800&auto=format&fit=crop&sig=seasonal-112",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.4",
+		"reviews": 372,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-113",
+		"name": "Summer Bamboo Shirt Vol. 6",
+		"description": "Cool bamboo-fiber shirt for tropical heat. Moisture-wicking, UV-protective, and button-down collar for casual-to-smart styling.",
+		"price": 20288,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1596755094514-8691829b4e45?q=80&w=800&auto=format&fit=crop&sig=seasonal-113",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.1",
+		"reviews": 53,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-114",
+		"name": "Monsoon Quick-dry Pants Vol. 6",
+		"description": "Technical quick-dry trousers for monsoon travel. Hydrophobic fabric, articulated knees, and zip-off legs for convertible styling.",
+		"price": 3106,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1509631179647-017733169340?q=80&w=800&auto=format&fit=crop&sig=seasonal-114",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.8",
+		"reviews": 84,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-115",
+		"name": "Winter Yak Wool Beanie Vol. 6",
+		"description": "Hand-knit yak wool beanie for extreme cold. Soft inner lining, folded cuff design, and traditional Nepalese color patterns.",
+		"price": 3930,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?q=80&w=800&auto=format&fit=crop&sig=seasonal-115",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.5",
+		"reviews": 115,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-116",
+		"name": "Autumn Suede Jacket Vol. 6",
+		"description": "Classic suede jacket for autumn layering. Soft nubuck finish, zip-front closure, and warm polyester lining for transitional weather.",
+		"price": 4760,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=800&auto=format&fit=crop&sig=seasonal-116",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.2",
+		"reviews": 146,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-117",
+		"name": "Summer Linen Wrap Skirt Vol. 6",
+		"description": "Flowing linen wrap skirt for summer comfort. Adjustable tie waist, midi length, and natural linen texture with hand-finished edges.",
+		"price": 5596,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1583846783903-6a7a2039570d?q=80&w=800&auto=format&fit=crop&sig=seasonal-117",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.9",
+		"reviews": 177,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-118",
+		"name": "Spring Lightweight Parka Vol. 6",
+		"description": "Packable spring parka for variable mountain weather. Ultralight nylon, compressible stuff sack, and DWR coating for light rain.",
+		"price": 6438,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=800&auto=format&fit=crop&sig=seasonal-118",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.6",
+		"reviews": 208,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-119",
+		"name": "Winter Thermal Base Layer Vol. 6",
+		"description": "Merino wool thermal base layer for winter expeditions. 18.5-micron merino, flatlock seams, and odor-resistant natural fiber.",
+		"price": 7286,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=800&auto=format&fit=crop&sig=seasonal-119",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Sage",
+				"hex": "#68d391"
+			},
+			{
+				"name": "Blush",
+				"hex": "#fbb6ce"
+			},
+			{
+				"name": "Cream",
+				"hex": "#fefcbf"
+			}
+		],
+		"isNew": false,
+		"rating": "4.3",
+		"reviews": 239,
+		"season": "Spring"
+	},
+	{
+		"id": "seasonal-120",
+		"name": "Monsoon Rain Jacket Vol. 7",
+		"description": "Lightweight waterproof shell designed for Nepal's monsoon season. Breathable mesh lining, sealed seams, and packable design for trekking in heavy rain.",
+		"price": 8140,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=800&auto=format&fit=crop&sig=seasonal-120",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.0",
+		"reviews": 270,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-121",
+		"name": "Solstice Winter Coat Vol. 7",
+		"description": "Insulated parka built for Himalayan winters. Down-filled core, faux-fur hood trim, and windproof outer shell for temperatures below -10°C.",
+		"price": 9000,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?q=80&w=800&auto=format&fit=crop&sig=seasonal-121",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.7",
+		"reviews": 301,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-122",
+		"name": "Spring Linen Blazer Vol. 7",
+		"description": "Unstructured linen blazer perfect for Kathmandu's mild spring weather. Relaxed fit, natural cotton blend, and earth-tone dyes.",
+		"price": 9866,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1490481651871-ab68ff25d43d?q=80&w=800&auto=format&fit=crop&sig=seasonal-122",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.4",
+		"reviews": 332,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-123",
+		"name": "Winter Down Vest Vol. 7",
+		"description": "Ultra-light down vest layering piece. 650-fill goose down, compressible design, and quilted channels for even warmth distribution.",
+		"price": 10738,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-123",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.1",
+		"reviews": 363,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-124",
+		"name": "Autumn Windbreaker Vol. 7",
+		"description": "Crisp autumn windbreaker with adjustable hood. Water-resistant nylon, zippered pockets, and reflective trim for evening visibility.",
+		"price": 11616,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=800&auto=format&fit=crop&sig=seasonal-124",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.8",
+		"reviews": 394,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-125",
+		"name": "Summer Cotton Kaftan Vol. 7",
+		"description": "Flowing cotton kaftan for Nepal's hot summer months. Hand-block printed, loose fit, and breathable weave for maximum comfort.",
+		"price": 12500,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1562577309-4932fdd64cd1?q=80&w=800&auto=format&fit=crop&sig=seasonal-125",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.5",
+		"reviews": 75,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-126",
+		"name": "Monsoon Trek Poncho Vol. 7",
+		"description": "Full-coverage trekking poncho for monsoon expeditions. Ripstop nylon, extended length for backpack coverage, and stuff-sack included.",
+		"price": 13390,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1547234569-53fd724f2e1b?q=80&w=800&auto=format&fit=crop&sig=seasonal-126",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.2",
+		"reviews": 106,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-127",
+		"name": "Winter Cashmere Wrap Vol. 7",
+		"description": "Oversized cashmere wrap shawl for winter evenings. 100% Himalayan cashmere, hand-loomed in Kathmandu, naturally dyed.",
+		"price": 14286,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1520903442860-7f3cf0e852a5?q=80&w=800&auto=format&fit=crop&sig=seasonal-127",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.9",
+		"reviews": 137,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-128",
+		"name": "Spring Floral Dress Vol. 7",
+		"description": "Light floral print dress for spring festivals in Nepal. Cotton-silk blend, A-line silhouette, and hand-embroidered border detail.",
+		"price": 15188,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1595777457583-95e0e8a8f420?q=80&w=800&auto=format&fit=crop&sig=seasonal-128",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.6",
+		"reviews": 168,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-129",
+		"name": "Summer Hemp Shorts Vol. 7",
+		"description": "Eco-friendly hemp shorts for hot weather. Organic hemp-cotton blend, elastic waist, and deep side pockets for everyday wear.",
+		"price": 16096,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?q=80&w=800&auto=format&fit=crop&sig=seasonal-129",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.3",
+		"reviews": 199,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-130",
+		"name": "Autumn Wool Cardigan Vol. 7",
+		"description": "Chunky-knit wool cardigan for autumn chill. Nepalese wool blend, wooden toggle buttons, and patch pockets for a heritage look.",
+		"price": 17010,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1576566588028-414794448e77?q=80&w=800&auto=format&fit=crop&sig=seasonal-130",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.0",
+		"reviews": 230,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-131",
+		"name": "Winter Fleece-lined Trousers Vol. 7",
+		"description": "Warm fleece-lined trousers for winter commuting. Stretch fabric exterior, soft fleece interior, and tapered fit for layering.",
+		"price": 17930,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1594633312681-425c7b569a45?q=80&w=800&auto=format&fit=crop&sig=seasonal-131",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.7",
+		"reviews": 261,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-132",
+		"name": "Spring Rain Anorak Vol. 7",
+		"description": "Pullover rain anorak for spring showers. Water-repellent coating, kangaroo pocket, and adjustable hem for customizable coverage.",
+		"price": 18856,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=800&auto=format&fit=crop&sig=seasonal-132",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.4",
+		"reviews": 292,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-133",
+		"name": "Summer Bamboo Shirt Vol. 7",
+		"description": "Cool bamboo-fiber shirt for tropical heat. Moisture-wicking, UV-protective, and button-down collar for casual-to-smart styling.",
+		"price": 19788,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1596755094514-8691829b4e45?q=80&w=800&auto=format&fit=crop&sig=seasonal-133",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.1",
+		"reviews": 323,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-134",
+		"name": "Monsoon Quick-dry Pants Vol. 7",
+		"description": "Technical quick-dry trousers for monsoon travel. Hydrophobic fabric, articulated knees, and zip-off legs for convertible styling.",
+		"price": 2726,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1509631179647-017733169340?q=80&w=800&auto=format&fit=crop&sig=seasonal-134",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.8",
+		"reviews": 354,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-135",
+		"name": "Winter Yak Wool Beanie Vol. 7",
+		"description": "Hand-knit yak wool beanie for extreme cold. Soft inner lining, folded cuff design, and traditional Nepalese color patterns.",
+		"price": 3670,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?q=80&w=800&auto=format&fit=crop&sig=seasonal-135",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.5",
+		"reviews": 385,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-136",
+		"name": "Autumn Suede Jacket Vol. 7",
+		"description": "Classic suede jacket for autumn layering. Soft nubuck finish, zip-front closure, and warm polyester lining for transitional weather.",
+		"price": 4620,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=800&auto=format&fit=crop&sig=seasonal-136",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.2",
+		"reviews": 66,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-137",
+		"name": "Summer Linen Wrap Skirt Vol. 7",
+		"description": "Flowing linen wrap skirt for summer comfort. Adjustable tie waist, midi length, and natural linen texture with hand-finished edges.",
+		"price": 5576,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1583846783903-6a7a2039570d?q=80&w=800&auto=format&fit=crop&sig=seasonal-137",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.9",
+		"reviews": 97,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-138",
+		"name": "Spring Lightweight Parka Vol. 7",
+		"description": "Packable spring parka for variable mountain weather. Ultralight nylon, compressible stuff sack, and DWR coating for light rain.",
+		"price": 6538,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=800&auto=format&fit=crop&sig=seasonal-138",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.6",
+		"reviews": 128,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-139",
+		"name": "Winter Thermal Base Layer Vol. 7",
+		"description": "Merino wool thermal base layer for winter expeditions. 18.5-micron merino, flatlock seams, and odor-resistant natural fiber.",
+		"price": 7506,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=800&auto=format&fit=crop&sig=seasonal-139",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.3",
+		"reviews": 159,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-140",
+		"name": "Monsoon Rain Jacket Vol. 8",
+		"description": "Lightweight waterproof shell designed for Nepal's monsoon season. Breathable mesh lining, sealed seams, and packable design for trekking in heavy rain.",
+		"price": 8480,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=800&auto=format&fit=crop&sig=seasonal-140",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.0",
+		"reviews": 190,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-141",
+		"name": "Solstice Winter Coat Vol. 8",
+		"description": "Insulated parka built for Himalayan winters. Down-filled core, faux-fur hood trim, and windproof outer shell for temperatures below -10°C.",
+		"price": 9460,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?q=80&w=800&auto=format&fit=crop&sig=seasonal-141",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.7",
+		"reviews": 221,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-142",
+		"name": "Spring Linen Blazer Vol. 8",
+		"description": "Unstructured linen blazer perfect for Kathmandu's mild spring weather. Relaxed fit, natural cotton blend, and earth-tone dyes.",
+		"price": 10446,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1490481651871-ab68ff25d43d?q=80&w=800&auto=format&fit=crop&sig=seasonal-142",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.4",
+		"reviews": 252,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-143",
+		"name": "Winter Down Vest Vol. 8",
+		"description": "Ultra-light down vest layering piece. 650-fill goose down, compressible design, and quilted channels for even warmth distribution.",
+		"price": 11438,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-143",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.1",
+		"reviews": 283,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-144",
+		"name": "Autumn Windbreaker Vol. 8",
+		"description": "Crisp autumn windbreaker with adjustable hood. Water-resistant nylon, zippered pockets, and reflective trim for evening visibility.",
+		"price": 12436,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=800&auto=format&fit=crop&sig=seasonal-144",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.8",
+		"reviews": 314,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-145",
+		"name": "Summer Cotton Kaftan Vol. 8",
+		"description": "Flowing cotton kaftan for Nepal's hot summer months. Hand-block printed, loose fit, and breathable weave for maximum comfort.",
+		"price": 13440,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1562577309-4932fdd64cd1?q=80&w=800&auto=format&fit=crop&sig=seasonal-145",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.5",
+		"reviews": 345,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-146",
+		"name": "Monsoon Trek Poncho Vol. 8",
+		"description": "Full-coverage trekking poncho for monsoon expeditions. Ripstop nylon, extended length for backpack coverage, and stuff-sack included.",
+		"price": 14450,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1547234569-53fd724f2e1b?q=80&w=800&auto=format&fit=crop&sig=seasonal-146",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.2",
+		"reviews": 376,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-147",
+		"name": "Winter Cashmere Wrap Vol. 8",
+		"description": "Oversized cashmere wrap shawl for winter evenings. 100% Himalayan cashmere, hand-loomed in Kathmandu, naturally dyed.",
+		"price": 15466,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1520903442860-7f3cf0e852a5?q=80&w=800&auto=format&fit=crop&sig=seasonal-147",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.9",
+		"reviews": 57,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-148",
+		"name": "Spring Floral Dress Vol. 8",
+		"description": "Light floral print dress for spring festivals in Nepal. Cotton-silk blend, A-line silhouette, and hand-embroidered border detail.",
+		"price": 16488,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1595777457583-95e0e8a8f420?q=80&w=800&auto=format&fit=crop&sig=seasonal-148",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.6",
+		"reviews": 88,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-149",
+		"name": "Summer Hemp Shorts Vol. 8",
+		"description": "Eco-friendly hemp shorts for hot weather. Organic hemp-cotton blend, elastic waist, and deep side pockets for everyday wear.",
+		"price": 17516,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?q=80&w=800&auto=format&fit=crop&sig=seasonal-149",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.3",
+		"reviews": 119,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-150",
+		"name": "Autumn Wool Cardigan Vol. 8",
+		"description": "Chunky-knit wool cardigan for autumn chill. Nepalese wool blend, wooden toggle buttons, and patch pockets for a heritage look.",
+		"price": 18550,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1576566588028-414794448e77?q=80&w=800&auto=format&fit=crop&sig=seasonal-150",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.0",
+		"reviews": 150,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-151",
+		"name": "Winter Fleece-lined Trousers Vol. 8",
+		"description": "Warm fleece-lined trousers for winter commuting. Stretch fabric exterior, soft fleece interior, and tapered fit for layering.",
+		"price": 19590,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1594633312681-425c7b569a45?q=80&w=800&auto=format&fit=crop&sig=seasonal-151",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.7",
+		"reviews": 181,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-152",
+		"name": "Spring Rain Anorak Vol. 8",
+		"description": "Pullover rain anorak for spring showers. Water-repellent coating, kangaroo pocket, and adjustable hem for customizable coverage.",
+		"price": 2636,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=800&auto=format&fit=crop&sig=seasonal-152",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.4",
+		"reviews": 212,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-153",
+		"name": "Summer Bamboo Shirt Vol. 8",
+		"description": "Cool bamboo-fiber shirt for tropical heat. Moisture-wicking, UV-protective, and button-down collar for casual-to-smart styling.",
+		"price": 3688,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1596755094514-8691829b4e45?q=80&w=800&auto=format&fit=crop&sig=seasonal-153",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.1",
+		"reviews": 243,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-154",
+		"name": "Monsoon Quick-dry Pants Vol. 8",
+		"description": "Technical quick-dry trousers for monsoon travel. Hydrophobic fabric, articulated knees, and zip-off legs for convertible styling.",
+		"price": 4746,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1509631179647-017733169340?q=80&w=800&auto=format&fit=crop&sig=seasonal-154",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.8",
+		"reviews": 274,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-155",
+		"name": "Winter Yak Wool Beanie Vol. 8",
+		"description": "Hand-knit yak wool beanie for extreme cold. Soft inner lining, folded cuff design, and traditional Nepalese color patterns.",
+		"price": 5810,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?q=80&w=800&auto=format&fit=crop&sig=seasonal-155",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.5",
+		"reviews": 305,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-156",
+		"name": "Autumn Suede Jacket Vol. 8",
+		"description": "Classic suede jacket for autumn layering. Soft nubuck finish, zip-front closure, and warm polyester lining for transitional weather.",
+		"price": 6880,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=800&auto=format&fit=crop&sig=seasonal-156",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.2",
+		"reviews": 336,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-157",
+		"name": "Summer Linen Wrap Skirt Vol. 8",
+		"description": "Flowing linen wrap skirt for summer comfort. Adjustable tie waist, midi length, and natural linen texture with hand-finished edges.",
+		"price": 7956,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1583846783903-6a7a2039570d?q=80&w=800&auto=format&fit=crop&sig=seasonal-157",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.9",
+		"reviews": 367,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-158",
+		"name": "Spring Lightweight Parka Vol. 8",
+		"description": "Packable spring parka for variable mountain weather. Ultralight nylon, compressible stuff sack, and DWR coating for light rain.",
+		"price": 9038,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=800&auto=format&fit=crop&sig=seasonal-158",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.6",
+		"reviews": 398,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-159",
+		"name": "Winter Thermal Base Layer Vol. 8",
+		"description": "Merino wool thermal base layer for winter expeditions. 18.5-micron merino, flatlock seams, and odor-resistant natural fiber.",
+		"price": 10126,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=800&auto=format&fit=crop&sig=seasonal-159",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Turmeric",
+				"hex": "#d69e2e"
+			},
+			{
+				"name": "Coral",
+				"hex": "#fc8181"
+			},
+			{
+				"name": "Ivory",
+				"hex": "#fffff0"
+			}
+		],
+		"isNew": false,
+		"rating": "4.3",
+		"reviews": 79,
+		"season": "Summer"
+	},
+	{
+		"id": "seasonal-160",
+		"name": "Monsoon Rain Jacket Vol. 9",
+		"description": "Lightweight waterproof shell designed for Nepal's monsoon season. Breathable mesh lining, sealed seams, and packable design for trekking in heavy rain.",
+		"price": 11220,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=800&auto=format&fit=crop&sig=seasonal-160",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.0",
+		"reviews": 110,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-161",
+		"name": "Solstice Winter Coat Vol. 9",
+		"description": "Insulated parka built for Himalayan winters. Down-filled core, faux-fur hood trim, and windproof outer shell for temperatures below -10°C.",
+		"price": 12320,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?q=80&w=800&auto=format&fit=crop&sig=seasonal-161",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.7",
+		"reviews": 141,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-162",
+		"name": "Spring Linen Blazer Vol. 9",
+		"description": "Unstructured linen blazer perfect for Kathmandu's mild spring weather. Relaxed fit, natural cotton blend, and earth-tone dyes.",
+		"price": 13426,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1490481651871-ab68ff25d43d?q=80&w=800&auto=format&fit=crop&sig=seasonal-162",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.4",
+		"reviews": 172,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-163",
+		"name": "Winter Down Vest Vol. 9",
+		"description": "Ultra-light down vest layering piece. 650-fill goose down, compressible design, and quilted channels for even warmth distribution.",
+		"price": 14538,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-163",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.1",
+		"reviews": 203,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-164",
+		"name": "Autumn Windbreaker Vol. 9",
+		"description": "Crisp autumn windbreaker with adjustable hood. Water-resistant nylon, zippered pockets, and reflective trim for evening visibility.",
+		"price": 15656,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=800&auto=format&fit=crop&sig=seasonal-164",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.8",
+		"reviews": 234,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-165",
+		"name": "Summer Cotton Kaftan Vol. 9",
+		"description": "Flowing cotton kaftan for Nepal's hot summer months. Hand-block printed, loose fit, and breathable weave for maximum comfort.",
+		"price": 16780,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1562577309-4932fdd64cd1?q=80&w=800&auto=format&fit=crop&sig=seasonal-165",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.5",
+		"reviews": 265,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-166",
+		"name": "Monsoon Trek Poncho Vol. 9",
+		"description": "Full-coverage trekking poncho for monsoon expeditions. Ripstop nylon, extended length for backpack coverage, and stuff-sack included.",
+		"price": 17910,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1547234569-53fd724f2e1b?q=80&w=800&auto=format&fit=crop&sig=seasonal-166",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.2",
+		"reviews": 296,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-167",
+		"name": "Winter Cashmere Wrap Vol. 9",
+		"description": "Oversized cashmere wrap shawl for winter evenings. 100% Himalayan cashmere, hand-loomed in Kathmandu, naturally dyed.",
+		"price": 19046,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1520903442860-7f3cf0e852a5?q=80&w=800&auto=format&fit=crop&sig=seasonal-167",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.9",
+		"reviews": 327,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-168",
+		"name": "Spring Floral Dress Vol. 9",
+		"description": "Light floral print dress for spring festivals in Nepal. Cotton-silk blend, A-line silhouette, and hand-embroidered border detail.",
+		"price": 20188,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1595777457583-95e0e8a8f420?q=80&w=800&auto=format&fit=crop&sig=seasonal-168",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.6",
+		"reviews": 358,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-169",
+		"name": "Summer Hemp Shorts Vol. 9",
+		"description": "Eco-friendly hemp shorts for hot weather. Organic hemp-cotton blend, elastic waist, and deep side pockets for everyday wear.",
+		"price": 3336,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?q=80&w=800&auto=format&fit=crop&sig=seasonal-169",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.3",
+		"reviews": 389,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-170",
+		"name": "Autumn Wool Cardigan Vol. 9",
+		"description": "Chunky-knit wool cardigan for autumn chill. Nepalese wool blend, wooden toggle buttons, and patch pockets for a heritage look.",
+		"price": 4490,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1576566588028-414794448e77?q=80&w=800&auto=format&fit=crop&sig=seasonal-170",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.0",
+		"reviews": 70,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-171",
+		"name": "Winter Fleece-lined Trousers Vol. 9",
+		"description": "Warm fleece-lined trousers for winter commuting. Stretch fabric exterior, soft fleece interior, and tapered fit for layering.",
+		"price": 5650,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1594633312681-425c7b569a45?q=80&w=800&auto=format&fit=crop&sig=seasonal-171",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.7",
+		"reviews": 101,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-172",
+		"name": "Spring Rain Anorak Vol. 9",
+		"description": "Pullover rain anorak for spring showers. Water-repellent coating, kangaroo pocket, and adjustable hem for customizable coverage.",
+		"price": 6816,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=800&auto=format&fit=crop&sig=seasonal-172",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.4",
+		"reviews": 132,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-173",
+		"name": "Summer Bamboo Shirt Vol. 9",
+		"description": "Cool bamboo-fiber shirt for tropical heat. Moisture-wicking, UV-protective, and button-down collar for casual-to-smart styling.",
+		"price": 7988,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1596755094514-8691829b4e45?q=80&w=800&auto=format&fit=crop&sig=seasonal-173",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.1",
+		"reviews": 163,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-174",
+		"name": "Monsoon Quick-dry Pants Vol. 9",
+		"description": "Technical quick-dry trousers for monsoon travel. Hydrophobic fabric, articulated knees, and zip-off legs for convertible styling.",
+		"price": 9166,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1509631179647-017733169340?q=80&w=800&auto=format&fit=crop&sig=seasonal-174",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.8",
+		"reviews": 194,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-175",
+		"name": "Winter Yak Wool Beanie Vol. 9",
+		"description": "Hand-knit yak wool beanie for extreme cold. Soft inner lining, folded cuff design, and traditional Nepalese color patterns.",
+		"price": 10350,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?q=80&w=800&auto=format&fit=crop&sig=seasonal-175",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.5",
+		"reviews": 225,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-176",
+		"name": "Autumn Suede Jacket Vol. 9",
+		"description": "Classic suede jacket for autumn layering. Soft nubuck finish, zip-front closure, and warm polyester lining for transitional weather.",
+		"price": 11540,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=800&auto=format&fit=crop&sig=seasonal-176",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.2",
+		"reviews": 256,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-177",
+		"name": "Summer Linen Wrap Skirt Vol. 9",
+		"description": "Flowing linen wrap skirt for summer comfort. Adjustable tie waist, midi length, and natural linen texture with hand-finished edges.",
+		"price": 12736,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1583846783903-6a7a2039570d?q=80&w=800&auto=format&fit=crop&sig=seasonal-177",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.9",
+		"reviews": 287,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-178",
+		"name": "Spring Lightweight Parka Vol. 9",
+		"description": "Packable spring parka for variable mountain weather. Ultralight nylon, compressible stuff sack, and DWR coating for light rain.",
+		"price": 13938,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=800&auto=format&fit=crop&sig=seasonal-178",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.6",
+		"reviews": 318,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-179",
+		"name": "Winter Thermal Base Layer Vol. 9",
+		"description": "Merino wool thermal base layer for winter expeditions. 18.5-micron merino, flatlock seams, and odor-resistant natural fiber.",
+		"price": 15146,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=800&auto=format&fit=crop&sig=seasonal-179",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.3",
+		"reviews": 349,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-180",
+		"name": "Monsoon Rain Jacket Vol. 10",
+		"description": "Lightweight waterproof shell designed for Nepal's monsoon season. Breathable mesh lining, sealed seams, and packable design for trekking in heavy rain.",
+		"price": 16360,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=800&auto=format&fit=crop&sig=seasonal-180",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.0",
+		"reviews": 380,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-181",
+		"name": "Solstice Winter Coat Vol. 10",
+		"description": "Insulated parka built for Himalayan winters. Down-filled core, faux-fur hood trim, and windproof outer shell for temperatures below -10°C.",
+		"price": 17580,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?q=80&w=800&auto=format&fit=crop&sig=seasonal-181",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.7",
+		"reviews": 61,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-182",
+		"name": "Spring Linen Blazer Vol. 10",
+		"description": "Unstructured linen blazer perfect for Kathmandu's mild spring weather. Relaxed fit, natural cotton blend, and earth-tone dyes.",
+		"price": 18806,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1490481651871-ab68ff25d43d?q=80&w=800&auto=format&fit=crop&sig=seasonal-182",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.4",
+		"reviews": 92,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-183",
+		"name": "Winter Down Vest Vol. 10",
+		"description": "Ultra-light down vest layering piece. 650-fill goose down, compressible design, and quilted channels for even warmth distribution.",
+		"price": 20038,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1543076447-218ad9e3f51a?q=80&w=800&auto=format&fit=crop&sig=seasonal-183",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.1",
+		"reviews": 123,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-184",
+		"name": "Autumn Windbreaker Vol. 10",
+		"description": "Crisp autumn windbreaker with adjustable hood. Water-resistant nylon, zippered pockets, and reflective trim for evening visibility.",
+		"price": 3276,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=800&auto=format&fit=crop&sig=seasonal-184",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.8",
+		"reviews": 154,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-185",
+		"name": "Summer Cotton Kaftan Vol. 10",
+		"description": "Flowing cotton kaftan for Nepal's hot summer months. Hand-block printed, loose fit, and breathable weave for maximum comfort.",
+		"price": 4520,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1562577309-4932fdd64cd1?q=80&w=800&auto=format&fit=crop&sig=seasonal-185",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.5",
+		"reviews": 185,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-186",
+		"name": "Monsoon Trek Poncho Vol. 10",
+		"description": "Full-coverage trekking poncho for monsoon expeditions. Ripstop nylon, extended length for backpack coverage, and stuff-sack included.",
+		"price": 5770,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1547234569-53fd724f2e1b?q=80&w=800&auto=format&fit=crop&sig=seasonal-186",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.2",
+		"reviews": 216,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-187",
+		"name": "Winter Cashmere Wrap Vol. 10",
+		"description": "Oversized cashmere wrap shawl for winter evenings. 100% Himalayan cashmere, hand-loomed in Kathmandu, naturally dyed.",
+		"price": 7026,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1520903442860-7f3cf0e852a5?q=80&w=800&auto=format&fit=crop&sig=seasonal-187",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.9",
+		"reviews": 247,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-188",
+		"name": "Spring Floral Dress Vol. 10",
+		"description": "Light floral print dress for spring festivals in Nepal. Cotton-silk blend, A-line silhouette, and hand-embroidered border detail.",
+		"price": 8288,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1595777457583-95e0e8a8f420?q=80&w=800&auto=format&fit=crop&sig=seasonal-188",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.6",
+		"reviews": 278,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-189",
+		"name": "Summer Hemp Shorts Vol. 10",
+		"description": "Eco-friendly hemp shorts for hot weather. Organic hemp-cotton blend, elastic waist, and deep side pockets for everyday wear.",
+		"price": 9556,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?q=80&w=800&auto=format&fit=crop&sig=seasonal-189",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.3",
+		"reviews": 309,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-190",
+		"name": "Autumn Wool Cardigan Vol. 10",
+		"description": "Chunky-knit wool cardigan for autumn chill. Nepalese wool blend, wooden toggle buttons, and patch pockets for a heritage look.",
+		"price": 10830,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1576566588028-414794448e77?q=80&w=800&auto=format&fit=crop&sig=seasonal-190",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.0",
+		"reviews": 340,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-191",
+		"name": "Winter Fleece-lined Trousers Vol. 10",
+		"description": "Warm fleece-lined trousers for winter commuting. Stretch fabric exterior, soft fleece interior, and tapered fit for layering.",
+		"price": 12110,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1594633312681-425c7b569a45?q=80&w=800&auto=format&fit=crop&sig=seasonal-191",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.7",
+		"reviews": 371,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-192",
+		"name": "Spring Rain Anorak Vol. 10",
+		"description": "Pullover rain anorak for spring showers. Water-repellent coating, kangaroo pocket, and adjustable hem for customizable coverage.",
+		"price": 13396,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=800&auto=format&fit=crop&sig=seasonal-192",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.4",
+		"reviews": 52,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-193",
+		"name": "Summer Bamboo Shirt Vol. 10",
+		"description": "Cool bamboo-fiber shirt for tropical heat. Moisture-wicking, UV-protective, and button-down collar for casual-to-smart styling.",
+		"price": 14688,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1596755094514-8691829b4e45?q=80&w=800&auto=format&fit=crop&sig=seasonal-193",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.1",
+		"reviews": 83,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-194",
+		"name": "Monsoon Quick-dry Pants Vol. 10",
+		"description": "Technical quick-dry trousers for monsoon travel. Hydrophobic fabric, articulated knees, and zip-off legs for convertible styling.",
+		"price": 15986,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1509631179647-017733169340?q=80&w=800&auto=format&fit=crop&sig=seasonal-194",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.8",
+		"reviews": 114,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-195",
+		"name": "Winter Yak Wool Beanie Vol. 10",
+		"description": "Hand-knit yak wool beanie for extreme cold. Soft inner lining, folded cuff design, and traditional Nepalese color patterns.",
+		"price": 17290,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?q=80&w=800&auto=format&fit=crop&sig=seasonal-195",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.5",
+		"reviews": 145,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-196",
+		"name": "Autumn Suede Jacket Vol. 10",
+		"description": "Classic suede jacket for autumn layering. Soft nubuck finish, zip-front closure, and warm polyester lining for transitional weather.",
+		"price": 18600,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=800&auto=format&fit=crop&sig=seasonal-196",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.2",
+		"reviews": 176,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-197",
+		"name": "Summer Linen Wrap Skirt Vol. 10",
+		"description": "Flowing linen wrap skirt for summer comfort. Adjustable tie waist, midi length, and natural linen texture with hand-finished edges.",
+		"price": 19916,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1583846783903-6a7a2039570d?q=80&w=800&auto=format&fit=crop&sig=seasonal-197",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.9",
+		"reviews": 207,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-198",
+		"name": "Spring Lightweight Parka Vol. 10",
+		"description": "Packable spring parka for variable mountain weather. Ultralight nylon, compressible stuff sack, and DWR coating for light rain.",
+		"price": 3238,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=800&auto=format&fit=crop&sig=seasonal-198",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.6",
+		"reviews": 238,
+		"season": "Autumn"
+	},
+	{
+		"id": "seasonal-199",
+		"name": "Winter Thermal Base Layer Vol. 10",
+		"description": "Merino wool thermal base layer for winter expeditions. 18.5-micron merino, flatlock seams, and odor-resistant natural fiber.",
+		"price": 4566,
+		"category": "SEASONAL",
+		"image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=800&auto=format&fit=crop&sig=seasonal-199",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"colors": [
+			{
+				"name": "Rust",
+				"hex": "#c05621"
+			},
+			{
+				"name": "Olive",
+				"hex": "#698041"
+			},
+			{
+				"name": "Amber",
+				"hex": "#dd6b20"
+			}
+		],
+		"isNew": false,
+		"rating": "4.3",
+		"reviews": 269,
+		"season": "Autumn"
 	}
 ]
