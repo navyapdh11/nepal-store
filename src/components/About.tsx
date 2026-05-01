@@ -1,8 +1,33 @@
+import { Helmet } from "react-helmet-async";
 import "./About.css";
 
 export const About = () => {
 	return (
 		<div className="about-page">
+			<Helmet>
+				<title>About Us — NEPAL STORE | Handcrafted Nepalese Fashion from Kathmandu</title>
+				<meta name="description" content="NEPAL STORE partners with 200+ artisan families across the Kathmandu Valley to bring handcrafted cashmere, Dhaka textiles, and traditional garments to 77 districts and 40+ countries. Rooted in Himalayan heritage." />
+				<meta property="og:title" content="About NEPAL STORE" />
+				<meta property="og:description" content="Rooted in Nepal's textile heritage — 200+ artisan families, 50K+ happy customers, 100% handcrafted." />
+				<meta property="og:type" content="website" />
+				<script type="application/ld+json">
+					{JSON.stringify({
+						"@context": "https://schema.org",
+						"@type": "AboutPage",
+						name: "About NEPAL STORE",
+						description: "NEPAL STORE partners with 200+ artisan families across the Kathmandu Valley to bring handcrafted cashmere, Dhaka textiles, and traditional garments to customers worldwide.",
+						mainEntity: {
+							"@type": "Organization",
+							name: "NEPAL STORE",
+							url: "https://nepal-store.onrender.com",
+							description: "Premium e-commerce platform for authentic Nepalese fashion",
+							numberOfEmployees: { "@type": "QuantitativeValue", value: "200+" },
+							areaServed: ["Nepal", "United States", "United Kingdom", "Australia", "Japan"],
+							knowsAbout: ["Cashmere", "Dhaka Textiles", "Nepalese Fashion", "Handcrafted Clothing"],
+						},
+					})}
+				</script>
+			</Helmet>
 			<section className="about-hero">
 				<h1 className="font-display">Our Story</h1>
 				<p className="about-hero-sub">Bridging Nepal's rich textile heritage with modern design.</p>

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Helmet } from "react-helmet-async";
 import "./Contact.css";
 
 export const Contact = () => {
@@ -13,6 +14,29 @@ export const Contact = () => {
 
 	return (
 		<div className="contact-page">
+			<Helmet>
+				<title>Contact Us — NEPAL STORE | Customer Service Kathmandu</title>
+				<meta name="description" content="Reach out for order inquiries, product questions, wholesale partnerships, or artisan collaboration. Our team in Thamel, Kathmandu responds within 24 hours. International shipping to 40+ countries." />
+				<meta property="og:title" content="Contact NEPAL STORE" />
+				<meta property="og:description" content="Customer service for authentic Nepalese fashion — 24-hour response from Kathmandu." />
+				<meta property="og:type" content="website" />
+				<script type="application/ld+json">
+					{JSON.stringify({
+						"@context": "https://schema.org",
+						"@type": "ContactPage",
+						name: "Contact NEPAL STORE",
+						description: "Reach out for order inquiries, product questions, wholesale partnerships, or artisan collaboration.",
+						mainEntity: {
+							"@type": "LocalBusiness",
+							name: "NEPAL STORE",
+							address: { "@type": "PostalAddress", streetAddress: "Thamel", addressLocality: "Kathmandu", postalCode: "44600", addressCountry: "NP" },
+							email: "hello@nepalstore.com.np",
+							url: "https://nepal-store.onrender.com",
+							areaServed: "Worldwide",
+						},
+					})}
+				</script>
+			</Helmet>
 			<section className="contact-hero">
 				<h1 className="font-display">Get in Touch</h1>
 				<p className="contact-sub">Have a question or feedback? We'd love to hear from you.</p>

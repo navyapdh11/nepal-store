@@ -4,7 +4,8 @@ import type { VercelRequest, VercelResponse } from "@vercel/node";
 import jwt from "jsonwebtoken";
 
 const PRODUCTS_PATH = join(process.cwd(), "public", "products.json");
-const SECRET_KEY = process.env.JWT_SECRET || "fallback-change-me";
+const SECRET_KEY = process.env.JWT_SECRET;
+if (!SECRET_KEY) throw new Error("JWT_SECRET environment variable is required");
 
 function readProducts(): any[] {
 	return JSON.parse(readFileSync(PRODUCTS_PATH, "utf8"));

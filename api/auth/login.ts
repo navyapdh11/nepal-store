@@ -2,7 +2,8 @@ import type { VercelRequest, VercelResponse } from "@vercel/node";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
 
-const SECRET_KEY = process.env.JWT_SECRET || "fallback-change-me";
+const SECRET_KEY = process.env.JWT_SECRET;
+if (!SECRET_KEY) throw new Error("JWT_SECRET environment variable is required");
 
 // Admin credentials hash (for Vercel serverless without DB)
 const ADMIN_HASH = "$2b$12$LJ3m4ys2Lk0qBqRzG3q5uOKqR5qK5qK5qK5qK5qK5qK5qK5qK5qK5"; // placeholder
