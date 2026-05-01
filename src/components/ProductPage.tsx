@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import { useParams, Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { Breadcrumb } from "./Breadcrumb";
@@ -50,7 +50,7 @@ export const ProductPage = () => {
 		fetchProduct();
 	}, [category, productId]);
 
-	const handleAdd = () => {
+	const handleAdd = useCallback(() => {
 		if (!product) return;
 		setAdded(true);
 		addItem({
@@ -63,16 +63,14 @@ export const ProductPage = () => {
 			quantity: 1,
 		});
 		setTimeout(() => setAdded(false), 2000);
-	};
+	}, [product, selectedSize, selectedColor, addItem]);
 
 	if (loading) return <div className="product-page-loading"><p>Loading...</p></div>;
 	if (!product) {
 		return (
 			<div className="not-found">
 				<h1>Product Not Found</h1>
-				<p>
-					Go back to <Link to={`/${category}`}>this category</Link> or <Link to="/">browse all</Link>.
-				</p>
+				<p>Go back to <Link to={`/${category}`}>this category</Link> or <Link to="/">browse all</Link>.</p>
 			</div>
 		);
 	}
@@ -99,20 +97,8 @@ export const ProductPage = () => {
 						description: product.description,
 						image: product.image,
 						brand: { "@type": "Brand", name: "NEPAL STORE" },
-						offers: {
-							"@type": "Offer",
-							price: product.price,
-							priceCurrency: "NPR",
-							availability: "https://schema.org/InStock",
-							seller: { "@type": "Organization", name: "NEPAL STORE" },
-						},
-						aggregateRating: product.rating
-							? {
-									"@type": "AggregateRating",
-									ratingValue: product.rating,
-									reviewCount: product.reviews ?? 0,
-								}
-							: undefined,
+						offers: { "@type": "Offer", price: product.price, priceCurrency: "NPR", availability: "https://schema.org/InStock", seller: { "@type": "Organization", name: "NEPAL STORE" } },
+						aggregateRating: product.rating ? { "@type": "AggregateRating", ratingValue: product.rating, reviewCount: product.reviews ?? 0 } : undefined,
 					})}
 				</script>
 				<script type="application/ld+json">
@@ -128,71 +114,39 @@ export const ProductPage = () => {
 				</script>
 			</Helmet>
 
-			<Breadcrumb
-				items={[
-					{ label: "Home", href: "/" },
-					{ label: product.category, href: `/${catLabel}` },
-					{ label: product.name },
-				]}
-			/>
+			<Breadcrumb items={[{ label: "Home", href: "/" }, { label: product.category, href: `/${catLabel}` }, { label: product.name }]} />
 
 			<div className="product-layout">
 				<div className="product-image-section">
-					<img
-						src={product.image}
-						alt={product.name}
-						width="600"
-						height="750"
-						style={{ aspectRatio: "4/5", objectFit: "cover", width: "100%" }}
-					/>
+					<img src={product.image} alt={product.name} width="600" height="750" style={{ aspectRatio: "4/5", objectFit: "cover", width: "100%" }} />
 				</div>
 
 				<div className="product-details">
 					{product.isNew && <span className="new-badge-inline">NEW</span>}
 					<h1 className="font-display">{product.name}</h1>
-
 					{product.rating && (
 						<div className="product-rating">
 							<span>★ {product.rating}</span>
 							{product.reviews && <span>({product.reviews} reviews)</span>}
 						</div>
 					)}
-
 					<div className="product-price">रू{product.price.toLocaleString()}</div>
-
 					<p className="product-description">{product.description}</p>
 
-					{/* Size selector */}
 					<div className="selector-group">
 						<h4>Size</h4>
 						<div className="size-options">
 							{product.sizes.map((s) => (
-								<button
-									key={s}
-									type="button"
-									className={`size-btn ${selectedSize === s ? "selected" : ""}`}
-									onClick={() => setSelectedSize(s)}
-								>
-									{s}
-								</button>
+								<button key={s} type="button" className={`size-btn ${selectedSize === s ? "selected" : ""}`} onClick={() => setSelectedSize(s)}>{s}</button>
 							))}
 						</div>
 					</div>
 
-					{/* Color selector */}
 					<div className="selector-group">
 						<h4>Color</h4>
 						<div className="color-options">
 							{product.colors.map((c) => (
-								<button
-									key={c.name}
-									type="button"
-									className={`color-btn ${selectedColor?.name === c.name ? "selected" : ""}`}
-									onClick={() => setSelectedColor(c)}
-									style={{ backgroundColor: c.hex }}
-									aria-label={c.name}
-									title={c.name}
-								/>
+								<button key={c.name} type="button" className={`color-btn ${selectedColor?.name === c.name ? "selected" : ""}`} onClick={() => setSelectedColor(c)} style={{ backgroundColor: c.hex }} aria-label={c.name} title={c.name} />
 							))}
 						</div>
 						{selectedColor && <span className="selected-color-name">{selectedColor.name}</span>}
@@ -209,6 +163,16 @@ export const ProductPage = () => {
 					</div>
 				</div>
 			</div>
+
+			{/* Page-end SEO: related products */}
+			<section className="page-end-description">
+				<h2 className="font-display">More {product.category} Products</h2>
+				<p>
+					Explore more {product.category.toLowerCase()} at NEPAL STORE — handcrafted cashmere, Dhaka textiles,
+					and contemporary fashion from Kathmandu artisans. Every purchase supports 200+ artisan families.
+				</p>
+				<Link to={`/${catLabel}`} className="story-link">Browse all {product.category} →</Link>
+			</section>
 		</div>
 	);
 };

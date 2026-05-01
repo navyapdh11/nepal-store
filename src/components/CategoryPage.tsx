@@ -1,9 +1,10 @@
 import { useEffect, useState, useCallback } from "react";
-import { useParams, Link, useNavigate } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { Breadcrumb } from "./Breadcrumb";
 import { BentoCard } from "./BentoCard";
 import { RemotionHero } from "./RemotionHero";
+import { useProductModal } from "../context/ProductModalContext.tsx";
 import { useCart } from "../context/CartContext.tsx";
 import "./CategoryPage.css";
 
@@ -91,7 +92,7 @@ export const CategoryPage = () => {
 	const [loading, setLoading] = useState(true);
 	const [visible, setVisible] = useState(12);
 	const [sortBy, setSortBy] = useState("default");
-	const navigate = useNavigate();
+	const { openProduct } = useProductModal();
 	const { addItem } = useCart();
 
 	useEffect(() => {
@@ -134,12 +135,11 @@ export const CategoryPage = () => {
 		setVisible((v) => Math.min(v + 12, products.length));
 	}, [products.length]);
 
-	const handleProductClick = (product: Product) => {
-		const catLabel = product.category.toLowerCase();
-		navigate(`/${catLabel}/${product.id}`);
-	};
+	const handleProductClick = useCallback((product: Product) => {
+		openProduct(product);
+	}, [openProduct]);
 
-	const handleAddToCart = (product: Product) => {
+	const handleQuickAdd = useCallback((product: Product) => {
 		addItem({
 			id: product.id,
 			name: product.name,
@@ -149,15 +149,13 @@ export const CategoryPage = () => {
 			color: product.colors[0],
 			quantity: 1,
 		});
-	};
+	}, [addItem]);
 
 	if (!meta || !category) {
 		return (
 			<div className="not-found">
 				<h1>Category Not Found</h1>
-				<p>
-					Go back to the <Link to="/">homepage</Link>.
-				</p>
+				<p>Go back to the <Link to="/">homepage</Link>.</p>
 			</div>
 		);
 	}
@@ -182,32 +180,18 @@ export const CategoryPage = () => {
 				</script>
 			</Helmet>
 
-			<Breadcrumb
-				items={[
-					{ label: "Home", href: "/" },
-					{ label: meta.title },
-				]}
-			/>
+			<Breadcrumb items={[{ label: "Home", href: "/" }, { label: meta.title }]} />
 
 			{/* Remotion animated hero */}
 			<section className="category-hero">
-				<RemotionHero
-					title={meta.title}
-					subtitle={meta.subtitle}
-					backgroundImage={meta.heroImg}
-				/>
+				<RemotionHero title={meta.title} subtitle={meta.subtitle} backgroundImage={meta.heroImg} />
 			</section>
 
 			<section className="category-toolbar">
 				<p className="product-count">{products.length} products</p>
 				<div className="sort-controls">
 					<label htmlFor="sort">Sort by:</label>
-					<select
-						id="sort"
-						value={sortBy}
-						onChange={(e) => setSortBy(e.target.value)}
-						aria-label="Sort products"
-					>
+					<select id="sort" value={sortBy} onChange={(e) => setSortBy(e.target.value)} aria-label="Sort products">
 						<option value="default">Featured</option>
 						<option value="price-asc">Price: Low to High</option>
 						<option value="price-desc">Price: High to Low</option>
@@ -228,7 +212,7 @@ export const CategoryPage = () => {
 			{!loading && visible < products.length && (
 				<div className="load-more-wrap">
 					<button type="button" className="load-more-btn" onClick={loadMore}>
-						Load More ({products.length - visible} remaining)
+						Discover More
 					</button>
 				</div>
 			)}
@@ -240,10 +224,10 @@ export const CategoryPage = () => {
 				</div>
 			)}
 
-			{/* Quick add to cart */}
+			{/* Quick add */}
 			{!loading && products.length > 0 && (
 				<div className="quick-add-wrap">
-					<button type="button" className="quick-add-btn" onClick={() => handleAddToCart(products[0])}>
+					<button type="button" className="quick-add-btn" onClick={() => handleQuickAdd(products[0])}>
 						Quick Add: "{products[0].name}" — रू{products[0].price.toLocaleString()}
 					</button>
 				</div>

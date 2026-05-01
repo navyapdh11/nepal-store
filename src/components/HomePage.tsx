@@ -1,8 +1,9 @@
-import { useEffect, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useEffect, useState, useCallback } from "react";
+import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { Breadcrumb } from "./Breadcrumb";
 import { RemotionHero } from "./RemotionHero";
+import { useProductModal } from "../context/ProductModalContext.tsx";
 import { useCart } from "../context/CartContext.tsx";
 import "./HomePage.css";
 
@@ -35,7 +36,7 @@ const categories = [
 
 export const HomePage = () => {
 	const [featured, setFeatured] = useState<Product[]>([]);
-	const navigate = useNavigate();
+	const { openProduct } = useProductModal();
 	const { addItem } = useCart();
 
 	useEffect(() => {
@@ -51,12 +52,11 @@ export const HomePage = () => {
 		fetchFeatured();
 	}, []);
 
-	const handleProductClick = (product: Product) => {
-		const catLabel = product.category.toLowerCase();
-		navigate(`/${catLabel}/${product.id}`);
-	};
+	const handleProductClick = useCallback((product: Product) => {
+		openProduct(product);
+	}, [openProduct]);
 
-	const handleAddToCart = (product: Product) => {
+	const handleQuickAdd = useCallback((product: Product) => {
 		addItem({
 			id: product.id,
 			name: product.name,
@@ -66,25 +66,22 @@ export const HomePage = () => {
 			color: product.colors[0],
 			quantity: 1,
 		});
-	};
+	}, [addItem]);
 
 	return (
 		<div className="home-page">
 			<Helmet>
 				<title>NEPAL STORE | Authentic Nepalese Fashion — Cashmere, Dhaka & Traditional Wear</title>
-				<meta
-					name="description"
-					content="Shop authentic Nepalese clothing online — handcrafted cashmere pashminas, Dhaka textiles, traditional wear, and modern fashion. Direct from Kathmandu artisans. Free shipping over रू 5,000."
-				/>
+				<meta name="description" content="Shop authentic Nepalese clothing online — handcrafted cashmere pashminas, Dhaka textiles, traditional wear, and modern fashion. Direct from Kathmandu artisans. Free shipping over रू 5,000." />
 			</Helmet>
 
 			<Breadcrumb items={[{ label: "Home" }]} />
 
-			{/* Hero with Remotion video */}
+			{/* Remotion animated hero */}
 			<section className="home-hero">
 				<RemotionHero
-					title="Handcrafted in the Himalayas"
-					subtitle="Authentic Nepalese Fashion"
+					title="NEPAL STORE"
+					subtitle="Handcrafted in the Himalayas"
 					backgroundImage="https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1920&auto=format&fit=crop"
 				/>
 				<div className="home-hero-content">
@@ -121,19 +118,8 @@ export const HomePage = () => {
 					<h2 className="font-display section-title">Featured</h2>
 					<div className="featured-grid">
 						{featured.map((product) => (
-							<article
-								key={product.id}
-								className="featured-card"
-								onClick={() => handleProductClick(product)}
-							>
-								<img
-									src={product.image}
-									alt={product.name}
-									loading="lazy"
-									width="300"
-									height="375"
-									style={{ aspectRatio: "4/5", objectFit: "cover" }}
-								/>
+							<article key={product.id} className="featured-card" onClick={() => handleProductClick(product)}>
+								<img src={product.image} alt={product.name} loading="lazy" width="300" height="375" style={{ aspectRatio: "4/5", objectFit: "cover" }} />
 								<div className="featured-info">
 									<h4>{product.name}</h4>
 									<span className="featured-price">रू{product.price.toLocaleString()}</span>
@@ -142,8 +128,8 @@ export const HomePage = () => {
 						))}
 					</div>
 					<div className="featured-cta-wrap">
-						<button type="button" className="featured-add-cart-btn" onClick={() => handleAddToCart(featured[0])}>
-							Add "{featured[0].name}" to Bag
+						<button type="button" className="featured-add-cart-btn" onClick={() => handleQuickAdd(featured[0])}>
+							Quick Add: "{featured[0].name}" — रू{featured[0].price.toLocaleString()}
 						</button>
 					</div>
 				</section>
@@ -159,6 +145,21 @@ export const HomePage = () => {
 					</p>
 					<Link to="/about" className="story-link">Read our story →</Link>
 				</div>
+			</section>
+
+			{/* Page-end SEO description */}
+			<section className="page-end-description">
+				<h2 className="font-display">NEPAL STORE — Premium E-Commerce for the Nepalese Market</h2>
+				<p>
+					NEPAL STORE is a premium e-commerce platform built for the Nepalese market, offering enterprise-grade
+					spatial UX with 2026 design systems. Our collections span women's fashion, men's wear, traditional heritage
+					garments, sports apparel, seasonal picks, kids' and baby clothing, accessories, and home décor.
+				</p>
+				<p>
+					Every product is handcrafted by artisan partners across the Kathmandu Valley using premium materials —
+					Himalayan cashmere (12-16 micron), handwoven Dhaka fabric, organic cotton, and yak wool. Free shipping
+					on orders over रू 5,000. 14-day returns. Every purchase supports 200+ artisan families.
+				</p>
 			</section>
 		</div>
 	);

@@ -12,7 +12,7 @@ module.exports = {
 	rules: {
 		"react-refresh/only-export-components": [
 			"warn",
-			{ allowConstantExport: true, allowExportNames: ["CartProvider", "useCart"] },
+			{ allowConstantExport: true, allowExportNames: ["CartProvider", "useCart", "ProductModalProvider", "useProductModal"] },
 		],
 		"@typescript-eslint/no-explicit-any": "off",
 		"@typescript-eslint/no-unused-vars": ["warn", { argsIgnorePattern: "^_", varsIgnorePattern: "^_" }],

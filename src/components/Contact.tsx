@@ -104,6 +104,13 @@ export const Contact = () => {
 					</div>
 				</div>
 			</div>
+
+			{/* Page-end SEO description */}
+			<section className="page-end-description">
+				<h2 className="font-display">Contact NEPAL STORE — Customer Service Kathmandu</h2>
+				<p>Reach out for order inquiries, product questions, wholesale partnerships, or artisan collaboration. Our team in Thamel, Kathmandu responds within 24 hours.</p>
+				<p>International customers: we ship to 40+ countries. Contact us for bulk orders or custom requests.</p>
+			</section>
 		</div>
 	);
 };

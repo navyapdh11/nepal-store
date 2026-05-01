@@ -77,6 +77,18 @@ export const About = () => {
 					</div>
 				</div>
 			</section>
+
+			{/* Page-end SEO description */}
+			<section className="page-end-description">
+				<h2 className="font-display">About NEPAL STORE — Premium E-Commerce for the Nepalese Market</h2>
+				<p>
+					NEPAL STORE is an enterprise-grade e-commerce platform built for the Nepalese market with 2026 design
+					systems. We partner with 200+ artisan families across the Kathmandu Valley to bring handcrafted cashmere,
+					Dhaka textiles, and traditional garments to customers in 77 districts and 40+ countries worldwide.
+				</p>
+				<p>Our collections span women's fashion, men's wear, traditional heritage, sports apparel, seasonal picks,
+					kids' and baby clothing, accessories, and home décor. Every purchase supports sustainable artisan livelihoods.</p>
+			</section>
 		</div>
 	);
 };

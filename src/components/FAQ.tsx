@@ -116,6 +116,17 @@ export const FAQ = () => {
 					</div>
 				))}
 			</section>
+
+			{/* Page-end SEO description */}
+			<section className="page-end-description">
+				<h2 className="font-display">NEPAL STORE Customer Support</h2>
+				<p>
+					Find answers to common questions about shopping at NEPAL STORE — our authentic Nepalese fashion
+					e-commerce platform. From Dhaka fabric care to international shipping, sizing guides to artisan
+					partnerships, we cover everything you need to know before making your purchase.
+				</p>
+				<p>Still have questions? <a href="/contact">Contact our team</a> for personalized assistance.</p>
+			</section>
 		</div>
 	);
 };

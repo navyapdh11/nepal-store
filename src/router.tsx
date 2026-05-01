@@ -1,38 +1,63 @@
 import { createBrowserRouter } from "react-router-dom";
-import App from "./App";
+import { Layout } from "./components/Layout";
 import { HomePage } from "./components/HomePage";
 import { CategoryPage } from "./components/CategoryPage";
 import { ProductPage } from "./components/ProductPage";
 import { FAQ } from "./components/FAQ";
 import { About } from "./components/About";
 import { Contact } from "./components/Contact";
+import App from "./App";
 
 export const router = createBrowserRouter([
 	{
 		path: "/",
-		element: <HomePage />,
+		element: (
+			<Layout currentPage="home">
+				<HomePage />
+			</Layout>
+		),
 	},
 	{
 		path: "/:category",
-		element: <CategoryPage />,
+		element: (
+			<Layout currentPage={window.location.pathname.slice(1)}>
+				<CategoryPage />
+			</Layout>
+		),
 	},
 	{
 		path: "/:category/:productId",
-		element: <ProductPage />,
+		element: (
+			<Layout currentPage={window.location.pathname.slice(1).split("/")[0]}>
+				<ProductPage />
+			</Layout>
+		),
 	},
 	{
 		path: "/faq",
-		element: <FAQ />,
+		element: (
+			<Layout currentPage="faq">
+				<FAQ />
+			</Layout>
+		),
 	},
 	{
 		path: "/about",
-		element: <About />,
+		element: (
+			<Layout currentPage="about">
+				<About />
+			</Layout>
+		),
 	},
 	{
 		path: "/contact",
-		element: <Contact />,
+		element: (
+			<Layout currentPage="contact">
+				<Contact />
+			</Layout>
+		),
 	},
-	// Legacy: keep App at /app for enterprise views
+	// Legacy: App at /app for enterprise views + legacy SPA
 	{
 		path: "/app",
 		element: <App />,
