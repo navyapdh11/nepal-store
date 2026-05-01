@@ -3,9 +3,11 @@ import { AbsoluteFill, interpolate, useCurrentFrame } from "remotion";
 export const HeroBanner = ({
 	title,
 	subtitle,
+	backgroundImage,
 }: {
 	title: string;
 	subtitle: string;
+	backgroundImage?: string;
 }) => {
 	const frame = useCurrentFrame();
 
@@ -16,6 +18,8 @@ export const HeroBanner = ({
 	const scale = interpolate(frame, [0, 300], [1.05, 1], {
 		extrapolateRight: "clamp",
 	});
+
+	const bg = backgroundImage || "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1920&auto=format&fit=crop";
 
 	return (
 		<AbsoluteFill
@@ -33,7 +37,7 @@ export const HeroBanner = ({
 					left: 0,
 					right: 0,
 					bottom: 0,
-					backgroundImage: `url('https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1920&auto=format&fit=crop')`,
+					backgroundImage: `url('${bg}')`,
 					backgroundSize: "cover",
 					backgroundPosition: "center",
 					opacity: 0.6,

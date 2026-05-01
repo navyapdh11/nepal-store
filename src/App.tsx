@@ -290,7 +290,6 @@ function App() {
 	}, [page]);
 
 	const visibleProducts = useMemo(() => products.slice(0, displayCount), [products, displayCount]);
-	const cartCount = useMemo(() => cartItems.reduce((sum, item) => sum + item.quantity, 0), [cartItems]);
 
 	const handleAddToCart = useCallback((product: unknown) => {
 		const p = product as CartItem;
@@ -440,7 +439,6 @@ function App() {
 				</script>
 			</Helmet>
 			<Header
-				cartCount={cartCount}
 				onCategoryChange={setPage}
 				onCartClick={() => setCartOpen(true)}
 				onSearchClick={() => setSearchOpen(true)}

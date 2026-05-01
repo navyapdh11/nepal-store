@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { Breadcrumb } from "./Breadcrumb";
+import { useCart } from "../context/CartContext.tsx";
 import "./ProductPage.css";
 
 interface Product {
@@ -18,13 +19,14 @@ interface Product {
 	reviews?: number;
 }
 
-export const ProductPage = ({ onAddToCart }: { onAddToCart: (p: Product) => void }) => {
+export const ProductPage = () => {
 	const { category, productId } = useParams<{ category: string; productId: string }>();
 	const [product, setProduct] = useState<Product | null>(null);
 	const [loading, setLoading] = useState(true);
 	const [selectedSize, setSelectedSize] = useState("");
 	const [selectedColor, setSelectedColor] = useState<{ name: string; hex: string } | null>(null);
 	const [added, setAdded] = useState(false);
+	const { addItem } = useCart();
 
 	useEffect(() => {
 		setLoading(true);
@@ -51,7 +53,15 @@ export const ProductPage = ({ onAddToCart }: { onAddToCart: (p: Product) => void
 	const handleAdd = () => {
 		if (!product) return;
 		setAdded(true);
-		onAddToCart({ ...product, size: selectedSize, color: selectedColor, quantity: 1 } as unknown as Product);
+		addItem({
+			id: product.id,
+			name: product.name,
+			price: product.price,
+			image: product.image,
+			size: selectedSize,
+			color: selectedColor ?? undefined,
+			quantity: 1,
+		});
 		setTimeout(() => setAdded(false), 2000);
 	};
 

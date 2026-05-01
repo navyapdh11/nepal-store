@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#0a0a0a" rx="40"/>
+  <text x="200" y="180" font-family="Arial, sans-serif" font-size="64" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="-1">NEPAL</text>
+  <text x="200" y="260" font-family="Arial, sans-serif" font-size="64" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="-1">STORE</text>
+  <rect x="120" y="290" width="160" height="4" fill="#ff0000"/>
+</svg>

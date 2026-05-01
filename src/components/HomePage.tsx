@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { Breadcrumb } from "./Breadcrumb";
+import { RemotionHero } from "./RemotionHero";
+import { useCart } from "../context/CartContext.tsx";
 import "./HomePage.css";
 
 interface Product {
@@ -31,8 +33,10 @@ const categories = [
 	{ key: "sale", label: "Sale", img: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?q=80&w=600&auto=format&fit=crop" },
 ];
 
-export const HomePage = ({ onProductClick }: { onProductClick: (p: Product) => void }) => {
+export const HomePage = () => {
 	const [featured, setFeatured] = useState<Product[]>([]);
+	const navigate = useNavigate();
+	const { addItem } = useCart();
 
 	useEffect(() => {
 		const fetchFeatured = async () => {
@@ -47,6 +51,23 @@ export const HomePage = ({ onProductClick }: { onProductClick: (p: Product) => v
 		fetchFeatured();
 	}, []);
 
+	const handleProductClick = (product: Product) => {
+		const catLabel = product.category.toLowerCase();
+		navigate(`/${catLabel}/${product.id}`);
+	};
+
+	const handleAddToCart = (product: Product) => {
+		addItem({
+			id: product.id,
+			name: product.name,
+			price: product.price,
+			image: product.image,
+			size: product.sizes[0],
+			color: product.colors[0],
+			quantity: 1,
+		});
+	};
+
 	return (
 		<div className="home-page">
 			<Helmet>
@@ -59,14 +80,12 @@ export const HomePage = ({ onProductClick }: { onProductClick: (p: Product) => v
 
 			<Breadcrumb items={[{ label: "Home" }]} />
 
-			{/* Hero */}
+			{/* Hero with Remotion video */}
 			<section className="home-hero">
-				<div
-					className="home-hero-bg"
-					style={{
-						backgroundImage:
-							"url(https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1920&auto=format&fit=crop)",
-					}}
+				<RemotionHero
+					title="Handcrafted in the Himalayas"
+					subtitle="Authentic Nepalese Fashion"
+					backgroundImage="https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1920&auto=format&fit=crop"
 				/>
 				<div className="home-hero-content">
 					<h1 className="font-display text-gradient">Handcrafted in the Himalayas</h1>
@@ -105,7 +124,7 @@ export const HomePage = ({ onProductClick }: { onProductClick: (p: Product) => v
 							<article
 								key={product.id}
 								className="featured-card"
-								onClick={() => onProductClick(product)}
+								onClick={() => handleProductClick(product)}
 							>
 								<img
 									src={product.image}
@@ -121,6 +140,11 @@ export const HomePage = ({ onProductClick }: { onProductClick: (p: Product) => v
 								</div>
 							</article>
 						))}
+					</div>
+					<div className="featured-cta-wrap">
+						<button type="button" className="featured-add-cart-btn" onClick={() => handleAddToCart(featured[0])}>
+							Add "{featured[0].name}" to Bag
+						</button>
 					</div>
 				</section>
 			)}

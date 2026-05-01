@@ -7,28 +7,18 @@ import { FAQ } from "./components/FAQ";
 import { About } from "./components/About";
 import { Contact } from "./components/Contact";
 
-// Shared product click handler — opens modal in App shell
-let globalSetSelectedProduct: ((p: unknown) => void) | null = null;
-export const registerProductClick = (fn: (p: unknown) => void) => {
-	globalSetSelectedProduct = fn;
-};
-
 export const router = createBrowserRouter([
 	{
 		path: "/",
-		element: <HomePage onProductClick={(p) => globalSetSelectedProduct?.(p)} />,
+		element: <HomePage />,
 	},
 	{
 		path: "/:category",
-		element: (
-			<CategoryPage
-				onProductClick={(p) => globalSetSelectedProduct?.(p)}
-			/>
-		),
+		element: <CategoryPage />,
 	},
 	{
 		path: "/:category/:productId",
-		element: <ProductPage onAddToCart={() => {}} />,
+		element: <ProductPage />,
 	},
 	{
 		path: "/faq",

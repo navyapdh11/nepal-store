@@ -4,6 +4,10 @@
   "outputDirectory": "dist",
   "framework": "vite",
   "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/$1" },
+    { "source": "/products.json", "destination": "/products.json" },
+    { "source": "/traditional.json", "destination": "/traditional.json" },
+    { "source": "/(.*\\..+)", "destination": "/$1" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }

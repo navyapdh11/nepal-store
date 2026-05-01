@@ -1,8 +1,10 @@
 import { useEffect, useState, useCallback } from "react";
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { Breadcrumb } from "./Breadcrumb";
 import { BentoCard } from "./BentoCard";
+import { RemotionHero } from "./RemotionHero";
+import { useCart } from "../context/CartContext.tsx";
 import "./CategoryPage.css";
 
 interface Product {
@@ -82,17 +84,15 @@ const categoryMeta: Record<string, { title: string; subtitle: string; seo: strin
 	},
 };
 
-export const CategoryPage = ({
-	onProductClick,
-}: {
-	onProductClick: (p: Product) => void;
-}) => {
+export const CategoryPage = () => {
 	const { category } = useParams<{ category: string }>();
 	const meta = categoryMeta[category ?? ""];
 	const [products, setProducts] = useState<Product[]>([]);
 	const [loading, setLoading] = useState(true);
 	const [visible, setVisible] = useState(12);
 	const [sortBy, setSortBy] = useState("default");
+	const navigate = useNavigate();
+	const { addItem } = useCart();
 
 	useEffect(() => {
 		setLoading(true);
@@ -106,7 +106,7 @@ export const CategoryPage = ({
 					setProducts(Array.isArray(data) ? data : []);
 				} else {
 					const cat = category?.toUpperCase();
-					const res = await fetch(`/api/products?category=${cat}&limit=100`);
+					const res = await fetch(`/api/products?category=${cat}&limit=200`);
 					const data = await res.json();
 					setProducts(Array.isArray(data) ? data : []);
 				}
@@ -133,6 +133,23 @@ export const CategoryPage = ({
 	const loadMore = useCallback(() => {
 		setVisible((v) => Math.min(v + 12, products.length));
 	}, [products.length]);
+
+	const handleProductClick = (product: Product) => {
+		const catLabel = product.category.toLowerCase();
+		navigate(`/${catLabel}/${product.id}`);
+	};
+
+	const handleAddToCart = (product: Product) => {
+		addItem({
+			id: product.id,
+			name: product.name,
+			price: product.price,
+			image: product.image,
+			size: product.sizes[0],
+			color: product.colors[0],
+			quantity: 1,
+		});
+	};
 
 	if (!meta || !category) {
 		return (
@@ -172,12 +189,13 @@ export const CategoryPage = ({
 				]}
 			/>
 
+			{/* Remotion animated hero */}
 			<section className="category-hero">
-				<div className="category-hero-bg" style={{ backgroundImage: `url(${meta.heroImg})` }} />
-				<div className="category-hero-content">
-					<h1 className="font-display">{meta.title}</h1>
-					<p className="lead">{meta.subtitle}</p>
-				</div>
+				<RemotionHero
+					title={meta.title}
+					subtitle={meta.subtitle}
+					backgroundImage={meta.heroImg}
+				/>
 			</section>
 
 			<section className="category-toolbar">
@@ -203,7 +221,7 @@ export const CategoryPage = ({
 				{loading
 					? Array.from({ length: 8 }).map((_, i) => <div key={i} className="bento-skeleton skeleton pulse-anim" />)
 					: shown.map((product, i) => (
-							<BentoCard key={product.id} product={product} index={i} onClick={onProductClick} />
+							<BentoCard key={product.id} product={product} index={i} onClick={handleProductClick} />
 						))}
 			</section>
 
@@ -219,6 +237,15 @@ export const CategoryPage = ({
 				<div className="empty-state">
 					<p>No products found in this category.</p>
 					<Link to="/">Browse all collections</Link>
+				</div>
+			)}
+
+			{/* Quick add to cart */}
+			{!loading && products.length > 0 && (
+				<div className="quick-add-wrap">
+					<button type="button" className="quick-add-btn" onClick={() => handleAddToCart(products[0])}>
+						Quick Add: "{products[0].name}" — रू{products[0].price.toLocaleString()}
+					</button>
 				</div>
 			)}
 

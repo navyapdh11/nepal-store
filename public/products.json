@@ -14398,5 +14398,1405 @@
 		"isNew": false,
 		"rating": "4.7",
 		"reviews": 309
+	},
+	{
+		"id": "accessories-0",
+		"name": "Pashmina Scarf Vol. 1",
+		"description": "Handcrafted pashmina scarf made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 13002,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1606760227091-3dd870d57081?q=80&w=800&auto=format&fit=crop&sig=accessories-0",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": true,
+		"rating": "4.6",
+		"reviews": 97
+	},
+	{
+		"id": "accessories-1",
+		"name": "Dhaka Bag Vol. 2",
+		"description": "Handcrafted dhaka bag made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 12626,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce8?q=80&w=800&auto=format&fit=crop&sig=accessories-1",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": true,
+		"rating": "4.6",
+		"reviews": 384
+	},
+	{
+		"id": "accessories-2",
+		"name": "Cashmere Shawl Vol. 3",
+		"description": "Handcrafted cashmere shawl made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 9960,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1520903442860-7f3cf0e852a5?q=80&w=800&auto=format&fit=crop&sig=accessories-2",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": true,
+		"rating": "4.2",
+		"reviews": 256
+	},
+	{
+		"id": "accessories-3",
+		"name": "Woven Bracelet Vol. 4",
+		"description": "Handcrafted woven bracelet made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 6004,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1573408391685-789e6e94da58?q=80&w=800&auto=format&fit=crop&sig=accessories-3",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": true,
+		"rating": "4.2",
+		"reviews": 154
+	},
+	{
+		"id": "accessories-4",
+		"name": "Silver Ring Vol. 5",
+		"description": "Handcrafted silver ring made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 2490,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=800&auto=format&fit=crop&sig=accessories-4",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": true,
+		"rating": "4.2",
+		"reviews": 112
+	},
+	{
+		"id": "accessories-5",
+		"name": "Hemp Belt Vol. 6",
+		"description": "Handcrafted hemp belt made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 10855,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?q=80&w=800&auto=format&fit=crop&sig=accessories-5",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": true,
+		"rating": "4.2",
+		"reviews": 142
+	},
+	{
+		"id": "accessories-6",
+		"name": "Yak Wool Hat Vol. 7",
+		"description": "Handcrafted yak wool hat made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 6276,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1602173572773-421a61b9368e?q=80&w=800&auto=format&fit=crop&sig=accessories-6",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": true,
+		"rating": "4.6",
+		"reviews": 416
+	},
+	{
+		"id": "accessories-7",
+		"name": "Linen Wallet Vol. 8",
+		"description": "Handcrafted linen wallet made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 7156,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1591561954557-3a11fc5475e8?q=80&w=800&auto=format&fit=crop&sig=accessories-7",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": true,
+		"rating": "4.0",
+		"reviews": 329
+	},
+	{
+		"id": "accessories-8",
+		"name": "Silk Tie Vol. 9",
+		"description": "Handcrafted silk tie made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 11429,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1606760227091-3dd870d57081?q=80&w=800&auto=format&fit=crop&sig=accessories-8",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": true,
+		"rating": "4.4",
+		"reviews": 425
+	},
+	{
+		"id": "accessories-9",
+		"name": "Beaded Necklace Vol. 10",
+		"description": "Handcrafted beaded necklace made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 11006,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce8?q=80&w=800&auto=format&fit=crop&sig=accessories-9",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": true,
+		"rating": "4.0",
+		"reviews": 423
+	},
+	{
+		"id": "accessories-10",
+		"name": "Leather Pouch Vol. 11",
+		"description": "Handcrafted leather pouch made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 4500,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1520903442860-7f3cf0e852a5?q=80&w=800&auto=format&fit=crop&sig=accessories-10",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.2",
+		"reviews": 282
+	},
+	{
+		"id": "accessories-11",
+		"name": "Embroidered Clutch Vol. 12",
+		"description": "Handcrafted embroidered clutch made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 7719,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1573408391685-789e6e94da58?q=80&w=800&auto=format&fit=crop&sig=accessories-11",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "5.0",
+		"reviews": 293
+	},
+	{
+		"id": "accessories-12",
+		"name": "Bamboo Earrings Vol. 13",
+		"description": "Handcrafted bamboo earrings made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 9292,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=800&auto=format&fit=crop&sig=accessories-12",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.8",
+		"reviews": 158
+	},
+	{
+		"id": "accessories-13",
+		"name": "Copper Bangle Vol. 14",
+		"description": "Handcrafted copper bangle made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 13065,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?q=80&w=800&auto=format&fit=crop&sig=accessories-13",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.9",
+		"reviews": 339
+	},
+	{
+		"id": "accessories-14",
+		"name": "Prayer Flag Set Vol. 15",
+		"description": "Handcrafted prayer flag set made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 5503,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1602173572773-421a61b9368e?q=80&w=800&auto=format&fit=crop&sig=accessories-14",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.1",
+		"reviews": 299
+	},
+	{
+		"id": "accessories-15",
+		"name": "Singing Bowl Vol. 16",
+		"description": "Handcrafted singing bowl made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 5809,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1591561954557-3a11fc5475e8?q=80&w=800&auto=format&fit=crop&sig=accessories-15",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.4",
+		"reviews": 137
+	},
+	{
+		"id": "accessories-16",
+		"name": "Felt Slippers Vol. 17",
+		"description": "Handcrafted felt slippers made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 12549,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1606760227091-3dd870d57081?q=80&w=800&auto=format&fit=crop&sig=accessories-16",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.0",
+		"reviews": 153
+	},
+	{
+		"id": "accessories-17",
+		"name": "Wool Socks Vol. 18",
+		"description": "Handcrafted wool socks made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 1920,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce8?q=80&w=800&auto=format&fit=crop&sig=accessories-17",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.6",
+		"reviews": 341
+	},
+	{
+		"id": "accessories-18",
+		"name": "Cotton Headband Vol. 19",
+		"description": "Handcrafted cotton headband made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 12001,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1520903442860-7f3cf0e852a5?q=80&w=800&auto=format&fit=crop&sig=accessories-18",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.8",
+		"reviews": 72
+	},
+	{
+		"id": "accessories-19",
+		"name": "Allo Purse Vol. 20",
+		"description": "Handcrafted allo purse made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 9185,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1573408391685-789e6e94da58?q=80&w=800&auto=format&fit=crop&sig=accessories-19",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.2",
+		"reviews": 141
+	},
+	{
+		"id": "accessories-20",
+		"name": "Handwoven Wrap Vol. 21",
+		"description": "Handcrafted handwoven wrap made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 8795,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=800&auto=format&fit=crop&sig=accessories-20",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.6",
+		"reviews": 420
+	},
+	{
+		"id": "accessories-21",
+		"name": "Dhaka Pocket Square Vol. 22",
+		"description": "Handcrafted dhaka pocket square made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 8050,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?q=80&w=800&auto=format&fit=crop&sig=accessories-21",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.9",
+		"reviews": 362
+	},
+	{
+		"id": "accessories-22",
+		"name": "Cashmere Gloves Vol. 23",
+		"description": "Handcrafted cashmere gloves made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 6166,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1602173572773-421a61b9368e?q=80&w=800&auto=format&fit=crop&sig=accessories-22",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.3",
+		"reviews": 322
+	},
+	{
+		"id": "accessories-23",
+		"name": "Silver Anklet Vol. 24",
+		"description": "Handcrafted silver anklet made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 3932,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1591561954557-3a11fc5475e8?q=80&w=800&auto=format&fit=crop&sig=accessories-23",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "5.0",
+		"reviews": 298
+	},
+	{
+		"id": "accessories-24",
+		"name": "Turquoise Pendant Vol. 25",
+		"description": "Handcrafted turquoise pendant made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 12990,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1606760227091-3dd870d57081?q=80&w=800&auto=format&fit=crop&sig=accessories-24",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.6",
+		"reviews": 253
+	},
+	{
+		"id": "accessories-25",
+		"name": "Leather Journal Vol. 26",
+		"description": "Handcrafted leather journal made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 10091,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce8?q=80&w=800&auto=format&fit=crop&sig=accessories-25",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "5.0",
+		"reviews": 207
+	},
+	{
+		"id": "accessories-26",
+		"name": "Beaded Bracelet Vol. 27",
+		"description": "Handcrafted beaded bracelet made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 8649,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1520903442860-7f3cf0e852a5?q=80&w=800&auto=format&fit=crop&sig=accessories-26",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.9",
+		"reviews": 145
+	},
+	{
+		"id": "accessories-27",
+		"name": "Silk Hairpin Vol. 28",
+		"description": "Handcrafted silk hairpin made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 10091,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1573408391685-789e6e94da58?q=80&w=800&auto=format&fit=crop&sig=accessories-27",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.7",
+		"reviews": 211
+	},
+	{
+		"id": "accessories-28",
+		"name": "Wool Mittens Vol. 29",
+		"description": "Handcrafted wool mittens made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 6419,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=800&auto=format&fit=crop&sig=accessories-28",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.8",
+		"reviews": 283
+	},
+	{
+		"id": "accessories-29",
+		"name": "Ceramic Pendant Vol. 30",
+		"description": "Handcrafted ceramic pendant made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 2844,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?q=80&w=800&auto=format&fit=crop&sig=accessories-29",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.3",
+		"reviews": 264
+	},
+	{
+		"id": "accessories-30",
+		"name": "Embroidered Scarf Vol. 31",
+		"description": "Handcrafted embroidered scarf made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 7734,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1602173572773-421a61b9368e?q=80&w=800&auto=format&fit=crop&sig=accessories-30",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.6",
+		"reviews": 401
+	},
+	{
+		"id": "accessories-31",
+		"name": "Cashmere Beanie Vol. 32",
+		"description": "Handcrafted cashmere beanie made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 12093,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1591561954557-3a11fc5475e8?q=80&w=800&auto=format&fit=crop&sig=accessories-31",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.7",
+		"reviews": 189
+	},
+	{
+		"id": "accessories-32",
+		"name": "Hemp Tote Vol. 33",
+		"description": "Handcrafted hemp tote made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 1552,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1606760227091-3dd870d57081?q=80&w=800&auto=format&fit=crop&sig=accessories-32",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.9",
+		"reviews": 209
+	},
+	{
+		"id": "accessories-33",
+		"name": "Silver Cufflinks Vol. 34",
+		"description": "Handcrafted silver cufflinks made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 11713,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce8?q=80&w=800&auto=format&fit=crop&sig=accessories-33",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.9",
+		"reviews": 255
+	},
+	{
+		"id": "accessories-34",
+		"name": "Bamboo Sunglasses Vol. 35",
+		"description": "Handcrafted bamboo sunglasses made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 13421,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1520903442860-7f3cf0e852a5?q=80&w=800&auto=format&fit=crop&sig=accessories-34",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.8",
+		"reviews": 227
+	},
+	{
+		"id": "accessories-35",
+		"name": "Felt Coaster Set Vol. 36",
+		"description": "Handcrafted felt coaster set made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 12332,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1573408391685-789e6e94da58?q=80&w=800&auto=format&fit=crop&sig=accessories-35",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.2",
+		"reviews": 57
+	},
+	{
+		"id": "accessories-36",
+		"name": "Allo Wallet Vol. 37",
+		"description": "Handcrafted allo wallet made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 10155,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=800&auto=format&fit=crop&sig=accessories-36",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.7",
+		"reviews": 138
+	},
+	{
+		"id": "accessories-37",
+		"name": "Dhaka Scarf Vol. 38",
+		"description": "Handcrafted dhaka scarf made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 4845,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?q=80&w=800&auto=format&fit=crop&sig=accessories-37",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.8",
+		"reviews": 290
+	},
+	{
+		"id": "accessories-38",
+		"name": "Yak Wool Socks Vol. 39",
+		"description": "Handcrafted yak wool socks made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 1837,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1602173572773-421a61b9368e?q=80&w=800&auto=format&fit=crop&sig=accessories-38",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.8",
+		"reviews": 342
+	},
+	{
+		"id": "accessories-39",
+		"name": "Linen Bandana Vol. 40",
+		"description": "Handcrafted linen bandana made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 7591,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1591561954557-3a11fc5475e8?q=80&w=800&auto=format&fit=crop&sig=accessories-39",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.4",
+		"reviews": 118
+	},
+	{
+		"id": "accessories-40",
+		"name": "Silver Toe Ring Vol. 41",
+		"description": "Handcrafted silver toe ring made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 10237,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1606760227091-3dd870d57081?q=80&w=800&auto=format&fit=crop&sig=accessories-40",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.1",
+		"reviews": 353
+	},
+	{
+		"id": "accessories-41",
+		"name": "Wool Headwrap Vol. 42",
+		"description": "Handcrafted wool headwrap made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 3268,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce8?q=80&w=800&auto=format&fit=crop&sig=accessories-41",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.8",
+		"reviews": 378
+	},
+	{
+		"id": "accessories-42",
+		"name": "Cotton Apron Vol. 43",
+		"description": "Handcrafted cotton apron made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 11724,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1520903442860-7f3cf0e852a5?q=80&w=800&auto=format&fit=crop&sig=accessories-42",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.9",
+		"reviews": 62
+	},
+	{
+		"id": "accessories-43",
+		"name": "Beaded Belt Vol. 44",
+		"description": "Handcrafted beaded belt made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 2105,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1573408391685-789e6e94da58?q=80&w=800&auto=format&fit=crop&sig=accessories-43",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.2",
+		"reviews": 244
+	},
+	{
+		"id": "accessories-44",
+		"name": "Copper Ring Vol. 45",
+		"description": "Handcrafted copper ring made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 12635,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=800&auto=format&fit=crop&sig=accessories-44",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.1",
+		"reviews": 164
+	},
+	{
+		"id": "accessories-45",
+		"name": "Silk Scrunchie Vol. 46",
+		"description": "Handcrafted silk scrunchie made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 3074,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?q=80&w=800&auto=format&fit=crop&sig=accessories-45",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.1",
+		"reviews": 294
+	},
+	{
+		"id": "accessories-46",
+		"name": "Pashmina Wrap Vol. 47",
+		"description": "Handcrafted pashmina wrap made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 8728,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1602173572773-421a61b9368e?q=80&w=800&auto=format&fit=crop&sig=accessories-46",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.8",
+		"reviews": 290
+	},
+	{
+		"id": "accessories-47",
+		"name": "Leather Keychain Vol. 48",
+		"description": "Handcrafted leather keychain made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 5821,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1591561954557-3a11fc5475e8?q=80&w=800&auto=format&fit=crop&sig=accessories-47",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.2",
+		"reviews": 204
+	},
+	{
+		"id": "accessories-48",
+		"name": "Wooden Comb Vol. 49",
+		"description": "Handcrafted wooden comb made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 11598,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1606760227091-3dd870d57081?q=80&w=800&auto=format&fit=crop&sig=accessories-48",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.1",
+		"reviews": 433
+	},
+	{
+		"id": "accessories-49",
+		"name": "Prayer Mala Vol. 50",
+		"description": "Handcrafted prayer mala made by artisan partners in the Kathmandu Valley. Features traditional Nepalese techniques with contemporary design. Premium materials sourced locally — perfect for gifting or personal use.",
+		"price": 4230,
+		"category": "ACCESSORIES",
+		"image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce8?q=80&w=800&auto=format&fit=crop&sig=accessories-49",
+		"sizes": [
+			"One Size"
+		],
+		"colors": [
+			{
+				"name": "Obsidian",
+				"hex": "#0a0a0a"
+			},
+			{
+				"name": "Summit",
+				"hex": "#fff"
+			},
+			{
+				"name": "Earth",
+				"hex": "#4a3728"
+			}
+		],
+		"isNew": false,
+		"rating": "4.4",
+		"reviews": 228
 	}
 ]

@@ -12,6 +12,13 @@
 	overflow: hidden;
 }
 
+.home-hero > div:first-child {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+}
+
 .home-hero-bg {
 	position: absolute;
 	inset: 0;
@@ -211,6 +218,28 @@
 
 .story-link:hover {
 	text-decoration: underline;
+}
+
+.featured-cta-wrap {
+	text-align: center;
+	padding: var(--space-6) 0 0;
+}
+
+.featured-add-cart-btn {
+	padding: var(--space-3) var(--space-8);
+	font-family: 'Space Grotesk', sans-serif;
+	font-size: var(--text-sm);
+	font-weight: 700;
+	background: var(--color-text-primary);
+	color: var(--color-text-inverse);
+	border: none;
+	border-radius: var(--radius-full);
+	cursor: pointer;
+	transition: opacity var(--duration-fast) var(--ease-smooth);
+}
+
+.featured-add-cart-btn:hover {
+	opacity: 0.85;
 }
 
 @media (max-width: 768px) {
