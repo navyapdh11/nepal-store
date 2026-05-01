@@ -12,6 +12,11 @@ const About = lazy(() => import("./components/About").then(m => ({ default: m.Ab
 const Contact = lazy(() => import("./components/Contact").then(m => ({ default: m.Contact })));
 const AdminDashboard = lazy(() => import("./components/AdminDashboard").then(m => ({ default: m.AdminDashboard })));
 
+// Nepal Bazaar Marketplace routes
+const NepalBazaarPage = lazy(() => import("./components/NepalBazaarPage").then(m => ({ default: m.NepalBazaarPage })));
+const VendorStorePage = lazy(() => import("./components/VendorStorePage").then(m => ({ default: m.VendorStorePage })));
+const BecomeVendorPage = lazy(() => import("./components/BecomeVendorPage").then(m => ({ default: m.BecomeVendorPage })));
+
 // Loading fallback component
 const LoadingFallback = () => (
 	<div className="loading-skeleton" role="status" aria-live="polite">
@@ -96,6 +101,89 @@ export const router = createBrowserRouter([
 			</LazyRoute>
 		),
 	},
+
+	// ─── Nepal Bazaar Marketplace Routes ───
+	{
+		path: "/bazaar",
+		element: (
+			<Layout currentPage="bazaar">
+				<LazyRoute>
+					<NepalBazaarPage />
+				</LazyRoute>
+			</Layout>
+		),
+	},
+	{
+		path: "/bazaar/store/:slug",
+		element: (
+			<Layout currentPage="bazaar">
+				<LazyRoute>
+					<VendorStorePage />
+				</LazyRoute>
+			</Layout>
+		),
+	},
+	{
+		path: "/bazaar/become-vendor",
+		element: (
+			<Layout currentPage="bazaar">
+				<LazyRoute>
+					<BecomeVendorPage />
+				</LazyRoute>
+			</Layout>
+		),
+	},
+	{
+		path: "/bazaar/category/:categoryId",
+		element: (
+			<Layout currentPage="bazaar">
+				<LazyRoute>
+					<NepalBazaarPage />
+				</LazyRoute>
+			</Layout>
+		),
+	},
+	{
+		path: "/bazaar/search",
+		element: (
+			<Layout currentPage="bazaar">
+				<LazyRoute>
+					<NepalBazaarPage />
+				</LazyRoute>
+			</Layout>
+		),
+	},
+	{
+		path: "/bazaar/flash-sale",
+		element: (
+			<Layout currentPage="bazaar">
+				<LazyRoute>
+					<NepalBazaarPage />
+				</LazyRoute>
+			</Layout>
+		),
+	},
+	{
+		path: "/bazaar/trending",
+		element: (
+			<Layout currentPage="bazaar">
+				<LazyRoute>
+					<NepalBazaarPage />
+				</LazyRoute>
+			</Layout>
+		),
+	},
+	{
+		path: "/bazaar/vendors",
+		element: (
+			<Layout currentPage="bazaar">
+				<LazyRoute>
+					<NepalBazaarPage />
+				</LazyRoute>
+			</Layout>
+		),
+	},
+
 	// Legacy: App at /app for enterprise views + legacy SPA
 	{
 		path: "/app",

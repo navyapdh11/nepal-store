@@ -4,12 +4,12 @@
 		"module": "ESNext",
 		"moduleResolution": "node10",
 		"outDir": "dist-server",
-		"rootDir": "server",
+		"rootDir": ".",
 		"strict": true,
 		"esModuleInterop": true,
 		"skipLibCheck": true,
 		"forceConsistentCasingInFileNames": true,
 		"resolveJsonModule": true
 	},
-	"include": ["server"]
+	"include": ["server/**/*.ts", "src/lib/validation/schemas.ts"]
 }

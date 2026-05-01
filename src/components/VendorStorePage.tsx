@@ -23,6 +23,7 @@ interface Vendor {
   responseTime: string;
   followerCount: number;
   productCount: number;
+  createdAt?: string;
 }
 
 interface Product {
@@ -187,7 +188,7 @@ export const VendorStorePage = () => {
                   <div key={product.id} className="vendor-product-card">
                     <div className="product-image-wrap" onClick={() => openProduct(product as any)}>
                       <img src={product.mainImage} alt={product.name} loading="lazy" />
-                      {product.discount > 0 && <span className="discount-badge">-{product.discount}%</span>}
+                      {product.discount && product.discount > 0 && <span className="discount-badge">-{product.discount}%</span>}
                       {product.isFlashSale && <span className="flash-badge">🔥 Flash</span>}
                       {product.freeShipping && <span className="free-shipping-badge">Free Ship</span>}
                     </div>

@@ -21,6 +21,37 @@
 	padding: var(--space-4) var(--space-8);
 	max-width: var(--max-width-wide);
 	margin: 0 auto;
+	gap: var(--space-6);
+}
+
+.header-center {
+	display: flex;
+	align-items: center;
+}
+
+.bazaar-nav-link {
+	display: flex;
+	align-items: center;
+	gap: var(--space-2);
+	padding: var(--space-2) var(--space-4);
+	background: linear-gradient(135deg, #fef2f2, #fff7ed);
+	border: 1px solid #fecaca;
+	border-radius: var(--radius-full);
+	text-decoration: none;
+	font-weight: 700;
+	font-size: var(--text-sm);
+	color: var(--color-primary);
+	transition: all var(--duration-normal) var(--ease-smooth);
+}
+
+.bazaar-nav-link:hover {
+	background: linear-gradient(135deg, #fee2e2, #ffedd5);
+	box-shadow: 0 2px 12px rgba(230,0,18,0.15);
+	transform: scale(1.05);
+}
+
+.bazaar-flag {
+	font-size: 1.2em;
 }
 
 @media (max-width: 768px) {

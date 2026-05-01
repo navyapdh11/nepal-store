@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { MegaMenu } from "./enterprise/MegaMenu";
 import { useCart } from "../context/CartContext.tsx";
 import "./Header.css";
@@ -23,6 +24,11 @@ export const Header = ({
 							<span>STORE</span>
 						</div>
 					</button>
+					<div className="header-center">
+						<Link to="/bazaar" className="bazaar-nav-link">
+							<span className="bazaar-flag">🇳🇵</span> Nepal Bazaar
+						</Link>
+					</div>
 					<div className="header-actions">
 						<button type="button" className="icon-btn search-btn" aria-label="Search" onClick={onSearchClick}>
 							<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><title>Search Icon</title><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>

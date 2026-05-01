@@ -27,7 +27,8 @@ model User {
   orders        Order[]
   reviews       Review[]
   addresses     ShippingAddress[]
-  messages      Message[]
+  sentMessages  Message[]  @relation("MessageSender")
+  receivedMessages Message[] @relation("MessageReceiver")
   wishlist      Wishlist[]
   notifications Notification[]
 }
@@ -249,6 +250,7 @@ model Message {
   createdAt   DateTime @default(now())
 
   sender      User     @relation("MessageSender", fields: [senderId], references: [id], onDelete: Cascade)
+  receiver    User     @relation("MessageReceiver", fields: [receiverId], references: [id])
 }
 
 // ─── Marketplace: Coupons ───
