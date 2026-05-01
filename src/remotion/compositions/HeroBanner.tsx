@@ -1,4 +1,4 @@
-import { AbsoluteFill, interpolate, useCurrentFrame } from "remotion";
+import { AbsoluteFill, interpolate, useCurrentFrame, spring } from "remotion";
 
 export const HeroBanner = ({
 	title,
@@ -11,13 +11,15 @@ export const HeroBanner = ({
 }) => {
 	const frame = useCurrentFrame();
 
-	const opacity = interpolate(frame, [0, 40], [0, 1], {
+	const bgOpacity = interpolate(frame, [0, 60], [0.3, 0.6], {
+		extrapolateRight: "clamp",
+	});
+	const bgScale = interpolate(frame, [0, 300], [1.15, 1], {
 		extrapolateRight: "clamp",
 	});
 
-	const scale = interpolate(frame, [0, 300], [1.05, 1], {
-		extrapolateRight: "clamp",
-	});
+	const titleOpacity = spring({ frame, fps: 30, config: { damping: 12 } });
+	const subtitleOpacity = spring({ frame: frame - 10, fps: 30, config: { damping: 12 } });
 
 	const bg = backgroundImage || "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1920&auto=format&fit=crop";
 
@@ -40,14 +42,14 @@ export const HeroBanner = ({
 					backgroundImage: `url('${bg}')`,
 					backgroundSize: "cover",
 					backgroundPosition: "center",
-					opacity: 0.6,
-					transform: `scale(${scale})`,
-					filter: "contrast(1.1) brightness(0.8)",
+					opacity: bgOpacity,
+					transform: `scale(${bgScale})`,
+					filter: "contrast(1.1) brightness(0.7)",
 				}}
 			/>
 			<div
 				style={{
-					opacity,
+					opacity: titleOpacity,
 					textAlign: "center",
 					zIndex: 1,
 					padding: "0 100px",
@@ -57,10 +59,11 @@ export const HeroBanner = ({
 					style={{
 						fontSize: 160,
 						color: "#fff",
-						marginBottom: 20,
+						marginBottom: 16,
 						fontWeight: 900,
 						letterSpacing: "-5px",
 						textShadow: "0 20px 40px rgba(0,0,0,0.5)",
+						fontFamily: "-apple-system, BlinkMacSystemFont, 'Space Grotesk', sans-serif",
 					}}
 				>
 					{title}
@@ -69,17 +72,20 @@ export const HeroBanner = ({
 					style={{
 						height: 4,
 						width: 120,
-						background: "#ff0000",
-						margin: "0 auto 30px",
+						background: "linear-gradient(90deg, #e60012, #ff4d4d)",
+						margin: "0 auto 24px",
+						borderRadius: 2,
 					}}
 				/>
 				<h2
 					style={{
-						fontSize: 40,
-						color: "#eee",
+						fontSize: 36,
+						color: "rgba(255,255,255,0.85)",
 						fontWeight: 300,
-						letterSpacing: "15px",
+						letterSpacing: "12px",
 						textTransform: "uppercase",
+						opacity: subtitleOpacity,
+						fontFamily: "-apple-system, BlinkMacSystemFont, 'Inter', sans-serif",
 					}}
 				>
 					{subtitle}
