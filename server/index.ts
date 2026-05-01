@@ -17,6 +17,9 @@ applySecurityMiddleware(app);
 
 app.use(express.json());
 
+// Serve products.json and traditional.json as static files
+app.use(express.static("public"));
+
 // Auth Routes
 app.post("/api/auth/register", async (req, res) => {
 	try {

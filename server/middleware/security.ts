@@ -13,6 +13,8 @@ export function applySecurityMiddleware(app: Express) {
 	const allowedOrigins = process.env.ALLOWED_ORIGINS?.split(",") || [
 		"http://localhost:5173",
 		"http://localhost:3000",
+		"https://nepal-store.onrender.com",
+		"https://nepal-store.vercel.app",
 	];
 	app.use(
 		cors({

@@ -1,0 +1,237 @@
+.home-page {
+	min-height: 100vh;
+}
+
+/* Hero */
+.home-hero {
+	position: relative;
+	height: 80vh;
+	min-height: 500px;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+
+.home-hero-bg {
+	position: absolute;
+	inset: 0;
+	background-size: cover;
+	background-position: center;
+	filter: brightness(0.4);
+}
+
+.home-hero-content {
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	padding: var(--space-8);
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.home-hero-content h1 {
+	color: var(--color-text-inverse);
+	font-size: var(--text-5xl);
+	margin-bottom: var(--space-6);
+}
+
+.home-hero-content .lead {
+	color: rgba(255, 255, 255, 0.85);
+	font-size: var(--text-lg);
+	margin-bottom: var(--space-10);
+}
+
+.hero-ctas {
+	display: flex;
+	justify-content: center;
+	gap: var(--space-4);
+}
+
+.hero-btn {
+	display: inline-block;
+	padding: var(--space-4) var(--space-10);
+	font-family: 'Space Grotesk', sans-serif;
+	font-size: var(--text-sm);
+	font-weight: 800;
+	letter-spacing: var(--tracking-wider);
+	text-transform: uppercase;
+	border-radius: var(--radius-full);
+	text-decoration: none;
+	transition: all var(--duration-fast) var(--ease-smooth);
+}
+
+.hero-btn.primary {
+	background: var(--color-primary);
+	color: white;
+}
+
+.hero-btn.secondary {
+	background: transparent;
+	color: var(--color-text-inverse);
+	border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.hero-btn:hover {
+	transform: translateY(-2px);
+}
+
+/* Category Grid */
+.home-categories {
+	padding: var(--space-16) var(--space-8);
+	max-width: var(--max-width);
+	margin: 0 auto;
+}
+
+.section-title {
+	font-size: var(--text-3xl);
+	text-align: center;
+	margin-bottom: var(--space-10);
+}
+
+.category-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+	gap: var(--space-4);
+}
+
+.category-tile {
+	position: relative;
+	height: 200px;
+	border-radius: var(--radius-lg);
+	overflow: hidden;
+	text-decoration: none;
+	color: var(--color-text-inverse);
+}
+
+.category-tile-img {
+	position: absolute;
+	inset: 0;
+	background-size: cover;
+	background-position: center;
+	filter: brightness(0.6);
+	transition: transform var(--duration-normal) var(--ease-smooth);
+}
+
+.category-tile:hover .category-tile-img {
+	transform: scale(1.08);
+}
+
+.category-tile-overlay {
+	position: relative;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+.category-tile-overlay h3 {
+	font-size: var(--text-lg);
+	font-weight: 700;
+	letter-spacing: var(--tracking-wide);
+	text-transform: uppercase;
+	color: var(--color-text-inverse);
+}
+
+/* Featured Products */
+.home-featured {
+	padding: 0 var(--space-8) var(--space-16);
+	max-width: var(--max-width);
+	margin: 0 auto;
+}
+
+.featured-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	gap: var(--space-6);
+}
+
+.featured-card {
+	cursor: pointer;
+	border-radius: var(--radius-lg);
+	overflow: hidden;
+	transition: transform var(--duration-normal) var(--ease-smooth);
+}
+
+.featured-card:hover {
+	transform: translateY(-4px);
+}
+
+.featured-card img {
+	width: 100%;
+	aspect-ratio: 4/5;
+	object-fit: cover;
+}
+
+.featured-info {
+	padding: var(--space-3) 0;
+}
+
+.featured-info h4 {
+	font-size: var(--text-sm);
+	font-weight: 600;
+	margin-bottom: var(--space-1);
+}
+
+.featured-price {
+	font-family: 'Space Grotesk', sans-serif;
+	font-size: var(--text-base);
+	font-weight: 700;
+	color: var(--color-text-primary);
+}
+
+/* Brand Story */
+.home-story {
+	background: var(--color-surface-elevated);
+	padding: var(--space-16) var(--space-8);
+	text-align: center;
+}
+
+.story-content {
+	max-width: 640px;
+	margin: 0 auto;
+}
+
+.story-content h2 {
+	font-size: var(--text-3xl);
+	margin-bottom: var(--space-4);
+}
+
+.story-content p {
+	font-size: var(--text-base);
+	line-height: var(--leading-relaxed);
+	margin-bottom: var(--space-6);
+}
+
+.story-link {
+	color: var(--color-primary);
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.story-link:hover {
+	text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+	.home-hero {
+		height: 60vh;
+	}
+
+	.home-hero-content h1 {
+		font-size: var(--text-3xl);
+	}
+
+	.hero-ctas {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.category-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.featured-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}

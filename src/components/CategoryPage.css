@@ -1,0 +1,206 @@
+.category-page {
+	min-height: 100vh;
+}
+
+.category-hero {
+	position: relative;
+	height: 40vh;
+	min-height: 300px;
+	display: flex;
+	align-items: flex-end;
+	overflow: hidden;
+}
+
+.category-hero-bg {
+	position: absolute;
+	inset: 0;
+	background-size: cover;
+	background-position: center;
+	filter: brightness(0.5);
+	transform: scale(1.05);
+}
+
+.category-hero-content {
+	position: relative;
+	z-index: 1;
+	padding: var(--space-8);
+	max-width: var(--max-width);
+	margin: 0 auto;
+	width: 100%;
+}
+
+.category-hero-content h1 {
+	color: var(--color-text-inverse);
+	margin-bottom: var(--space-3);
+}
+
+.category-hero-content .lead {
+	color: rgba(255, 255, 255, 0.85);
+	max-width: 600px;
+}
+
+.category-toolbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: var(--space-6) var(--space-8);
+	max-width: var(--max-width);
+	margin: 0 auto;
+	border-bottom: 1px solid var(--color-border);
+}
+
+.product-count {
+	font-size: var(--text-sm);
+	color: var(--color-text-tertiary);
+}
+
+.sort-controls {
+	display: flex;
+	align-items: center;
+	gap: var(--space-2);
+	font-size: var(--text-sm);
+	color: var(--color-text-secondary);
+}
+
+.sort-controls select {
+	padding: var(--space-2) var(--space-3);
+	border: 1px solid var(--color-border);
+	border-radius: var(--radius-md);
+	background: var(--color-surface-elevated);
+	font-size: var(--text-sm);
+	cursor: pointer;
+}
+
+.category-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+	gap: var(--space-6);
+	padding: var(--space-8);
+	max-width: var(--max-width);
+	margin: 0 auto;
+}
+
+.load-more-wrap {
+	text-align: center;
+	padding: var(--space-8);
+}
+
+.load-more-btn {
+	padding: var(--space-4) var(--space-10);
+	font-family: 'Space Grotesk', sans-serif;
+	font-size: var(--text-sm);
+	font-weight: 700;
+	letter-spacing: var(--tracking-wider);
+	text-transform: uppercase;
+	background: var(--color-text-primary);
+	color: var(--color-text-inverse);
+	border: none;
+	border-radius: var(--radius-full);
+	cursor: pointer;
+	transition: opacity var(--duration-fast) var(--ease-smooth);
+}
+
+.load-more-btn:hover {
+	opacity: 0.85;
+}
+
+.empty-state {
+	text-align: center;
+	padding: var(--space-20);
+}
+
+.empty-state p {
+	margin-bottom: var(--space-4);
+}
+
+.empty-state a {
+	color: var(--color-primary);
+	text-decoration: underline;
+}
+
+/* SEO content section */
+.category-seo-content {
+	max-width: var(--max-width);
+	margin: 0 auto;
+	padding: var(--space-12) var(--space-8);
+}
+
+.category-seo-content h2 {
+	font-size: var(--text-2xl);
+	margin-bottom: var(--space-4);
+}
+
+.category-seo-content p {
+	margin-bottom: var(--space-4);
+}
+
+/* Cross links */
+.category-cross-links {
+	max-width: var(--max-width);
+	margin: 0 auto;
+	padding: 0 var(--space-8) var(--space-16);
+}
+
+.category-cross-links h3 {
+	font-size: var(--text-xl);
+	margin-bottom: var(--space-6);
+}
+
+.cross-link-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+	gap: var(--space-4);
+}
+
+.cross-link-card {
+	position: relative;
+	height: 120px;
+	border-radius: var(--radius-lg);
+	overflow: hidden;
+	text-decoration: none;
+	color: var(--color-text-inverse);
+}
+
+.cross-link-img {
+	position: absolute;
+	inset: 0;
+	background-size: cover;
+	background-position: center;
+	filter: brightness(0.6);
+	transition: transform var(--duration-normal) var(--ease-smooth);
+}
+
+.cross-link-card:hover .cross-link-img {
+	transform: scale(1.08);
+}
+
+.cross-link-card span {
+	position: relative;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	font-family: 'Space Grotesk', sans-serif;
+	font-weight: 700;
+	font-size: var(--text-sm);
+	letter-spacing: var(--tracking-wide);
+	text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+	.category-hero {
+		height: 30vh;
+	}
+
+	.category-toolbar {
+		flex-direction: column;
+		gap: var(--space-3);
+		align-items: flex-start;
+	}
+
+	.category-grid {
+		grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+		padding: var(--space-4);
+	}
+}
