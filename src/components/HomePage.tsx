@@ -73,6 +73,69 @@ export const HomePage = () => {
 			<Helmet>
 				<title>NEPAL STORE | Authentic Nepalese Fashion — Cashmere, Dhaka & Traditional Wear</title>
 				<meta name="description" content="Shop authentic Nepalese clothing online — handcrafted cashmere pashminas, Dhaka textiles, traditional wear, and modern fashion. Direct from Kathmandu artisans. Free shipping over रू 5,000." />
+				<script type="application/ld+json">
+					{JSON.stringify({
+						"@context": "https://schema.org",
+						"@type": "LocalBusiness",
+						"@id": "https://nepal-store.onrender.com/#business",
+						"name": "NEPAL STORE",
+						"description": "Premium e-commerce platform for authentic Nepalese fashion and lifestyle products",
+						"url": "https://nepal-store.onrender.com",
+						"logo": "https://nepal-store.onrender.com/logo.svg",
+						"image": "https://nepal-store.onrender.com/og-image.svg",
+						"telephone": "+977-1-4XXXXXX",
+						"priceRange": "रूरूरू",
+						"address": {
+							"@type": "PostalAddress",
+							"addressLocality": "Kathmandu",
+							"addressCountry": "NP"
+						},
+						"geo": {
+							"@type": "GeoCoordinates",
+							"latitude": "27.7172",
+							"longitude": "85.3240"
+						},
+						"openingHoursSpecification": {
+							"@type": "OpeningHoursSpecification",
+							"dayOfWeek": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+							"opens": "00:00",
+							"closes": "23:59"
+						},
+						"sameAs": [
+							"https://facebook.com/nepalstore",
+							"https://instagram.com/nepalstore"
+						]
+					})}
+				</script>
+				<script type="application/ld+json">
+					{JSON.stringify({
+						"@context": "https://schema.org",
+						"@type": "ItemList",
+						"name": "NEPAL Store Collections",
+						"description": "Browse our curated collections of authentic Nepalese fashion",
+						"numberOfItems": categories.length,
+						"itemListElement": categories.map((cat, index) => ({
+							"@type": "ListItem",
+							"position": index + 1,
+							"item": {
+								"@type": "Collection",
+								"name": `${cat.label} Collection`,
+								"url": `https://nepal-store.onrender.com/${cat.key}`
+							}
+						}))
+					})}
+				</script>
+				<script type="application/ld+json">
+					{JSON.stringify({
+						"@context": "https://schema.org",
+						"@type": "Brand",
+						"name": "NEPAL STORE",
+						"description": "Authentic Nepalese fashion — handcrafted cashmere, Dhaka textiles, and modern wear from Kathmandu artisans",
+						"logo": "https://nepal-store.onrender.com/logo.svg",
+						"knowsAbout": ["Cashmere", "Dhaka Textiles", "Nepalese Fashion", "Handmade Products", "Traditional Clothing"],
+						"areaServed": ["Nepal", "United States", "United Kingdom", "Australia", "Japan"]
+					})}
+				</script>
 			</Helmet>
 
 			<Breadcrumb items={[{ label: "Home" }]} />

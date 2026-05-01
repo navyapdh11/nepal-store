@@ -4,6 +4,7 @@ import { Header } from "./Header";
 import { NudgeBar } from "./NudgeBar";
 import { CartDrawer } from "./CartDrawer";
 import { SearchOverlay } from "./SearchOverlay";
+import { SkipLink } from "./SkipLink";
 import { ProductModalProvider } from "../context/ProductModalContext.tsx";
 import { useCart } from "../context/CartContext.tsx";
 import "./Layout.css";
@@ -199,13 +200,14 @@ export const Layout = ({ children, currentPage = "" }: LayoutProps) => {
 	return (
 		<ProductModalProvider value={{ openProduct }}>
 		<div className="app-v2 layout-shell">
+			<SkipLink />
 			<Header
 				onCategoryChange={handleCategoryChange}
 				onCartClick={() => setCartOpen(true)}
 				onSearchClick={() => setSearchOpen(true)}
 			/>
 			<NudgeBar category={currentPage} />
-			<main className="content-area">{children}</main>
+			<main id="main-content" className="content-area" role="main" aria-label="Main content">{children}</main>
 			<SiteFooter onNavigate={handleCategoryChange} />
 
 			{selectedProduct && (

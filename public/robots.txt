@@ -1,6 +1,23 @@
+# NEPAL STORE - Robots.txt
+# Allow all crawlers access to public pages
+
 User-agent: *
 Allow: /
-Disallow: /account
-Disallow: /cart
+
+# Disallow admin and API routes
+Disallow: /admin/
 Disallow: /api/
+Disallow: /app/
+
+# Allow major crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# Sitemap location
 Sitemap: https://nepal-store.onrender.com/sitemap.xml

@@ -178,6 +178,34 @@ export const CategoryPage = () => {
 						url: `https://nepal-store.onrender.com/${category}`,
 					})}
 				</script>
+				{products.length > 0 && (
+					<script type="application/ld+json">
+						{JSON.stringify({
+							"@context": "https://schema.org",
+							"@type": "ItemList",
+							name: meta.title,
+							description: meta.seo,
+							numberOfItems: products.length,
+							itemListElement: products.slice(0, 12).map((product, index) => ({
+								"@type": "ListItem",
+								position: index + 1,
+								item: {
+									"@type": "Product",
+									name: product.name,
+									description: product.description,
+									image: product.image,
+									offers: {
+										"@type": "Offer",
+										price: product.price,
+										priceCurrency: "NPR",
+										availability: "https://schema.org/InStock",
+										url: `https://nepal-store.onrender.com/${category}/${product.id}`
+									}
+								}
+							}))
+						})}
+					</script>
+				)}
 			</Helmet>
 
 			<Breadcrumb items={[{ label: "Home", href: "/" }, { label: meta.title }]} />

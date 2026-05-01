@@ -1,20 +1,40 @@
 import { createBrowserRouter } from "react-router-dom";
+import { Suspense, lazy } from "react";
 import { Layout } from "./components/Layout";
-import { HomePage } from "./components/HomePage";
-import { CategoryPage } from "./components/CategoryPage";
-import { ProductPage } from "./components/ProductPage";
-import { FAQ } from "./components/FAQ";
-import { About } from "./components/About";
-import { Contact } from "./components/Contact";
-import { AdminDashboard } from "./components/AdminDashboard";
 import App from "./App";
+
+// Lazy load route components for code splitting
+const HomePage = lazy(() => import("./components/HomePage").then(m => ({ default: m.HomePage })));
+const CategoryPage = lazy(() => import("./components/CategoryPage").then(m => ({ default: m.CategoryPage })));
+const ProductPage = lazy(() => import("./components/ProductPage").then(m => ({ default: m.ProductPage })));
+const FAQ = lazy(() => import("./components/FAQ").then(m => ({ default: m.FAQ })));
+const About = lazy(() => import("./components/About").then(m => ({ default: m.About })));
+const Contact = lazy(() => import("./components/Contact").then(m => ({ default: m.Contact })));
+const AdminDashboard = lazy(() => import("./components/AdminDashboard").then(m => ({ default: m.AdminDashboard })));
+
+// Loading fallback component
+const LoadingFallback = () => (
+	<div className="loading-skeleton" role="status" aria-live="polite">
+		<div className="skeleton-loader" />
+		<p>Loading...</p>
+	</div>
+);
+
+// Wrapper component for lazy-loaded routes
+const LazyRoute = ({ children }: { children: React.ReactNode }) => (
+	<Suspense fallback={<LoadingFallback />}>
+		{children}
+	</Suspense>
+);
 
 export const router = createBrowserRouter([
 	{
 		path: "/",
 		element: (
 			<Layout currentPage="home">
-				<HomePage />
+				<LazyRoute>
+					<HomePage />
+				</LazyRoute>
 			</Layout>
 		),
 	},
@@ -22,7 +42,9 @@ export const router = createBrowserRouter([
 		path: "/:category",
 		element: (
 			<Layout currentPage={window.location.pathname.slice(1)}>
-				<CategoryPage />
+				<LazyRoute>
+					<CategoryPage />
+				</LazyRoute>
 			</Layout>
 		),
 	},
@@ -30,7 +52,9 @@ export const router = createBrowserRouter([
 		path: "/:category/:productId",
 		element: (
 			<Layout currentPage={window.location.pathname.slice(1).split("/")[0]}>
-				<ProductPage />
+				<LazyRoute>
+					<ProductPage />
+				</LazyRoute>
 			</Layout>
 		),
 	},
@@ -38,7 +62,9 @@ export const router = createBrowserRouter([
 		path: "/faq",
 		element: (
 			<Layout currentPage="faq">
-				<FAQ />
+				<LazyRoute>
+					<FAQ />
+				</LazyRoute>
 			</Layout>
 		),
 	},
@@ -46,7 +72,9 @@ export const router = createBrowserRouter([
 		path: "/about",
 		element: (
 			<Layout currentPage="about">
-				<About />
+				<LazyRoute>
+					<About />
+				</LazyRoute>
 			</Layout>
 		),
 	},
@@ -54,13 +82,19 @@ export const router = createBrowserRouter([
 		path: "/contact",
 		element: (
 			<Layout currentPage="contact">
-				<Contact />
+				<LazyRoute>
+					<Contact />
+				</LazyRoute>
 			</Layout>
 		),
 	},
 	{
 		path: "/admin",
-		element: <AdminDashboard />,
+		element: (
+			<LazyRoute>
+				<AdminDashboard />
+			</LazyRoute>
+		),
 	},
 	// Legacy: App at /app for enterprise views + legacy SPA
 	{
