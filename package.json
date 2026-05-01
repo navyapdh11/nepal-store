@@ -11,7 +11,7 @@
 		"remotion:preview": "remotion preview src/remotion/index.tsx",
 		"remotion:render": "remotion render src/remotion/index.tsx HeroBanner out.mp4",
 		"postinstall": "prisma generate",
-		"start:api": "node dist-server/index.js",
+		"start:api": "node dist-server/server/index.js",
 		"build:api": "tsc --project tsconfig.server.json"
 	},
 	"dependencies": {

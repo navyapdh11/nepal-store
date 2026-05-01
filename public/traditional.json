@@ -1,1149 +1,998 @@
 [
-	{
-		"id": "traditional-0",
-		"name": "Daura Suruwal Classic",
-		"description": "Handwoven cotton daura suruwal with subtle gold thread detailing. Traditional Nepali formal wear reimagined for modern occasions.",
-		"price": 8500,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&h=1000&fit=crop",
-		"sizes": [
-			"S",
-			"M",
-			"L",
-			"XL",
-			"XXL"
-		],
-		"colors": [
-			{
-				"name": "Ivory",
-				"hex": "#FFFFF0"
-			},
-			{
-				"name": "Navy",
-				"hex": "#1B2A4A"
-			},
-			{
-				"name": "Charcoal",
-				"hex": "#36454F"
-			}
-		],
-		"isNew": true,
-		"rating": "4.9",
-		"reviews": 127
-	},
-	{
-		"id": "traditional-1",
-		"name": "Gunyo Cholo Heritage",
-		"description": "Authentic hand-stitched gunyo cholo in vibrant crimson silk. A timeless symbol of Nepali femininity with intricate border embroidery.",
-		"price": 6200,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=800&h=1000&fit=crop",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Crimson",
-				"hex": "#DC143C"
-			},
-			{
-				"name": "Royal Blue",
-				"hex": "#4169E1"
-			},
-			{
-				"name": "Emerald",
-				"hex": "#50C878"
-			}
-		],
-		"isNew": true,
-		"rating": "4.8",
-		"reviews": 98
-	},
-	{
-		"id": "traditional-2",
-		"name": "Sari Banarasi Gold",
-		"description": "Luxurious Banarasi silk sari with real zari work. Woven on traditional handlooms in Varanasi style with Nepali motifs.",
-		"price": 15000,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1617627143750-d894480a6d3a?w=800&h=1000&fit=crop",
-		"sizes": [
-			"One Size"
-		],
-		"colors": [
-			{
-				"name": "Gold",
-				"hex": "#FFD700"
-			},
-			{
-				"name": "Burgundy",
-				"hex": "#800020"
-			},
-			{
-				"name": "Teal",
-				"hex": "#008080"
-			}
-		],
-		"isNew": false,
-		"rating": "4.9",
-		"reviews": 215
-	},
-	{
-		"id": "traditional-3",
-		"name": "Dhaka Topi Premium",
-		"description": "Hand-loomed dhaka fabric topi with geometric patterns. Nepal's iconic national headwear in premium quality.",
-		"price": 1800,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1598300042247-d088f8a3a0a0?w=800&h=1000&fit=crop",
-		"sizes": [
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Multicolor",
-				"hex": "#E8505B"
-			},
-			{
-				"name": "Red-Gold",
-				"hex": "#C41E3A"
-			},
-			{
-				"name": "Forest",
-				"hex": "#228B22"
-			}
-		],
-		"isNew": false,
-		"rating": "4.7",
-		"reviews": 312
-	},
-	{
-		"id": "traditional-4",
-		"name": "Haku Patasi Newari",
-		"description": "Traditional Newari black sari with red border. Handwoven cotton with authentic patasi design from Bhaktapur.",
-		"price": 12000,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1583391733956-3c75d42f2f94?w=800&h=1000&fit=crop",
-		"sizes": [
-			"One Size"
-		],
-		"colors": [
-			{
-				"name": "Black-Red",
-				"hex": "#1C1C1C"
-			},
-			{
-				"name": "Black-Gold",
-				"hex": "#000000"
-			}
-		],
-		"isNew": true,
-		"rating": "4.9",
-		"reviews": 67
-	},
-	{
-		"id": "traditional-5",
-		"name": "Bhadrain Coat Formal",
-		"description": "Elegant formal bhadrain coat in premium wool blend. Structured shoulders with traditional Nepali collar design.",
-		"price": 9500,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=1000&fit=crop",
-		"sizes": [
-			"S",
-			"M",
-			"L",
-			"XL",
-			"XXL"
-		],
-		"colors": [
-			{
-				"name": "Charcoal",
-				"hex": "#36454F"
-			},
-			{
-				"name": "Navy",
-				"hex": "#1B2A4A"
-			},
-			{
-				"name": "Black",
-				"hex": "#000000"
-			}
-		],
-		"isNew": false,
-		"rating": "4.6",
-		"reviews": 89
-	},
-	{
-		"id": "traditional-6",
-		"name": "Kurtha Suruwal Linen",
-		"description": "Breathable linen kurtha suruwal for everyday comfort. Minimalist design with traditional side slits and mother-of-pearl buttons.",
-		"price": 4500,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&h=1000&fit=crop&q=80",
-		"sizes": [
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "White",
-				"hex": "#FFFFFF"
-			},
-			{
-				"name": "Sand",
-				"hex": "#C2B280"
-			},
-			{
-				"name": "Sky",
-				"hex": "#87CEEB"
-			}
-		],
-		"isNew": false,
-		"rating": "4.5",
-		"reviews": 156
-	},
-	{
-		"id": "traditional-7",
-		"name": "Cholo Blouse Silk",
-		"description": "Fitted silk cholo blouse with traditional hook-and-eye closure. Intricate hand-embroidered neckline in gold thread.",
-		"price": 3800,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=800&h=1000&fit=crop&q=80",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L"
-		],
-		"colors": [
-			{
-				"name": "Maroon",
-				"hex": "#800000"
-			},
-			{
-				"name": "Gold",
-				"hex": "#FFD700"
-			},
-			{
-				"name": "Purple",
-				"hex": "#800080"
-			}
-		],
-		"isNew": false,
-		"rating": "4.7",
-		"reviews": 143
-	},
-	{
-		"id": "traditional-8",
-		"name": "Pashmina Shawl Kasmir",
-		"description": "100% pure pashmina shawl from the Himalayan highlands. Ultra-soft hand-woven wrap with traditional paisley motifs.",
-		"price": 18000,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1606722590583-6951b5ea92ad?w=800&h=1000&fit=crop",
-		"sizes": [
-			"One Size"
-		],
-		"colors": [
-			{
-				"name": "Natural",
-				"hex": "#F5F5DC"
-			},
-			{
-				"name": "Charcoal",
-				"hex": "#36454F"
-			},
-			{
-				"name": "Rust",
-				"hex": "#B7410E"
-			}
-		],
-		"isNew": true,
-		"rating": "5.0",
-		"reviews": 78
-	},
-	{
-		"id": "traditional-9",
-		"name": "Suruwal Trouser Classic",
-		"description": "Traditional tapered suruwal trousers in lightweight cotton. Elasticated waist with drawstring and side pockets.",
-		"price": 2800,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1624378439575-d870f27f4b38?w=800&h=1000&fit=crop",
-		"sizes": [
-			"S",
-			"M",
-			"L",
-			"XL",
-			"XXL"
-		],
-		"colors": [
-			{
-				"name": "White",
-				"hex": "#FFFFFF"
-			},
-			{
-				"name": "Black",
-				"hex": "#000000"
-			},
-			{
-				"name": "Khaki",
-				"hex": "#C3B091"
-			}
-		],
-		"isNew": false,
-		"rating": "4.4",
-		"reviews": 201
-	},
-	{
-		"id": "traditional-10",
-		"name": "Weston Waistcoat",
-		"description": "Traditional Nepali weston waistcoat in brocade fabric. Five-button closure with silk lining and embroidered pockets.",
-		"price": 4200,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=1000&fit=crop&q=80",
-		"sizes": [
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Burgundy",
-				"hex": "#800020"
-			},
-			{
-				"name": "Navy",
-				"hex": "#1B2A4A"
-			},
-			{
-				"name": "Gold",
-				"hex": "#DAA520"
-			}
-		],
-		"isNew": false,
-		"rating": "4.6",
-		"reviews": 112
-	},
-	{
-		"id": "traditional-11",
-		"name": "Lehenga Choli Bridal",
-		"description": "Stunning bridal lehenga choli in heavy silk with sequin and zardozi work. Full circular skirt with matching dupatta.",
-		"price": 35000,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1595777457583-95e059d5784d?w=800&h=1000&fit=crop",
-		"sizes": [
-			"S",
-			"M",
-			"L"
-		],
-		"colors": [
-			{
-				"name": "Red",
-				"hex": "#DC143C"
-			},
-			{
-				"name": "Pink",
-				"hex": "#FF69B4"
-			},
-			{
-				"name": "Gold",
-				"hex": "#FFD700"
-			}
-		],
-		"isNew": true,
-		"rating": "5.0",
-		"reviews": 45
-	},
-	{
-		"id": "traditional-12",
-		"name": "Topi Cap Dhaka Weave",
-		"description": "Premium dhaka topi with intricate woven pattern. Stiffened crown with sweatband lining for comfortable all-day wear.",
-		"price": 2200,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1598300042247-d088f8a3a0a0?w=800&h=1000&fit=crop&q=80",
-		"sizes": [
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Rainbow",
-				"hex": "#FF6B6B"
-			},
-			{
-				"name": "Blue-Gold",
-				"hex": "#4169E1"
-			},
-			{
-				"name": "Green-Red",
-				"hex": "#228B22"
-			}
-		],
-		"isNew": false,
-		"rating": "4.5",
-		"reviews": 267
-	},
-	{
-		"id": "traditional-13",
-		"name": "Sari Cotton Handloom",
-		"description": "Everyday cotton handloom sari from eastern Nepal. Soft drape with traditional check pattern and contrasting pallu.",
-		"price": 3500,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1617627143750-d894480a6d3a?w=800&h=1000&fit=crop&q=80",
-		"sizes": [
-			"One Size"
-		],
-		"colors": [
-			{
-				"name": "Red-White",
-				"hex": "#DC143C"
-			},
-			{
-				"name": "Blue-White",
-				"hex": "#4169E1"
-			},
-			{
-				"name": "Green-White",
-				"hex": "#228B22"
-			}
-		],
-		"isNew": false,
-		"rating": "4.3",
-		"reviews": 189
-	},
-	{
-		"id": "traditional-14",
-		"name": "Daura Double-Breasted",
-		"description": "Premium double-breasted daura in fine wool. Eight traditional tie-strings (pattuka) with reinforced collar and cuffs.",
-		"price": 11000,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&h=1000&fit=crop&q=85",
-		"sizes": [
-			"S",
-			"M",
-			"L",
-			"XL",
-			"XXL"
-		],
-		"colors": [
-			{
-				"name": "Cream",
-				"hex": "#FFFDD0"
-			},
-			{
-				"name": "Light Grey",
-				"hex": "#D3D3D3"
-			},
-			{
-				"name": "Navy",
-				"hex": "#1B2A4A"
-			}
-		],
-		"isNew": false,
-		"rating": "4.7",
-		"reviews": 93
-	},
-	{
-		"id": "traditional-15",
-		"name": "Patuka Waist Sash",
-		"description": "Traditional woven patuka waist sash in vibrant cotton. Multi-purpose wrap providing back support and style.",
-		"price": 1500,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1606722590583-6951b5ea92ad?w=800&h=1000&fit=crop&q=80",
-		"sizes": [
-			"One Size"
-		],
-		"colors": [
-			{
-				"name": "Red",
-				"hex": "#DC143C"
-			},
-			{
-				"name": "Orange",
-				"hex": "#FF8C00"
-			},
-			{
-				"name": "Purple",
-				"hex": "#800080"
-			}
-		],
-		"isNew": false,
-		"rating": "4.2",
-		"reviews": 178
-	},
-	{
-		"id": "traditional-16",
-		"name": "Khukuri Pendant Silver",
-		"description": "Sterling silver khukuri-shaped pendant with traditional engraving. Comes on a hand-braided cord with adjustable length.",
-		"price": 2800,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&h=1000&fit=crop",
-		"sizes": [
-			"One Size"
-		],
-		"colors": [
-			{
-				"name": "Silver",
-				"hex": "#C0C0C0"
-			},
-			{
-				"name": "Gold Plated",
-				"hex": "#FFD700"
-			}
-		],
-		"isNew": true,
-		"rating": "4.8",
-		"reviews": 56
-	},
-	{
-		"id": "traditional-17",
-		"name": "Shawl Dhaka Border",
-		"description": "Wide dhaka-bordered shawl in soft merino wool. Perfect for mountain evenings and formal traditional gatherings.",
-		"price": 5500,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1606722590583-6951b5ea92ad?w=800&h=1000&fit=crop&q=85",
-		"sizes": [
-			"One Size"
-		],
-		"colors": [
-			{
-				"name": "Charcoal",
-				"hex": "#36454F"
-			},
-			{
-				"name": "Burgundy",
-				"hex": "#800020"
-			},
-			{
-				"name": "Navy",
-				"hex": "#1B2A4A"
-			}
-		],
-		"isNew": false,
-		"rating": "4.5",
-		"reviews": 134
-	},
-	{
-		"id": "traditional-18",
-		"name": "Bhaktapur Jewelry Set",
-		"description": "Handcrafted jewelry set inspired by Newari temple art. Includes necklace, earrings, and maang tikka in brass with gold plating.",
-		"price": 8500,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&h=1000&fit=crop&q=80",
-		"sizes": [
-			"One Size"
-		],
-		"colors": [
-			{
-				"name": "Gold",
-				"hex": "#FFD700"
-			},
-			{
-				"name": "Antique Brass",
-				"hex": "#B5A642"
-			}
-		],
-		"isNew": true,
-		"rating": "4.9",
-		"reviews": 42
-	},
-	{
-		"id": "traditional-19",
-		"name": "Tibetan Chuba Wool",
-		"description": "Authentic Tibetan-style chuba in thick hand-spun wool. Warm full-length robe with contrasting sleeve cuffs and sash.",
-		"price": 14000,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&h=1000&fit=crop&q=90",
-		"sizes": [
-			"M",
-			"L",
-			"XL",
-			"XXL"
-		],
-		"colors": [
-			{
-				"name": "White",
-				"hex": "#FFFFFF"
-			},
-			{
-				"name": "Brown",
-				"hex": "#8B4513"
-			},
-			{
-				"name": "Dark Grey",
-				"hex": "#2F4F4F"
-			}
-		],
-		"isNew": false,
-		"rating": "4.6",
-		"reviews": 71
-	},
-	{
-		"id": "traditional-20",
-		"name": "Kurtha Mandarin Collar",
-		"description": "Modern kurtha with mandarin collar and hidden placket. Slim-fit design in breathable cotton-silk blend.",
-		"price": 5200,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1624378439575-d870f27f4b38?w=800&h=1000&fit=crop&q=80",
-		"sizes": [
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Indigo",
-				"hex": "#4B0082"
-			},
-			{
-				"name": "White",
-				"hex": "#FFFFFF"
-			},
-			{
-				"name": "Sage",
-				"hex": "#BCB88A"
-			}
-		],
-		"isNew": true,
-		"rating": "4.7",
-		"reviews": 88
-	},
-	{
-		"id": "traditional-21",
-		"name": "Sari Organza Floral",
-		"description": "Light organza sari with hand-painted floral motifs. Perfect for spring festivals and daytime celebrations.",
-		"price": 7800,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1617627143750-d894480a6d3a?w=800&h=1000&fit=crop&q=85",
-		"sizes": [
-			"One Size"
-		],
-		"colors": [
-			{
-				"name": "Peach",
-				"hex": "#FFDAB9"
-			},
-			{
-				"name": "Lavender",
-				"hex": "#E6E6FA"
-			},
-			{
-				"name": "Mint",
-				"hex": "#98FF98"
-			}
-		],
-		"isNew": true,
-		"rating": "4.8",
-		"reviews": 53
-	},
-	{
-		"id": "traditional-22",
-		"name": "Dhaka Fabric by Meter",
-		"description": "Premium dhaka fabric sold by the meter. Vibrant geometric weave for custom tailoring of topis, coats, and accessories.",
-		"price": 800,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1598300042247-d088f8a3a0a0?w=800&h=1000&fit=crop&q=85",
-		"sizes": [
-			"1m",
-			"2m",
-			"3m",
-			"5m"
-		],
-		"colors": [
-			{
-				"name": "Rainbow Mix",
-				"hex": "#FF6B6B"
-			},
-			{
-				"name": "Red-Gold",
-				"hex": "#C41E3A"
-			},
-			{
-				"name": "Blue-Green",
-				"hex": "#008080"
-			}
-		],
-		"isNew": false,
-		"rating": "4.4",
-		"reviews": 345
-	},
-	{
-		"id": "traditional-23",
-		"name": "Lungi Cotton Check",
-		"description": "Comfortable cotton lungi in traditional check pattern. Soft pre-washed fabric with reinforced hem for daily wear.",
-		"price": 900,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1624378439575-d870f27f4b38?w=800&h=1000&fit=crop&q=85",
-		"sizes": [
-			"One Size"
-		],
-		"colors": [
-			{
-				"name": "Red-White",
-				"hex": "#DC143C"
-			},
-			{
-				"name": "Blue-White",
-				"hex": "#4169E1"
-			},
-			{
-				"name": "Green-White",
-				"hex": "#228B22"
-			}
-		],
-		"isNew": false,
-		"rating": "4.1",
-		"reviews": 423
-	},
-	{
-		"id": "traditional-24",
-		"name": "Bridal Chura Set",
-		"description": "Traditional red and white bridal chura (bangle) set with gold filigree. Comes in ornate wooden box with velvet lining.",
-		"price": 4500,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1595777457583-95e059d5784d?w=800&h=1000&fit=crop&q=80",
-		"sizes": [
-			"One Size"
-		],
-		"colors": [
-			{
-				"name": "Red-White",
-				"hex": "#DC143C"
-			},
-			{
-				"name": "Red-Gold",
-				"hex": "#C41E3A"
-			}
-		],
-		"isNew": false,
-		"rating": "4.9",
-		"reviews": 67
-	},
-	{
-		"id": "traditional-25",
-		"name": "Suruwal Silk Blend",
-		"description": "Luxurious silk-blend suruwal with subtle sheen. Tapered leg with hidden elastic waist for a perfect drape.",
-		"price": 5800,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&h=1000&fit=crop&q=95",
-		"sizes": [
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Champagne",
-				"hex": "#F7E7CE"
-			},
-			{
-				"name": "Midnight",
-				"hex": "#191970"
-			},
-			{
-				"name": "Sage",
-				"hex": "#BCB88A"
-			}
-		],
-		"isNew": false,
-		"rating": "4.6",
-		"reviews": 112
-	},
-	{
-		"id": "traditional-26",
-		"name": "Nepali Topi Modern",
-		"description": "Contemporary interpretation of the classic Nepali topi. Streamlined silhouette in premium dhaka with leather band.",
-		"price": 3200,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1598300042247-d088f8a3a0a0?w=800&h=1000&fit=crop&q=90",
-		"sizes": [
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Black-Dhaka",
-				"hex": "#000000"
-			},
-			{
-				"name": "Navy-Dhaka",
-				"hex": "#1B2A4A"
-			},
-			{
-				"name": "Maroon-Dhaka",
-				"hex": "#800000"
-			}
-		],
-		"isNew": true,
-		"rating": "4.7",
-		"reviews": 89
-	},
-	{
-		"id": "traditional-27",
-		"name": "Pashmina Stole Gradient",
-		"description": "Lightweight pashmina stole in ombré gradient dye. Ultra-soft handfeel with hand-rolled edges and subtle fringe.",
-		"price": 6500,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1606722590583-6951b5ea92ad?w=800&h=1000&fit=crop&q=90",
-		"sizes": [
-			"One Size"
-		],
-		"colors": [
-			{
-				"name": "Sunset",
-				"hex": "#FF6B6B"
-			},
-			{
-				"name": "Ocean",
-				"hex": "#4682B4"
-			},
-			{
-				"name": "Forest",
-				"hex": "#228B22"
-			}
-		],
-		"isNew": false,
-		"rating": "4.8",
-		"reviews": 134
-	},
-	{
-		"id": "traditional-28",
-		"name": "Daura Junior Kids",
-		"description": "Children's daura suruwal in soft cotton. Adorable miniature version with easy-care fabric for festive occasions.",
-		"price": 3200,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1624378439575-d870f27f4b38?w=800&h=1000&fit=crop&q=90",
-		"sizes": [
-			"4Y",
-			"6Y",
-			"8Y",
-			"10Y",
-			"12Y"
-		],
-		"colors": [
-			{
-				"name": "White",
-				"hex": "#FFFFFF"
-			},
-			{
-				"name": "Cream",
-				"hex": "#FFFDD0"
-			},
-			{
-				"name": "Sky Blue",
-				"hex": "#87CEEB"
-			}
-		],
-		"isNew": false,
-		"rating": "4.5",
-		"reviews": 178
-	},
-	{
-		"id": "traditional-29",
-		"name": "Cholo Short Modern",
-		"description": "Contemporary short cholo blouse with modern button closure. Fitted silhouette in stretch cotton with traditional neckline.",
-		"price": 2900,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=800&h=1000&fit=crop&q=85",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Black",
-				"hex": "#000000"
-			},
-			{
-				"name": "White",
-				"hex": "#FFFFFF"
-			},
-			{
-				"name": "Navy",
-				"hex": "#1B2A4A"
-			}
-		],
-		"isNew": false,
-		"rating": "4.4",
-		"reviews": 201
-	},
-	{
-		"id": "traditional-30",
-		"name": "Tibetan Prayer Shawl",
-		"description": "Authentic Tibetan prayer shawl with traditional symbols. Hand-woven in yak wool blend with natural dyes.",
-		"price": 9800,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1606722590583-6951b5ea92ad?w=800&h=1000&fit=crop&q=95",
-		"sizes": [
-			"One Size"
-		],
-		"colors": [
-			{
-				"name": "Five Colors",
-				"hex": "#FF6B6B"
-			},
-			{
-				"name": "White-Yak",
-				"hex": "#F5F5DC"
-			},
-			{
-				"name": "Deep Blue",
-				"hex": "#000080"
-			}
-		],
-		"isNew": true,
-		"rating": "4.9",
-		"reviews": 38
-	},
-	{
-		"id": "traditional-31",
-		"name": "Sari Tussar Silk",
-		"description": "Wild tussar silk sari with natural texture and golden sheen. Hand-painted tribal motifs along the border.",
-		"price": 11500,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1617627143750-d894480a6d3a?w=800&h=1000&fit=crop&q=90",
-		"sizes": [
-			"One Size"
-		],
-		"colors": [
-			{
-				"name": "Natural Gold",
-				"hex": "#DAA520"
-			},
-			{
-				"name": "Rust",
-				"hex": "#B7410E"
-			},
-			{
-				"name": "Olive",
-				"hex": "#808000"
-			}
-		],
-		"isNew": false,
-		"rating": "4.7",
-		"reviews": 92
-	},
-	{
-		"id": "traditional-32",
-		"name": "Waistcoat Brocade",
-		"description": "Luxurious brocade waistcoat with floral pattern. Fully lined with satin and five decorative traditional buttons.",
-		"price": 5600,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=1000&fit=crop&q=85",
-		"sizes": [
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Gold-Burgundy",
-				"hex": "#FFD700"
-			},
-			{
-				"name": "Silver-Navy",
-				"hex": "#C0C0C0"
-			},
-			{
-				"name": "Bronze-Green",
-				"hex": "#CD7F32"
-			}
-		],
-		"isNew": false,
-		"rating": "4.6",
-		"reviews": 123
-	},
-	{
-		"id": "traditional-33",
-		"name": "Gunyo Choli Kids Set",
-		"description": "Adorable children's gunyo choli set in bright cotton. Perfect for Dashain and Tihar celebrations.",
-		"price": 2500,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=800&h=1000&fit=crop&q=90",
-		"sizes": [
-			"2Y",
-			"4Y",
-			"6Y",
-			"8Y",
-			"10Y"
-		],
-		"colors": [
-			{
-				"name": "Red",
-				"hex": "#DC143C"
-			},
-			{
-				"name": "Pink",
-				"hex": "#FF69B4"
-			},
-			{
-				"name": "Yellow",
-				"hex": "#FFD700"
-			}
-		],
-		"isNew": false,
-		"rating": "4.5",
-		"reviews": 234
-	},
-	{
-		"id": "traditional-34",
-		"name": "Dhaka Laptop Sleeve",
-		"description": "Modern dhaka fabric laptop sleeve with traditional weave. Fits 13-15 inch laptops with padded protection.",
-		"price": 2200,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1598300042247-d088f8a3a0a0?w=800&h=1000&fit=crop&q=95",
-		"sizes": [
-			"13 inch",
-			"15 inch"
-		],
-		"colors": [
-			{
-				"name": "Rainbow Dhaka",
-				"hex": "#FF6B6B"
-			},
-			{
-				"name": "Classic Red",
-				"hex": "#C41E3A"
-			},
-			{
-				"name": "Blue-Green",
-				"hex": "#008080"
-			}
-		],
-		"isNew": true,
-		"rating": "4.3",
-		"reviews": 67
-	},
-	{
-		"id": "traditional-35",
-		"name": "Pote Necklace Glass",
-		"description": "Traditional Nepali pote (glass bead) necklace in vibrant red and gold. Sacred married women's jewelry in modern length.",
-		"price": 1200,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&h=1000&fit=crop&q=85",
-		"sizes": [
-			"One Size"
-		],
-		"colors": [
-			{
-				"name": "Red-Gold",
-				"hex": "#DC143C"
-			},
-			{
-				"name": "Green-Gold",
-				"hex": "#228B22"
-			}
-		],
-		"isNew": false,
-		"rating": "4.4",
-		"reviews": 312
-	},
-	{
-		"id": "traditional-36",
-		"name": "Kurtha Asymmetric Hem",
-		"description": "Contemporary kurtha with asymmetric high-low hem. Breathable rayon fabric with side-slit and rolled sleeve option.",
-		"price": 4800,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1624378439575-d870f27f4b38?w=800&h=1000&fit=crop&q=95",
-		"sizes": [
-			"XS",
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Teal",
-				"hex": "#008080"
-			},
-			{
-				"name": "Magenta",
-				"hex": "#FF00FF"
-			},
-			{
-				"name": "Mustard",
-				"hex": "#FFDB58"
-			}
-		],
-		"isNew": true,
-		"rating": "4.6",
-		"reviews": 78
-	},
-	{
-		"id": "traditional-37",
-		"name": "Sari Jamdani Weave",
-		"description": "Exquisite Jamdani sari with fine muslin base and geometric weave. UNESCO-recognized craft from the Terai region.",
-		"price": 22000,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1617627143750-d894480a6d3a?w=800&h=1000&fit=crop&q=95",
-		"sizes": [
-			"One Size"
-		],
-		"colors": [
-			{
-				"name": "White-Red",
-				"hex": "#FFFFFF"
-			},
-			{
-				"name": "Black-Gold",
-				"hex": "#000000"
-			},
-			{
-				"name": "Maroon-Silver",
-				"hex": "#800000"
-			}
-		],
-		"isNew": true,
-		"rating": "5.0",
-		"reviews": 31
-	},
-	{
-		"id": "traditional-38",
-		"name": "Festival Combo Set",
-		"description": "Complete festival outfit — daura suruwal, dhaka topi, patuka, and pashmina shawl in coordinated colors. Gift boxed.",
-		"price": 25000,
-		"category": "TRADITIONAL",
-		"image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&h=1000&fit=crop&q=95",
-		"sizes": [
-			"S",
-			"M",
-			"L",
-			"XL"
-		],
-		"colors": [
-			{
-				"name": "Ivory Set",
-				"hex": "#FFFFF0"
-			},
-			{
-				"name": "Navy Set",
-				"hex": "#1B2A4A"
-			},
-			{
-				"name": "Cream Set",
-				"hex": "#FFFDD0"
-			}
-		],
-		"isNew": true,
-		"rating": "4.9",
-		"reviews": 24
-	}
+  {
+    "id": "traditional-0",
+    "name": "Daura Suruwal Classic",
+    "description": "Handwoven cotton daura suruwal with subtle gold thread detailing. Traditional Nepali formal wear reimagined for modern occasions.",
+    "price": 8500,
+    "category": "TRADITIONAL",
+    "image": "https://images.unsplash.com/photo-1594938298603?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": true,
+    "rating": "4.8",
+    "reviews": 240,
+    "stock": 176,
+    "sold": 361,
+    "freeShipping": true,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "traditional",
+      "heritage",
+      "nepali",
+      "handcrafted"
+    ]
+  },
+  {
+    "id": "traditional-1",
+    "name": "Gunyo Cholo Heritage",
+    "description": "Authentic hand-stitched gunyo cholo in vibrant crimson silk. A timeless symbol of Nepali femininity with intricate border embroidery.",
+    "price": 6200,
+    "category": "TRADITIONAL",
+    "image": "https://images.unsplash.com/photo-1610030469983?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      {
+        "name": "Crimson",
+        "hex": "#DC143C"
+      },
+      {
+        "name": "Maroon",
+        "hex": "#800000"
+      },
+      {
+        "name": "Ruby",
+        "hex": "#9B111E"
+      }
+    ],
+    "isNew": true,
+    "rating": "4.3",
+    "reviews": 210,
+    "stock": 173,
+    "sold": 114,
+    "freeShipping": true,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "traditional",
+      "heritage",
+      "nepali",
+      "handcrafted"
+    ]
+  },
+  {
+    "id": "traditional-2",
+    "name": "Sari Banarasi Gold",
+    "description": "Luxurious Banarasi silk sari with real zari work. Woven on traditional handlooms in Varanasi style with Nepali motifs.",
+    "price": 15000,
+    "category": "TRADITIONAL",
+    "image": "https://images.unsplash.com/photo-1617627143750?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Gold",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Champagne",
+        "hex": "#F7E7CE"
+      },
+      {
+        "name": "Amber",
+        "hex": "#DD6B20"
+      }
+    ],
+    "isNew": true,
+    "rating": "4.4",
+    "reviews": 106,
+    "stock": 184,
+    "sold": 350,
+    "freeShipping": true,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "traditional",
+      "heritage",
+      "nepali",
+      "handcrafted"
+    ]
+  },
+  {
+    "id": "traditional-3",
+    "name": "Dhaka Topi Premium",
+    "description": "Hand-loomed dhaka fabric topi with geometric patterns. Nepal's iconic national headwear in premium quality.",
+    "price": 1800,
+    "category": "TRADITIONAL",
+    "image": "https://images.unsplash.com/photo-1598300042247?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      {
+        "name": "Saffron",
+        "hex": "#D4A017"
+      },
+      {
+        "name": "Vermillion",
+        "hex": "#E34234"
+      },
+      {
+        "name": "Turmeric",
+        "hex": "#E8B830"
+      }
+    ],
+    "isNew": true,
+    "rating": "4.5",
+    "reviews": 274,
+    "stock": 161,
+    "sold": 179,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "traditional",
+      "heritage",
+      "nepali",
+      "handcrafted"
+    ]
+  },
+  {
+    "id": "traditional-4",
+    "name": "Haku Patasi Newari",
+    "description": "Traditional Newari black sari with red border. Handwoven cotton with authentic patasi design from Bhaktapur.",
+    "price": 12000,
+    "category": "TRADITIONAL",
+    "image": "https://images.unsplash.com/photo-1583391733956?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": true,
+    "rating": "4.9",
+    "reviews": 191,
+    "stock": 49,
+    "sold": 332,
+    "freeShipping": true,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "traditional",
+      "heritage",
+      "nepali",
+      "handcrafted"
+    ]
+  },
+  {
+    "id": "traditional-5",
+    "name": "Bhadrain Coat Formal",
+    "description": "Elegant formal bhadrain coat in premium wool blend. Structured shoulders with traditional Nepali collar design.",
+    "price": 9500,
+    "category": "TRADITIONAL",
+    "image": "https://images.unsplash.com/photo-1594938298603?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": true,
+    "rating": "4.5",
+    "reviews": 278,
+    "stock": 42,
+    "sold": 215,
+    "freeShipping": true,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "traditional",
+      "heritage",
+      "nepali",
+      "handcrafted"
+    ]
+  },
+  {
+    "id": "traditional-6",
+    "name": "Kurtha Suruwal Linen",
+    "description": "Breathable linen kurtha suruwal for everyday comfort. Minimalist design with traditional side slits and mother-of-pearl buttons.",
+    "price": 4500,
+    "category": "TRADITIONAL",
+    "image": "https://images.unsplash.com/photo-1594938298603?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.4",
+    "reviews": 263,
+    "stock": 169,
+    "sold": 370,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "traditional",
+      "heritage",
+      "nepali",
+      "handcrafted"
+    ]
+  },
+  {
+    "id": "traditional-7",
+    "name": "Cholo Blouse Silk",
+    "description": "Fitted silk cholo blouse with traditional hook-and-eye closure. Intricate hand-embroidered neckline in gold thread.",
+    "price": 3800,
+    "category": "TRADITIONAL",
+    "image": "https://images.unsplash.com/photo-1610030469983?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      {
+        "name": "Gold",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Champagne",
+        "hex": "#F7E7CE"
+      },
+      {
+        "name": "Amber",
+        "hex": "#DD6B20"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.3",
+    "reviews": 182,
+    "stock": 92,
+    "sold": 462,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "traditional",
+      "heritage",
+      "nepali",
+      "handcrafted"
+    ]
+  },
+  {
+    "id": "traditional-8",
+    "name": "Pashmina Shawl Kasmir",
+    "description": "100% pure pashmina shawl from the Himalayan highlands. Ultra-soft hand-woven wrap with traditional paisley motifs.",
+    "price": 18000,
+    "category": "TRADITIONAL",
+    "image": "https://images.unsplash.com/photo-1434387367598?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Earth",
+        "hex": "#4A3728"
+      },
+      {
+        "name": "Sand",
+        "hex": "#C2B280"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.6",
+    "reviews": 189,
+    "stock": 44,
+    "sold": 136,
+    "freeShipping": true,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "traditional",
+      "heritage",
+      "nepali",
+      "handcrafted"
+    ]
+  },
+  {
+    "id": "traditional-9",
+    "name": "Suruwal Trouser Classic",
+    "description": "Traditional tapered suruwal trousers in lightweight cotton. Elasticated waist with drawstring and side pockets.",
+    "price": 2800,
+    "category": "TRADITIONAL",
+    "image": "https://images.unsplash.com/photo-1624378439575?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.3",
+    "reviews": 71,
+    "stock": 69,
+    "sold": 243,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "traditional",
+      "heritage",
+      "nepali",
+      "handcrafted"
+    ]
+  },
+  {
+    "id": "traditional-10",
+    "name": "Weston Waistcoat",
+    "description": "Traditional Nepali weston waistcoat in brocade fabric. Five-button closure with silk lining and embroidered pockets.",
+    "price": 4200,
+    "category": "TRADITIONAL",
+    "image": "https://images.unsplash.com/photo-1594938298603?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      {
+        "name": "Gold",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Champagne",
+        "hex": "#F7E7CE"
+      },
+      {
+        "name": "Amber",
+        "hex": "#DD6B20"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.8",
+    "reviews": 69,
+    "stock": 157,
+    "sold": 217,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "traditional",
+      "heritage",
+      "nepali",
+      "handcrafted"
+    ]
+  },
+  {
+    "id": "traditional-11",
+    "name": "Lehenga Choli Bridal",
+    "description": "Stunning bridal lehenga choli in heavy silk with sequin and zardozi work. Full circular skirt with matching dupatta.",
+    "price": 35000,
+    "category": "TRADITIONAL",
+    "image": "https://images.unsplash.com/photo-1595777457583?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      {
+        "name": "Crimson",
+        "hex": "#DC143C"
+      },
+      {
+        "name": "Maroon",
+        "hex": "#800000"
+      },
+      {
+        "name": "Ruby",
+        "hex": "#9B111E"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.6",
+    "reviews": 273,
+    "stock": 69,
+    "sold": 184,
+    "freeShipping": true,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "traditional",
+      "heritage",
+      "nepali",
+      "handcrafted"
+    ]
+  },
+  {
+    "id": "traditional-12",
+    "name": "Topi Cap Dhaka Weave",
+    "description": "Premium dhaka topi with intricate woven pattern. Stiffened crown with sweatband lining for comfortable all-day wear.",
+    "price": 2200,
+    "category": "TRADITIONAL",
+    "image": "https://images.unsplash.com/photo-1598300042247?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      {
+        "name": "Saffron",
+        "hex": "#D4A017"
+      },
+      {
+        "name": "Vermillion",
+        "hex": "#E34234"
+      },
+      {
+        "name": "Turmeric",
+        "hex": "#E8B830"
+      }
+    ],
+    "isNew": false,
+    "rating": "5.0",
+    "reviews": 173,
+    "stock": 180,
+    "sold": 105,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "traditional",
+      "heritage",
+      "nepali",
+      "handcrafted"
+    ]
+  },
+  {
+    "id": "traditional-13",
+    "name": "Sari Cotton Handloom",
+    "description": "Everyday cotton handloom sari from eastern Nepal. Soft drape with traditional check pattern and contrasting pallu.",
+    "price": 3500,
+    "category": "TRADITIONAL",
+    "image": "https://images.unsplash.com/photo-1617627143750?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Crimson",
+        "hex": "#DC143C"
+      },
+      {
+        "name": "Maroon",
+        "hex": "#800000"
+      },
+      {
+        "name": "Ruby",
+        "hex": "#9B111E"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.5",
+    "reviews": 205,
+    "stock": 25,
+    "sold": 220,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "traditional",
+      "heritage",
+      "nepali",
+      "handcrafted"
+    ]
+  },
+  {
+    "id": "traditional-14",
+    "name": "Daura Double-Breasted",
+    "description": "Premium double-breasted daura in fine wool. Eight traditional tie-strings (pattuka) with reinforced collar and cuffs.",
+    "price": 11000,
+    "category": "TRADITIONAL",
+    "image": "https://images.unsplash.com/photo-1594938298603?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.8",
+    "reviews": 174,
+    "stock": 153,
+    "sold": 332,
+    "freeShipping": true,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "traditional",
+      "heritage",
+      "nepali",
+      "handcrafted"
+    ]
+  },
+  {
+    "id": "traditional-15",
+    "name": "Patuka Waist Sash",
+    "description": "Traditional woven patuka waist sash in vibrant cotton. Multi-purpose wrap providing back support and style.",
+    "price": 1500,
+    "category": "TRADITIONAL",
+    "image": "https://images.unsplash.com/photo-1434387367598?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Crimson",
+        "hex": "#DC143C"
+      },
+      {
+        "name": "Maroon",
+        "hex": "#800000"
+      },
+      {
+        "name": "Ruby",
+        "hex": "#9B111E"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.5",
+    "reviews": 117,
+    "stock": 120,
+    "sold": 222,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "traditional",
+      "heritage",
+      "nepali",
+      "handcrafted"
+    ]
+  },
+  {
+    "id": "traditional-16",
+    "name": "Khukuri Pendant Silver",
+    "description": "Sterling silver khukuri-shaped pendant with traditional engraving. Comes on a hand-braided cord with adjustable length.",
+    "price": 2800,
+    "category": "TRADITIONAL",
+    "image": "https://images.unsplash.com/photo-1535632066927?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.4",
+    "reviews": 48,
+    "stock": 134,
+    "sold": 456,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "traditional",
+      "heritage",
+      "nepali",
+      "handcrafted"
+    ]
+  },
+  {
+    "id": "traditional-17",
+    "name": "Shawl Dhaka Border",
+    "description": "Wide dhaka-bordered shawl in soft merino wool. Perfect for mountain evenings and formal traditional gatherings.",
+    "price": 5500,
+    "category": "TRADITIONAL",
+    "image": "https://images.unsplash.com/photo-1434387367598?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.7",
+    "reviews": 185,
+    "stock": 135,
+    "sold": 281,
+    "freeShipping": true,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "traditional",
+      "heritage",
+      "nepali",
+      "handcrafted"
+    ]
+  },
+  {
+    "id": "traditional-18",
+    "name": "Bhaktapur Jewelry Set",
+    "description": "Handcrafted jewelry set inspired by Newari temple art. Includes necklace, earrings, and maang tikka in brass with gold plating.",
+    "price": 8500,
+    "category": "TRADITIONAL",
+    "image": "https://images.unsplash.com/photo-1535632066927?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Gold",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Champagne",
+        "hex": "#F7E7CE"
+      },
+      {
+        "name": "Amber",
+        "hex": "#DD6B20"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.8",
+    "reviews": 255,
+    "stock": 118,
+    "sold": 33,
+    "freeShipping": true,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "traditional",
+      "heritage",
+      "nepali",
+      "handcrafted"
+    ]
+  },
+  {
+    "id": "traditional-19",
+    "name": "Tibetan Chuba Wool",
+    "description": "Authentic Tibetan-style chuba in thick hand-spun wool. Warm full-length robe with contrasting sleeve cuffs and sash.",
+    "price": 14000,
+    "category": "TRADITIONAL",
+    "image": "https://images.unsplash.com/photo-1594938298603?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "colors": [
+      {
+        "name": "Earth",
+        "hex": "#4A3728"
+      },
+      {
+        "name": "Sand",
+        "hex": "#C2B280"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.9",
+    "reviews": 67,
+    "stock": 14,
+    "sold": 274,
+    "freeShipping": true,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "traditional",
+      "heritage",
+      "nepali",
+      "handcrafted"
+    ]
+  },
+  {
+    "id": "traditional-20",
+    "name": "Kurtha Mandarin Collar",
+    "description": "Modern kurtha with mandarin collar and hidden placket. Slim-fit design in breathable cotton-silk blend.",
+    "price": 5200,
+    "category": "TRADITIONAL",
+    "image": "https://images.unsplash.com/photo-1624378439575?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      {
+        "name": "Navy",
+        "hex": "#1B2A4A"
+      },
+      {
+        "name": "Sky",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Indigo",
+        "hex": "#4B0082"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.2",
+    "reviews": 326,
+    "stock": 141,
+    "sold": 296,
+    "freeShipping": true,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "traditional",
+      "heritage",
+      "nepali",
+      "handcrafted"
+    ]
+  },
+  {
+    "id": "traditional-21",
+    "name": "Sari Organza Floral",
+    "description": "Light organza sari with hand-painted floral motifs. Perfect for spring festivals and daytime celebrations.",
+    "price": 7800,
+    "category": "TRADITIONAL",
+    "image": "https://images.unsplash.com/photo-1617627143750?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Blush",
+        "hex": "#FBB6CE"
+      },
+      {
+        "name": "Lavender",
+        "hex": "#E6E6FA"
+      },
+      {
+        "name": "Mint",
+        "hex": "#98FF98"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.9",
+    "reviews": 98,
+    "stock": 186,
+    "sold": 295,
+    "freeShipping": true,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "traditional",
+      "heritage",
+      "nepali",
+      "handcrafted"
+    ]
+  },
+  {
+    "id": "traditional-22",
+    "name": "Dhaka Fabric by Meter",
+    "description": "Premium dhaka fabric sold by the meter. Vibrant geometric weave for custom tailoring of topis, coats, and accessories.",
+    "price": 800,
+    "category": "TRADITIONAL",
+    "image": "https://images.unsplash.com/photo-1598300042247?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "1m",
+      "2m",
+      "3m",
+      "5m"
+    ],
+    "colors": [
+      {
+        "name": "Saffron",
+        "hex": "#D4A017"
+      },
+      {
+        "name": "Vermillion",
+        "hex": "#E34234"
+      },
+      {
+        "name": "Turmeric",
+        "hex": "#E8B830"
+      }
+    ],
+    "isNew": false,
+    "rating": "5.0",
+    "reviews": 62,
+    "stock": 48,
+    "sold": 458,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "traditional",
+      "heritage",
+      "nepali",
+      "handcrafted"
+    ]
+  },
+  {
+    "id": "traditional-23",
+    "name": "Lungi Cotton Check",
+    "description": "Comfortable cotton lungi in traditional check pattern. Soft pre-washed fabric with reinforced hem for daily wear.",
+    "price": 900,
+    "category": "TRADITIONAL",
+    "image": "https://images.unsplash.com/photo-1624378439575?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Crimson",
+        "hex": "#DC143C"
+      },
+      {
+        "name": "Maroon",
+        "hex": "#800000"
+      },
+      {
+        "name": "Ruby",
+        "hex": "#9B111E"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.4",
+    "reviews": 139,
+    "stock": 72,
+    "sold": 269,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "traditional",
+      "heritage",
+      "nepali",
+      "handcrafted"
+    ]
+  },
+  {
+    "id": "traditional-24",
+    "name": "Bridal Chura Set",
+    "description": "Traditional red and white bridal chura (bangle) set with gold filigree. Comes in ornate wooden box with velvet lining.",
+    "price": 4500,
+    "category": "TRADITIONAL",
+    "image": "https://images.unsplash.com/photo-1595777457583?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Crimson",
+        "hex": "#DC143C"
+      },
+      {
+        "name": "Maroon",
+        "hex": "#800000"
+      },
+      {
+        "name": "Ruby",
+        "hex": "#9B111E"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.4",
+    "reviews": 64,
+    "stock": 31,
+    "sold": 202,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "traditional",
+      "heritage",
+      "nepali",
+      "handcrafted"
+    ]
+  }
 ]

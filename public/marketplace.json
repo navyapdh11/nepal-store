@@ -1,0 +1,2183 @@
+[
+  {
+    "id": "marketplace-0",
+    "name": "Wireless Earbuds Pro — Nepal Bass",
+    "description": "True wireless earbuds with deep bass tuning for Nepali music. Bluetooth 5.3, 24hr case battery, IPX5 water resistance.",
+    "price": 2593,
+    "category": "ELECTRONICS",
+    "image": "https://images.unsplash.com/photo-1505784704326?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": true,
+    "rating": "4.6",
+    "reviews": 404,
+    "stock": 89,
+    "sold": 370,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "electronics",
+      "earbuds",
+      "bluetooth",
+      "bass",
+      "wireless"
+    ]
+  },
+  {
+    "id": "marketplace-1",
+    "name": "Smart Band — Himalayan Fit",
+    "description": "Fitness tracker band with heart rate, steps, and sleep monitoring. Water-resistant band for Nepal's monsoon. 7-day battery.",
+    "price": 2234,
+    "category": "ELECTRONICS",
+    "image": "https://images.unsplash.com/photo-1546878649355?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": true,
+    "rating": "4.3",
+    "reviews": 423,
+    "stock": 179,
+    "sold": 434,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "electronics",
+      "fitness",
+      "tracker",
+      "smart-band",
+      "heart-rate"
+    ]
+  },
+  {
+    "id": "marketplace-2",
+    "name": "USB Hub — Kathmandu Connect",
+    "description": "7-in-1 USB-C hub for laptops. HDMI, USB 3.0, SD card reader, and PD charging. Essential for remote workers in Nepal.",
+    "price": 1184,
+    "category": "ELECTRONICS",
+    "image": "https://images.unsplash.com/photo-1523275335684?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": true,
+    "rating": "4.5",
+    "reviews": 116,
+    "stock": 198,
+    "sold": 453,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "electronics",
+      "usb",
+      "hub",
+      "laptop",
+      "connectivity"
+    ]
+  },
+  {
+    "id": "marketplace-3",
+    "name": "Phone Gimbal — Nepal Creator",
+    "description": "3-axis phone gimbal for smooth vlogging and content creation. Face tracking, gesture control, and 12hr battery.",
+    "price": 5541,
+    "category": "ELECTRONICS",
+    "image": "https://images.unsplash.com/photo-1583391733956?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": true,
+    "rating": "4.7",
+    "reviews": 234,
+    "stock": 131,
+    "sold": 481,
+    "freeShipping": true,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "electronics",
+      "gimbal",
+      "vlogging",
+      "creator",
+      "stabilizer"
+    ]
+  },
+  {
+    "id": "marketplace-4",
+    "name": "Solar Charger — Everest Sun",
+    "description": "Foldable solar panel charger for trekking. 20W output, dual USB, lightweight. Charges phones from the Himalayan sun.",
+    "price": 3861,
+    "category": "ELECTRONICS",
+    "image": "https://images.unsplash.com/photo-1523275335684?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": true,
+    "rating": "4.3",
+    "reviews": 183,
+    "stock": 119,
+    "sold": 392,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "electronics",
+      "solar",
+      "charger",
+      "trekking",
+      "everest"
+    ]
+  },
+  {
+    "id": "marketplace-5",
+    "name": "Webcam HD — Nepal Remote",
+    "description": "1080p webcam with auto-focus and built-in microphone. Plug-and-play for Zoom, Meet, and online classes in Nepal.",
+    "price": 3279,
+    "category": "ELECTRONICS",
+    "image": "https://images.unsplash.com/photo-1583391733956?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": true,
+    "rating": "4.7",
+    "reviews": 115,
+    "stock": 123,
+    "sold": 151,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "electronics",
+      "webcam",
+      "remote-work",
+      "1080p",
+      "zoom"
+    ]
+  },
+  {
+    "id": "marketplace-6",
+    "name": "Mechanical Keyboard — Nepal Type",
+    "description": "Compact 75% mechanical keyboard with hot-swappable switches. RGB backlighting, PBT keycaps, USB-C connection.",
+    "price": 4989,
+    "category": "ELECTRONICS",
+    "image": "https://images.unsplash.com/photo-1523275335684?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": true,
+    "rating": "4.1",
+    "reviews": 124,
+    "stock": 146,
+    "sold": 42,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "electronics",
+      "keyboard",
+      "mechanical",
+      "gaming",
+      "typing"
+    ]
+  },
+  {
+    "id": "marketplace-7",
+    "name": "Laptop Stand — Ergonomic Nepal",
+    "description": "Adjustable aluminum laptop stand for ergonomic working. Foldable, portable, and compatible with all laptop sizes.",
+    "price": 2082,
+    "category": "ELECTRONICS",
+    "image": "https://images.unsplash.com/photo-1583391733956?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": true,
+    "rating": "4.8",
+    "reviews": 107,
+    "stock": 60,
+    "sold": 98,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "electronics",
+      "laptop-stand",
+      "ergonomic",
+      "portable",
+      "aluminum"
+    ]
+  },
+  {
+    "id": "marketplace-8",
+    "name": "Mini Projector — Nepal Cinema",
+    "description": "Portable mini projector for home entertainment. 1080p support, built-in speaker, 2hr battery. Movie nights in Kathmandu.",
+    "price": 8580,
+    "category": "ELECTRONICS",
+    "image": "https://images.unsplash.com/photo-1523275335684?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": true,
+    "rating": "4.7",
+    "reviews": 279,
+    "stock": 10,
+    "sold": 491,
+    "freeShipping": true,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "electronics",
+      "projector",
+      "portable",
+      "home-cinema",
+      "entertainment"
+    ]
+  },
+  {
+    "id": "marketplace-9",
+    "name": "Smart Plug — Nepal Home",
+    "description": "WiFi smart plug with app control and scheduling. Monitor energy usage, set timers. Works with Google Home and Alexa.",
+    "price": 613,
+    "category": "ELECTRONICS",
+    "image": "https://images.unsplash.com/photo-1583391733956?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": true,
+    "rating": "4.8",
+    "reviews": 238,
+    "stock": 30,
+    "sold": 112,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "electronics",
+      "smart-plug",
+      "wifi",
+      "home-automation",
+      "energy"
+    ]
+  },
+  {
+    "id": "marketplace-10",
+    "name": "Dash Cam — Kathmandu Drive",
+    "description": "1080p dash cam with night vision and loop recording. G-sensor for incident detection. Essential for Kathmandu traffic.",
+    "price": 4684,
+    "category": "ELECTRONICS",
+    "image": "https://images.unsplash.com/photo-1523275335684?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": true,
+    "rating": "4.8",
+    "reviews": 56,
+    "stock": 135,
+    "sold": 32,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "electronics",
+      "dash-cam",
+      "driving",
+      "kathmandu",
+      "safety"
+    ]
+  },
+  {
+    "id": "marketplace-11",
+    "name": "Wireless Mouse — Nepal Ergo",
+    "description": "Ergonomic wireless mouse with silent clicks. 2.4GHz + Bluetooth dual mode, 12-month battery life.",
+    "price": 1124,
+    "category": "ELECTRONICS",
+    "image": "https://images.unsplash.com/photo-1583391733956?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.7",
+    "reviews": 389,
+    "stock": 180,
+    "sold": 232,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "electronics",
+      "mouse",
+      "wireless",
+      "ergonomic",
+      "silent"
+    ]
+  },
+  {
+    "id": "marketplace-12",
+    "name": "Bluetooth Adapter — Nepal Connect",
+    "description": "USB Bluetooth 5.0 adapter for PC/laptop. Connect headphones, keyboards, and speakers wirelessly.",
+    "price": 420,
+    "category": "ELECTRONICS",
+    "image": "https://images.unsplash.com/photo-1523275335684?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.4",
+    "reviews": 188,
+    "stock": 62,
+    "sold": 30,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "electronics",
+      "bluetooth",
+      "adapter",
+      "usb",
+      "wireless"
+    ]
+  },
+  {
+    "id": "marketplace-13",
+    "name": "Phone Tripod — Nepal Creator",
+    "description": "Extendable phone tripod with Bluetooth remote. 1.2m max height, flexible legs, and 360-degree phone mount.",
+    "price": 1759,
+    "category": "ELECTRONICS",
+    "image": "https://images.unsplash.com/photo-1583391733956?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.7",
+    "reviews": 153,
+    "stock": 61,
+    "sold": 82,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "electronics",
+      "tripod",
+      "phone",
+      "vlogging",
+      "photography"
+    ]
+  },
+  {
+    "id": "marketplace-14",
+    "name": "Cable Organizer — Nepal Tidy",
+    "description": "Silicone cable management clips and sleeves. Keep your desk and travel bag organized. Set of 10 pieces.",
+    "price": 240,
+    "category": "ELECTRONICS",
+    "image": "https://images.unsplash.com/photo-1523275335684?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.3",
+    "reviews": 198,
+    "stock": 107,
+    "sold": 18,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "electronics",
+      "cable",
+      "organizer",
+      "desk",
+      "travel"
+    ]
+  },
+  {
+    "id": "marketplace-15",
+    "name": "Sunscreen SPF50 — Nepal Shield",
+    "description": "Broad-spectrum SPF50 sunscreen for Nepal's intense UV at altitude. Lightweight, non-greasy, reef-safe.",
+    "price": 1174,
+    "category": "BEAUTY",
+    "image": "https://images.unsplash.com/photo-1596462906757?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "50ml",
+      "100ml"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.2",
+    "reviews": 350,
+    "stock": 41,
+    "sold": 449,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "beauty",
+      "sunscreen",
+      "spf50",
+      "uv-protection",
+      "outdoor"
+    ]
+  },
+  {
+    "id": "marketplace-16",
+    "name": "Face Serum — Himalayan Glow",
+    "description": "Vitamin C face serum with Himalayan botanicals. Brightens, evens skin tone, and fights pollution damage from Kathmandu air.",
+    "price": 1895,
+    "category": "BEAUTY",
+    "image": "https://images.unsplash.com/photo-1571786183568?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "30ml",
+      "50ml"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.0",
+    "reviews": 81,
+    "stock": 135,
+    "sold": 73,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "beauty",
+      "serum",
+      "vitamin-c",
+      "brightening",
+      "himalayan"
+    ]
+  },
+  {
+    "id": "marketplace-17",
+    "name": "Shampoo — Nepal Herbal",
+    "description": "Sulfate-free herbal shampoo with amla, shikakai, and reetha. Traditional Nepali hair washing ingredients in a modern formula.",
+    "price": 778,
+    "category": "BEAUTY",
+    "image": "https://images.unsplash.com/photo-1556228578?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "200ml",
+      "400ml",
+      "750ml"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.1",
+    "reviews": 308,
+    "stock": 107,
+    "sold": 227,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "beauty",
+      "shampoo",
+      "herbal",
+      "amla",
+      "sulfate-free"
+    ]
+  },
+  {
+    "id": "marketplace-18",
+    "name": "Body Lotion — Himalayan Moisture",
+    "description": "Rich body lotion with shea butter, Himalayan honey, and almond oil. Deep hydration for Nepal's dry winter months.",
+    "price": 819,
+    "category": "BEAUTY",
+    "image": "https://images.unsplash.com/photo-1598448794320?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "200ml",
+      "400ml"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.6",
+    "reviews": 146,
+    "stock": 53,
+    "sold": 196,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "beauty",
+      "body-lotion",
+      "shea-butter",
+      "moisturizing",
+      "winter"
+    ]
+  },
+  {
+    "id": "marketplace-19",
+    "name": "Kajal Eyeliner — Nepal Kohl",
+    "description": "Traditional kajal eyeliner made from natural ingredients. Smudge-proof, long-lasting, and gentle on sensitive eyes.",
+    "price": 609,
+    "category": "BEAUTY",
+    "image": "https://images.unsplash.com/photo-1596462906757?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "3.5g",
+      "Pack of 2"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.9",
+    "reviews": 496,
+    "stock": 154,
+    "sold": 294,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "beauty",
+      "kajal",
+      "eyeliner",
+      "natural",
+      "traditional"
+    ]
+  },
+  {
+    "id": "marketplace-20",
+    "name": "Nail Polish — Nepal Colors",
+    "description": "Set of 5 non-toxic nail polishes in Himalayan-inspired shades. Quick-dry, chip-resistant, and 7-free formula.",
+    "price": 671,
+    "category": "BEAUTY",
+    "image": "https://images.unsplash.com/photo-1571786183568?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "Set of 5"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.5",
+    "reviews": 118,
+    "stock": 76,
+    "sold": 277,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "beauty",
+      "nail-polish",
+      "non-toxic",
+      "himalayan",
+      "colors"
+    ]
+  },
+  {
+    "id": "marketplace-21",
+    "name": "Charcoal Face Wash — Nepal Detox",
+    "description": "Activated charcoal face wash for deep pore cleansing. Removes pollution particles and excess oil. Gentle daily formula.",
+    "price": 723,
+    "category": "BEAUTY",
+    "image": "https://images.unsplash.com/photo-1556228578?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "100ml",
+      "200ml"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.1",
+    "reviews": 470,
+    "stock": 44,
+    "sold": 402,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "beauty",
+      "face-wash",
+      "charcoal",
+      "detox",
+      "pollution"
+    ]
+  },
+  {
+    "id": "marketplace-22",
+    "name": "Under Eye Cream — Himalayan Rest",
+    "description": "Targeted under-eye cream with caffeine and Himalayan botanicals. Reduces dark circles, puffiness, and fine lines.",
+    "price": 1415,
+    "category": "BEAUTY",
+    "image": "https://images.unsplash.com/photo-1598448794320?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "15ml",
+      "30ml"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.1",
+    "reviews": 436,
+    "stock": 127,
+    "sold": 450,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "beauty",
+      "eye-cream",
+      "caffeine",
+      "dark-circles",
+      "anti-aging"
+    ]
+  },
+  {
+    "id": "marketplace-23",
+    "name": "Body Scrub — Nepal Coffee",
+    "description": "Coffee and Himalayan salt body scrub. Exfoliates, smooths, and energizes skin. Made with organic Nepali coffee.",
+    "price": 983,
+    "category": "BEAUTY",
+    "image": "https://images.unsplash.com/photo-1596462906757?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "200g",
+      "400g"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.1",
+    "reviews": 162,
+    "stock": 132,
+    "sold": 337,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "beauty",
+      "body-scrub",
+      "coffee",
+      "exfoliating",
+      "himalayan-salt"
+    ]
+  },
+  {
+    "id": "marketplace-24",
+    "name": "Makeup Remover — Kathmandu Clean",
+    "description": "Gentle makeup remover with rose water and aloe vera. Dissolves even waterproof makeup without stripping skin.",
+    "price": 438,
+    "category": "BEAUTY",
+    "image": "https://images.unsplash.com/photo-1571786183568?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "100ml",
+      "200ml"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.2",
+    "reviews": 66,
+    "stock": 60,
+    "sold": 258,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "beauty",
+      "makeup-remover",
+      "rose-water",
+      "aloe",
+      "gentle"
+    ]
+  },
+  {
+    "id": "marketplace-25",
+    "name": "Hand Cream — Nepal Soft",
+    "description": "Rich hand cream with Himalayan herbs and beeswax. Fast-absorbing, non-greasy, perfect for Kathmandu's dry winters.",
+    "price": 760,
+    "category": "BEAUTY",
+    "image": "https://images.unsplash.com/photo-1556228578?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "50ml",
+      "100ml"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.6",
+    "reviews": 62,
+    "stock": 148,
+    "sold": 156,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "beauty",
+      "hand-cream",
+      "beeswax",
+      "moisturizing",
+      "winter"
+    ]
+  },
+  {
+    "id": "marketplace-26",
+    "name": "Dry Shampoo — Nepal Fresh",
+    "description": "Waterless dry shampoo spray for quick refresh. Absorbs oil, adds volume. Perfect for trekking or power cut mornings.",
+    "price": 775,
+    "category": "BEAUTY",
+    "image": "https://images.unsplash.com/photo-1598448794320?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "150ml",
+      "250ml"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.3",
+    "reviews": 427,
+    "stock": 35,
+    "sold": 413,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "beauty",
+      "dry-shampoo",
+      "waterless",
+      "trekking",
+      "refresh"
+    ]
+  },
+  {
+    "id": "marketplace-27",
+    "name": "Body Oil — Nepal Coconut",
+    "description": "Cold-pressed coconut body oil with Himalayan essential oils. Multi-purpose for skin, hair, and massage.",
+    "price": 596,
+    "category": "BEAUTY",
+    "image": "https://images.unsplash.com/photo-1596462906757?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "100ml",
+      "200ml",
+      "500ml"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.2",
+    "reviews": 85,
+    "stock": 121,
+    "sold": 27,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "beauty",
+      "body-oil",
+      "coconut",
+      "massage",
+      "multi-purpose"
+    ]
+  },
+  {
+    "id": "marketplace-28",
+    "name": "Face Mist — Nepal Rose",
+    "description": "Rose water face mist from the gardens of Pokhara. Hydrating, setting, and refreshing. Carry it everywhere in Kathmandu heat.",
+    "price": 503,
+    "category": "BEAUTY",
+    "image": "https://images.unsplash.com/photo-1571786183568?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "100ml",
+      "200ml"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.6",
+    "reviews": 259,
+    "stock": 158,
+    "sold": 283,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "beauty",
+      "face-mist",
+      "rose-water",
+      "hydrating",
+      "pokhara"
+    ]
+  },
+  {
+    "id": "marketplace-29",
+    "name": "Beauty Gift Set — Nepal Glow Box",
+    "description": "Curated beauty gift set with Nepal's finest — face serum, body lotion, lip balm, hand cream, and rose mist. Beautifully packaged.",
+    "price": 3465,
+    "category": "BEAUTY",
+    "image": "https://images.unsplash.com/photo-1556228578?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "Gift Set"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.3",
+    "reviews": 147,
+    "stock": 35,
+    "sold": 158,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "beauty",
+      "gift-set",
+      "curated",
+      "glow",
+      "presentation"
+    ]
+  },
+  {
+    "id": "marketplace-30",
+    "name": "Bamboo Utensil Set — Nepal Eco",
+    "description": "Eco-friendly bamboo utensil set — fork, spoon, knife, chopsticks, and straw. Travel case included. Say no to single-use plastic in Nepal.",
+    "price": 836,
+    "category": "HOME",
+    "image": "https://images.unsplash.com/photo-1556228453?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.7",
+    "reviews": 199,
+    "stock": 24,
+    "sold": 203,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "home",
+      "bamboo",
+      "eco-friendly",
+      "utensil",
+      "zero-waste"
+    ]
+  },
+  {
+    "id": "marketplace-31",
+    "name": "Copper Water Bottle — Nepal Ayurveda",
+    "description": "Hand-hammered copper water bottle following Ayurvedic tradition. Stores 1L, naturally purifies water, develops beautiful patina over time.",
+    "price": 1012,
+    "category": "HOME",
+    "image": "https://images.unsplash.com/photo-1586023492125?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "1L"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.7",
+    "reviews": 317,
+    "stock": 177,
+    "sold": 185,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "home",
+      "copper",
+      "water-bottle",
+      "ayurveda",
+      "handmade"
+    ]
+  },
+  {
+    "id": "marketplace-32",
+    "name": "Dhaka Table Runner — Nepal Dining",
+    "description": "Elegant table runner in hand-woven Dhaka fabric. Vibrant geometric patterns that add Nepali warmth to any dining table.",
+    "price": 632,
+    "category": "HOME",
+    "image": "https://images.unsplash.com/photo-1556228453?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "40x150cm",
+      "40x180cm"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.4",
+    "reviews": 238,
+    "stock": 43,
+    "sold": 308,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "home",
+      "dhaka",
+      "table-runner",
+      "dining",
+      "handwoven"
+    ]
+  },
+  {
+    "id": "marketplace-33",
+    "name": "Salt Lamp — Himalayan Glow",
+    "description": "Natural Himalayan salt lamp with wooden base. Warm ambient glow, air-purifying properties. Hand-mined from Khewra salt mines.",
+    "price": 1479,
+    "category": "HOME",
+    "image": "https://images.unsplash.com/photo-1586023492125?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.5",
+    "reviews": 94,
+    "stock": 112,
+    "sold": 216,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "home",
+      "salt-lamp",
+      "himalayan",
+      "ambient",
+      "air-purifying"
+    ]
+  },
+  {
+    "id": "marketplace-34",
+    "name": "Serving Tray — Nepal Carved",
+    "description": "Hand-carved wooden serving tray with traditional Nepali motifs. Mango wood with natural finish. Perfect for tea service or breakfast in bed.",
+    "price": 1619,
+    "category": "HOME",
+    "image": "https://images.unsplash.com/photo-1556228453?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "30x20cm",
+      "40x30cm"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.3",
+    "reviews": 458,
+    "stock": 163,
+    "sold": 421,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "home",
+      "serving-tray",
+      "wooden",
+      "carved",
+      "mango-wood"
+    ]
+  },
+  {
+    "id": "marketplace-35",
+    "name": "Felt Basket Set — Nepal Organize",
+    "description": "Set of 3 hand-felted wool baskets for storage and organization. Natural dyes in earth tones. Stackable when not in use.",
+    "price": 1256,
+    "category": "HOME",
+    "image": "https://images.unsplash.com/photo-1586023492125?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "Set of 3"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.4",
+    "reviews": 467,
+    "stock": 159,
+    "sold": 99,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "home",
+      "felt",
+      "basket",
+      "storage",
+      "organization"
+    ]
+  },
+  {
+    "id": "marketplace-36",
+    "name": "Brass Diya Set — Nepal Light",
+    "description": "Set of 7 handcrafted brass diyas (oil lamps) for daily puja or Tihar festival. Traditional design with stable base.",
+    "price": 541,
+    "category": "HOME",
+    "image": "https://images.unsplash.com/photo-1556228453?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "Set of 7"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.1",
+    "reviews": 271,
+    "stock": 34,
+    "sold": 484,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "home",
+      "diya",
+      "brass",
+      "puja",
+      "tihar"
+    ]
+  },
+  {
+    "id": "marketplace-37",
+    "name": "Incense Holder — Nepal Ceramic",
+    "description": "Handmade ceramic incense holder with ash-catching dish. Lotus and mandala designs. Fits stick and cone incense.",
+    "price": 854,
+    "category": "HOME",
+    "image": "https://images.unsplash.com/photo-1586023492125?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.2",
+    "reviews": 314,
+    "stock": 107,
+    "sold": 91,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "home",
+      "incense",
+      "ceramic",
+      "lotus",
+      "meditation"
+    ]
+  },
+  {
+    "id": "marketplace-38",
+    "name": "Handloom Towel Set — Nepal Bath",
+    "description": "Set of 4 handloom cotton towels in traditional Nepali patterns. Highly absorbent, quick-drying, and gets softer with each wash.",
+    "price": 1396,
+    "category": "HOME",
+    "image": "https://images.unsplash.com/photo-1556228453?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "Set of 4"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.5",
+    "reviews": 390,
+    "stock": 14,
+    "sold": 82,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "home",
+      "towel",
+      "handloom",
+      "cotton",
+      "bathroom"
+    ]
+  },
+  {
+    "id": "marketplace-39",
+    "name": "Wind Chime — Nepal Breeze",
+    "description": "Handcrafted bamboo wind chime with wooden tubes. Gentle, soothing tones for garden or balcony. Natural finish.",
+    "price": 613,
+    "category": "HOME",
+    "image": "https://images.unsplash.com/photo-1586023492125?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.6",
+    "reviews": 253,
+    "stock": 16,
+    "sold": 56,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "home",
+      "wind-chime",
+      "bamboo",
+      "garden",
+      "soothing"
+    ]
+  },
+  {
+    "id": "marketplace-40",
+    "name": "Wall Clock — Nepal Mandala",
+    "description": "Decorative wall clock with mandala design. Silent quartz movement, wooden frame. Combines function with Nepali art.",
+    "price": 2055,
+    "category": "HOME",
+    "image": "https://images.unsplash.com/photo-1556228453?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "30cm",
+      "40cm"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.5",
+    "reviews": 349,
+    "stock": 158,
+    "sold": 495,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "home",
+      "wall-clock",
+      "mandala",
+      "silent",
+      "decorative"
+    ]
+  },
+  {
+    "id": "marketplace-41",
+    "name": "Bedspread — Nepal Comfort",
+    "description": "Hand-block printed cotton bedspread in traditional Nepali patterns. King or queen size. Reversible design, machine washable.",
+    "price": 3649,
+    "category": "HOME",
+    "image": "https://images.unsplash.com/photo-1586023492125?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "Queen",
+      "King"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.4",
+    "reviews": 466,
+    "stock": 161,
+    "sold": 426,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "home",
+      "bedspread",
+      "cotton",
+      "hand-block",
+      "reversible"
+    ]
+  },
+  {
+    "id": "marketplace-42",
+    "name": "Herb Garden Kit — Nepal Grow",
+    "description": "Indoor herb garden kit with seeds, pots, and soil. Grow tulsi, cilantro, mint, and curry leaf at home. Perfect for Kathmandu apartments.",
+    "price": 1539,
+    "category": "HOME",
+    "image": "https://images.unsplash.com/photo-1556228453?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "One Kit"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.1",
+    "reviews": 475,
+    "stock": 130,
+    "sold": 173,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "home",
+      "herb-garden",
+      "indoor",
+      "growing",
+      "seeds"
+    ]
+  },
+  {
+    "id": "marketplace-43",
+    "name": "Mirror Frame — Nepal Carved",
+    "description": "Hand-carved wooden mirror frame with Newari floral patterns. Mango wood with natural oil finish. Statement piece for any room.",
+    "price": 4580,
+    "category": "HOME",
+    "image": "https://images.unsplash.com/photo-1586023492125?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "40x60cm",
+      "60x80cm"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.2",
+    "reviews": 221,
+    "stock": 10,
+    "sold": 345,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "home",
+      "mirror",
+      "carved",
+      "newari",
+      "statement"
+    ]
+  },
+  {
+    "id": "marketplace-44",
+    "name": "Prayer Flag Garland — Nepal Blessing",
+    "description": "Decorative prayer flag garland for home, garden, or events. 50 cotton flags on natural jute string. Five sacred colors.",
+    "price": 604,
+    "category": "HOME",
+    "image": "https://images.unsplash.com/photo-1556228453?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "50 Flags",
+      "100 Flags"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.2",
+    "reviews": 339,
+    "stock": 39,
+    "sold": 156,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "home",
+      "prayer-flag",
+      "garland",
+      "blessing",
+      "decoration"
+    ]
+  },
+  {
+    "id": "marketplace-45",
+    "name": "Gundruk — Nepal's National Ferment",
+    "description": "Traditional fermented leafy greens — Nepal's national side dish. Tangy, umami-rich, and packed with probiotics. Make gundruk ko achar or add to soups.",
+    "price": 404,
+    "category": "FOOD",
+    "image": "https://images.unsplash.com/photo-1563822796473?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "100g",
+      "250g",
+      "500g"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.2",
+    "reviews": 494,
+    "stock": 192,
+    "sold": 375,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "food",
+      "gundruk",
+      "fermented",
+      "traditional",
+      "probiotic"
+    ]
+  },
+  {
+    "id": "marketplace-46",
+    "name": "Chiura — Beaten Rice Nepal",
+    "description": "Traditional Nepali beaten rice (chiura/baji). Ready to eat — soak in water or milk. Essential for Dashain tika, festivals, and everyday breakfast.",
+    "price": 323,
+    "category": "FOOD",
+    "image": "https://images.unsplash.com/photo-155667988?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "500g",
+      "1kg",
+      "2kg"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.2",
+    "reviews": 421,
+    "stock": 153,
+    "sold": 63,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "food",
+      "chiura",
+      "beaten-rice",
+      "dashain",
+      "breakfast"
+    ]
+  },
+  {
+    "id": "marketplace-47",
+    "name": "Yomari Mix — Newari Sweet",
+    "description": "Pre-mixed Yomari flour for the iconic Newari festival dumpling. Just add water, fill with chaku (molasses) and coconut, steam. Makes 20 yomari.",
+    "price": 544,
+    "category": "FOOD",
+    "image": "https://images.unsplash.com/photo-1563822796473?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "500g",
+      "1kg"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.6",
+    "reviews": 431,
+    "stock": 169,
+    "sold": 325,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "food",
+      "yomari",
+      "newari",
+      "sweet",
+      "festival"
+    ]
+  },
+  {
+    "id": "marketplace-48",
+    "name": "Lapsi Candy — Nepal Sour Sweet",
+    "description": "Traditional Nepali lapsi (hog plum) candy. Sweet, sour, and addictive. Made from wild lapsi fruits in the mid-hills of Nepal.",
+    "price": 422,
+    "category": "FOOD",
+    "image": "https://images.unsplash.com/photo-155667988?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "200g",
+      "500g"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.7",
+    "reviews": 213,
+    "stock": 58,
+    "sold": 398,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "food",
+      "lapsi",
+      "candy",
+      "sour",
+      "traditional"
+    ]
+  },
+  {
+    "id": "marketplace-49",
+    "name": "Black Tea — Nepal Orthodox Loose",
+    "description": "Premium loose-leaf black tea from Ilam estates. Full-bodied, malty, with a hint of muscatel. Nepal's answer to Darjeeling.",
+    "price": 818,
+    "category": "FOOD",
+    "image": "https://images.unsplash.com/photo-1563822796473?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "100g",
+      "250g",
+      "500g"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.3",
+    "reviews": 85,
+    "stock": 122,
+    "sold": 6,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "food",
+      "tea",
+      "black-tea",
+      "ilam",
+      "orthodox"
+    ]
+  },
+  {
+    "id": "marketplace-50",
+    "name": "Sukuti — Dried Buffalo Meat",
+    "description": "Traditional dried buffalo meat (sukuti) from the hills of Nepal. Smoky, chewy, and intensely flavorful. Fry with spices for the ultimate Nepali snack.",
+    "price": 1573,
+    "category": "FOOD",
+    "image": "https://images.unsplash.com/photo-155667988?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "200g",
+      "500g"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.8",
+    "reviews": 257,
+    "stock": 106,
+    "sold": 371,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "food",
+      "sukuti",
+      "dried-meat",
+      "buffalo",
+      "snack"
+    ]
+  },
+  {
+    "id": "marketplace-51",
+    "name": "Masu Curry Mix — Nepal Meat Spice",
+    "description": "Pre-mixed spice blend for authentic Nepali meat curry (masu). Just add meat, water, and simmer. The taste of a Nepali kitchen.",
+    "price": 462,
+    "category": "FOOD",
+    "image": "https://images.unsplash.com/photo-1563822796473?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "100g",
+      "200g"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.6",
+    "reviews": 251,
+    "stock": 39,
+    "sold": 495,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "food",
+      "curry-mix",
+      "masu",
+      "spice",
+      "cooking"
+    ]
+  },
+  {
+    "id": "marketplace-52",
+    "name": "Churpi — Himalayan Hard Cheese",
+    "description": "Traditional hard cheese made from yak or chauri milk in the Himalayan highlands. Chewy, smoky, and protein-rich. Long-lasting snack for trekkers.",
+    "price": 1960,
+    "category": "FOOD",
+    "image": "https://images.unsplash.com/photo-155667988?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "100g",
+      "250g",
+      "500g"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.1",
+    "reviews": 124,
+    "stock": 130,
+    "sold": 403,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "food",
+      "churpi",
+      "cheese",
+      "yak",
+      "himalayan"
+    ]
+  },
+  {
+    "id": "marketplace-53",
+    "name": "Aloo Tamatar Mix — Nepal Quick Curry",
+    "description": "Instant aloo tamatar (potato-tomato) curry mix. Nepal's most beloved everyday curry — just add potatoes and water. Ready in 15 minutes.",
+    "price": 831,
+    "category": "FOOD",
+    "image": "https://images.unsplash.com/photo-1563822796473?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "200g",
+      "500g"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.9",
+    "reviews": 248,
+    "stock": 200,
+    "sold": 294,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "food",
+      "curry-mix",
+      "aloo-tamatar",
+      "quick",
+      "everyday"
+    ]
+  },
+  {
+    "id": "marketplace-54",
+    "name": "Juju Dhau — King Yogurt Mix",
+    "description": "DIY kit for making Juju Dhau, the legendary 'King Yogurt' of Bhaktapur. Includes culture, instructions, and clay pot. Rich, creamy, and set like custard.",
+    "price": 908,
+    "category": "FOOD",
+    "image": "https://images.unsplash.com/photo-155667988?q=80&w=1200&auto=format&fit=crop",
+    "sizes": [
+      "Kit for 1L"
+    ],
+    "colors": [
+      {
+        "name": "Obsidian",
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Summit White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F"
+      }
+    ],
+    "isNew": false,
+    "rating": "4.6",
+    "reviews": 160,
+    "stock": 122,
+    "sold": 469,
+    "freeShipping": false,
+    "shippingFrom": "Nepal",
+    "tags": [
+      "food",
+      "juju-dhau",
+      "yogurt",
+      "bhaktapur",
+      "traditional"
+    ]
+  }
+]

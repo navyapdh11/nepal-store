@@ -16,6 +16,7 @@ const AdminDashboard = lazy(() => import("./components/AdminDashboard").then(m =
 const NepalBazaarPage = lazy(() => import("./components/NepalBazaarPage").then(m => ({ default: m.NepalBazaarPage })));
 const VendorStorePage = lazy(() => import("./components/VendorStorePage").then(m => ({ default: m.VendorStorePage })));
 const BecomeVendorPage = lazy(() => import("./components/BecomeVendorPage").then(m => ({ default: m.BecomeVendorPage })));
+const CheckoutPage = lazy(() => import("./components/CheckoutPage").then(m => ({ default: m.CheckoutPage })));
 
 // Loading fallback component
 const LoadingFallback = () => (
@@ -179,6 +180,16 @@ export const router = createBrowserRouter([
 			<Layout currentPage="bazaar">
 				<LazyRoute>
 					<NepalBazaarPage />
+				</LazyRoute>
+			</Layout>
+		),
+	},
+	{
+		path: "/checkout",
+		element: (
+			<Layout currentPage="checkout">
+				<LazyRoute>
+					<CheckoutPage />
 				</LazyRoute>
 			</Layout>
 		),

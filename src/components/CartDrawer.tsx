@@ -1,4 +1,5 @@
 import { useCallback } from "react";
+import { useNavigate } from "react-router-dom";
 import "./CartDrawer.css";
 
 interface CartItem {
@@ -20,11 +21,13 @@ interface CartDrawerProps {
 }
 
 export const CartDrawer = ({ items, isOpen, onClose, onRemove, onQuantityChange }: CartDrawerProps) => {
+	const navigate = useNavigate();
 	const total = items.reduce((sum, item) => sum + item.price * item.quantity, 0);
 
 	const handleCheckout = useCallback(() => {
-		alert("Checkout functionality coming soon!");
-	}, []);
+		onClose();
+		navigate("/checkout");
+	}, [onClose, navigate]);
 
 	return (
 		<>
