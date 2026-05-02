@@ -1,11 +1,11 @@
 {
 	"compilerOptions": {
-		"target": "ES2020",
+		"target": "ES2024",
 		"useDefineForClassFields": true,
-		"lib": ["ES2020", "DOM", "DOM.Iterable"],
+		"lib": ["ES2024", "DOM", "DOM.Iterable"],
 		"module": "ESNext",
 		"skipLibCheck": true,
-		"moduleResolution": "node",
+		"moduleResolution": "bundler",
 		"allowSyntheticDefaultImports": true,
 		"esModuleInterop": true,
 		"allowImportingTsExtensions": true,
@@ -17,6 +17,8 @@
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
 		"noFallthroughCasesInSwitch": true,
+		"noUncheckedIndexedAccess": true,
+		"forceConsistentCasingInFileNames": true,
 		"baseUrl": ".",
 		"paths": {
 			"@/*": ["src/*"]
